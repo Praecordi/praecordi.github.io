@@ -1,0 +1,69 @@
+Polis
+=====
+
+These are some notes on `this article <https://acoup.blog/2023/03/10/collections-how-to-polis-101-part-i-component-parts/>`_ and the following articles. For this series, I have opted of taking note of details which may not be required for world-building. This is not the case for all other pages.
+
+Part 1
+------
+
+- In a rough sense, the *polis* represents a town, the surrounding region controlled by that town, as well it's political population (adult citizen (sometimes land-owning) males).
+
+  - There were a lot of small *polis* and unusually large *polis*. Similar to modern cities, most people lived in big *polis* even though most *polis* were small.
+    
+- *Polis* were composed of *oikoi* (singular *oikos*) or households. For the Greeks, the household wasn't just the house and the family contained inside, but also includes the servants and properties. Creation of a *polis* meant combining *oikoi* quite literally as well as symbolically.
+
+  It is also in a sense the merging of families, as one of the key privileges of citizenship in a polis was the right to marry women of citizen status (that is, the daughters of citizens) and thus have citizen children.
+  
+.. admonition:: Writer's Note
+    :class: note
+    
+    For `aɖasi`, the idea is to have heads of household be set as the citizens of a "*polis*", and their mates to be citizen class. 
+
+- A *polis* is composed of the *astu*, the town itself, and the *chora* or the countryside controlled by the town. In large *polis*, the *chora* will also contain smaller villages. Territory could be broken up into neighborhood units called *demes* or *komai* (plural of *kome*). These would be used for voting or organizational purposes, and they could also organize local governing functions or festivals. They never had their own councils or mint. 
+- Most *poleis* were walled, which would delineate the *astu* and *chora*. There was a second fortified zone called the *acropolis*, an elevated citadel within the city. The acropolis often had its own walls, or (as implied by the name) was on some forbidding height within the city or frequently both. 
+- Every *polis* had an *agora*, a open central square which seems to have served first as a meeting or assembly place, but also quickly became a central market. For most smaller *poleis*, the *agora* was the meeting place for the *ekklesia*, or assembly. For larger *poleis*, a special assembly point would also exist called the *ekklesiasterion*. 
+
+  - The *agora* would also contain two more buildings: a council house called *bouleuterion* where the *boule* would meet, and the *prytaneion*, a building for leading magistrates which always had a dining room to entertain guests and citizens.
+  - The *agora* would never be on the *acropolis* but just outside it.
+    
+- In its fundamental meaning a *polites* is a person engaged in the running of the polis. The *politai* were adult, citizen men; women, children, the enslaved and free non-citizens were all excluded from this group. A bit of demographic math might suggest that a modest *polis* with 2000 inhabitants might thus have just 300-400 *politai*.
+  
+  - Women would have citizen status, but not actual citizens; this allows them to be able to bear citizen children with a citizen.
+  - Oligarchic *poleis* also imposed a wealth qualification. 
+    
+- Those who live in a *polis* but are not necessarily citizens are called *astos* and *aste*, "townsman" and "townswoman", respectively.
+- Subdivisions also existed within the *politai* (distinct from *demes*). In some *poleis*, citizens were divided into mess groups (*syssitia* or *andreia*). The most common and important division was into *phylai* or tribes, inherited kinship groups that formed the largest subdivision of the *politai*. 
+- Another distinction (in my opinion is more vague) is between the few (*hoi oligoi*) and the many (*hoi polloi*). The few were the economic elite (wealthy landowners) and dominant group in oligarchies. The many were citizens but still poor. 
+
+Part 2
+------
+
+- Almost every *polis* is made up of 
+
+  #. an assembly (*ekklesia*) of **all** the *politai*.  
+  #. a smaller council (*boule* or *gerousia*) of selected *politai*.
+  #. a set of executive magistrates (*archontes* or archons) who carry out day-to-day functions of the state
+  #. law courts (*dikasteria*) in which serious disputes are settled typically by juries composed of the *politai*.
+    
+- Meetings of *ekklesia* occured at a regular schedule (once a month). An *ekklesia* also generally didn’t set its own agenda, but rather voted (and perhaps debated) issues put before it either by the *boule* or the magistrates. Nevertheless the *ekklesia* usually had at least the notional final say over new laws (including honorary decrees and extraordinary grants of citizenship) and the issues of war or peace; they also very frequently elected magistrates. In this sense, even in oligarchies or tyrannies, notionally it was the *ekklesia* which was the sovereign, supreme authority from which the powers of all other bodies derived, though of course in practice an *ekklesia* might be much weaker than this. Finally, in some cases the *ekklesia* could function as a whole as a sort of high court; in Athens the *ekklesia* could try cases of certain high crimes under a procedure known as *eisangelia*.
+- There are two major types of small council, and a *polis* may or may not have both types, but they almost always have one. The first is *boule* composed of around 500 citizens drawn from an assembly. Alternatively, a *gerousia* would be smaller (30-100) and members would be elected or achieve membership by virtue of having held a magistracy; this might be further compounded by restricting magistracies to specific families which would then in turn restrict the gerousia to specific families.
+- The main job of both of these sorts of councils was to act as a sort of steering committee for the assembly: councils often met more frequently and had the job of setting the assembly’s agenda, including drafting legislation for it to vote on; a major difference between constitutions is if the *ekklesia* can modify that agenda or draft legislation or if it must merely vote yes or no. 
+- The decisions of these bodies (the assembly and council or councils) are then carried out in practice a bunch of executive officers scholars will collectively call magistrates; the most important of these fellows in a Greek polis were often called archons.
+
+  - The Greeks tended to understand (Aristotle says this explicitly) that these archons took over the powers originally held by kings, breaking them up into smaller units; the presence of archons whose job was to fill-in for the non-existent king in religious functions (the *archon basileus* or ‘king archon’ in Athens) supports that notion.
+  - The most important magistrates tend to be charged with organizing and leading the military, performing key religious duties associated with the state and managing the court system. The role of ancient judicial magistrates is typically much more restricted; at some early point they held the power to hear disputes and make judgements but by the time we can observe these systems, the power to make judgements (at least in the most serious cases) has passed to juries, the *ekklesia* or one or another form of council. Judicial officials were thus more organizers than judges; they heard complaints and then directed the case to the relevant body (a public court with a jury (or the council or the assembly) for serious crimes, but there was also typically a system of arbitration to resolve less serious disputes more quickly).
+    
+- The Greeks understood all poleis governments as conforming essentially to one of three basic types. By and large the difference between these isn’t adding or removing major elements of the government, but changing who is eligible for them and how they relate to each other.
+
+  #. Democracy - everyone (all citizens) is allowed to participate including hold the more powerful positions
+  #. Oligarchy - there were multiple ways of restricting political participation:
+  
+     - limited by wealth; a mild form of this restriction is those who can afford the armor and equipment to be a hoplite. Most forms of oligarchy were narrower than this. 
+     - An oligarchy might be structured so that specific parts of the government were restricted. The most closed sorts of oligarchies might, for instance, restrict specific offices to a handful of eligible families.
+     - Alternately, magistrates and members of the council might be selected by co-optation, that is, by the existing office holders or somehow by other members of the oligarchy. The more subtle way of doing this might be to employ systems of elections which were prone to influence of subterfuge. Spartan elections in its *ekklesia* for the *ephors* and members of the *gerousia*, for instance, were done by acclamation; the spartiates would shout for the candidates they wanted and victory was judged by who got the loudest shouts when it was their turn. 
+    
+  #. Tyranny - a tyrant ruled extra-constitutionally (i.e. unlike monarchy where the king is allowed by the constitution to rule, a tyrant does it outside of the constitution).
+  
+     Tyrants do not abolist key civic institutions like the *ekklesia* or law courts; the tyrant controls these things by co-opting the remaining elite families, using violence and the threat of violence against those who would resist and installing cronies in positions of power. Tyrannies did not last outside of one person; they usually went back to an oligarchy or democracy.
+    
+- 

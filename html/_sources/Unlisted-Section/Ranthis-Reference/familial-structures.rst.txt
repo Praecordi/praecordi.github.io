@@ -1,0 +1,53 @@
+========================
+Familial Structures [1]_
+========================
+
+Family Structures
+=================
+
+In Rankahn society, polygamy is natural and encouraged. Incest in the ancient culture was not discouraged, at least not to the level of our world, with the “worst case” resulting in a very minor mutation. Before the introduction of the penis, families were not really relevant. People didn’t care about specific labels of proximity, like how we define siblings, cousins, parents, and so on. Whole tribes were essentially big poly-amorous relationships, with no regard for who was born from whom. Your sister could be your aunt, your mother could be your grandmother’s sister, and so on.
+
+After the penis was introduced, and the cultures transitioned into modern Rankvahn culture, genetic mutations began to pop up more frequently, and people stopped breeding carelessly. When societies got to a level of social divides and statuses, people began to use their daughters for political marriages, and the common class imitated the act, though not the political part. In modern Rankvahn society, from royalty and all the way to peasants, there is an emphasis on, in essence, “who was given as a gift to whom”. This means that in a two-or-more-person marriage, there is at least one “husband” and at least one “wife”. Since everyone, and everything, in Rankvah is female, “husband” and “wife” don’t imply sexes. Instead, their meanings lean more toward roles in the family. Usually, at least one wife takes care of raising children, while the husband and other wives go to work.
+
+The normal Rankvahn family consists of at least one husband, a few wives, and children. There is also a societal restriction on pregnancy - a wife can be impregnated only by her husband, and if a husband is pregnant, that means the biological father to her child must be her first wife. Impregnating her husband is a right restricted to the first wife, and any other wife who does so can be criminally charged.
+
+In addition, a wife can also be someone elses husband. Let’s create an example marriage of five people: Golshgaf, Kentava, Dulios, Retyan, and Oftemei are in a relationship.
+
+-  Golshgaf is Kentava’s and Dulios’ husband. Kentava is the first wife, and Dulios is the second wife.
+-  Dulios, while being Golshgaf’s wife, is husband to Retyan and Oftemei. Retyan is the first wife, and Oftemei is the second.
+-  Kentava can impregnate Golshgaf, since she’s her first wife. Dulios cannot impregnate Golshgaf.
+-  Retyan can impregnate Dulios, since she’s her first wife. Oftemei cannot impregnate Dulios.
+
+Below is a diagram of the family, with two children per couple as an example.
+
+.. figure:: /_static/ranthis-reference/Familial-Structures-1.png
+   :alt: The large boxes with the letters G, K, D, R, and O representthe women in the marriage. The small boxes with the letter C represent children, and the name above each child is the name of her biological mother.
+
+   The large boxes with the letters G, K, D, R, and O represent the women in the marriage. The small boxes with the letter C represent children, and the name above each child is the name of her biological mother.
+
+According to “bedroom etiquette”, if a woman wants to go to sleep with someone, she can either ask her husband, her wives, her wives’ wives, and so on. For example, Golshgaf can ask to sleep with Dulios, and Dulios can ask to sleep with Golshgaf. Golshgaf can ask to sleep with Dulios’ wives, but Dulios’ wives can’t ask to sleep with Golshgaf.
+
+Another rule of “bedroom etiquette” is that if a woman is indirectly married to someone, she can ask to sleep with them, but only through the husbands. For example, if Retyan wanted to sleep with Kentava, she cannot ask Kentava directly. Instead, she must get Dulios to ask Golshgaf if Retyan would like to sleep with her. On the other side, if Kentava wanted to sleep with Retyan, she’d get Golshgaf to ask Retyan if she’d like to sleep with Kentava.
+
+Explained in a bit more detail, with bullet points:
+
+-  Retyan wants to sleep with Kentava. Retyan asks Dulios to carry the request. Dulios can choose whether or not to ask Golshgaf, or refuse in her stead.
+
+   -  If Dulios did not refuse, she carries the request to Golshgaf. Golshgaf chooses whether or not to ask Kentava for her response, or refuse in her stead.
+
+      -  If Golshgaf did not refuse, she asks Kentava. Kentava gives her response.
+
+   -  Golshgaf answers Dulios.
+
+-  Dulios tells Retyan the response.
+
+Other way around:
+
+-  Kentava wants to sleep with Retyan. Kentava asks Golshgaf to carry the request. Golshgaf can choose whether or not to ask Retyan, or refuse in her stead.
+
+   -  If Golshgaf did not refuse, she asks Retyan. Retyan gives her response.
+
+-  Golshgaf tells Kentava the response.
+
+.. [1]
+   `The World of Rankvah: Familial Structures [INFO] <https://www.reddit.com/r/NSFWworldbuilding/comments/h7w91u/the_world_of_rankvah_familial_structures_info/>`__

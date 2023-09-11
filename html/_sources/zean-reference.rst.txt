@@ -1,0 +1,270 @@
+Reference for the Zean Language
+===============================
+
+Sounds in the `zea` Language
+------------------------------
+
+Vowels
+^^^^^^
+.. table::
+
+    +------------------------------------+------------------------------------+------------------------------------+
+    | IPA Sounds                         | Unicode                            | Type                               |
+    +====================================+====================================+====================================+
+    | :zean-like:`i`                     | U+0069                             | Close, front, unrounded            |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`y`                     | U+0079                             | Close, front, rounded              |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`e`                     | U+0065                             | Close-mid, front, unrounded        |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`ø`                     | U+00F8                             | Close-mid, front, rounded          |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`ɛ`                     | U+025B                             | Open-mid, front, unrounded         |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`œ`                     | U+0153                             | Open-mid, front, rounded           |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`a`                     | U+0061                             | Open, front, unrounded             |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`ɶ`                     | U+0276                             | Open, front, rounded               |
+    +------------------------------------+------------------------------------+------------------------------------+
+
+Consonants
+^^^^^^^^^^
+.. table::
+
+    +------------------------------------+------------------------------------+------------------------------------+
+    | IPA Sounds                         | Unicode                            | Type                               |
+    +====================================+====================================+====================================+
+    | :zean-like:`t`                     | U+0074                             | Voiceless alveolar plosive         |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`d`                     | U+0064                             | Voiced alveolar plosive            |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`ʈ`                     | U+0288                             | Voiceless retroflex plosive        |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`ɖ`                     | U+0256                             | Voiced retroflex plosive           |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`θ`                     | U+03B8                             | Voiceless dental fricative         |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`ð`                     | U+00F0                             | Voiced dental fricative            |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`s`                     | U+0073                             | Voiceless alveolar fricative       |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`z`                     | U+007A                             | Voiced alveolar fricative          |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`ʃ`                     | U+0283                             | Voiceless post-alveolar fricative  |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`ʒ`                     | U+0292                             | Voiced post-alveolar fricative     |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`ʂ`                     | U+0282                             | Voiceless retroflex fricative      |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`ʐ`                     | U+0290                             | Voiced retroflex fricative         |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`ʋ`                     | U+028B                             | Labiodental approximant            |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`j`                     | U+006A                             | Palatal approximant                |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | :zean-like:`ɹ`                     | U+0279                             | Voiced alveolar approximant        |
+    +------------------------------------+------------------------------------+------------------------------------+
+
+Phonological Constraints
+^^^^^^^^^^^^^^^^^^^^^^^^
+Every syllable is constructed as follows:
+
+- (V-) P (F) (A) V (V)
+- (V-) F (A) V (V)
+- (V-) A (V) V
+
+There are three types of syllables
+
+1. Type 1 must contain a plosive (P) followed by a vowel (V). Any number of vowels (V-) can precede the plosive (P), and a fricative (F) or an approximant (A) or both can precede the vowel (V). An extra vowel (V) may follow the last vowel.
+2. Type 2 must contain a fricative (F) followed by a vowel (V). Similar to Type 1, any number of vowels (V-) can precede the fricative and an approximant (A) can precede the vowel (V). An extra vowel (V) may follow the last vowel.
+3. Type 3 must contain an approximant (A) followed by a vowel. Similar to Type 1 and 2, any number of vowels (V-) can precede the fricative (F). An extra vowel (V) may follow the last vowel.
+
+Additionally, we have that a retroflex fricative must be replaced by a post-alveolar fricative if it follows a plosive, and a dental fricative cannot follow a plosive.
+
+Grammar
+-------
+
+Bases
+^^^^^
+Formation of words in the `zea` language refers to the most basic idea of the statement. Bases represents the most general idea and are not necessarily a thing or action. Most of the times, we associate an intangible idea with a base and then create a tangible ideas through the base. Thus words are then created by adding morphemes to these bases. Let's take an example:
+
+We have a base
+
+    | `tyθi` - the idea of a thought (base)
+    | `tyθisa` - A thought (nominative noun)
+    | `tyθisi` - I think (first-person present verb)
+
+Another example is the base `øʒɛ`:
+
+    | `øʒɛ` - the idea of vibrations that create sound (base)
+    | `øʒɛsa` - sound (nominative noun)
+    | `øʒɛsi` - I speak (first-person present verb)
+
+How do we refer to a person? Names are classified as a base. Let us look at a name of a most important person:
+
+    | `ajɛseɖi` - name (base)
+    | `ajɛseɖisa` - the body of `ajɛseɖi` (nominative noun)
+    | `ajɛseɖisi` - the current action of `ajɛseɖi` (first-person present verb)
+
+The verb is somewhat harder to understand. A good example would be consider the sentence "We will do what Ayasedi is doing." In the `zea` language, we can represent this sentence in one word `ajɛseɖiyʒi`.
+
+Verbs
+^^^^^
+Verbs in the `zea` language are indicated by their endings. A verb in the `zea` language has 3 tenses: present, past, future. Each tense has 4 aspects, 3 simple and 1 compound
+
+A verb in the simple aspect indicates just the action: for example "I eat", "I ate", "I will eat". A verb in the progressive aspect indicates an ongoing action: for example "I am eating", "I was eating", "I will be eating". A verb in the perfect aspect indicates a finished action: for example "I have eaten", "I had eaten", "I will have eaten". These 3 tenses are the simple aspect. There is one more aspect that acts as a combination of the progressive and perfect. A verb in the perfect progressive aspect indicates an action that was ongoing moments ago, but has been completed: for example, "I have been eating", "I had been eating", "I will have been eating".
+
+To create a verb in the `zea` language, we can simply take an ending of a single aspect and tense and place it behind a base. For example, the phrase "I speak" (present simple 1st person singular) can be translated as `øʒɛsi`. Similarly, the phrase "We were saying" (past progressive 3rd person plural) can be translated as `øʒɛyʃʋi`.
+
+.. table:: Simple Endings
+
+    +------------------+------------------+-------------------+------------------+-------------------+------------------+-------------------+
+    | Tense            | Singular Present | Plural Present    | Singular Past    | Plural Past       | Singular Future  | Plural Future     |
+    +==================+==================+===================+==================+===================+==================+===================+
+    | 1st              | -:zean-like:`si` | -:zean-like:`isi` | -:zean-like:`ʃi` | -:zean-like:`iʃi` | -:zean-like:`ʒi` | -:zean-like:`iʒi` |
+    +------------------+------------------+-------------------+------------------+-------------------+------------------+-------------------+
+    | 2nd              | -:zean-like:`se` | -:zean-like:`esi` | -:zean-like:`ʃe` | -:zean-like:`eʃi` | -:zean-like:`ʒe` | -:zean-like:`eʒi` |
+    +------------------+------------------+-------------------+------------------+-------------------+------------------+-------------------+
+    | 3rd              | -:zean-like:`sy` | -:zean-like:`ysi` | -:zean-like:`ʃy` | -:zean-like:`yʃi` | -:zean-like:`ʒy` | -:zean-like:`yʒi` |
+    +------------------+------------------+-------------------+------------------+-------------------+------------------+-------------------+
+
+.. table:: Perfect Endings
+
+    +------------------+-------------------+--------------------+-------------------+--------------------+-------------------+--------------------+
+    | Tense            | Singular Present  | Plural Present     | Singular Past     | Plural Past        | Singular Future   | Plural Future      |
+    +==================+===================+====================+===================+====================+===================+====================+
+    | 1st              | -:zean-like:`tsi` | -:zean-like:`itsi` | -:zean-like:`tʃi` | -:zean-like:`itʃi` | -:zean-like:`tʒi` | -:zean-like:`itʒi` |
+    +------------------+-------------------+--------------------+-------------------+--------------------+-------------------+--------------------+
+    | 2nd              | -:zean-like:`tse` | -:zean-like:`etsi` | -:zean-like:`tʃe` | -:zean-like:`etʃi` | -:zean-like:`tʒe` | -:zean-like:`etʒi` |
+    +------------------+-------------------+--------------------+-------------------+--------------------+-------------------+--------------------+
+    | 3rd              | -:zean-like:`tsy` | -:zean-like:`ytsi` | -:zean-like:`tʃy` | -:zean-like:`ytʃi` | -:zean-like:`tʒy` | -:zean-like:`ytʒi` |
+    +------------------+-------------------+--------------------+-------------------+--------------------+-------------------+--------------------+
+
+.. table:: Progressive Endings
+
+    +------------------+-------------------+--------------------+-------------------+--------------------+-------------------+--------------------+
+    | Tense            | Singular Present  | Plural Present     | Singular Past     | Plural Past        | Singular Future   | Plural Future      |
+    +==================+===================+====================+===================+====================+===================+====================+
+    | 1st              | -:zean-like:`sʋi` | -:zean-like:`isʋi` | -:zean-like:`ʃʋi` | -:zean-like:`iʃʋi` | -:zean-like:`ʒʋi` | -:zean-like:`iʒʋi` |
+    +------------------+-------------------+--------------------+-------------------+--------------------+-------------------+--------------------+
+    | 2nd              | -:zean-like:`sʋe` | -:zean-like:`esʋi` | -:zean-like:`ʃʋe` | -:zean-like:`eʃʋi` | -:zean-like:`ʒʋe` | -:zean-like:`eʒʋi` |
+    +------------------+-------------------+--------------------+-------------------+--------------------+-------------------+--------------------+
+    | 3rd              | -:zean-like:`sʋy` | -:zean-like:`ysʋi` | -:zean-like:`ʃʋy` | -:zean-like:`yʃʋi` | -:zean-like:`ʒʋy` | -:zean-like:`yʒʋi` |
+    +------------------+-------------------+--------------------+-------------------+--------------------+-------------------+--------------------+
+
+.. table:: Perfect Progressive Endings
+	
+    +------------------+--------------------+---------------------+--------------------+---------------------+--------------------+---------------------+
+    | Tense            | Singular Present   | Plural Present      | Singular Past      | Plural Past         | Singular Future    | Plural Future       |
+    +==================+====================+=====================+====================+=====================+====================+=====================+
+    | 1st              | -:zean-like:`tsʋi` | -:zean-like:`itsʋi` | -:zean-like:`tʃʋi` | -:zean-like:`itʃʋi` | -:zean-like:`tʒʋi` | -:zean-like:`itʒʋi` |
+    +------------------+--------------------+---------------------+--------------------+---------------------+--------------------+---------------------+
+    | 2nd              | -:zean-like:`tsʋe` | -:zean-like:`etsʋi` | -:zean-like:`tʃʋe` | -:zean-like:`etʃʋi` | -:zean-like:`tʒʋe` | -:zean-like:`etʒʋi` |
+    +------------------+--------------------+---------------------+--------------------+---------------------+--------------------+---------------------+
+    | 3rd              | -:zean-like:`tsʋy` | -:zean-like:`ytsʋi` | -:zean-like:`tʃʋy` | -:zean-like:`ytʃʋi` | -:zean-like:`tʒʋy` | -:zean-like:`ytʒʋi` |
+    +------------------+--------------------+---------------------+--------------------+---------------------+--------------------+---------------------+
+
+To negate a sentence, simply place -:zean-like:`θɶ`- before the ending, after the base. Example: `øʒɛθɶtʃi` which means "I had not spoken".
+
+Nouns
+^^^^^
+
+There are 3 parts to an noun in the `zea` language. The first part is trivially the base. The second part is the number of the noun. The third part is the function of the noun in the sentence. Nouns in the `zea` language are described only in the singular or the plural.
+
+The function of nouns in the `zea` language are described with inflections. `zea` has standard inflection on nouns. There are 7 inflections: Nominative, Accusative, Dative, Genitive, Lative, Ablative and Instrumental.
+
+A noun in the Nominative case represents a subject. A noun in the Accusative case represents a direct object. A noun in the Dative case represents an indirect object. A noun in the Genitive case is used to mark possession. A noun in the Lative case represents a destination. A noun in the Ablative case represents origin. A noun in the Instrumental case represents a tool or companion.
+
+The endings of each case with their respective numbers are displayed below
+
+.. table:: Noun Endings
+
+    +------------------------------------+------------------------------------+------------------------------------+
+    | Case                               | Singular                           | Plural                             |
+    +====================================+====================================+====================================+
+    | Nominative                         | -:zean-like:`sa`                   | -:zean-like:`ase`                  |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | Accusative                         | -:zean-like:`sœ`                   | -:zean-like:`œse`                  |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | Dative                             | -:zean-like:`ɖʂa`                  | -:zean-like:`aɖʂe`                 |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | Genitive                           | -:zean-like:`sjɛ`                  | -:zean-like:`ɛsje`                 |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | Lative                             | -:zean-like:`iða`                  | -:zean-like:`aiðe`                 |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | Ablative                           | -:zean-like:`iθa`                  | -:zean-like:`aiθe`                 |
+    +------------------------------------+------------------------------------+------------------------------------+
+    | Instrumental                       | -:zean-like:`sʋa`                  | -:zean-like:`asʋe`                 |
+    +------------------------------------+------------------------------------+------------------------------------+
+
+Note that the Nominative of a base representing a person is equivalent to the physical rendering of that person, i.e. the body of that person. Thus, in a perfect technical sense, `ajɛseɖisa` is equivalent to `eʒɶsa ajɛseɖisjɛ`. Nevertheless, these two methods are useful to distinguish between a person and the body of that person. For example, consider "`tyθisi ajɛseɖisœ`" and "`tyθisi eʒɶsœ ajɛseɖisjɛ`". The former means "I think of Ayasedi", and the latter means "I think of Ayasedi's body". These two sentences represent totally different ideas, thus are useful to distinguish between.
+
+Pronouns & Queries
+^^^^^^^^^^^^^^^^^^
+
+Pronouns are special bases which cannot be converted into verbs; they exist solely as nouns. However pronouns are inflected the same way as normal nouns. Queries or questions are created by leaving any unaccounted query pronoun in the sentence. Furthermore questions are also indicated by a slight lowering of tone near the pronoun of the query. These pronouns can also be used to create sub-clauses, although forming sub-clauses puts some restrictions to the word order. A query pronoun can be used to create sub-clauses but the sub-clause must appear after the pronoun.
+
+..
+    Table: Personal Pronouns
+
+
+Participles
+^^^^^^^^^^^
+
+To create a participle, one can take any base and add the 3rd person present tense in any aspect to the base and then add a case in which the respective participle will go. For example, the phrase "`sai ʃɶisysœ ɶʈaʋɶsjɛ`" translates to "night of having eternal pleasures". The participle "`ʃɶisysœ`" represents "of having pleasures" since it is a direct object of night and is a participle indicating of people having alot of sex. `ɶʈaʋɶsjɛ` modifies `ʃɶisysœ`.
+
+Orthography
+-----------
+
+While the `zea` language has its own orthography, unicode IPA characters are used when writing words of the `zea` language in any english text. Furthermore, `zea` words can be easily anglicized by using standard conversions. Note that the standard conversion is not one-to-one. Thus either IPA, or standard `zea` orthography is needed to perfectly identify a word. Words in anglicized Zean may be confused if one doesn't have context.
+
+.. table:: Anglicized `zea` letters
+
+    +------------------------------------+------------------------------------+
+    | `zea`                              | Anglicized                         |
+    +====================================+====================================+
+    | :zean-like:`i`                     | i                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`y`                     | u                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`e`                     | e                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`ø`                     | a                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`ɛ`                     | a                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`œ`                     | o                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`a`                     | a                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`ɶ`                     | o                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`t`                     | t                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`d`                     | d                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`ʈ`                     | t                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`ɖ`                     | d                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`s`                     | s                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`z`                     | z                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`ʃ`                     | sh                                 |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`ʒ`                     | zh                                 |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`ʂ`                     | sh                                 |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`ʐ`                     | zh                                 |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`ʋ`                     | v                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`j`                     | y                                  |
+    +------------------------------------+------------------------------------+
+    | :zean-like:`ɹ`                     | r                                  |
+    +------------------------------------+------------------------------------+
+
+So for example `ajɛseɖi` becomes "Ayasedi", and the `aiɖi yʈʂi` becomes "Aidi Utshi". As you can see, while anglicized words are mostly correct, using unicode IPA is still preferable as they are much more clearer. For example, saying "Utshi" can refer to either :zean-like:`yʈʂi`, :zean-like:`ytʂi`, :zean-like:`yʈʃi` or :zean-like:`ytʃi`.

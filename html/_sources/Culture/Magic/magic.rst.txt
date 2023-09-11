@@ -1,0 +1,521 @@
+Magic
+=====
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Contents
+  
+  creation
+  ethereal-plane
+    
+Maker's Notes
+-------------
+
+.. dropdown:: On a Clothing-based Magic System
+    :icon: archive
+    
+    .. rubric:: The Tenants
+
+    Magic is channeled through specific clothing items worn by the user in specific places. The type and quality of the clothing, as well as where it is worn, affects the potency and nature of the magic. While performing magic is not an genetic ability and can be learned, it is difficult to learn to channel the magic, the clothing needed to channel must be specifically crafted (i.e. not just using specific material, but also a specific technique per the individual performing the magic), and the usage of magic causes the material to deteriorate over time which causes future magic to weaken. 
+
+    The potency and nature (type) of magic performed depends on the following factors
+
+    - material of the clothing (including quality and source)
+    - what parts of the body the clothing covers
+    - what parts of the body is uncovered
+
+    Fortunately, each combination is not unique and constructing an outfit for a particular style is an exact science.
+
+    **Brainstorming the specifics**
+
+    Types of `sʋe` is identified with some material/materials:
+
+    - Elemental `sʋe` - Linen
+    - Divination `sʋe` - Velvet
+    - Combat `sʋe` - Leather
+    - Transfiguration `sʋe` - Satin
+    - Conjuration `sʋe` - Silk
+    - Restoration `sʋe` - Cotton
+    - Alteration `sʋe` - Denim
+    - Animation `sʋe` - Lace
+    - Necromancy `sʋe` - Wool
+
+    Each type of magic is associated with a specific material or materials (probably a class of materials, like cotton or leather, and leather from different animals or cotton from different plants provide different effects).
+
+    For this system, the body is divided into multiple parts:
+
+    - hands and arms (collectively called the sides)
+    - chest and stomach (collectively called middle)
+    - feet and legs (including the crotch area) (collectively called bottom)
+    - head and neck (collectively called top)
+
+    Each of these can be respectively divided into smaller parts, For example, the sides can be divided into the left and right, the arms and hands, while the middle can be divided into the chest and stomach. Each sub-part can give a slightly different effect. The borders between each of these regions are fuzzy, but show little effect on the magic. 
+
+    .. tab-set::
+        
+        .. tab-item:: Sides (Hands and Arms)
+        
+            - Increased precision: Wearing clothing on the hands and arms enhances spellcasting accuracy and control, resulting in more precise and focused magical effects.
+            - Quick casting: Spells cast from the sides activate faster, allowing for swift responses and rapid spell deployment.
+
+        .. tab-item:: Middle (Chest and Stomach)
+
+            - Amplified power: Clothing worn in the middle area amplifies the raw power and intensity of spells, making them more potent and impactful.
+            - Extended duration: Spells cast from the middle area have a longer duration, allowing their effects to persist for an extended period of time.
+
+        .. tab-item:: Bottom (Feet, Legs, and Crotch)
+
+            - Enhanced stability: Clothing worn on the bottom area provides stability and grounding, making it easier to maintain balance while casting spells, especially those involving movement or agility.
+            - Greater range: Spells cast from the bottom area have an extended range, allowing for longer-distance targeting or affecting larger areas.
+
+        .. tab-item:: Top (Head and Neck)
+
+            - Mental focus: Wearing clothing on the top area heightens mental concentration and focus, resulting in improved spell accuracy and resistance to distractions.
+            - Heightened perception: Spells cast from the top area enhance sensory perception, allowing the user to perceive magical energies, detect illusions, or gain insights beyond the ordinary senses.
+
+    Leaving body parts uncovered yield more effects:
+
+    .. tab-set::
+    
+        .. tab-item:: Hands
+
+            - Advantage: Increased tactile sensitivity, allowing for a more precise touch and fine manipulation of magical energies. This can enhance spells requiring delicate control.
+            - Disadvantage: Reduced protection, making the hands more vulnerable to counter-magic or physical harm.
+
+        .. tab-item:: Arms
+
+            - Advantage: Enhanced flexibility and freedom of movement, enabling quicker and more fluid spellcasting gestures. This can improve the casting speed for certain types of magic.
+            - Disadvantage: Decreased defense, making the arms susceptible to direct attacks or spells targeting that specific area.
+
+        .. tab-item:: Chest
+
+            - Advantage: Heightened connection to one's own magical energies, allowing for easier channeling and utilization of personal power. This can boost self-centric spells.
+            - Disadvantage: Weakened protection for the vital organs, making the chest area more susceptible to physical or magical attacks.
+
+        .. tab-item:: Stomach
+
+            - Advantage: Enhanced resonance with ambient magical energies, making it easier to tap into external sources of power or draw energy from the environment. This can aid in spells that require additional energy.
+            - Disadvantage: Reduced defense and vulnerability to attacks directed at the midsection, leaving the user more exposed to harm.
+
+        .. tab-item:: Feet
+
+            - Advantage: Improved grounding and connection to the earth's natural energies, providing stability and balance while casting spells that require stability or control over elements such as earth or gravity.
+            - Disadvantage: Decreased protection and susceptibility to magical attacks targeting the lower body or feet, potentially affecting mobility and agility.
+
+        .. tab-item:: Legs (including Crotch)
+
+            - Advantage: Greater agility and freedom of movement, enabling faster and more dynamic spellcasting actions, particularly those involving physical prowess or mobility.
+            - Disadvantage: Reduced protection for the legs and groin area, making it a vulnerable target for physical attacks or spells that exploit vulnerabilities.
+
+        .. tab-item:: Head
+
+            - Advantage: Heightened sensory perception and mental acuity, allowing for sharper focus and heightened awareness of magical phenomena. This can enhance spells involving perception, illusions, or mental manipulation.
+            - Disadvantage: Increased vulnerability to magical attacks targeting the head, such as psychic assaults or spells affecting cognition or senses.
+
+        .. tab-item:: Neck
+
+            - Advantage: Improved circulation and energy flow, facilitating the efficient flow of magical energies throughout the body. This can enhance overall spellcasting performance and energy management.
+            - Disadvantage: Increased susceptibility to spells targeting the neck area, such as debilitating curses or enchantments affecting the voice or breath.
+
+    .. dropdown:: Notes on how to combine the Spirit-based Magic System with the Clothing-based Magic System
+
+        These two systems of magic are separate. The spells performed by both systems are called `sʋe`. Moreover, their different categories of magic are also the same between the two systems. But there are some fundamental differences between the two systems. For one to perform a spirit-based `sʋe`, they must be born into it, while anyone can perform a clothing-based `sʋe` with practice. Spirit-based `sʋe` are much more powerful than clothing-based `sʋe`. The body system of the clothing-based magic system neatly coincides with the spirit-based system's `ʋesy` and `syʋe`. The regions defined by the sides, middle, and top, correspond to the `ʋesy`, while the bottom corresponds to `syʋe`.
+        
+.. dropdown:: On the Creation Process
+    :icon: archive
+
+    .. rubric:: Process
+    
+    `syʋe` and `ʋesy` are essential energies of the life. But they do not solely define the body. There are two steps to creation: first is to create a vessel for the energies, and then fill the vessel with some energies. This is done via two `sʋe`: one of which creates energy from nothing, but this is done by conjuring `syʋe` and `ʋesy` simultaneous but separately, thus the sign of the universe stays null, and one which transfers the energy into the created vessel, while the rest is consumed as corruption. Energy in your own body gives you some side effects that are sometimes advantageous and disadvantageous. Thus, the true test of creation is balancing the flow of energy so that both the product and the creator do not suffer from disadvantages of energy weakness. 
+
+    When creating the vessel, one makes the body of the creature depending on the intended energy one needs to transfer into the body. `syʋe` resides in the lower body, while `ʋesy` resides in the upper body. Thus, if one intends to have a higher `syʋe`, then one makes a lower body capable of handling higher `syʋe`. Creating a body that does not fit the energy it is used to contain can decrease the effectiveness of that part of the body for the whole race, and further, it increases the possibility of diseases occurring in that particular part of the body. 
+
+    The techniques of making the vessels or the body are varied. One can use a combination of `sʋe` to create material from scratch for the body and giving the rough body characteristics. This process takes time, as creating and modifying material with `sʋease` takes much energy and has a high chance of creating a body that is faulty. Another technique is to use sculpt the general shape of the body using common material, such as ash, clay, wood, or metal. Then using an `aiɖi`, cast a `sʋesa` to convert the inanimate material into biomaterial. The use of `aiɖi` is important as this allows the `aiɖi` to make such changes to the new biomaterial to allow complex functions. The advice of an `aiɖi` is what differentiates between the first technique and the second technique. Note that the use of material in the outset affects the biomaterial body. Which `aiɖi` is helping in the conversion also affects the final outcome of the biomaterial body. While we won’t specify how each outset material or `aiɖi` affects the final outcome, one can generally notice a pattern from the 5 cases we most commonly observe.
+
+    Once we have created this vessel properly, animating this vessel is more complicated than regular animations `sʋe`. Most animated objects cast through regular animation `sʋe` are incapable of reproduction or thought besides the given commands. These animations are incapable of memory, or even learning. This is not only because of the inferior body used in common animation `sʋe`, it is also because of the inferiority of the `sʋe`. In the Creation Ritual, the `sʋe` used is much more powerful, and requires the aid of an `aiɖi`. Note that this `aiɖi` does not have to be the same to convert your body into the biomaterial, yet speculatively, it would result in a much better manageable outcome to use the same `aiɖi`. Withholding the details of this ritual, the idea is that the creator and the `aiɖi` summon energy. To maintain the balance of the universe, one can only summon equal amounts of `syʋe` and `ʋesy`, and only in groups of 5. Then the creator and aiɖi can then allow their wishes energy into the vessel they have created, yet they cannot transfer all energy created into this vessel. Since the body is made out of weaker material, it cannot hold so much energy at its creation, and must be given time before it can handle more energy. Thus, the extra energy must be placed in another vessel, specifically in that of the creator. To handle extra energy, updates to the vessel of the creator can be done by the `aiɖi`, to allow for the vessel of the creator to contain the influx of extra energy. These changes are besides the changes that the corruption of the `sʋe` has on the creator. The corruption by the `sʋe` is the corruption that forms the types of `aʋjasi`. Once this is done, the ritual is over, and a new creature has been created, one that can think, reproduce, and learn on its own.
+    
+    
+    .. dropdown:: Table of `isiʈeθɶ` Energies
+    
+        .. table::
+            
+            +-----------------+-----------------+-----------------+-----------------+
+            |Race Created     |Creator          |Secondary Creator|Gender           |
+            +=================+=================+=================+=================+
+            |`zea ʈeaθyɖa`    |`ajɛseɖi`        |                 |`ajɛsɖɶ`         |
+            |                 |                 |                 |                 |
+            |                 |8s/8v            |                 |2s/2v            |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`zea ʈeaθyɖa`    |`saeθa`          |                 |`ɖiʒiɖi`         |
+            |                 |                 |                 |                 |
+            |                 |6s/8v            |                 |4s/2v            |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`zea ʈeaθyɖa`    |`saiʃeʈa`        |                 |`esiʈi`          |
+            |                 |                 |                 |                 |
+            |                 |8s/6v            |                 |2s/4v            |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`zea astɹœ`      |`iɖe`            |`saiʃeʈa`        |`ajɛsɖɶ`         |
+            |                 |                 |                 |                 |
+            |                 |9s/9v            |8s/8v            |4s/3v            |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`zea astɹœ`      |`iɖe`            |                 |`iɹeɖi`          |
+            |                 |                 |                 |                 |
+            |                 |8s/9v            |                 |2s/2v            |
+            +-----------------+-----------------+-----------------+-----------------+
+    
+    .. dropdown:: Table of `zœeɖaʃi` Energies
+    
+        .. table:: 
+        
+            +-----------------------------------+-----------------------------------+
+            | Creator                           | Creature                          |
+            +===================================+===================================+
+            | `ʃɛʈaði`                          | `isɛʃy`                           |
+            |                                   |                                   |
+            | 7s/7v                             | 1s/1v                             |
+            +-----------------------------------+-----------------------------------+
+            | `ɖɛʈaði`                          | `iɹɛɖy`                           |
+            |                                   |                                   |
+            | 7s/7v                             | 1s/1v                             |
+            +-----------------------------------+-----------------------------------+
+            | `eʈaði`                           | `iɹeʈy`                           |
+            |                                   |                                   |
+            | 7s/7v                             | 1s/1v                             |
+            +-----------------------------------+-----------------------------------+
+            | `eʈiaði`                          | `iɹiyte`                          |
+            |                                   |                                   |
+            | 7s/7v                             | 1s/1v                             |
+            +-----------------------------------+-----------------------------------+
+            | `aðia`                            | `yʃʈia`                           |
+            |                                   |                                   |
+            | 7s/7v                             | 1s/1v                             |
+            +-----------------------------------+-----------------------------------+
+            | `sœʈi`                            | `iɹyʋie`                          |
+            |                                   |                                   |
+            | 6s/8v                             | 0s/2v                             |
+            +-----------------------------------+-----------------------------------+
+            | `seθi`                            | `tɹœʃʈa`                          |
+            |                                   |                                   |
+            | 5s/8v                             | 0s/3v                             |
+            +-----------------------------------+-----------------------------------+
+            | `aʃaða`                           | `ʋɛɹezy`                          |
+            |                                   |                                   |
+            | 8s/5v                             | 3s/0v                             |
+            +-----------------------------------+-----------------------------------+
+            | `teʃi`                            | `ʒiyʃi`                           |
+            |                                   |                                   |
+            | 7s/6v                             | 2s/1v                             |
+            +-----------------------------------+-----------------------------------+
+            | `siydi`                           | `ʋɶɹjɛ`                           |
+            |                                   |                                   |
+            | 7s/8v                             | 0s/2v                             |
+            +-----------------------------------+-----------------------------------+
+            | `θisœʈe`                          | `eɹɛʈɶi`                          |
+            |                                   |                                   |
+            | 5s/8v                             | 0s/3v                             |
+            +-----------------------------------+-----------------------------------+
+            | `dea`                             | `iɹɛtisja`                        |
+            |                                   |                                   |
+            | 6s/7v                             | 1s/2v                             |
+            +-----------------------------------+-----------------------------------+
+            | `θea`                             | `ɖiɹja`                           |
+            |                                   |                                   |
+            | 6s/7v                             | 1s/2v                             |
+            +-----------------------------------+-----------------------------------+
+            | `sjeði`                           | `ɹyœjœ`                           |
+            |                                   |                                   |
+            | 8s/7v                             | 2s/1v                             |
+            +-----------------------------------+-----------------------------------+
+            | `teʃi`                            | `ziyte`                           |
+            |                                   |                                   |
+            | 9s/6v                             | 2s/0v                             |
+            +-----------------------------------+-----------------------------------+
+            | `ase`                             | `yɹœʈɶi`                          |
+            |                                   |                                   |
+            | 5s/5v                             | 3s/1v                             |
+            +-----------------------------------+-----------------------------------+
+            | `sia`                             | `aʋɹaʃi`                          |
+            |                                   |                                   |
+            | 7s/8v                             | 1s/2v                             |
+            +-----------------------------------+-----------------------------------+
+            | `ʈaʃe`                            | `ɶʋyθœ`                           |
+            |                                   |                                   |
+            | 8s/8v                             | 2s/0v                             |
+            +-----------------------------------+-----------------------------------+
+            | `ʈɛe`                             | `ɹjyeʈœ`                          |
+            |                                   |                                   |
+            | 8s/9v                             | 1s/1v                             |
+            +-----------------------------------+-----------------------------------+
+
+    .. dropdown:: Table of Energies after Creation
+    
+        .. table::
+            
+            +-----------------+-----------------+-----------------+-----------------+
+            |                 |Before           |First Ritual     |Second Ritual    |
+            +=================+=================+=================+=================+
+            |`ajɛseɖi`        |5s/5v            |8s/8v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`ʃɛʈaði`         |6s/6v            |7s/7v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`ɖɛʈaði`         |6s/6v            |7s/7v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`eʈaði`          |6s/6v            |7s/7v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`eʈiaði`         |6s/6v            |7s/7v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`aðia`           |6s/6v            |7s/7v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`sœʈi`           |6s/6v            |6s/8v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`saeθa`          |5s/5v            |6s/8v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`seθi`           |5s/5v            |5s/8v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`aʃaða`          |5s/5v            |8s/5v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`teʃi`           |5s/5v            |7s/6v            |9s/6v            |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`siydi`          |7s/6v            |7s/8v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`saiʃeʈa`        |5s/5v            |8s/6v            |8s/8v            |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`θisœʈe`         |5s/5v            |5s/8v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`dea`            |5s/5v            |6s/7v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`θea`            |5s/5v            |6s/7v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`sjeði`          |6s/6v            |8s/7v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`iɖe`            |5s/6v            |8s/9v            |9s/9v            |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`ase`            |2s/4v            |5s/5v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`sia`            |6s/6v            |7s/8v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`ʈaʃe`           |6s/8v            |8s/8v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+            |`ʈɛe`            |7s/8v            |8s/9v            |                 |
+            +-----------------+-----------------+-----------------+-----------------+
+
+.. dropdown:: On `aʋjasi` Forms
+    :icon: archive
+    
+    The `aʋjasi` are a magical by product of the creation of life, a corruption of an existing form into something else. The dual nature of `syʋe` and `ʋesy` results in a corruption that carries over to the creator. This corruption creates varying forms of `aʋjasi`, but are still similar. The form of `aʋjasi` only depend on how much corruption and what type of corruption occurred. We will discuss the different forms of `aʋjasi` and what they entail.
+    
+    .. admonition:: Laws of Corruption
+        
+        1. Total corruption of more than level 5 results in death of the caster and an instant failure of the ritual.
+          
+           a. For more than one rituals, forms are obtained by the running sum of the corruption. Examine the case of `saiʃeʈa` and `iɖe`.
+        
+        2. During a creation ritual, a caster can call energies of only 5s and 5v, nothing more or nothing less, to maintain the natural balance of the ritual
+        3. A creature with exactly 5s and 5v cannot be created in a single ritual. Furthermore, such creature cannot reproduce.
+        4. Reproduction
+          
+           a. The race of the product of reproduction depends on the energy of the two beings.
+           b. How the energies are combined depend on the beings, which is different for beings of `zai` and beings of another universe. 
+           c. The energy rule for creatures of `zai` is the sum of the two energies minus 2s/2v.
+           d. The energy rule for `aʋjasi` themselves is the average of the two energies rounded down.
+           e. The inclusion of `aʋjasi` in any mating pair, be it `zai` or any other, will still induce `aʋjasi` energy rule.
+    
+    .. tab-set::
+        
+        .. tab-item:: Form I
+        
+            Form I occur when a body endures a corruption of 1 of either `ʋesy` or `syʋe`. In case of a `ʋesy` corruption, we call the `aʋjasi` a Form I-v, and in case of a `syʋe` corruption, we call the `aʋjasi` a Form I-s.
+
+            A Form I corruption results in fur-like projections in the designated area of corruption. `ʋesy` corruption causes these changes to appear in the upper body, while `syʋe` corruption causes these changes to appear in the lower body. The length and color of these projections are specific to the `aʋjasi` yet aren’t dependent on the color or length of the existing hair.
+        
+        .. tab-item:: Form II
+
+            Form II occur when a body endures a corruption of 2 of either `ʋesy` or `syʋe`. In case of a `ʋesy` corruption, we call the `aʋjasi` a Form II-v, and in case of a `syʋe` corruption, we call the `aʋjasi` a Form II-s.
+
+            A Form II corruption results in slight leaks of energy from the skin in various parts of the body. `ʋesy` corruption causes these changes to appear in the upper body, while `syʋe` corruption causes these changes to appear in the lower body. The energy leaks form in lines on the body. The energy leak will release a faint glow that also reacts to emotional and physical state of the `aʋjasi`. The energy leak looks different for each `aʋjasi`.
+            
+        .. tab-item:: Form III
+
+            Form III occur when a body endures a corruption of 3 of either `ʋesy` or `syʋe`. In case of a ʋesy corruption, we call the `aʋjasi` a Form III-v, and in case of a `syʋe` corruption, we call the `aʋjasi` a Form III-s.
+
+            A Form III corruption results in the protrusion of limb-like structures in the designated area of corruption. `ʋesy` corruption causes these changes to appear in the upper body, while `syʋe` corruption causes these changes to appear in the lower body. These limb-like structures are long, sometimes strong, tentacle-like growth. They are extremely flexible and feature no joints, but instead a spine like bone structure, that is quite flexible, but still limited. Particular features of these projections are specific to the `aʋjasi`. These protrusions are referred to as `ajɛstɹaɹi` (base).
+            
+        .. tab-item:: Form IV
+
+            Form IV occurs when a body endures a corruption of 4 of either `ʋesy` or `syʋe`. In case of a `ʋesy` corruption we call the aʋjasi a Form IV-v, and in case of a `syʋe` corruption, we call the `aʋjasi` a Form IV-s.
+
+            A Form IV corruption results in the growth of shell-like chitin in the designated area of corruption. `ʋesy` corruption causes these changes to appear in the upper body, while `syʋe` corruption causes these changes to appear in the lower body. The chitin grows sparsely and provides an armor-like look. Removal of the chitin is extremely painful as they are grown out of and literally attached to the person. Any part of the chitin will regrow if it has been removed.
+
+        .. tab-item:: Form V
+
+            Form V occurs when a body endures a corruption of 5 of either `ʋesy` or `syʋe`. In case of a `ʋesy` corruption we call the `aʋjasi` a Form V-v, and in case of a `syʋe` corruption, we call the `aʋjasi` a Form V-s.
+
+            A Form V corruption results in a brittle stone-like texture in the designated area of corruption. `ʋesy` corruption causes these changes to appear in the upper body, while `syʋe` corruption causes these changes to appear in the lower body. The type and feel of the stone-like texture depends on the individual `aʋjasi`. This is also accompanied by an extreme desensitization of the skin.
+
+            There are no documented Form V corruption.
+
+.. dropdown:: The Unwritten Laws of `sʋe`
+    :icon: book
+    
+    - Everyone on `aɖasi` has two types of spirits in their body: the upper spirit, `ʋesy`, and the lower spirit `syʋe`.
+    - All `sʋe` are cast by activating the spirit in some way.
+      
+      + When a `sʋe` is cast, the spirits are not used away, but occupied while the `sʋe` is ongoing. 
+      + The most important thing that requires `sʋe` is intent.
+      + There are two ways to cast `sʋe`:
+        
+        1. Through intent conveyed by words in an ancient language of the ethereal plane
+        2. Through intent channeled through specific clothing worn on the body
+    
+    - Anything can be created or destroyed, as long as the intent of the `sʋe` correct.
+    
+      When a `sʋe` is cast, the spirits of the caster are not used away, but occupied while the `sʋe` is ongoing.
+      
+    - Anything can be created or destroyed, as long as the wording of the `sʋe` is known, or the correct outfit is worn.
+    
+      + A `sʋe` is equivalent to a spell, and can refer to multiple things:
+      
+        - a series of syllables spoken with intent, where the meaning of the syllables do not coincide with the purpose of the `sʋe` in any known way.
+        - an action or series of interconnected actions conveyed through intent which is concentrated onto a specific part of the body by an outfit of specifically created clothing.
+    
+    - Using spoken `sʋe` requires a specific set of syllables with their paired intent.
+      
+      + Those who have the ability to cast spoke `sʋe` are called natural `isʋe`.
+      + A spoken `sʋe` cannot be any random set of syllables; they must coincide with its requisite intent for the `sʋe` to be effective.
+      + A spoken `sʋe` requires a specific strength of `ʋesy` and `syʋe` to perform. These limitations are extremely specific.
+      + A `sʋe` can be invoked in such a way so that an `aiɖi`'s spirits are used instead of an `isʋe`'s spirits. This requires the `aiɖi`'s consent in some way.
+      + An `aiɖi`'s spirits can fulfill any limitations of a `sʋe`.
+      + Multiple `isʋe` can be used to create a pool of `ʋesy` and `syʋe` to perform a `sʋe` with specific requirements.
+      + Some `sʋe` can only be cast by `aiɖi`. These `sʋe` have requirements so massive they cannot be fulfilled by any ordinary `isʋe` or pool of `isʋe`.
+      + Besides knowing the wording of a `sʋe`, one can also know the `ʋy`, or the *true name*, of a `sʋe`, in which case the details of the `sʋe` can be changed.
+      + Knowing the `ʋy` of a `sʋe` can also allow the `isʋe` to invoke any `aiɖi` to cast the `sʋe` without permission.
+      + Knowing the `ʋy` of an `aiɖi` can allow the `isʋe` to invoke the `aiɖi` to cast any `sʋe` without their permission.
+      + Knowing the `ʋy` of an `aiɖi` can also allow the `isʋe` to cast `sʋe` that can only be cast by an `aiɖi` by forcing the `aiɖi` to cast that `sʋe`.
+      + A `sʋe` does not need to be spoken to be cast.
+      + A `sʋe` requires much less effort if spoken; it requires even less effort if written before spoken.
+    
+    - Channeling a `sʋe` with clothing requires correct intent and energy to be passed through the correct clothing.
+    
+      + Clothing created to channel `sʋe` is different from everyday clothing and is created by natural `isʋe`.
+      + Channeling a `sʋe` using clothing can be done by anyone and does not require specific strength in `ʋesy` or `syʋe` as the clothing amplifies the existing spirit by channeling the spirit to a specific location in the body to match the requirements of the `sʋe`. 
+      + A `sʋe` channeled by clothing is much less powerful, and while these `sʋe` are not limited by words and only by intent, they are limited by the imperfections of the clothing they are amplified through.
+      + The quality of the clothing the spirit is being channeled by influences how effective the `sʋe` will be.
+    
+    - Most people have spirits that are too weak to even cast the most basic spoken `sʋe`. Some are born with incredible strength.
+    - To natural `isʋe`, those able to cast spoke `sʋe` without clothing, wearing requisite clothing will enhance their `sʋe`, but do not require the funneling of spirits that others need. In some cases, wearing too many such articles of clothing can decrease the power of the natural `isʋe` than strengthen it.
+    - The spirits are tied to the ethereal plane where the `aiɖi` live. Thus, the spirits of a person can be enhanced with the grace of an `aiɖi`.
+    - Enhancements are extremely rare, and happen only when an `aiɖi` is extremely pleased.
+    - Those weak in the spirits can still cast `sʋe`:
+    
+      + They can commission a requisite outift from a natural `isʋe` and learn to channel their spirit with such an outfit.
+      + Another is to perform any number of rituals to attempt to appease an `aiɖi`, and burning a parchment with the written `sʋe`.
+      + Another is for an `isʋe` to call upon the `aiɖi`, so that people may request the `aiɖi` for a `sʋe` in person.
+      + Another is for one to trick or deceive an `aiɖi` to cast the `sʋe`.
+      
+    - The Ethereal Plane is where the `aiɖi` live and is also the home of the `syʋe` and `ʋesy` spirits. These spirits are in an enhanced state in the Material Plane.
+
+      + Anything or anyone can travel to the Ethereal Plane if they have at least some `syʋe` or `ʋesy`.
+      + Another simple truth is that `syʋe` and `ʋesy` spirits are much stronger with a body. Furthermore they are much weaker in the Ethereal Plane.
+      + There are two ways of entering the Ethereal Plane: with or without a body.
+      + Entering without the body will render the spirits weaker for the time they are in the Ethereal Plane.
+      + Entering with the body will allow the spirits to keep their strength in the Ethereal Plane.
+      + A person entering the Ethereal Plane with their body risk permanent death.
+      + With the same logic, if an `aiɖi`'s spirit enters the Material Plane without a body, it will be stronger. But an `aiɖi` entering the Material Plane with a body will be 10 to a 100 times stronger.
+      + There are two types of way an `aiɖi` can come down with a body (either way, they need to be called)
+
+        - If a person allows the `aiɖi` to enter as their host, or
+        - The `aiɖi` can temporarily create her own body to come down with.
+
+      + An `aiɖi` is much stronger when they enter the Material Plane with a host.
+      + When an `aiɖi` enters the Material Plane with a host, the spirits of the two are combined, and both have an equal control on the body. As such harmony with the `aiɖi` is extremely important.
+      + The body of a host will also fundamentally change, taking on an appearance similar to the `aiɖi`, but the identity and race of the host will remain the same. These changes will revert when the `aiɖi` leaves.
+
+        - The physical changes to a body are mostly external and sometimes internal. These changes are only physical. The mental state of the host is tied to their spirit, so that the mental state of the body is shared by the host and `aiɖi`.
+        - The degree to which the physical changes happen vary between the `aiɖi` and the person. If two different people host the same `aiɖi`, they will experience different levels of physical changes. Analogously, if one person hosts two different `aiɖi`, then each time they will experience a different level of physical change.
+
+      + If the body an `aiɖi` occupies dies in the Material Plane, the result depends on how the `aiɖi` came:
+
+        - If the `aiɖi` came with the aid of a host, the `aiɖi` will be able to travel back to the Ethereal Plane with the spirit of the host.
+        - If the `aiɖi` came through a temporary body of their own, the spirit of the `aiɖi` will wander the Material Plane until a ritual to send it back is cast.
+
+      + If the spirits of an `aiɖi` is left to wander the Material Plane, anyone with the knowledge can claim them.
+      + An `aiɖi` spirit wandering and an `aiɖi` entering without a body are two different situations. The difference lies in the fact that a wandering spirit cannot go back without a specific ritual being cast to send it back. Furthermore, a wandering spirit can be claimed by any mortal to give a godlike power. Unlike when the `aiɖi` enters a host, when the spirit is claimed, the `aiɖi` will have no control over the body. The death of this mortal will still not result in the `aiɖi` spirit being free.
+
+    - An important part of casting a `sʋe` is to be able to allow another object or person to cast the `sʋe` for them.
+    
+      + This transfer of casting requires the `isʋe` to impart a small part of their spirits to any object, and giving specific instructions to how and when to cast this `sʋe`. The part of the spirits that is imparted to the object is used when the `sʋe` is cast and returned to the caster afterwards, unless specified otherwise.
+      + This type of transfer cannot be performed by someone who needs to channel their energy with clothing to perform a `sʋe`.
+    
+    - There are multiple types of `sʋe`:
+    
+      :Elemental `sʋe`: `sʋe` that is related to any of the elements: fire, earth, air, and water.
+      :Divination `sʋe`: `sʋe` that is related to looking in the future or past or through something or someone elses eyes.
+      :Combat `sʋe`: `sʋe` that is related to destruction and defense; `sʋe` of combat type can also used to enhance oneself, but are still considered different from transfiguration `sʋe`, by the length of the `sʋe` (combat spells are much shorter).
+      :Transfiguration `sʋe`: `sʋe` that is related to changing oneself either physically, mentally or spiritually.
+      :Conjuration `sʋe`: `sʋe` that is related to creation, but also includes summoning and teleportation.
+      :Restoration `sʋe`: `sʋe` that is related to healing or fixing; this is the exact opposite of combat magic.
+      :Alteration `sʋe`: `sʋe` that is related to illusion or changing something only temporarily; because of their temporal aspect, they are much easier to cast.
+      :Animation `sʋe`: `sʋe` that is related to using animate objects or using inanimate objects to cast the `sʋe`; this includes `sʋe` that are specifically designed to be only used by inanimate object.
+      :Necromancy `sʋe`: `sʋe` that is related to bringing back spirits into other inanimate vessels or previously animated vessels; different from animation in that these `sʋe` don't use a part of one's own spirits but instead either use one's whole spirit or the spirit of one that has already passed away.
+
+    - Constructing an outfit is an exact science where the material of the clothing, where it is worn and which part of the body is exposed changes the details of a `sʋe`.
+    
+      + In this science, the body is broken into 4 large parts with some sub-parts:
+        
+        - head and neck, collectively called the top
+        - hands and arms, collectively called the sides; split into the upper arm, including shoulders, and lower arm, including the hands
+        - chest and stomach, collectively called the middle
+        - legs and feet, collectively called the bottom; split into the hips (including the crotch), upper legs, and lower leg (including the feet)
+      
+      + Of the above 9 types of `sʋe`, each is associated with a simple material, and a rare material.
+      
+        :Elemental `sʋe`: Linen and TBD
+        :Divination `sʋe`: Velvet and TBD
+        :Combat `sʋe`: Leather and TBD
+        :Transfiguration `sʋe`: Satin and TBD
+        :Conjuration `sʋe`: Silk and TBD
+        :Restoration `sʋe`: Cotton and TBD
+        :Alteration `sʋe`: Denim and TBD
+        :Animation `sʋe`: Lace and TBD
+        :Necromancy `sʋe`: Wool and TBD
+      
+      + The type of `sʋe` a person can cast is dependent on which part of the body is left uncovered.
+      
+        - Leaving the head uncovered allows one to perform elemental `sʋe`.
+        - Leaving the neck uncovered allows one to perform necromancy `sʋe`.
+        - Leaving the upper arms, including the shoulder, uncovered allows one to perform conjuration `sʋe`.
+        - Leaving the lower arms, including hands, uncovered allows one to perform animation `sʋe`.
+        - Leaving the chest uncovered allows one to perform restoration `sʋe`.
+        - Leaving the waist uncovered allows one to perform combat `sʋe`.
+        - Leaving the hips, including the crotch, uncovered allows one to perform divination `sʋe`.
+        - Leaving the upper legs uncovered allows one to perform transfiguration `sʋe`.
+        - Leaving the lower legs, including the feet, uncovered allows one to perform alteration `sʋe`.
+      
+      + Covering specific regions of the body can offer specific advantages
+      
+        - Covering the entire top with clothing can heighten one's perception of `sʋe` cast by others as well as one's own. Moreover, if a material which is attuned to one of the types of `sʋe` is used to even partially cover the top, these types of `sʋe` will become easier to cast, and require much less concentration.
+        - Covering all of both sides with clothing can allow faster casting of `sʋe` than normal. Moreover, if a material which is attuned to one of the types of `sʋe` is used to even partially cover the sides, these types of `sʋe` will become more precise.
+        - Covering the entire middle will increase duration of the `sʋe`. Moreover, if a material which is attuned to one of the types of `sʋe` is used to even partially cover the middle, these types of `sʋe` will increase the raw power of the `sʋe`
+        - Covering the entire bottom will enhance the stability of the `sʋe`, making it more effective. Moreover, if a material which is attuned to one of the types of `sʋe` is used to even partially cover the bottom, these types of `sʋe` will have a greater range.
+        
+      + The usage of the terminology "uncovered" and "covering" is loose, and should not be taken strictly. 
+      
+        - Covering could mean draped loosely with a piece of cloth, and wearing a bracelet could mean uncovered. If the same bracelet was properly prepared by a natural `isʋe`, it could be considered covering. 
+        - Covering does not mean completely cover, but more in the line of "the presence of an object in that area".
+        - The line of whether an object is covering or uncovered is blurred and vague. Which objects cover an area, which objects do not, and if an object does cover an area of the body will it impart the advantages depends on how the outfit is made by the natural `isʋe` creating it.
+        
+    - Reproduction with an `aiɖi` is different.
+
+      + An `aiɖi` does not have racial restrictions on reproduction as those of the `zea ʈeaθyɖa` or `zea astɹœ`.
+      + If a `zea` appears in the Ethereal Plane in spirit, they can commune with an `aiɖi`, and the resulting child will be an `aiɖi` and thus a permanent member of the Ethereal Plane.
+
+        - In such a communion, if the one birthing a child is to be the `zea`, then they will have to stay in the Ethereal Plane until the childbirth.
+
+      + If a `zea` appears in the Ethereal Plane with a body, they cannot commune with an `aiɖi`.
+      + If an `aiɖi` arrives in the Material Plane without a body, a `zea` cannot commune with the `aiɖi`.
+      + If an `aiɖi` arrives in the Material Plane with a body, a `zea` can commune with the `aiɖi`, and the resulting child will not be an `aiɖi`.
+
+        - In such a communion, if the one birthing a child is to be the `aiɖi`, then they will have to stay in the Material Plane until the childbirth.
+        - If the body that the `aiɖi` arrives in is her own temporary body, then the child will be of race `aʋjasi`.
+        - If the body that the `aiɖi` arrives in is that of a host, then the child will be dependent on the race of the host. There would be no hint of an `aiɖi`'s influence in the birth, but the racial restrictions of the host and partner will not affect the communion.
+        - The child of an `aʋjasi` will be an `aʋjasi`.

@@ -1,0 +1,320 @@
+graph GRAMPS_graph
+{
+	bgcolor="#131416";
+	charset="utf8";
+	concentrate="false";
+	dpi="96";
+	graph [fontsize=20];
+	margin="0,0"; 
+	mclimit="99";
+	nodesep="0.25";
+	outputorder="edgesfirst";
+	#page="11.00,8.50";
+	pagedir="BL";
+	rankdir="TB";
+	ranksep="0.40";
+	ratio="fill";
+	searchsize="100";
+	size="9.99,7.49"; 
+	splines=line
+
+	edge [ len=0.5 style=solid fontsize=23 color="#ffffffcc"];
+	node [ shape = circle style=filled fontsize=23 fontcolor=black];
+
+	{
+		{
+		rank="same"
+		
+			"1t1" [label = "XX" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+			"connector1t" [label = "1"];
+			"1t2" [label = "YY" fillcolor = "lightblue2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		{
+		rank="same"
+			
+			"1b1" [label = "XY\n100%" fillcolor = "mediumorchid2" fixedsize = true width = 2 height = 2];
+			
+		}
+		
+		"1t1" -- "connector1t";
+		"connector1t" -- "1t2";
+		"connector1t" -- "1b1";
+	}
+
+	
+	{
+		{
+		rank="same"
+		
+			"2t1" [label = "XX" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+			"connector2t" [label = "2"];
+			"2t2" [label = "YO" fillcolor = "lightblue2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		{
+		rank="same"
+			
+			"2b1" [label = "XY\n50%" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+			"connector2b" [shape = "point"];
+			"2b2" [label = "XO\n50%" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		"2t1" -- "connector2t";
+		"connector2t" -- "2t2";
+		"2b1" -- "connector2b";
+		"connector2b" -- "2b2";
+		"connector2t" -- "connector2b";
+	}
+	
+	
+	{
+		{
+		rank="same"
+		
+			"3t1" [label = "XX" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+			"connector3t" [label = "3"];
+			"3t2" [label = "OO" fillcolor = "indianred2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		{
+		rank="same"
+			
+			"3b1" [label = "XO\n100%" fillcolor = "mediumorchid2" fixedsize = true width = 2 height = 2];
+			
+		}
+		
+		"3t1" -- "connector3t";
+		"connector3t" -- "3t2";
+		"connector3t" -- "3b1";
+	}
+	
+	
+	{
+		{
+		rank="same"
+		
+			"4t1" [label = "XO" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+			"connector4t" [label = "4"];
+			"4t2" [label = "YY" fillcolor = "lightblue2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		{
+		rank="same"
+			
+			"4b1" [label = "XY\n50%" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+			"connector4b" [shape = "point"];
+			"4b2" [label = "YO\n50%" fillcolor = "lightblue2" fixedsize = true width = 1.5 height = 1.5];
+			
+		}
+		
+		"4t1" -- "connector4t";
+		"connector4t" -- "4t2";
+		"4b1" -- "connector4b";
+		"connector4b" -- "4b2";
+		"connector4t" -- "connector4b";
+	}
+	
+	{
+		{
+		rank="same"
+		
+			"5t1" [label = "XO" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+			"connector5t" [label = "5"];
+			"5t2" [label = "YO" fillcolor = "lightblue2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		{
+		rank="same"
+			
+			"5b1" [label = "OO\n25%" fillcolor = "indianred2" fixedsize = true width = 1 height = 1];
+			"5b2" [label = "XY\n25%" fillcolor = "mediumorchid2" fixedsize = true width = 1 height = 1];
+			"connector5b" [shape = "point"];
+			"5b3" [label = "XO\n25%" fillcolor = "mediumorchid2" fixedsize = true width = 1 height = 1];
+			"5b4" [label = "YO\n25%" fillcolor = "lightblue2" fixedsize = true width = 1 height = 1];
+		}
+		
+		"5t1" -- "connector5t";
+		"connector5t" -- "5t2";
+		"5b1" -- "5b2";
+		"5b2" -- "connector5b";
+		"connector5b" -- "5b3";
+		"5b3" -- "5b4";
+		"connector5t" -- "connector5b";
+	}
+	
+	{
+		{
+		rank="same"
+		
+			"6t1" [label = "XO" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+			"connector6t" [label = "6"];
+			"6t2" [label = "OO" fillcolor = "indianred2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		{
+		rank="same"
+			
+			"6b1" [label = "XO\n50%" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+			"connector6b" [shape = "point"];
+			"6b2" [label = "OO\n50%" fillcolor = "indianred2" fixedsize = true width = 1.5 height = 1.5];
+			
+		}
+		
+		"6t1" -- "connector6t";
+		"connector6t" -- "6t2";
+		"6b1" -- "connector6b";
+		"connector6b" -- "6b2";
+		"connector6t" -- "connector6b";
+	}
+	
+	{
+		{
+		rank="same"
+		
+			"7t1" [label = "XY" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+			"connector7t" [label = "7"];
+			"7t2" [label = "YY" fillcolor = "lightblue2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		{
+		rank="same"
+			
+			"7b1" [label = "XY\n50%" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+			"connector7b" [shape = "point"];
+			"7b2" [label = "YY\n50%" fillcolor = "lightblue2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		"7t1" -- "connector7t";
+		"connector7t" -- "7t2";
+		"7b1" -- "connector7b";
+		"connector7b" -- "7b2";
+		"connector7t" -- "connector7b";
+	}
+	
+	{
+		{
+		rank="same"
+		
+			"8t1" [label = "XY" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+			"connector8t" [label = "8"];
+			"8t2" [label = "YO" fillcolor = "lightblue2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		{
+		rank="same"
+			
+			"8b1" [label = "XO\n25%" fillcolor = "mediumorchid2" fixedsize = true width = 1 height = 1];
+			"8b2" [label = "YO\n25%" fillcolor = "lightblue2" fixedsize = true width = 1 height = 1];
+			"connector8b" [shape = "point"];
+			"8b3" [label = "YY\n25%" fillcolor = "lightblue2" fixedsize = true width = 1 height = 1]
+			"8b4" [label = "XY\n25%" fillcolor = "mediumorchid2" fixedsize = true width = 1 height = 1];
+		}
+		
+		"8t1" -- "connector8t";
+		"connector8t" -- "8t2";
+		"8b1" -- "8b2";
+		"8b2" -- "connector8b";
+		"connector8b" -- "8b3";
+		"8b3" -- "8b4";
+		"connector8t" -- "connector8b";
+	}
+	
+	{
+		{
+		rank="same"
+		
+			"9t1" [label = "XY" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+			"connector9t" [label = "9"];
+			"9t2" [label = "OO" fillcolor = "indianred2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		{
+		rank="same"
+			
+			"9b1" [label = "XO\n50%" fillcolor = "mediumorchid2" fixedsize = true width = 1.5 height = 1.5];
+			"connector9b" [shape = "point"];
+			"9b2" [label = "YO\n50%" fillcolor = "lightblue2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		"9t1" -- "connector9t";
+		"connector9t" -- "9t2";
+		"9b1" -- "connector9b";
+		"connector9b" -- "9b2";
+		"connector9t" -- "connector9b";
+	}
+	
+	{
+		{
+		rank="same"
+		
+			"10t1" [label = "YY" fillcolor = "lightblue2" fixedsize = true width = 1.5 height = 1.5];
+			"connector10t" [label = "10"];
+			"10t2" [label = "OO" fillcolor = "indianred2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		{
+		rank="same"
+			
+			"10b1" [label = "YO\n100%" fillcolor = "lightblue2" fixedsize = true width = 2 height = 2];
+			
+		}
+		
+		"10t1" -- "connector10t";
+		"connector10t" -- "10t2";
+		"connector10t" -- "10b1";
+	}
+	
+	{
+		{
+		rank="same"
+		
+			"11t1" [label = "YO" fillcolor = "lightblue2" fixedsize = true width = 1.5 height = 1.5];
+			"connector11t" [label = "11"];
+			"11t2" [label = "OO" fillcolor = "indianred2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		{
+		rank="same"
+			
+			"11b1" [label = "YO\n50%" fillcolor = "lightblue2" fixedsize = true width = 1.5 height = 1.5];
+			"connector11b" [shape = "point"];
+			"11b2" [label = "OO\n50%" fillcolor = "indianred2" fixedsize = true width = 1.5 height = 1.5];
+			
+		}
+		
+		"11t1" -- "connector11t";
+		"connector11t" -- "11t2";
+		"11b1" -- "connector11b";
+		"connector11b" -- "11b2";
+		"connector11t" -- "connector11b";
+	}
+	
+	{
+		{
+		rank="same"
+		
+			"12t12" [label = "OO" fillcolor = "indianred2" fixedsize = true width = 1.5 height = 1.5];
+			"connector12t" [label = "12"];
+			"12t2" [label = "OO" fillcolor = "indianred2" fixedsize = true width = 1.5 height = 1.5];
+		}
+		
+		{
+		rank="same"
+		
+			"12b1" [label = "OO\n100%" fillcolor = "indianred2" fixedsize = true width = 2 height = 2]
+		}
+		
+		"12t12" -- "connector12t";
+		"connector12t" -- "12t2";
+		"connector12t" -- "12b1";
+	}
+	
+	"1b1" -- "connector7t" [style = "invis"];
+	"connector2b" -- "connector8t" [style = "invis"];
+	"3b1" -- "connector9t" [style = "invis"];
+	"connector4b" -- "connector10t" [style = "invis"];
+	"connector5b" -- "connector11t" [style = "invis"];
+	"connector6b" -- "connector12t" [style = "invis"];
+	
+}

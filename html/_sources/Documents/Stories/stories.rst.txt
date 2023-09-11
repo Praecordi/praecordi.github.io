@@ -1,0 +1,46 @@
+Stories
+=======
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Contents
+    :glob:
+    
+    ./*
+    
+.. todo::
+
+    Completely Redo
+    
+    - :ref:`documents/stories/excerpts_from_ancient_history:the beginning of change`
+    - :ref:`documents/stories/excerpts_from_ancient_history:relief`
+    - :ref:`documents/stories/excerpts_from_ancient_history:escape`
+    
+.. dropdown:: Ideas for Stories
+    :icon: clock
+
+    .. grid:: 2
+
+        .. grid-item::
+
+            .. dropdown:: Replacement for *The Beginning of Change*
+
+                A scene/short story similar to the *The Beginning of Change* which shows the beginnnig of `ajɛseɖi`'s progress of loosening up and loosing her modest. Just eliminate the first section about her mother, or replace with a new section about her life before. The orientation scene is similar, except highlight `ajɛseɖi` being older than everyone. Then the rest of the scene follows as usual, except `stɹai` is also there, and she is much more excited/accepting than `ajɛseɖi`.
+
+        .. grid-item::  
+
+            .. dropdown:: Replacement for *Relief*
+
+                This story is completely useless now. The new story will be about `saeθa`'s first moments or days at the Temple of the Primal Weaver, as she is getting introduced to the new environment. We can also see her budding relationship with `eɹaʈɛ`, maybe.
+
+        .. grid-item::
+
+            .. dropdown:: Replacement for *Escape*
+
+                This also needs to change completely. The new story will be about `saiʃeʈa` rescuing `ajɛseɖi` from the Academy prison and escaping `ʋeʃjœ`. It continues through the chase by the Academy soldiers to meeting the bandits for the first time and negotiating with them. 
+
+        .. grid-item::
+
+            .. dropdown:: Idea 1
+
+                A story on why `yʈaʃø` hates `ajɛseɖi` so much. I had an idea, but I forgot. I think it was something related to `ajɛseɖi` performing an innocent prank, or some unknowingly humiliating action against `yʈaʃø`. Whatever it is, I think `yʈaʃø`'s anger has to stem from something more than jealousy.

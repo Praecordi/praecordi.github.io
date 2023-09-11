@@ -1,0 +1,416 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <link rel="icon" href="../../_static/logo/favicon-white.svg" type="image/svg+xml"><link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Simulation Code" href="teathuda-simulation/teathuda-simulation.html" /><link rel="prev" title="zea Races" href="../zea-races.html" />
+
+    <!-- Generated with Sphinx 5.3.0 and Furo 2022.12.07 -->
+        <title>zea ʈeaθyɖa - Adasi 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/decor.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/icons/idea.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/icons/question.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --color-brand-primary: black;
+  --color-brand-content: darkgoldenrod;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Adasi 1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="../../_static/logo/hires-logo-black.svg" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="../../_static/logo/hires-logo-white.svg" alt="Dark Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../History/history.html">History</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../History/before-founding.html">Before Founding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../History/first-arrival.html">First Arrival</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../demographics.html">Demographics</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="../aidi.html"><span class="zean">aiɖi</span></a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../aidi/major-aidi.html">Major <span class="zean">aiɖi</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../aidi/minor-aidi.html">Minor <span class="zean">aiɖi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../avyasi.html"><span class="zean">aʋjasi</span></a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../avyasi/isitetho.html"><span class="zean">isiʈeθɶ</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../avyasi/zoedashi.html"><span class="zean">zœeɖaʃi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 current has-children"><a class="reference internal" href="../zea-races.html"><span class="zean">zea</span> Races</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l3 current current-page"><a class="current reference internal" href="#"><span class="zean">zea ʈeaθyɖa</span></a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="teathuda-simulation/teathuda-simulation.html">Simulation Code</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="teathuda-simulation/simulation.html">Main Simulation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="teathuda-simulation/find-simulation-weights.html">Experiment Simulation Weights</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Culture/culture.html">Culture</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Magic/magic.html">Magic</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Culture/Magic/creation.html">Creation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Culture/Magic/ethereal-plane.html">The Ethereal Plane</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Holds/holds.html">Holds</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Pre-Arrival-Societies/pa-societies.html">Pre-Arrival Societies</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Documents/documents.html">Documents</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Documents/Stories/stories.html">Stories</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Documents/Stories/Excerpts_from_Ancient_History.html">Excerpts from Ancient History</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Documents/Stories/Excerpts_from_Before_Great_Split.html">Excerpts from Before Great Split</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../ideas.html">Ideas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notes.html">Miscellaneous Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../zean-glossary.html">Zean Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../zean-reference.html">Reference for the Zean Language</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="zea-eaya">
+<h1><span class="zean">zea ʈeaθyɖa</span><a class="headerlink" href="#zea-eaya" title="Permalink to this heading">#</a></h1>
+<section id="ajs-zea-eaya">
+<h2><span class="zean">ajɛsɖɶ zea ʈeaθyɖa</span><a class="headerlink" href="#ajs-zea-eaya" title="Permalink to this heading">#</a></h2>
+<p>The <span class="zean">zea ʈeaθyɖa ajɛsɖɶ</span> are created by <span class="zean">isiʈeθɶ ajɛseɖi</span> who is aided by her partner and <span class="zean">aiɖi</span>, <span class="zean">etiaʃi</span>. <span class="zean">ajɛseɖi</span> used the second technique of creation when creating the <span class="zean">ajɛsɖɶ</span>. The <span class="zean">ajɛsɖɶ</span> were initially modeled from clay and cloth. <span class="zean">ajɛseɖi</span> modeled the race and this single gender from her own body.</p>
+<p>The first and average height of an <span class="zean">ajɛsɖɶ</span> closely resembled that of <span class="zean">ajɛseɖi</span>. However, subsequent to the ritual and the modifications made to <span class="zean">ajɛseɖi</span>, the first <span class="zean">ajɛsɖɶ</span> became shorter than <span class="zean">ajɛseɖi</span>, with their mouth reaching her breasts. The <span class="zean">ajɛsɖɶ</span> possess lithe bodies and notably long hair on their heads. Unlike <span class="zean">aθɶs</span> females, they lack pubic hair growth, and their eyes lack eyelashes. Instead, their eyes feature a protective nictitating membrane that shields against foreign particles. Furthermore, their eyes are deeply set, while their noses, ears, and lips bear closer resemblance to those of <span class="zean">aθɶs</span> humans. The overall bodily proportions of the <span class="zean">ajɛsɖɶ</span> are partially influenced by the <span class="zean">isiʈeθɶ</span>.</p>
+<p>While <span class="zean">ajɛseɖi</span> played a significant role in the creation process of the <span class="zean">ajɛsɖɶ</span>, several physical attributes can be attributed to <span class="zean">etiaʃi</span>. These include their remarkably fast-growing hair, which directly connects to their spinal cord and functions as a partial extension of their brain. Additionally, the <span class="zean">ajɛsɖɶ</span> possess heightened hearing and olfactory senses, the aforementioned nictitating membrane, and surface blood veins on their breasts that expand during arousal. Among the internal attributes bestowed upon the <span class="zean">ajɛsɖɶ</span> by <span class="zean">etiaʃi</span>, their natural curiosity and intelligence are noteworthy, as is their libidinous nature. Consequently, it is common for an <span class="zean">ajɛsɖɶ</span> to experience increased clarity of thought and focus following an orgasm. <span class="zean">ajɛseɖi</span> incorporated a rudimentary reproductive system in her design, which was subsequently perfected by <span class="zean">etiaʃi</span>.</p>
+<p>In the subsequent discussion, we will explore the <span class="zean">zea ʈeaθyɖa ajɛsɖɶ</span> in comparison to Earth and <span class="zean">aθɶs</span> humans.</p>
+<p class="rubric">Physical Description</p>
+<p>In terms of external physical characteristics, the <span class="zean">ajɛsɖɶ</span> exhibit a closer resemblance to <span class="zean">aθɶs</span> humans compared to the other two genders. As previously mentioned, the <span class="zean">ajɛsɖɶ</span> are derived from the <span class="zean">aθɶs</span> human female. Several noticeable distinctions exist between these two populations. The most prominent dissimilarity is the presence of two tentacle-like appendages known as <span class="zean">ajɛstɹaɹi</span>, which protrude from the back just below the shoulder blades. These projections, albeit relatively short in length for the <span class="zean">ajɛsɖɶ</span>, reaching only to the knees, lack any skeletal structures. Instead, they consist entirely of muscular tissue and possess a limited range of motion. Unlike hands, they lack agility and lack any digits or suckers found in certain animal species, which limits their grasping capabilities. The <span class="zean">ajɛstɹaɹi</span> terminate with hair that establishes neural connections with the <span class="zean">ajɛsɖɶ</span> nervous system. This enables a form of interface between two <span class="zean">ajɛsɖɶ</span> individuals and, as we will explore later, facilitates reproductive processes.</p>
+<p>The second significant deviation lies in the fact that, unlike in <span class="zean">aθɶs</span> humans, the majority, if not all, of the <span class="zean">ajɛsɖɶ</span> possess symmastic breasts. This implies an extension of breast tissues across the intermammary cleft, resulting in a diminished cleavage area. Conversely, while symmastic breasts are relatively uncommon among <span class="zean">aθɶs</span> females, they do occur. The third disparity between <span class="zean">aθɶs</span> humans and <span class="zean">ajɛsɖɶ</span> is the presence of an additional digit in the hands and feet of the <span class="zean">ajɛsɖɶ</span>.</p>
+<p>In addition to these overt physical distinctions observed in an average <span class="zean">ajɛsɖɶ</span> compared to an <span class="zean">aθɶs</span> human, several general population differences can be discerned. For instance, <span class="zean">ajɛsɖɶ</span> breasts tend to be larger than those of <span class="zean">aθɶs</span> females. With few exceptions, an unaltered <span class="zean">ajɛsɖɶ</span> will exhibit a well-defined chest with noticeable curvature and roundness. Furthermore, the average <span class="zean">ajɛsɖɶ</span> possesses numerous features that are typically associated with beauty in an <span class="zean">aθɶs</span> woman, including clear and smooth skin, symmetrical facial characteristics, voluminous hair, large expressive eyes, and delicate facial features. Nonetheless, it is important to note that <span class="zean">ʈeaθyɖa</span> beauty standards differ significantly from those of <span class="zean">aθɶs</span>.</p>
+<p>Another distinction, although not exclusively physical, pertains to diminished tactile sensitivity, particularly in the lower legs, upper arms, and chest regions of the <span class="zean">ajɛsɖɶ</span>. This is primarily attributed to the absence of hair and neural endings in these areas. Conversely, the stomach, vaginal region, and thighs exhibit heightened sensitivity, while dullness in tactile perception resumes in the lower legs. Similar to humans, the hands provide the most reliable source of tactile feedback. Lastly, a notable difference lies in the anatomical structure of the vaginal opening. As previously mentioned, small projections located near the interior of the vagina guide small gametes towards the eggs. These projections possess nerve endings, rendering them one of the most sensitive areas of the <span class="zean">ajɛsɖɶ</span> body. Alongside stimulation of the clitoris, stimulating these projections serves as the primary means of inducing an orgasm in an <span class="zean">ajɛsɖɶ</span>.</p>
+<p class="rubric">Reproduction</p>
+<p>One notable distinction of the <span class="zean">ajɛsɖɶ</span> is their oviparous nature, wherein they lay eggs instead of giving birth to fully developed zygotes. Specifically, the <span class="zean">ajɛsɖɶ</span> exhibit hermaphroditism, possessing two distinct gametes: positive and negative. The positive gametes are large and immobile, ultimately maturing into eggs, while the negative gametes, although also immobile, are smaller and resemble sperm. Both gametes are haploid, carrying a single set of chromosomes that combine to form a diploid zygote. During meiosis, unlike the production of four sperm cells, an <span class="zean">ajɛsɖɶ</span> generates two positive and two negative gametes. These gametes are formed within an organ resembling an ovary. As the large positive gamete traverses the oviduct, it undergoes further development, while the smaller negative gametes travel to the clitoris, where they await insemination into the parent.</p>
+<p>The initiation of egg production is triggered by hormonal changes that occur when the neural hair of the mother comes into contact with the partner’s neural hair, signaling the onset of reproduction. Insemination generally transpires during clitoral contact. Within the vagina, small projections function as filters, selectively guiding negative gametes toward the egg. Self-insemination is not possible, rendering an egg inert if fertilized by the individual’s own gametes. Successful insemination is a complex process that requires time. If egg production has commenced, but insemination fails, the egg becomes inert and unable to be fertilized externally. Similarly, attempting to inseminate an <span class="zean">ajɛsɖɶ</span> without the initiation of egg production will also result in an unsuccessful endeavor. It is worth noting that in certain instances, both partners may lay eggs simultaneously, leading to a relationship akin to fraternal twins among their offspring.</p>
+<p>The journey of the negative gamete toward the oviduct takes approximately 2-3 months (using human time approximation). Once insemination occurs, the zygote gradually descends the oviduct, progressively developing the yolk, albumen, and ultimately the shell, until it is expelled from the vagina. This entire process spans a mere 4-5 days (using human time approximation). The resulting egg, roughly the length of a forearm and the width of a hand, is then placed in a warm environment to facilitate its development. In ancient times, this entailed a dedicated room or separate tent with carefully regulated fire and cooling facilities, where the egg would be situated in a container typically filled with a wool-like substance. In modern times, wealthier individuals may possess their own incubators created by hired specialists known as <span class="zean">isʋe</span>. Alternatively, for those with more limited financial resources, the <span class="zean">isiʈeθɶ</span> offer communal incubators equipped with guards and parental beds. Subsequently, the egg undergoes an incubation period of approximately 6 months (using human time approximation) until hatching occurs.</p>
+<p class="rubric">Development</p>
+<p>The average lifespan of a <span class="zean">zea ʈeaθyɖa ajɛsɖɶ</span> ranges from approximately 150 to 175 years, with some individuals possibly reaching the age of 200. As previously mentioned, an <span class="zean">ajɛsɖɶ</span> child is typically weaned 7 to 8 years after birth. By the age of one, an <span class="zean">ajɛsɖɶ</span> child gains the ability to sit up and crawl. At two years of age, they progress to walking and comprehending simple commands. The recognition of individuals, along with the development of basic speech and understanding of simple words, also commences during this period. Additionally, the eruption of teeth and weight gain become noticeable milestones. By the age of three, an <span class="zean">ajɛsɖɶ</span> child can run, form sentences longer than three words, and express desires, while gradually exhibiting increased physical strength.</p>
+<p>By the age of five, the majority of an <span class="zean">ajɛsɖɶ</span> child’s teeth have emerged, and they have achieved proper toilet training. Although fat tends to decrease during this phase, their dietary needs expand beyond milk consumption. At seven years of age, <span class="zean">ajɛsɖɶ</span> children become more socially inclined, establishing relationships beyond immediate family members. Formal education, encompassing reading and writing, typically commences during this period. Physically, they exhibit the proportions characteristic of an <span class="zean">ajɛsɖɶ</span>, albeit not attaining their full height.</p>
+<p>Upon reaching 12 years of age, an <span class="zean">ajɛsɖɶ</span> begins the development of their <span class="zean">ajɛstɹaɹi</span>. By 15 years, the <span class="zean">ajɛstɹaɹi</span> reaches its completed development, relative to their height. At 17 years, most of their growth potential is realized, and the onset of breast development occurs. Concurrently, the <span class="zean">ajɛsɖɶ</span> starts accumulating fat and experiences a robust sexual attraction. By 19 years, puberty concludes, with breast growth and the full development of sexual organs achieved. At this stage, the <span class="zean">ajɛsɖɶ</span> gains the ability to give birth and provide nourishment through breastfeeding.</p>
+<p>Between the ages of 19 and 40 years, the <span class="zean">ajɛsɖɶ</span> can be regarded as equivalent to young adulthood in humans. From 41 to 120 years, they enjoy a physically vibrant body, capable of various activities. However, beyond this stage, signs of aging manifest, such as sagging skin, dental weakening, graying or loss of hair, and muscle deterioration.</p>
+</section>
+<section id="iii-zea-eaya">
+<h2><span class="zean">ɖiʒiɖi zea ʈeaθyɖa</span><a class="headerlink" href="#iii-zea-eaya" title="Permalink to this heading">#</a></h2>
+<p>The <span class="zean">zea ʈeaθyɖa ɖiʒiɖi</span>, often mistakenly believed to be the most recent addition to the gender spectrum, constitute the second gender category. These beings are brought into existence through the collaborative efforts of <span class="zean">isiʈeθɶ saeθa</span>, with assistance from the <span class="zean">aiɖi</span> known as <span class="zean">zɛɹa</span>. <span class="zean">saeθa</span> employed a distinct technique to create the <span class="zean">ɖiʒiɖi</span> population, initially modeling them from materials such as wood and grass. The conception of the <span class="zean">ɖiʒiɖi</span> gender arose from the necessity to address the reproductive challenges faced by the <span class="zean">ajɛsɖɶ</span> species. In their quest for increased procreation rates, the <span class="zean">ajɛsɖɶ</span> speculated that accelerated egg development and hatching would lead to a higher number of offspring. However, this expectation proved inaccurate, as the negative gametes encountered difficulties reaching the oviducts for proper embryonic development. Consequently, <span class="zean">saeθa</span> was entrusted with the task of devising a male equivalent within the <span class="zean">zea ʈeaθyɖa</span> species, while ensuring that they would not assume the dominant and abusive role prevalent in <span class="zean">aθɶs</span>.</p>
+<p>The initial <span class="zean">ɖiʒiɖi</span> specimens exhibited a slightly shorter stature compared to their <span class="zean">ajɛsɖɶ</span> counterparts, characterized by slim and lean bodies. They boasted remarkably long hair on their heads, akin to the <span class="zean">ajɛsɖɶ</span>, and lacked pubic growth. Moreover, the <span class="zean">ɖiʒiɖi</span> lacked eyelashes, instead featuring a nictitating membrane to shield their eyes from particles. Their eyes were deeply set and displayed enhanced nasal, aural, and labial characteristics reminiscent of <span class="zean">aθɶs</span> humans. The bodily proportions of the <span class="zean">ɖiʒiɖi</span> were influenced by the physical traits of the <span class="zean">aiɖi</span>.</p>
+<p>The creative process behind the <span class="zean">ɖiʒiɖi</span> involved input from <span class="zean">ajɛseɖi</span>, although the majority of decisions were made by <span class="zean">saeθa</span>. While <span class="zean">saeθa</span> primarily determined the physical attributes, and <span class="zean">zɛɹa</span> contributed to the mental and behavioral aspects, one significant physical attribute—the penis—was exclusively developed by <span class="zean">zɛɹa</span>. Mentally, the <span class="zean">ɖiʒiɖi</span> exhibit similarities to <span class="zean">zɛɹa</span>, displaying traits of being soft-spoken, timid, and loyal. Behind this gentle demeanor lies a capable and intelligent mind, accompanied by precise control over their bodies and senses. Given their role as companions to the <span class="zean">ajɛsɖɶ</span>, they demonstrate unwavering loyalty ingrained in their nature, making it exceptionally challenging to override. Recognizing the potential for exploitation of such devoted beings, <span class="zean">zɛɹa</span> endowed them with exceptional mental acuity. In collaboration with <span class="zean">zɛɹa</span>, <span class="zean">ajɛseɖi</span> devised a rudimentary reproductive system for the <span class="zean">ɖiʒiɖi</span> that seamlessly integrates with the reproductive system of the <span class="zean">ajɛsɖɶ</span>, thereby fulfilling their purpose as both mental and sexual companions to their <span class="zean">ajɛsɖɶ</span> counterparts.</p>
+<p>In our examination of the <span class="zean">zea ʈeaθyɖa ɖiʒiɖi</span>, we will not only compare them to <span class="zean">aθɶs</span> humans but also delve into their unique characteristics when juxtaposed with their <span class="zean">ajɛsɖɶ</span> counterparts.</p>
+<p class="rubric">Physical Description</p>
+<p>In terms of physical appearance, the <span class="zean">ɖiʒiɖi</span> closely resemble <span class="zean">aθɶs</span> human females, despite the presence of a distinct organ that deviates from typical female anatomy. Similar to <span class="zean">ajɛsɖɶ</span>, <span class="zean">ɖiʒiɖi</span> breasts tend to be larger than those of <span class="zean">aθɶs</span> females. However, <span class="zean">ɖiʒiɖi</span> possess slimmer and leaner bodies compared to <span class="zean">ajɛsɖɶ</span>, featuring narrow hips and an elongated midsection. Contrary to the diverse skin tones and hair colors found in <span class="zean">ajɛsɖɶ</span>, most <span class="zean">ɖiʒiɖi</span> exhibit pale shades and silver hair. Their eyes emit a faint glow and possess lighter hues than any <span class="zean">ajɛsɖɶ</span>. Furthermore, <span class="zean">ɖiʒiɖi</span> exhibit a lower distribution of body fat throughout their physique. Although slightly shorter than <span class="zean">ajɛsɖɶ</span>, <span class="zean">ɖiʒiɖi</span> have significantly longer <span class="zean">ajɛstɹaɹi</span>, reaching their ankles rather than their knees. Notably, the <span class="zean">ajɛstɹaɹi</span> terminate with a head similar to the heads of their penises. While these heads are sensitive, they do not emit any fluids. They serve the purpose of arousal and are considered a marker of beauty, often used to assess the attractiveness of a <span class="zean">ɖiʒiɖi</span>. Despite these differences, the mobility of the <span class="zean">ajɛstɹaɹi</span> remains comparable to that of <span class="zean">ajɛsɖɶ ajɛstɹaɹi</span>. Additionally, like <span class="zean">ajɛsɖɶ</span>, <span class="zean">ɖiʒiɖi</span> possess an extra digit on each hand.</p>
+<p>Another distinctive aspect of <span class="zean">ɖiʒiɖi</span> is their breast structure. While not symmastic, <span class="zean">ɖiʒiɖi</span> breasts differ from those of <span class="zean">ajɛsɖɶ</span>. Apart from being larger on average, they contain surface blood vessels that engorge with blood during arousal or specific weather conditions. These breasts exhibit similarities to their penises in terms of response to stimulation.</p>
+<p>Lastly, we shall explore the unique organ possessed by the <span class="zean">ɖiʒiɖi</span>, which was intricately designed by <span class="zean">zɛɹa</span>. The <span class="zean">ɖiʒiɖi</span> member bears resemblance to that of the <span class="zean">aiɖi</span> in several aspects. Similar to male humans, <span class="zean">ɖiʒiɖi</span> possess a foreskin that remains intact, unlike the surgical removal practiced by certain human populations. Generally, the <span class="zean">ɖiʒiɖi</span> penis exhibits larger proportions in relation to their body compared to male humans. The head of the <span class="zean">ɖiʒiɖi</span> member is highly sensitive when exposed, while the shaft is covered in a thick, ridged skin. The underside of the shaft contains intermittent openings, revealing sensitive fleshy tissue. These areas are highly sensitive and erogenous, with stimulation of the exposed head commonly leading to orgasm in <span class="zean">ɖiʒiɖi</span>. In contrast to humans, the <span class="zean">ɖiʒiɖi</span> do not possess external testes; instead, they are internally stored within their bodies. Notably, a significant distinction between humans and <span class="zean">ɖiʒiɖi</span> is the expansion of the <span class="zean">ɖiʒiɖi</span> member’s head after orgasm, effectively retaining the <span class="zean">ɖiʒiɖi</span> within their partner. The duration of this expansion varies based on fluid expulsion and discharge rate, although immediate reduction does not occur upon complete fluid release.</p>
+<p class="rubric">Reproduction</p>
+<p>As previously mentioned, the <span class="zean">ɖiʒiɖi</span> possess a penis but lack a vagina and oviduct, rendering them incapable of giving birth. In order to reproduce, a <span class="zean">ɖiʒiɖi</span> requires the presence of an <span class="zean">ajɛsɖɶ</span> or, as we will discuss later, an <span class="zean">esiʈi</span>. The <span class="zean">ɖiʒiɖi</span> produce a single type of gamete known as the d-negative gamete, which bears resemblance to motile sperm. These d-negative gametes are haploid, containing a single set of chromosomes that combine with the positive gametes of an <span class="zean">ajɛsɖɶ</span> to form a diploid zygote. The production of d-negative gametes occurs internally within an organ similar to the testes, which, akin to human testes, are situated outside the main body. The development and release of d-negative gametes are regulated by additional organs and hormones.</p>
+<aside class="sidebar">
+<p>From a behavioral standpoint, the <span class="zean">ɖiʒiɖi</span> are regarded as more submissive partners compared to the <span class="zean">ajɛsɖɶ</span>, often assuming a more passive role during sexual interactions, with the <span class="zean">ajɛsɖɶ</span> taking a more active position.</p>
+</aside>
+<p>Since the <span class="zean">ɖiʒiɖi</span> do not produce eggs and continuously generate d-negative gametes, we can proceed directly to the process of insemination. In the absence of neural hair, the production of eggs in <span class="zean">ɖiʒiɖi</span> initiates through hormonal changes triggered by contact between their neural hair and breasts. As previously mentioned, the <span class="zean">ɖiʒiɖi</span> penis was designed to facilitate efficient insemination. Insemination follows a more conventional human approach, where an <span class="zean">ajɛsɖɶ</span> inserts the penis of a <span class="zean">ɖiʒiɖi</span> into their vagina. This bypasses the need for gametes to travel towards the egg, reducing the duration from 2-3 months to approximately 1-2 days. Once insemination occurs, the release of the egg proceeds similarly to the process described earlier for mating between two <span class="zean">ajɛsɖɶ</span>. It is worth noting that unlike eggs resulting from the union of two <span class="zean">ajɛsɖɶ</span>, eggs produced through the mating of an <span class="zean">ajɛsɖɶ</span> and a <span class="zean">ɖiʒiɖi</span> require only 3 months to hatch, as opposed to 6 months.</p>
+<p>Regarding the gender of the offspring, it depends on the genetic composition of the parents. <span class="zean">ajɛsɖɶ</span> lack sex chromosomes, traditionally represented as “O” to indicate their absence. Conversely, <span class="zean">ɖiʒiɖi</span> possess the Y chromosome. Generally, the presence of a sex chromosome, particularly the Y chromosome, prevails over its absence. Thus, a child with a single Y chromosome will be classified as a <span class="zean">ɖiʒiɖi</span>. These <span class="zean">ɖiʒiɖi</span> offspring are commonly referred to as omega <span class="zean">ɖiʒiɖi</span>. The specific type of <span class="zean">ɖiʒiɖi</span> is not immediately discernible at birth, but as they mature, omega <span class="zean">ɖiʒiɖi</span> tend to exhibit slightly broader hips while possessing smaller breasts, inheriting certain traits from their <span class="zean">ajɛsɖɶ</span> genetic makeup.</p>
+<p>Consequently, when an <span class="zean">ajɛsɖɶ</span> and <span class="zean">ɖiʒiɖi</span> engage in procreation, they will invariably give birth to an omega <span class="zean">ɖiʒiɖi</span>. In the case of an <span class="zean">ajɛsɖɶ</span> and an omega <span class="zean">ɖiʒiɖi</span> procreating, there is a 50% chance of the <span class="zean">ajɛsɖɶ</span> giving birth to either a pure <span class="zean">ajɛsɖɶ</span> or another omega <span class="zean">ɖiʒiɖi</span>.</p>
+<p class="rubric">Development</p>
+<p>The developmental trajectory of a <span class="zean">zea ʈeaθyɖa ɖiʒiɖi</span> follows a pattern similar to that of an <span class="zean">ajɛsɖɶ</span>. The average lifespan of a <span class="zean">zea ʈeaθyɖa ajɛsɖɶ</span> ranges from approximately 140 to 160 years, with their lifespan concluding slightly earlier than that of an <span class="zean">ajɛsɖɶ</span>. Notably, <span class="zean">ɖiʒiɖi</span> offspring do not possess <span class="zean">ajɛstɹaɹi</span> at this stage.</p>
+<p>By the age of one, a <span class="zean">ɖiʒiɖi</span> child achieves the ability to sit up and crawl. At two years, they exhibit walking proficiency and comprehend simple commands. Additionally, they begin recognizing individuals, engaging in basic verbal communication, and comprehending simple vocabulary. Teeth begin to emerge, and weight gain becomes evident during this stage. At three years old, they develop the capacity to run, construct sentences exceeding three words, and express desires with greater linguistic complexity. Their physical strength also increases.</p>
+<p>Around the age of five, most of the child’s teeth have fully erupted, and they become fully toilet-trained. Although body fat tends to diminish, their dietary requirements expand beyond milk supplementation. At seven years old, socialization broadens as they establish relationships extending beyond immediate family members. Educational endeavors commence, encompassing reading and writing skills. Physically, their proportions align with those typical of a <span class="zean">ɖiʒiɖi</span>, although full height attainment has yet to be reached.</p>
+<p>Upon reaching 12 years old, the <span class="zean">ajɛsɖɶ</span> initiates <span class="zean">ajɛstɹaɹi</span> development, while the <span class="zean">ɖiʒiɖi</span> experiences the onset of penis development. Skin undergoes thickening and receding, and muscular development occurs. Until sexual maturation is complete, sporadic erections may occur. At 15 years old, <span class="zean">ajɛstɹaɹi</span> development concludes in terms of proportional size relative to height. By 17 years, most of their physical potential is realized, and breast development commences in the <span class="zean">ajɛsɖɶ</span>. The <span class="zean">ɖiʒiɖi</span> begins to gain weight in adipose tissue. At this stage, many <span class="zean">ɖiʒiɖi</span> are weaned, coinciding with the onset of breast development. At 19 years old, puberty reaches completion, marked by breast growth and the culmination of sexual organ development. <span class="zean">ɖiʒiɖi</span> become capable of childbirth and lactation for their own offspring.</p>
+<p>Between the ages of 19 and 40, the <span class="zean">ɖiʒiɖi</span> can be considered the equivalent of young adulthood in humans. From 41 years to approximately 110 years, they enjoy a fully energetic physique capable of various activities. Differing from the <span class="zean">ajɛsɖɶ</span>, the formidable years of the <span class="zean">ɖiʒiɖi</span> are characterized by a period of intense heat, coinciding with a specific stage in the lunar cycle. The exact timing is unique to each <span class="zean">ɖiʒiɖi</span>, and this experience triggers a strong sexual urge, accompanied by a sudden surge in energy, enhanced stamina, and significant fluid discharge. After this phase, signs of aging become apparent, including skin laxity, tooth weakening, graying or loss of hair, and muscle deterioration.</p>
+</section>
+<section id="esii-zea-eaya">
+<h2><span class="zean">esiʈi zea ʈeaθyɖa</span><a class="headerlink" href="#esii-zea-eaya" title="Permalink to this heading">#</a></h2>
+<p>The <span class="zean">zea ʈeaθyɖa esiʈi</span> represents the third gender, their creation attributed to the efforts of <span class="zean">isiʈeθɶ saiʃeʈa</span> in collaboration with the assistance of <span class="zean">aiɖi</span> known as <span class="zean">iɖʐe</span>. The technique employed by <span class="zean">saiʃeʈa</span> in the formation of the <span class="zean">esiʈi</span> involved the utilization of forged iron as the initial modeling material. The purpose behind the creation of the <span class="zean">esiʈi</span> gender stemmed from the aspiration for a more robust and powerful gender capable of excelling in various domains such as labor, creation, and warfare. Historically, both <span class="zean">ajɛseɖi</span> and <span class="zean">saeθa</span>, alongside their respective offspring, have been viewed through a lens of gentleness and non-violence. Consequently, the races generated from these lineages, although possessing the capacity for aggression, did not possess the inherent disposition of a warlike race capable of matching the formidable nature of <span class="zean">aθɶs</span> culture. To address this need, <span class="zean">saiʃeʈa</span> was entrusted with the task of fashioning the <span class="zean">esiʈi</span> race, endowed with the requisite power and strength to bolster the military forces of <span class="zean">zai</span>.</p>
+<p>The average <span class="zean">esiʈi</span> possesses a tall stature comparable to that of the transformed <span class="zean">isiʈeθɶ</span>. They exhibit a well-built physique, characterized by muscularity and agility. Their hair is thicker and exhibits keratin-like growth patterns. Similar to the <span class="zean">ajɛsɖɶ</span> and <span class="zean">ɖiʒiɖi</span>, the <span class="zean">esiʈi</span> lack pubic hair. Resembling the <span class="zean">isiʈeθɶ</span>, the <span class="zean">esiʈi</span> possess <span class="zean">ajɛstɹaɹi</span> of shorter length, positioned beneath the shoulder blades. These appendages are notably robust and flexible, showcasing strength comparable to the arms of an <span class="zean">esiʈi</span>. Additionally, the <span class="zean">esiʈi</span> lack eyelashes and eyebrows, featuring deeply inset eyes. Their noses, ears, and lips bear closer resemblance to those of <span class="zean">aθɶs</span> humans and Earth humans. The bodily proportions of the <span class="zean">esiʈi</span> are influenced by those of the <span class="zean">aiɖi</span>.</p>
+<p>During the creation of the <span class="zean">esiʈi</span>, the major decision-making authority rested with <span class="zean">saiʃeʈa</span> and <span class="zean">iɖʐe</span>. The physical attributes of the <span class="zean">esiʈi</span> were extensively deliberated upon and agreed upon by both entities. <span class="zean">esiʈi</span> possess exceptional vision and hearing capabilities. Their bodies naturally produce a protein that enables certain areas of their skin to harden akin to a shell, conferring a form of inherent armor. From a young age, their physical condition is notably robust, granting them heightened stamina and strength, although they are inclined to rest after periods of exertion. In terms of mental and behavioral attributes, the <span class="zean">esiʈi</span> exhibit emotional capacities akin to the <span class="zean">ajɛsɖɶ</span>. While they possess a natural predisposition towards aggression, they also exhibit a stronger herd mentality. At the behest of <span class="zean">ajɛseɖi</span> and <span class="zean">saeθa</span>, <span class="zean">iɖʐe</span> incorporated a need for <span class="zean">ajɛsɖɶ</span> and <span class="zean">ɖiʒiɖi</span> milk within the <span class="zean">esiʈi</span>. Collaborating with the <span class="zean">iɖʐe</span>, <span class="zean">ajɛseɖi</span> devised a rudimentary reproductive system that harmonizes with the reproductive systems of the <span class="zean">ajɛsɖɶ</span> and <span class="zean">ɖiʒiɖi</span>.</p>
+<p>In the subsequent discussion, we shall explore the <span class="zean">zea ʈeaθyɖa esiʈi</span> in comparison to not only <span class="zean">aθɶs</span> humans but also their counterparts, the <span class="zean">ajɛsɖɶ</span> and <span class="zean">ɖiʒiɖi</span>.</p>
+<p class="rubric">Physical Description</p>
+<p>In terms of physical appearance, the <span class="zean">esiʈi</span> exhibit a greater resemblance to the <span class="zean">ajɛsɖɶ</span> rather than the <span class="zean">ɖiʒiɖi</span>. Being the largest among the three genders, the <span class="zean">esiʈi</span> possess a towering stature that often rivals that of the <span class="zean">isiʈeθɶ</span>. Their body structure shares similarities with the <span class="zean">ajɛsɖɶ</span>, but with noticeably more pronounced muscle development. Even the weakest <span class="zean">esiʈi</span> can effortlessly match the strength of a particularly robust <span class="zean">ajɛsɖɶ</span> or <span class="zean">ɖiʒiɖi</span>. Notably, the <span class="zean">esiʈi</span> face considerable challenges when it comes to weight gain. The <span class="zean">ajɛstɹaɹi</span> of an <span class="zean">esiʈi</span> are considerably longer compared to those of the <span class="zean">ajɛsɖɶ</span>, akin to the <span class="zean">ɖiʒiɖi</span>, while possessing a tip resembling that of the <span class="zean">ajɛsɖɶ</span>. Moreover, the <span class="zean">ajɛstɹaɹi</span> exhibits greater strength than those of the <span class="zean">ajɛsɖɶ</span> or <span class="zean">ɖiʒiɖi</span>, enabling them to lift an entire <span class="zean">ajɛsɖɶ</span> or <span class="zean">ɖiʒiɖi</span> with relative ease. Their mobility is significantly enhanced in comparison. Diverging from the <span class="zean">ajɛsɖɶ</span> and <span class="zean">ɖiʒiɖi</span>, the <span class="zean">esiʈi</span> possess <span class="zean">ajɛstɹaɹi</span> that secrete a sticky chemical similar to sweat, providing improved grip. While this fluid can be voluntarily secreted, it may also occur under specific weather conditions. Due to its scent, the secretion is considered unattractive.</p>
+<p>Contrasting both the <span class="zean">ajɛsɖɶ</span> and <span class="zean">ɖiʒiɖi</span>, the <span class="zean">esiʈi</span> boast golden skin and hair in varying shades of red. The eyes of most <span class="zean">esiʈi</span> exhibit vivid and untamed colors. However, it is noteworthy that the breast size of an <span class="zean">esiʈi</span> is smaller compared to either gender. Similar to the <span class="zean">ajɛsɖɶ</span>, the breasts of the <span class="zean">esiʈi</span> possess surface blood vessels, facilitating their enlargement when aroused. Consequently, in the midst of battle, the breasts are afforded additional protection, as severing them in an aroused state significantly increases the risk of fatal blood loss. Additionally, a naturally occurring protein enables the <span class="zean">esiʈi</span> to temporarily harden certain parts of their body, such as their stomach, rendering them resistant to attacks. Finally, distinct from both the <span class="zean">ajɛsɖɶ</span> and <span class="zean">ɖiʒiɖi</span>, the <span class="zean">esiʈi</span> lack a highly sensitive erogenous zone akin to the <span class="zean">ajɛsɖɶ</span>’s vaginal projection or the <span class="zean">ɖiʒiɖi</span>’s breasts. Consequently, reproduction with an <span class="zean">esiʈi</span> poses greater challenges, as they find it more difficult to achieve the necessary number of orgasms for conception.</p>
+<p class="rubric">Reproduction</p>
+<p>The <span class="zean">esiʈi</span> possess a vaginal structure similar to that of the <span class="zean">ajɛsɖɶ</span>. Similar to the <span class="zean">ajɛsɖɶ</span>, the <span class="zean">esiʈi</span> are hermaphrodites, possessing two types of gametes: e-positive and e-negative. The positive gamete is large and immobile, while the negative gamete is smaller and motile. Both gametes are haploid and form a diploid zygote. Unlike the <span class="zean">ajɛsɖɶ</span>, the <span class="zean">esiʈi</span> gametes are distributed unequally, with fewer e-negative gametes than e-positives. The e-positive gametes remain in an ovary-like organ for some months. The gametes develop into fully grown eggs, regardless of being fertilized or not. At the end of their cycle, the eggs are discharged out of the body, and another one is made in its stead. The e-negative gametes are stored in a sack-like structure near the vaginal opening. These are mixed with a liquid in the sack, and although not regularly discharged, they are sprayed out during strong sexual climax. This liquid, commonly called the <span class="zean">esiʈi</span> spray, is constantly regenerated.</p>
+<aside class="sidebar">
+<p class="sidebar-title"><span class="zean">esiʈi</span> discharges</p>
+<p>In many cultures, discharged eggs are kept by the <span class="zean">esiʈi</span> for religious purposes. Some believe them to be prisons for souls not meant for this earth, even while others believe they are an encasing for the soul slowly slipping out of them, creeping closely towards death. Thus in some cultures, unfertilized eggs are kept as remembrances of their family, while in others they are immediately disposed of as waste.</p>
+<p>On the other hand, <span class="zean">esiʈi</span> spray is a commodity. An <span class="zean">esiʈi</span> spraying is a sign of incoming pregnancy, both in the sense that if an <span class="zean">esiʈi</span> sprays, she has achieved a powerful enough orgasm to commence fertilization, but also that an <span class="zean">esiʈi</span> spray can make another <span class="zean">esiʈi</span> or <span class="zean">ajɛsɖɶ</span> pregnant.</p>
+</aside>
+<p>Fertilization of an egg occurs only when the proper hormones are activated during intense sexual climaxes. These orgasms need to be extremely strong, but need not be induced by a single partner. Similar to the <span class="zean">ajɛsɖɶ</span>, small projections in the vagina guide the negative gametes towards the ovary-like organ, but the negative gametes will not be absorbed into the e-positive gamete until the necessary hormones are secreted. The selection of the gamete occurs randomly (as the <span class="zean">esiʈi</span> may have been inseminated by multiple partners at this point). The e-negative gametes remain the organ for a few days, before they are absorbed into the <span class="zean">esiʈi</span>’s body. It is also possible that when the <span class="zean">esiʈi</span> reaches the necessary level of climax to be fertilized, there are two few gametes to fertilize, although this is highly unlikely. Eggs are produced in batches, mostly of 1-3, rarely 4 or 5, but fertilized eggs are discharged gradually. Once fertilized, the development of the eggs follows a similar pattern to that of the <span class="zean">ajɛsɖɶ</span> eggs. The incubation period for the eggs remains unchanged: six months if insemination is by an <span class="zean">ajɛsɖɶ</span> and three months if insemination is by a <span class="zean">ɖiʒiɖi</span>.</p>
+<p>On the other hand, <span class="zean">esiʈi</span> spray, which contains the necessary e-negative gametes to fertilize other <span class="zean">esiʈi</span> or <span class="zean">ajɛsɖɶ</span> follow a similar journey as the negative gametes of <span class="zean">ajɛsɖɶ</span>. Frequently <span class="zean">esiʈi</span> spray can be pushed into the partner by <span class="zean">ɖiʒiɖi</span> partners, but this is a risky maneuver.</p>
+<p>The gender of the child is determined by the genetic makeup of the parents. As previously mentioned, the <span class="zean">ajɛsɖɶ</span> lacks sex chromosomes, while the <span class="zean">ɖiʒiɖi</span> possesses a Y chromosome. In contrast, the <span class="zean">esiʈi</span> possesses an X chromosome. In general, the X chromosome dominates over the Y chromosome or the absence of chromosomes. There are three variants of <span class="zean">esiʈi</span>: an <span class="zean">esiʈi</span> with a single X chromosome is referred to as an omega <span class="zean">esiʈi</span>, while an <span class="zean">esiʈi</span> with a single X and single Y chromosome is known as a beta <span class="zean">esiʈi</span>. Although the differences between an <span class="zean">esiʈi</span> and an omega or beta <span class="zean">esiʈi</span> at birth are minimal, upon reaching maturity, an omega <span class="zean">esiʈi</span> may exhibit symmastic breasts, while a beta <span class="zean">esiʈi</span> may have a slender physique and larger breasts.</p>
+<p>When two pure <span class="zean">esiʈi</span> mate, the resulting child will always be a pure <span class="zean">esiʈi</span>. When a pure <span class="zean">esiʈi</span> mates with an <span class="zean">ajɛsɖɶ</span>, the resulting child will always be an omega <span class="zean">esiʈi</span>. If a pure <span class="zean">esiʈi</span> mates with a pure <span class="zean">ɖiʒiɖi</span>, the child will be a beta <span class="zean">esiʈi</span>. In the case of a pure <span class="zean">esiʈi</span> mating with an omega <span class="zean">ɖiʒiɖi</span>, there is a 50% chance the child will be either a beta or omega <span class="zean">esiʈi</span>. When an omega <span class="zean">esiʈi</span> and an <span class="zean">ajɛsɖɶ</span> procreate, there is a 50% chance the child will be an omega <span class="zean">esiʈi</span> or an <span class="zean">ajɛsɖɶ</span>. If an omega <span class="zean">esiʈi</span> mates with a pure <span class="zean">ɖiʒiɖi</span>, there is a 50% chance the child will be a beta <span class="zean">esiʈi</span> or an omega <span class="zean">ɖiʒiɖi</span>. When an omega <span class="zean">esiʈi</span> and an omega <span class="zean">ɖiʒiɖi</span> mate, there is a 25% chance the child will be an <span class="zean">ajɛsɖɶ</span>, an omega <span class="zean">ɖiʒiɖi</span>, or a beta or omega <span class="zean">esiʈi</span>. In the case of a beta <span class="zean">esiʈi</span> and an <span class="zean">ajɛsɖɶ</span> procreating, there is a 50% chance the child will be either an omega <span class="zean">esiʈi</span> or an omega <span class="zean">ɖiʒiɖi</span>. If a beta <span class="zean">esiʈi</span> mates with a pure <span class="zean">ɖiʒiɖi</span>, there is a 50% chance the child will be either a beta <span class="zean">esiʈi</span> or a pure <span class="zean">ɖiʒiɖi</span>. Finally, if a beta <span class="zean">esiʈi</span> and an omega <span class="zean">ɖiʒiɖi</span> mate, there is a 25% chance of the child being a beta or omega <span class="zean">esiʈi</span>, or a 25% chance of the child being an omega or pure <span class="zean">ɖiʒiɖi</span>.</p>
+<p class="rubric">Development</p>
+<p>The developmental trajectory of a <span class="zean">zea ʈeaθyɖa esiʈi</span> bears resemblances to that of an <span class="zean">ajɛsɖɶ</span> or <span class="zean">ɖiʒiɖi</span>. With an average lifespan ranging between 100 and 140 years, albeit potentially shorter due to their inherently violent nature and purpose, the <span class="zean">esiʈi</span> undergoes a series of milestones and transformations. Notably, at infancy, an <span class="zean">esiʈi</span> does not possess <span class="zean">ajɛstɹaɹi</span>. Within the first year, the child acquires the ability to sit up and crawl, while by the age of two, they achieve ambulation and comprehension of simple commands. This stage also marks the emergence of person recognition, basic language skills, and the eruption of primary teeth, accompanied by weight gain. By three years of age, the <span class="zean">esiʈi</span> demonstrates the capability to run, construct sentences beyond three words, and express desires, further enhancing their physical force.</p>
+<p>At the age of five, most of the primary teeth have emerged, and successful toilet training is achieved. Subsequently, fat diminishes while the child’s nutritional needs expand beyond milk. Social development becomes more pronounced around the age of seven, encompassing the formation of relationships beyond immediate family ties. Concurrently, formal education commences, encompassing reading and writing skills. Physically, the <span class="zean">esiʈi</span> acquires the bodily proportions characteristic of their species but does not attain their full stature during this phase.</p>
+<p>Upon reaching the age of 12, the <span class="zean">esiʈi</span> initiates the development of <span class="zean">ajɛstɹaɹi</span>, a process that culminates by the age of 15 in terms of proportional size relative to height. At 17 years, the <span class="zean">esiʈi</span> reaches a stage of significant maturity, marked by the emergence of breast development. By 19 years, puberty concludes, with fully developed breasts and sexual organs. At this point, the <span class="zean">esiʈi</span> attains the ability to give birth.</p>
+<p>Between the ages of 19 and 40, the <span class="zean">esiʈi</span> enters a phase equivalent to young adulthood in humans. Unlike the static development observed in <span class="zean">ajɛsɖɶ</span> or <span class="zean">ɖiʒiɖi</span>, the <span class="zean">esiʈi</span> continues to experience growth during this period, characterized by muscle development and increased size. Furthermore, the production of a specialized protein that confers advantages to the <span class="zean">esiʈi</span> begins within this timeframe. Subsequently, from 41 to 120 years, the <span class="zean">esiʈi</span> enjoys a fully vital body capable of diverse capabilities. Beyond this age, signs of aging manifest, including skin laxity, tooth weakening, graying or loss of hair, and muscle deterioration.</p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="teathuda-simulation/teathuda-simulation.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Simulation Code</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="../zea-races.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title"><span class="zean">zea</span> Races</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2020-2023, Praecordi
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#"><span class="zean">zea ʈeaθyɖa</span></a><ul>
+<li><a class="reference internal" href="#ajs-zea-eaya"><span class="zean">ajɛsɖɶ zea ʈeaθyɖa</span></a></li>
+<li><a class="reference internal" href="#iii-zea-eaya"><span class="zean">ɖiʒiɖi zea ʈeaθyɖa</span></a></li>
+<li><a class="reference internal" href="#esii-zea-eaya"><span class="zean">esiʈi zea ʈeaθyɖa</span></a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/scripts/furo.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+=================
+Control Gems [1]_
+=================
+
+
+Control Gems are arguably the most potent gems. After their creation process is finished, all its maker needs to do is put it on the nape of a willing person, and they now have remote control over their nervous system. This poses a question: What if a Control Gem’s maker decided to imbue it on her own nape?
+
+Serial Data
+===========
+
+First of all, it’s important to understand the concept of a “Linked List”, which from now will be referred to as “LL” for convenience. This is a concept in computer science that illustrates a way to organize data, and I’ll use it as an example. Imagine people standing in a line, with each person putting their hands on the shoulders of the person ahead of them. Each person is a “node” that is “linked” to the next person, and knows who the person ahead of them is, but not necessarily who’s behind them, or who’s further ahead.
+
+.. figure:: /_static/ranthis-reference/Control-Gems-1.png
+   :alt: Example of a LL as a line of people who put their hands on the next person’s shoulders. A knows B is ahead of them, but B doesn’t necessarily know of A’s existence. Additionally, A doesn’t necessarily know of C’s or D’s existence.
+
+   Example of a LL as a line of people who put their hands on the next person’s shoulders. A knows B is ahead of them, but B doesn’t necessarily know of A’s existence. Additionally, A doesn’t necessarily know of C’s or D’s existence.
+
+The LL model is usually illustrated the following way:
+
+.. figure:: /_static/ranthis-reference/Control-Gems-2.png
+   :alt: Each node in a LL has at (At its simplest) three properties: Its name, its data, and its connection to the next node. If a node does not have a connection to a next node, the line from its “NEXT” is cut off, to show that there is no connection.
+
+   Each node in a LL has at (At its simplest) three properties: Its name, its data, and its connection to the next node. If a node does not have a connection to a next node, the line from its “NEXT” is cut off, to show that there is no connection.
+
+Now, let’s say the LL above is a series of people who embedded Control Gems in the next. Alice (A) controls Belle (B), Belle controls Cynthia (C), and Cynthia controls Dahlia. For Alice to connect to Dahlia’s nervous system, she must first concentrate on Belle’s nervous system, and from there concentrate on Cynthia’s nervous system, and from there to concentrate on Dahlia’s nervous system.
+
+Positive Feedback Loops
+=======================
+
+Now that the concept of LL’s is solidly defined, we need to talk about positive feedback loops. Generally, a feedback loop takes its own output as input. Negative feedback loops aim to balance the results around a certain threshold, while positive feedback loops aim to increase the results as much as possible. For an easier explanation, think of the following scenarios:
+
+-  Roll a marble down a bowl. The marble will wobble from side to side, try to find the point at which it can be still. This scenario is a negative feedback loop, since the aim of the marble is to reach a point where it can rest.
+-  Drop a marble down a bottomless pit. The faster the marble goes at a certain point in time, the faster it will go in the future, and the harder it will be to stop it from going this fast. This is a positive feedback loop, since the marble accumulates more speed by having speed beforehand.
+
+Now, let’s say that Elaine (E) puts a Control Gem on herself. This creates a positive feedback loop, since her consciousness feeds into her own consciousness, which feeds into her own consciousness, which feeds into her own consciousness, and so on.
+
+.. figure:: /_static/ranthis-reference/Control-Gems-3.png
+   :alt: Illustration of a node connected to itself through its NEXT.
+
+   Illustration of a node connected to itself through its NEXT.
+
+This could cause Elaine to amplify her senses to the extreme if she isn’t careful. The slightest pinch would cause agonizing pain, a cool day will feel freezing, quiet whispers from a block away would sound like screams, and so on. However, if she masters this feedback loop, she can increase her awareness to anything in her body. She can improve her hearing, be conscious of every process of her body, strengthen the smell or taste of food she enjoys, or increase her own erogenous zones’ sensitivity.
+
+Now, imagine two people who put Control Gems on each other. Freya put a Control Gem on Grace, and vice versa. Freya can now control herself through Grace, and vice versa. Grace can amplify her own sensitivity through Freya, and vice versa.
+
+Expanding Linked Lists to Trees
+===============================
+
+Another model in computer science is a Tree. Essentially, each node has one or more connections to next nodes. This could be as simple as a binary tree, or as complex as a neural network.
+
+.. figure:: /_static/ranthis-reference/Control-Gems-4.png
+   :alt: A very simple example of a “Binary Tree” - a Tree with a maximum of two nodes “per Next”. A’s NEXTs are B and C.
+
+   A very simple example of a “Binary Tree” - a Tree with a maximum of two nodes “per Next”. A’s NEXTs are B and C.
+
+This could also be reversed, since there’s technically no limit to the generic Tree’s structure. If able, a Tree can be a LL that goes both ways, a “Family Tree” with the NEXTs all converging to one point, or an “inheritance tree”, where each node splits off its NEXTs to several others. It’s even possible to skip node connections. Let’s say the illustration above also had a node called D, who was connected through C’s NEXT. Technically, A could also connect its own NEXT to D, and there would be no problem.
+
+Computing Without Computers
+===========================
+
+In Rankvahn methods, that is the way to organize data. Since computers don’t exist to store data, people (Usually slaves) are used as living computers. There are cities that utilize networks of interconnected people as computers. They are each taught an entire college semester’s worth of material before being inserted to the network, and each branch of the network specializes in a different subject. Many kings and high lords own private computer networks, who can calculate anything from trade, to weather, to battle, to economy, and so much more.
+
+After presenting the “Interface Terminal” (From now will be referred to as IT) a query, she will delegate it to the appropriate branches’ supervisors, who will delegate it to their subordinates, who will report their results to their supervisors, who will report the results to the IT, who will tell you the result.
+
+It’s important to note that Control Gems are not limited by distance. Two people on opposite sides of the world could communicate instantaneously using Control Gems, so most workers in a network would spend their day doing a regular job, with the network acting as a side job that might pop up on occasion.
+
+.. figure:: /_static/ranthis-reference/Control-Gems-5.png
+   :alt: Example of an interconnected computer network.
+
+   Example of an interconnected computer network.
+
+Let’s run through a scenario:
+
+   You, a wealthy noble new to agriculture, want to know what crop to cultivate in the next year in order to increase your profits the most. You present to your IT that question. She will then pass the question to the appropriate branch’s supervisor, potentially more than one. In this case, it’s the Agriculture Branch Supervisor and the Economy Branch Supervisor. They will delegate that to their subordinates, who will do the thinking and discussing. Since the branches aren’t connected to one another, chances are they will need at least two of the subordinates to physically meet up and act as a communication gateway.
+
+   The subordinates finish their discussion, and decide that the best crop to cultivate during that season would be grapes. They report that to their supervisors, who in turn report that to the IT. Then, the IT will tell you that grapes are the best crop to cultivate the next year in order to increase your profits.
+
+Now, let’s run through another scenario:
+
+   You, the same wealthy noble from the previous scenario, want to deliver a message to your future spouse, who lives a day away by horse. You ask your IT to deliver the message. The IT passes that message to the Communications Branch Supervisor. The supervisor will in turn present the message to a specific subordinate, not all of them. Specifically, the subordinate you obviously keep at your future spouse’s area.
+
+   The subordinate delivers the message, and maybe gets a reply. After all of that is done, the subordinate reports to the supervisor that the message has been delivered, and adds the reply if there is one. Again, everything goes to the IT, who delivers you the report and reply.
+
+.. [1]
+   `The World of Rankvah: Control Gems, Data Structures, Increased Sensitivity, and Rankvahn Computer Networks <https://www.reddit.com/r/NSFWworldbuilding/comments/hqmdiu/the_world_of_rankvah_control_gems_data_structures/>`__

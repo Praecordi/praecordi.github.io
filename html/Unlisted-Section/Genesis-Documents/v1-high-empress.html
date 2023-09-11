@@ -1,0 +1,438 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <link rel="icon" href="../../_static/logo/favicon-white.svg" type="image/svg+xml"><link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 5.3.0 and Furo 2022.12.07 -->
+        <title>High Empress - Adasi 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/decor.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/icons/idea.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/icons/question.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --color-brand-primary: black;
+  --color-brand-content: darkgoldenrod;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Adasi 1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="../../_static/logo/hires-logo-black.svg" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="../../_static/logo/hires-logo-white.svg" alt="Dark Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../History/history.html">History</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../History/before-founding.html">Before Founding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../History/first-arrival.html">First Arrival</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Demographics/demographics.html">Demographics</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/aidi.html"><span class="zean">aiɖi</span></a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/aidi/major-aidi.html">Major <span class="zean">aiɖi</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/aidi/minor-aidi.html">Minor <span class="zean">aiɖi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/avyasi.html"><span class="zean">aʋjasi</span></a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/avyasi/isitetho.html"><span class="zean">isiʈeθɶ</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/avyasi/zoedashi.html"><span class="zean">zœeɖaʃi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/zea-races.html"><span class="zean">zea</span> Races</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/zea-races/teathuda.html"><span class="zean">zea ʈeaθyɖa</span></a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/teathuda-simulation.html">Simulation Code</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/simulation.html">Main Simulation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/find-simulation-weights.html">Experiment Simulation Weights</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Culture/culture.html">Culture</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Magic/magic.html">Magic</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Culture/Magic/creation.html">Creation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Culture/Magic/ethereal-plane.html">The Ethereal Plane</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Holds/holds.html">Holds</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Pre-Arrival-Societies/pa-societies.html">Pre-Arrival Societies</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Documents/documents.html">Documents</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Documents/Stories/stories.html">Stories</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Documents/Stories/Excerpts_from_Ancient_History.html">Excerpts from Ancient History</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Documents/Stories/Excerpts_from_Before_Great_Split.html">Excerpts from Before Great Split</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../ideas.html">Ideas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notes.html">Miscellaneous Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../zean-glossary.html">Zean Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../zean-reference.html">Reference for the Zean Language</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="high-empress">
+<h1>High Empress<a class="headerlink" href="#high-empress" title="Permalink to this heading">#</a></h1>
+<p>The High Empress was an elegant figure and had the body of a most beautiful person. Her eyes were small but round and for pupils she had small vertical slits. She also had a full nictitating membrane. Her nose was small and slightly upturned. She had full lips and high cheekbones. She had slightly pointed ears. Her hair was pure black with a few streaks of permanent artificial red color in the end. She had a long slim neck that connected her with a fair sloping shoulder. Her muscles on her shoulder stood out. She had six long fingers on each of her hands: four fingers and two thumbs. She had arms with a balance of fat and muscle. She had a slim figure and perfect hips. Her breasts were full with inverted nipples that strangely seemed to fit her. She had a smooth vagina with pink lips, perfectly tight. Her legs were long and attractive with a perfect amount of fat and muscle. Her toes were like humans. She sits on a high long-backed silver chair adorned with diamond, the armrest are lions walking forward. The griffins on the chairs back have rubies for eyes and carved emerald slabs for wings. Standing beside the armrest are two double bladed battle-axes. The black blades are slim and adorned with white carving of her personal insignia, the silhouette of a gliding eagle with two double headed axes in its claws and two griffins bordering it, saluting.</p>
+<section id="dress">
+<h2>Dress<a class="headerlink" href="#dress" title="Permalink to this heading">#</a></h2>
+<section id="dress-1">
+<h3>Dress 1<a class="headerlink" href="#dress-1" title="Permalink to this heading">#</a></h3>
+<p>This is the High Empress’ favorite dress. It is mostly used in court sessions. It is also one of the first royal dress that the High Empress had. The dress was a gift from the Khatas after the Empress accepted them in her retinue and as her adopted children. One of the thing that is special about it is that an ancient technology using Blue Light is used in it. It is something that comes from the home of the Khatas. A Blue Light component hidden in the dress serves as an invisible armor against powered weapons. This armor fully protects the Empress unlike the Pallakidan armor which hasn’t reached a potential to fully stop a powered weapon. Most cannot see this armor. The armor stops anything that comes towards the High Empress. To touch the Empress when she is wearing this, the Khatas use a metal disk which the armor can detect. Of the twenty that the Khatas had brought from their homeland only 8 disks were kept, the other 12 were destroyed. The extra disk is kept in a safe where the dress is also put when the Empress is not wearing it. Only the Empress and the Khatas can wear this dress and even the Khatas can only wear it if they are going to a interplanetary meeting with other leaders instead of the Empress. Usually it is Samantha who wears it.</p>
+<p>The dress is a beautiful black high-necked cloak, tight near the breasts and no sleeves so that the arms are open. The midriff is bare but the cloth in the back extends all the way down to the ankle. On the center of the breast, in silver, is the Empress’ personal sigil, the silhouette of a gliding eagle with two double headed axes in its claws and griffins bordering it, saluting. The trousers are black and tight, so that they stick to the skin, and made of exotic silk. The trousers are tucked neatly into knee-high boots made of hard scale skin that is black.</p>
+</section>
+<section id="dress-2">
+<h3>Dress 2<a class="headerlink" href="#dress-2" title="Permalink to this heading">#</a></h3>
+<p>This dress was given to the High Empress by one of the Empress’ specimen known as The Goddess. The dress is very open showing much skin. Most of the time when the Empress visits her good friend, she wears this. It is not considered very inappropriate in the Adasi system. She has worn it several times in speeches to her citizens where little Pallakidan kids were there too. The dress as you know was made in the world of The Goddess where the summers are long and winters are short. The original form of the dress is made to provide coolness during the summer but for the weather of Adasi the dress is slightly changed to provide heat in cold weather. The more insulated form of the dress is a lot more covered than the original dress.</p>
+<p>The dress is only called a dress for formality. It shows skin like swimwear. On the top the Empress wears a bra with straps studded with diamond and the actual cloth covered with plates of jade. There is a sleeve which does not cover much. It is just a piece of transparent cloth extending out from the armpits of the bra and is regularly attached to the other side over the arms. The bottom is only a belt that is studded with uncut crystals. From the front part of the belt, right in front of the crotch, is a cloth made of exotic cloth that falls to the ground. A similar cloth that is a little wider falls down on the back to cover the anus. The cloth is placed in such a way as to not reveal the private spots but for safety the Empress wears something underneath in public events. Besides the main dress, there is also a headwear. Though it is commonly used in unison with the dress to protect the wearers face from sand, the Empress usually wears the headdress when visiting her close friend, the Goddess, and sometimes in public as a decoration. It is just a turban with a piece of cloth hanging on one side that can be taken and fixed on the other side to cover the mouth and nose.</p>
+<p>The winter version of the dress has many parts to it. To keep the legs warm the cloth in the belt is ingeniously sewn into the belt so that the cloth in the front and the back of the belt can be spread out over the whole belt and make a skirt. The scant sleeve can also be brought together to provide a little protection. A folded cloth that is kept under the bra can also be pulled out to serve as a small cloak to cover the upper body. The headdress can be used to protect the face from cold winds.</p>
+</section>
+<section id="dress-3">
+<h3>Dress 3<a class="headerlink" href="#dress-3" title="Permalink to this heading">#</a></h3>
+<p>The High Empress wore a beautiful midriff with a collar that covers the back and side of the neck. It opens out over her bust and shows some cleavage. There were no sleeves on the dress. The midriff wasn’t that tight and so did not reveal much. Considerable skin did show because of the open front of the midriff. Under the midriff, she wore a skirt that reached the floor. She wore shoes with medium length heels. At the end of the skirt was a strip of lace.</p>
+</section>
+</section>
+<section id="battle-dress">
+<h2>Battle Dress<a class="headerlink" href="#battle-dress" title="Permalink to this heading">#</a></h2>
+<p>The High Empress has two sets of armor that she wears depending on the terrain of the battlefield and one that is just for ceremony. The High Empress wears her armor in a special room with all the Khatas. There are two servants for every armor and person wearing the armor.</p>
+<section id="heavy-armor">
+<h3>Heavy Armor<a class="headerlink" href="#heavy-armor" title="Permalink to this heading">#</a></h3>
+<p class="rubric">Description</p>
+<p>The armor is made of the strongest metal in the world and the most shock absorbent in the world and worked by one of the most masterful blacksmith in this designated area. The helmet is a barbute that is fitted with a bi-concave mirror used to look farther than normal. Placed on her mouth is a perfectly fitting piece of shaped and worked leather. The chest armor starts with plate armor that protects and supports the breast. The plate armor curves outward to allow maximum deflection and room for the full breasts. The chest plate then has laminar armor connected with it and under it a variety of leather and mail shirts for heavy protection. A mail pixane under a gorget protects the neck. Protecting the shoulders are heavy pauldrons that connect with the chest plate with a heavy chain. The pauldrons connect with a cape/cloak that the wearer can remove easily and cleverly cut holes to expose the double bladed staff and deploy it easily. The mail connects the vambrace and the rerebrace together. The gauntlet has an excellent grip on anything. Special plate armor covers the crotch and provides easy movement and protection. A fauld covers and protects the hip and part of the legs. Four pieces of armor, called the poleyn, cuisse, tasset, and greaves, covers the leg. Mail links connect the pieces that contain a variety of leather and mail for extra protection. The sabatons connect with the greaves but still has excellent mobility. Iron studded near the toes of the sabaton creates a bigger impact. The belts have two loops to hold the double bladed battle-axes and one loop on the back of the chest plate and one on the cape designed to hold the double bladed staff.</p>
+<p class="rubric">Procedure of Placement and Info</p>
+<ol class="upperroman simple">
+<li><p>First, the High Empress puts on cotton shorts.</p></li>
+<li><p>Over that, the High Empress puts on leather pants.</p></li>
+<li><p>Over that, the High Empress puts on mail pants.</p></li>
+<li><p>The servants then put on sabatons.</p></li>
+<li><p>Next, the servants attach the greaves with a shaped plate on the back of the leg.</p></li>
+<li><p>The servants connect the greaves with the sabatons with small strips of mail.</p></li>
+<li><p>After the greaves, the servants put on poleyns.</p></li>
+<li><p>They connect the poleyns with the greaves with strips of mail.</p></li>
+<li><p>After the poleyns, the servants put on the cuisse.</p></li>
+<li><p>They connect the cuisse with the poleyns with strips of mail.</p></li>
+<li><p>The servants then put on a special plate on the crotch to protect it.</p></li>
+<li><p>The servants then put a fauld over the armor</p></li>
+<li><p>The servants then put a belt over the fauld.</p></li>
+<li><p>Next, the High Empress puts on a cotton bandeau.</p></li>
+<li><p>Over that, the High Empress puts on a long sleeved leather shirt.</p></li>
+<li><p>Over that, the High Empress puts on a long sleeved mail shirt.</p></li>
+<li><p>Next, the servants put on the chestplate with its laminar portion and its accompanying back portion on the High Empress and attach them together.</p></li>
+<li><p>The servants then put a pixane over the chestplate and then a gorget over the pixane.</p></li>
+<li><p>Next, the servants strap on the rerebrace on the upper arm.</p></li>
+<li><p>The servants then put on the vambrace on the lower arm and connect it with strips of mail.</p></li>
+<li><p>The servants then put on the gauntlet on the hand.</p></li>
+<li><p>Next, the servants then fit the pauldrons with the cape on the High Empress’ shoulders.</p></li>
+<li><p>The High Empress wears a leather cap.</p></li>
+<li><p>The High Empress then wears the barbute.</p></li>
+<li><p>Finally, the High Empress straps on her twin double bladed axes on the belt and the bladed staff on her back.</p></li>
+</ol>
+</section>
+<section id="light-armor">
+<h3>Light Armor<a class="headerlink" href="#light-armor" title="Permalink to this heading">#</a></h3>
+<p class="rubric">Description</p>
+<p>The armor is made of the same metal but a compound metal added into it to make it eight times lighter than normal. The helmet is a barbute and designed to reduce what little drag it has. It has the same inbuilt biconcave lens so that you can look farther than usual. It also has the hard leather in the barbute to protect the mouth from dust. The chest armor is plate armor that covers most of the breast. It also curves outward to provide maximum deflection. A pixane and a gorget protect the neck and cover skin left by the chestplate. Unlike the heavy armor, the light armor bares the midriff to reduce weight for speed. The pauldrons are smaller and lighter, designed to reduce drag. It connects with the usual cape/cloak, which is made of lighter material. It also has holes cleverly cut into it to expose the double bladed staff and deploy it easily. The vambrace and the rerebrace are not connected but the rerebrace connects lightly with the gauntlet. The arm armor reduces drag as all the other armors. The gauntlet has excellent grip on any material. The armor on the crotch provides less protection and more maneuverability. A fauld covers and protects the hips and is designed to reduce drag. The leg armor contains four parts: poleyn, cuisse, tasset, and greaves. They also reduce the little drag they have. The sabatons are made of lighter material and the wearer wears leather socks to make it more comfortable. Iron studded sabatons reinforce kicks. The belt has loops in them to carry the double bladed battle-axes. There is one loop in the back of the chest plate and one on the cape to hold the double bladed staff.</p>
+<p class="rubric">Procedure of Placement and Info</p>
+<ol class="upperroman simple">
+<li><p>First, the High Empress puts on cotton shorts.</p></li>
+<li><p>Over that, the High Empress puts on leather pants.</p></li>
+<li><p>Next, servants put on the sabatons on the High Empress’ foot.</p></li>
+<li><p>The servants then strap greaves on and cover the backside with a little mail.</p></li>
+<li><p>After the greaves, the servants put on the poleyns on the knees.</p></li>
+<li><p>After the poleyns, the servants put on the cuisse on the High Empress’ thighs and cover the backside of the thighs with a little mail.</p></li>
+<li><p>The servants then put on a special plate on the crotch for protection.</p></li>
+<li><p>The servants then put a fauld over the armor.</p></li>
+<li><p>The servants then put on a belt over the fauld.</p></li>
+<li><p>Next, the High Empress puts on a cotton bandeau.</p></li>
+<li><p>Over that, she wears a long sleeved leather midriff.</p></li>
+<li><p>The servants then put on the chestplate and its corresponding backside and strap them together.</p></li>
+<li><p>The servants then put a pixane and then a gorget over the pixane on the chestplate.</p></li>
+<li><p>Next, the servants then put on the rerebrace on the upper arm.</p></li>
+<li><p>The servants then put on the vambrace on the lower arm and attach them together with mail.</p></li>
+<li><p>The servants then put mail on the back of the arm not covered by the plate.</p></li>
+<li><p>The servants then put the gauntlet on the hand.</p></li>
+<li><p>The servants then fit the pauldrons with the cap on the High Empress’ shoulders.</p></li>
+<li><p>The High Empress then wears the barbute.</p></li>
+<li><p>Finally, the High Empress then straps on her twin double bladed axes on her belt and bladed staff on her back.</p></li>
+</ol>
+</section>
+<section id="ceremonial-dress">
+<h3>Ceremonial Dress<a class="headerlink" href="#ceremonial-dress" title="Permalink to this heading">#</a></h3>
+<p class="rubric">Description</p>
+<p>The ceremonial dress is just highly decorated armor and dress not meant to protect anyone. The helmet is a finely polished and smooth barbute. It is also has a decorated leather part to cover the mouth. Unlike the battle dress, the chest plate covers some of the breast and has a low cut showing her moderate cleavage. The chest plate is highly decorated and is like a perfect mold of the body so that the people can admire the High Empress’ full breast shown by the armor. Just like the light armor, the ceremonial dress exposes her midriff. The pauldrons are small, light, and extremely decorated. Connected to the pauldrons is a cape/cloak, cut to expose the double bladed staff and hold it at the same time. The High Empress wears vambraces on her bare arm both highly decorated and white gloves. There is no leg armor instead there is a silk pant that fits tightly to the skin with decorated greaves. The shoes have hard soles and leather socks. The belt has the two double bladed battle-axes and the double bladed staff supported by a loop in the chest plate and one in the cape.</p>
+<p class="rubric">Procedure of Placement and Info</p>
+<p>The High Empress and the Khatas themselves put on the ceremonial armor. Elits and Dimidis selected to ride beside the Empress and Khatas can watch the Empress and Khatas put on the armor or wear their armor with them.</p>
+<ol class="upperroman simple">
+<li><p>First, the High Empress wears silk pants and ties a belt.</p></li>
+<li><p>She then wears her sabatons.</p></li>
+<li><p>Next, she straps on her decorated greaves.</p></li>
+<li><p>Next, the High Empress wears a silk bandeau.</p></li>
+<li><p>Over that, she wears her decorated chestplate.</p></li>
+<li><p>She then straps her decorated vambraces on her arm.</p></li>
+<li><p>She then wears white gloves on her hand.</p></li>
+<li><p>She then straps on her decorated pauldrons with the cape on her shoulders connecting them with the chestplate.</p></li>
+<li><p>After the pauldrons and cape, she wears her decorated barbute.</p></li>
+<li><p>Finally, she straps on her twin double bladed axes on her belt and bladed staff on her back.</p></li>
+</ol>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2020-2023, Praecordi
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">High Empress</a><ul>
+<li><a class="reference internal" href="#dress">Dress</a><ul>
+<li><a class="reference internal" href="#dress-1">Dress 1</a></li>
+<li><a class="reference internal" href="#dress-2">Dress 2</a></li>
+<li><a class="reference internal" href="#dress-3">Dress 3</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#battle-dress">Battle Dress</a><ul>
+<li><a class="reference internal" href="#heavy-armor">Heavy Armor</a></li>
+<li><a class="reference internal" href="#light-armor">Light Armor</a></li>
+<li><a class="reference internal" href="#ceremonial-dress">Ceremonial Dress</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/scripts/furo.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    </body>
+</html>

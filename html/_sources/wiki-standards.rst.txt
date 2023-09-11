@@ -1,0 +1,122 @@
+:orphan:
+
+Wiki Standards
+==============
+
+The wiki is divided into topics, namely:
+
+- Culture
+- Demographics
+- History
+- Documents
+- Natural Environment
+
+The Culture topic includes information on nations, and their cultures, as well as in-world mechanics such as magic.
+
+The Demographics topic includes description on the races, `aiɖi`, `aʋjasi` and other people.
+
+The History topic includes pages on historical events, including the truth as well as popular hearsay within the world.
+
+The Natural Environment topic includes information on natural flora and fauna as well as information on the planet.
+
+The Documents topic contains pages of documents written in-world (from the perspective of English speakers who were told the story).
+
+Furthermore, each topic can include a subtopic. A topic and sub-topic and sub-sub-topic is defined by a file and folder containing pages. The file of the topic contains a **CONTENTS** section containing an overview of the pages inside that topic as well as a Maker's Notes section which highlights ideas and future plans of the topic.
+
+Besides these topics, there is an additional unlisted section of the wiki called Notes. This section contains notes on resources such as blogs or videos which can be referenced, as well as references on Ranthis.
+
+Using Maker's Notes
+-------------------
+
+A Maker's Notes is a section used specifically for items of that section in development. A Maker's Notes section should be divided into multiple dropdown menus showcasing a separate idea or content in development.
+
+.. dropdown:: This idea is in development
+    :icon: clock
+    
+    Content here
+    
+.. dropdown:: This idea has been implemented/archived
+    :icon: archive
+
+    Content here
+    
+.. dropdown:: This is just for reference
+    :icon: book
+    
+    This dropdown is for things worth remembering, but not important enough to put anywhere.
+    
+While it is not necessary, in-progress ideas should have a to-do directive inside them, so as to know why it is still in progress, or what the next steps are.
+
+Using Admonitions
+-----------------
+
+.. topic:: Topic
+    
+    This is an admonition.
+	
+.. admonition:: Admonition
+
+    This is an admonition.
+
+.. admonition:: Attention
+    :class: attention
+    
+    This is an admonition.
+	
+.. admonition:: Caution
+    :class: caution
+    
+    This is an admonition.
+	
+.. admonition:: Danger
+    :class: danger
+    
+    This is an admonition.
+	
+.. admonition:: Error
+    :class: error
+    
+    This is an admonition.
+	
+.. admonition:: hint
+    :class: hint
+    
+    This is an admonition.
+	
+.. admonition:: Important
+    :class: important
+    
+    Use this admonition for updates and changes that need to be tracked.
+	
+.. admonition:: Note
+    :class: note
+    
+    Use this admonition for "Writer's Notes"
+	
+.. admonition:: See Also
+    :class: seealso
+    
+    This is an admonition.
+	
+.. admonition:: Tip
+    :class: tip
+    
+    Use this admonition for *Future Plans*.
+	
+.. admonition:: Warning
+    :class: warning
+    
+    This is an admonition.
+    
+.. admonition:: Idea
+   :class: idea
+
+   Use this admonition for Ideas
+   
+.. admonition:: Question
+    :class: Question
+    
+    Use this admonition for questions to answer later
+
+RST Cheat Sheet
+---------------

@@ -1,0 +1,54 @@
+=================
+Magic System [1]_
+=================
+
+
+Creation
+========
+
+At a certain point, the three daughters (the Land, the Sun, and the Moon) looked at the women, all different from each other, yet fundamentally the same, and wanted to make women even more superior to the other animals. They wanted to give the women a gift that was beyond nature itself, but didn’t want the gift to be too powerful or too easy to use, otherwise they might destroy the world and themselves in the process. They remembered the time where they learned of their sexuality, and decided to let the women experience it too.
+
+The three daughters entered the dream of a woman named Sozna, and asked her what she would want as a gift. Sozna answered that she likes looking at smooth rocks, and loves climaxing while straddling them or putting them inside her. The daughters thought, and came up with an idea: they would let women make special smooth rocks that would enrich the existence of the woman. After a year, they came back to Sozna in her dream, and told her:
+
+“We knew you loved enjoying yourself with smooth rocks, so we gave you, and all other women, a gift. We turned various parts of the Land into what we call ‘empty gems’; little, smooth, transparent stones. Those gems can be in a wide range of sizes, from as small as a fingernail, to as long as a forearm. We wanted to make them special, so we devised a system that would let you turn them so by filling them with energy.”
+
+They then taught Sozna the system of turning empty gems into special gems, which is the following:
+
+.. figure:: /_static/ranthis-reference/Magic-Systems-1.png
+   :alt: A diagram of the ways to make special gems
+
+   A diagram of the ways to make special gems
+
+They detailed what each gem type does:
+
+-  A shock gem sends out tiny bolts of electricity. They’re not enough to harm you, but they will hurt if you make them too strong. Shock gems can be imbued onto a user’s body, and send small streams of electricity to whoever touches that part of the user’s body. To do so, the gem needs to be placed on the user’s body. It will then meld with the flesh around it, becoming one with its user’s body. If an imbued shock gem comes into contact with any other shock gem, it sends a slightly stronger stream of electricity through the immediate region of its user’s body.
+-  A heat gem keeps the heat it absorbed from fire, and sends it out slowly. It can be hot enough to heat water, but won’t burn you. When struck with another heat gem, it can start a fire.
+-  A sound gem can be used to alter a user’s voice. For that, the gem needs to be placed beneath the user’s throat. It will then meld with the flesh around it, and let the user use their own voice, or the gem’s maker’s voice.
+-  A life gem can extend its user’s lifespan. The larger the gem, the more the lifetime extends. To use it, the gem needs to be placed over its user’s heart. It will then meld with the heart, and keep it beating for as long as the gem can work. Another use for a life gem is imbuing it into a muscle to increase its strength.
+-  A pulse gem is a gem that strikes back at the same intensity and frequency you stroke it. When you put it next to something, it will push either itself or that thing away. Holding in your hand a pulse gem made by tapping would feel like it’s tapping your hand. Holding in your hand a pulse gem made by striking with a hammer would feel like a hammer is striking your hand.
+-  A light gem can shine light in the dark, or flash repeatedly if the light focused on it was blocked and unblocked regularly. Imbuing a light gem on the forehead grants the user vision in the dark, with the quality depending on the size of the gem; larger gem, better sight in the dark. A flashing light gem grants dark vision that can be best described as “active, then inactive, then active again, and so on”.
+-  A control gem allows its maker to link her mind to that of a non-resisting receiver. To use a control gem, it needs to be imbued on the back of the receiver’s neck. It then melds with the flesh around it and grants the maker access to the receiver’s senses and motor control. The maker is determined by the ownership of the bodily fluids in which the gem was kept, and keeping a gem in a mixture of multiple people’s bodily fluids can allow multiple people to control the same person.
+
+Finally, the daughters told Sozna that if a gem breaks, it loses all of its properties, and cannot be used again. Sozna thanked the daughters, woke up, and proceeded to spend her life scouring the land in search of empty gems to fill and marvel at.
+
+Current State
+=============
+
+Non-empty gems are considered to be a status symbol. While they are fairly common, what gives them value is the process of filling. Peasants are usually not permitted to imbue gems onto themselves. Empty gems are often used as currency or for trade. Rising in value are the sound gems, then pulse gems, heat gems, light gems, shock gems, and life gems. Control gems are unique to their maker, and thus are seldom used in trade. Instead, nobility and royalty often use these to further their reach.
+
+**Shock Gem Anecdote**: Shock gems serve no practical purpose, but their high value is attributed to the sixth queen, Myclona, who was beautiful beyond words, and would twitch uncontrollably from time to time. The citizens believed those twitches were part of her undeniable beauty, and the demand for shock gems skyrocketed. Twitches are now seen as attractive.
+
+**Heat Gem Anecdote**: Some regions are populated by people despite having very cold weather and not much wood. To combat that, tribes have multiple large heat gems inside each tent or house, to keep everyone inside warm. These are also used to cook food.
+
+**Sound Gem Anecdote**: A rite of passage for many couples is making small sound gems while having sex, and keeping those gems inside the ear.
+
+**Life Gem Anecdote**: As of currently, the longest lifespan recorded is 239 years by Haizin, a noblewoman who imbued three life gems into her heart - an absurd number that people don’t dare come near. She imbued one gem at the center of her chest, and two on her back. The gems were massive, each weighing around two and a half kilograms, with each gem giving an estimated 60 years, which is very rare and valuable.
+
+**Pulse Gem Anecdote**: A rare and destructive pulse gem exists somewhere in the world. It was made with a gigantic `monjolo <https://en.wikipedia.org/wiki/Water_scoop_(hydropower)#Monjolo>`__ striking it, which means the gem has the potential to break almost anything it touches. It wasn’t broken by the monjolo, so destruction of it is considered impossible.
+
+**Light Gem Anecdote**: Since light gems cast light, they can be used as lamps. The slight problem is that they constantly cast light, so a common solution is to cover the gems when you want to darken the room, and uncover when you want to light up the room.
+
+**Control Gem Anecdote**: A famous story of the control gems recounts the rule of the eleventh queen of the world, Mezita, who imbued her control gems into several nobles and citizens as a form of mass surveillance and enforcement of her laws. She exploited the fact that the receiver must be “non-resisting”, so she had people put imbue control gems for her onto unknowing targets while they were asleep.
+
+.. [1]
+   `The magic system of Rankvah: Its creation and current state <https://www.reddit.com/r/NSFWworldbuilding/comments/grtwth/the_magic_system_of_rankvah_its_creation_and/>`__

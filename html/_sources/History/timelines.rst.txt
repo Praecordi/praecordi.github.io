@@ -1,0 +1,13 @@
+:orphan:
+
+Timelines
+=========
+
+Before Founding Timeline
+------------------------
+
+.. timeline::
+    :events: before-founding-events.yml
+    :template: before-founding-template.txt
+    :width-item: 375px
+    :height: 350px

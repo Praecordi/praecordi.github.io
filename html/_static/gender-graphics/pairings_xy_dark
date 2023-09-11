@@ -1,0 +1,55 @@
+graph GRAMPS_graph
+{
+	bgcolor="#131416";
+	center="true"; 
+	charset="utf8";
+	concentrate="false";
+	dpi="72";
+	graph [fontsize=20];
+	margin="0.50,0.50"; 
+	mclimit="99";
+	nodesep="0.20";
+	outputorder="edgesfirst";
+	#page="11.00,8.50";
+	pagedir="BL";
+	rankdir="TB";
+	ranksep="0.40";
+	ratio="fill";
+	searchsize="100";
+	size="9.99,7.49"; 
+	splines=spline;
+
+	edge [ len=0.5 style=solid fontsize=20 color="#ffffffcc" fontcolor = "#ffffffcc"];
+	node [ shape = circle style=filled fontsize=20 fontcolor=black ];
+	
+	{
+		{
+			rank="same"
+			"XX" [label = "XX" fillcolor = "mediumorchid2"]
+			"XO" [label = "XO" fillcolor = "mediumorchid2"]
+			"XY" [label = "XY" fillcolor = "mediumorchid2"]
+		}
+		{
+			rank="same"
+			"YY" [label = "YY" fillcolor = "lightblue2"]
+			"YO" [label = "YO" fillcolor = "lightblue2"]
+		}
+		{
+			rank="same"
+			"OO" [label = "OO" fillcolor = "indianred2"]
+		}
+		
+		XX -- YY [label = "1"];
+		XX -- YO [label = "2"];
+		XX -- OO [label = "3"];
+		XO -- YY [label = "4"];
+		XO -- YO [label = "5"];
+		XO -- OO [label = "6"];
+		XY -- YY [label = "7"];
+		XY -- YO [label = "8"];
+		XY -- OO [label = "9"];
+		YY -- OO [label = "10"];
+		YO -- OO [label = "11"];
+		OO -- OO [label = "12"];
+	}
+}

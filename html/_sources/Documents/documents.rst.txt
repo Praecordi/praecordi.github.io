@@ -1,0 +1,451 @@
+Documents
+=========
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Contents
+    
+    Stories/stories
+
+..
+    poems
+   
+Maker's Notes
+-------------
+
+.. dropdown:: Ideas for Poems
+    :icon: clock
+
+    The idea would be to either translate these songs into a poem all the while creating words to make them rhyme. There's a lot of freedom on how to do this, so take any liberties in changing the meaning of these songs.
+
+    .. dropdown:: Manike Mage Hithe
+        
+        .. youtube:: PgCliOxl41o
+        
+        .. grid:: 3
+        
+            .. grid-item-card:: මැණිකේ මගේ හිතේ
+            
+                මැණිකේ මගේ හිතේ
+                මුදු ඒ නුරා හැඟුම් යාවී
+                ඇවිලේවී
+                 
+                නෙරියේ නුඹේ නගේ
+                මගෙ නෙත් එහා මෙහා යාවී
+                සිහිවේවී
+                 
+                මා හිත ළඟම දැවටෙනා
+                හුරු පෙමක පැටලෙනා
+                රුව නාරී මනහාරී
+                සුකුමාලි නුඹ තමා
+                 
+                හිත ළඟම දැවටෙනා
+                හුරු පෙමක පැටලෙනා
+                රුව නාරී මනහාරී
+                සුකුමාලි නුඹ තමා
+                මැණිකේ මගේ හිතේ
+                 
+                ඉතිං එපා මටනං වංගු
+                ගත්තෙ හිත නුඹ මගෙන්ම හැංගු
+                ආලෙ නුඹටම වලංගු
+                මැණිකෙ වෙන්නෙපා තව සුනංගු
+                 
+                ගමෙ කටකාරම කෙල්ල
+                හිත වෙලා නුඹෙ රුවට බිල්ල
+                නෙතින් නෙත ගත්තාම අල්ල
+                මගෙ හිතත් නැහැ මටම මෙල්ල
+                 
+                කෙල්ලෙ කෙල්ලෙ
+                වෙලා මගේ හිත පත්තු
+                වෙනවද තව ටිකක් කිට්ටු
+                මට පිස්සු තද වෙන විදියට ගැස්සු
+                ඔයා දුන්න ඉඟියට මත්වු
+                බඹරෙකි මම තටු ඉස්සු
+                ඔයා වටකරගෙන රැස්වු
+                රොත්තෙන් හිත අරගත්තු බඹරා
+                 
+                මා හිත ළඟම දැවටෙනා
+                හුරු පෙමක පැටලෙනා
+                රුව නාරී මනහාරී
+                සුකුමාලි නුඹ තමා
+                 
+                හිත ළඟම දැවටෙනා
+                හුරු පෙමක පැටලෙනා
+                රුව නාරී මනහාරී
+                සුකුමාලි නුඹ තමා
+                 
+                මැණිකේ මගේ හිතේ
+                මුදු ඒ නුරා හැඟුම් යාවී
+                ඇවිලේවී
+                 
+                නෙරියේ නුඹේ නගේ
+                මගෙ නෙත් එහා මෙහා යාවී
+                සිහිවේවී
+                 
+                මා හිත ළඟම දැවටෙනා
+                හුරු පෙමක පැටලෙනා
+                රුව නාරී මනහාරී
+                සුකුමාලි නුඹ තමා
+                 
+                හිත ළඟම දැවටෙනා
+                හුරු පෙමක පැටලෙනා
+                රුව නාරී මනහාරී
+                සුකුමාලි නුඹ තමා
+                මැණිකේ මගේ හිතේ
+                 
+                හුරු පෙමක පැටලෙනා
+                හුරු පෙමක පැටලෙනා
+
+            .. grid-item-card:: Manike Mage Hithe
+            
+                Manike mage hithe
+                Muduwe nura hangum yawi awilewi
+                 
+                Neriye numbe naage
+                Maage net eha meha yawi sihiwewi
+                 
+                Ma hitha langama dawatena
+                Huru Pemaka Patalena
+                Ruwa nari
+                Manahari
+                Sukumali numba thama
+                 
+                Hitha langama dawatena
+                Huru Pemaka Patalena
+                Ruwa nari
+                Manahari
+                Sukumali numba thama
+                Manike mage hithe
+                 
+                Ithin epa matanam waanguu
+                Gatha hitha numba magema hanguu
+                Ale numbatama walanguu
+                Manike wennepa thawa sunanguu
+                 
+                Gaame katakarama kella
+                Hitha wela nube ruwata billa
+                Nathin netha gaththama alla
+                Mange hithath na matama mella
+                 
+                Kelle kelle wela mage hitha
+                Paththu wenawada thawatikaka
+                Kittu mata pissu thadawena widihata gassu
+                Oya dunnu ingiyata mathwu
+                Bambareki mama thantu issu
+                Oya watakaragena raswu Roththen hitha aragaththu bambara
+                 
+                Ma hitha langama dawatena
+                Huru Pemaka Patalena
+                Ruwa nari
+                Manahari
+                Sukumali numba thama
+                 
+                Hitha langama dawatena
+                Huru Pemaka Patalena
+                Ruwa nari
+                Manahari
+                Sukumali numba thama
+                 
+                Manike mage hithe
+                Muduwe nura hangum yawi awilewi
+                 
+                Neriye numbe naage
+                Maage net eha meha yawi sihiwewi
+                 
+                Ma hitha langama dawatena
+                Huru Pemaka Patalena
+                Ruwa nari
+                Manahari
+                Sukumali numba thama
+                 
+                Hitha langama dawatena
+                Huru Pemaka Patalena
+                Ruwa nari
+                Manahari
+                Sukumali numba thama
+                 
+                Manike mage hithe
+                Huru pemaka patalena
+                Huru pemaka patalena
+                
+            .. grid-item-card:: Baby in my heart
+                
+                Baby in my heart
+                Baby in my heart,
+                Every passionate thought is about you, like a fire burning.
+                 
+                Shape of your body,
+                Won’t let me keep my eyes off, (I'm always checking you out) I’m indulged.
+                 
+                You linger close to my heart,
+                As if I’ve known you forever (you are a familiar feeling),
+                You look like a goddess,
+                My mind is exhilarating,
+                You are the dearest.
+                 
+                You linger close to my heart,
+                As if I’ve known you forever (you are a familiar feeling),
+                You look like a goddess,
+                My mind is exhilarating,
+                You are the dearest.
+                Baby in my heart.
+                 
+                Let’s not make this complicated,
+                You found my heart that I kept hidden,
+                My love is only valid for you,
+                Let’s not hold our horses anymore.
+                 
+                You’re the talkative one of the whole village,
+                My heart has become your victim,
+                When our eyes meet,
+                I can’t control myself.
+                 
+                Girl, oh girl.. my heart is on fire,
+                Come a little closer,
+                Your charms make me go crazy,
+                You were inviting,
+                I’m a bee looking for honey,
+                I’m the one you should be with,
+                 
+                You linger close to my heart,
+                As if I’ve known you forever,
+                You look like a goddess,
+                My mind is exhilarating,
+                You are the dearest.
+                 
+                You linger close to my heart,
+                As if I’ve known you forever,
+                You look like a goddess,
+                My mind is exhilarating,
+                You are the dearest.
+                 
+                Baby in my heart,
+                Every passionate thought is about you, like a fire burning.
+                 
+                Shape of your body,
+                Won’t let me keep my eyes off, I’m indulged.
+                 
+                You linger close to my heart,
+                As if I’ve known you forever,
+                You look like a goddess,
+                My mind is exhilarating,
+                You are the dearest.
+                 
+                You linger close to my heart,
+                As if I’ve known you forever,
+                You look like a goddess,
+                My mind is exhilarating,
+                You are the dearest.
+                 
+                Baby in my heart,
+                As if I’ve known you forever.
+                As if I’ve known you forever.
+                
+    .. dropdown:: Pasoori
+        
+        .. youtube:: 5Eqb_-j3FDA
+    
+        .. grid:: 3
+        
+            .. grid-item-card:: پسوڑی
+                :class-item: sd-text-right
+            
+                اگ لاواں مجبوری نوں
+                آݨ جاݨ دی بھسوڑی نوں
+                زہر بݨے، ہاں، تیری
+                پی جاواں میں پوری نوں
+                 
+                آݨا سی، اوہ نئیں آیا
+                دل بانگ بانگ میرا ٹکرایا
+                کاگا بول کے دس جاوے
+                پاواں گھیو دی چوری نوں
+                 
+                راہواں چہ، بانہواں چہ، اوہ نوں لکاواں
+                کوئی مینوں نہ روکے
+                 
+                میرے ڈھول، جدائیاں دی تینوں خبر کِویں ہووے؟
+                آجاوے دل تیرا، پورا وی نہ ہووے
+                ہاں، بݨیا بݨائیاں دی گل بات کِویں ہووے؟
+                آجاوے دل تیرا، پورا وی نہ ہووے
+                 
+                بُھل گئی مجبوری نوں
+                دنیا دی دستوری نوں
+                ساتھ تیرا ہے بتھیرا
+                پورا کر ضروری نوں
+                 
+                آݨا سی، اوہ نئیں آیا
+                راستہ نہ دکھلایا
+                دل ہمارا دے سہارا
+                خواہشات ادھوری نوں
+                 
+                واری میں جاواں، میں تینوں بلاواں
+                گل ساری تاں ہووے
+                 
+                میرے ڈھول، جدائیاں دی تینوں خبر کِویں ہووے؟
+                آجاوے دل تیرا، پورا وی نہ ہووے
+                ہاں، بݨیا بݨائیاں دی گل بات کِویں ہووے؟
+                آجاوے دل تیرا، پورا وی نہ ہووے
+                 
+                میرے ڈھول، جدائیاں دی سرداری نہ ہووے
+                میرے ڈھول، جدائیاں دی...
+                 
+                میرے ڈھول، جدائیاں دی سرداری نہ ہووے
+                دلداراں دی، سبھ یاراں دی آزاری نہ ہووے
+                دلداراں دی، سبھ یاراں دی آزاری نہ ہووے
+                 
+                آ چلیں لے کے تجھے
+                ہیں جہاں سلسلے
+                تُو ہے، وہی ہے تیری کمی
+                بنا دے، سجا دے، پناہ دے ہمیں
+                بنا دے، سجا دے، پناہ دے ہمیں
+                 
+                اگ لاواں مجبوری نوں
+                آݨ جاݨ دی بھسوڑی نوں
+                زہر بݨے، ہاں، تیری
+                پی جاواں میں پوری نوں
+                 
+                راہواں چہ، بانہواں چہ، اوہ نوں لکاواں
+                کوئی مینوں نہ روکے
+                 
+                میرے ڈھول، جدائیاں دی تینوں خبر کِویں ہووے؟
+                آجاوے دل تیرا، پورا وی نا ہووے
+                ہاں، بݨیا بݨائیاں دی گل بات کِویں ہووے؟
+                آجاوے دل تیرا، پورا وی نا ہووے
+                 
+                پورا وی نہ ہووے
+                پورا وی نہ ہووے
+                
+            .. grid-item-card:: Pàsūṛī
+            
+                Ag lāvā̃ majbūrī nū̃
+                Āṇ jāṇ dī pàsūṛī nū̃
+                Záhir baṇe, hā̃, terī
+                Pī jāvā̃ mãĩ pūrī nū̃
+                 
+                Āṇā sī, áuh náī̃ āyā
+                Dil bāng bāng merā ṭakarāyā
+                Kāgā bōl ke das jāve
+                Pāvā̃ kyò dī cūrī nū̃
+                 
+                Rāvã ca bā́hvā̃ ca áuh nū̃ lukāvā̃
+                Kōī mainū̃ nā rūke
+                 
+                Mere ṭol, judāīyā̃ dī tenū̃ xabar kivẽ hove?
+                Ā jāve dil terā, pūrā vī nā hove
+                Hā̃, baṇiya baṇāīyā̃ dī gal bāt kivẽ hove?
+                Ā jāve dil terā, pūrā vī nā hove
+                 
+                Pùl gaī majbūrī nū̃
+                Duniya dī dastūrī nū̃
+                Sā́th terā hai bátherā
+                Pūrā kar ẓarūrī nū̃
+                 
+                Āṇā sī, áuh náī̃ āyā
+                Rāstā nā díkhlārā
+                Dil hamārā de sáhārā
+                Xāhishāt ádūrī nū̃
+                 
+                Vārī mãĩ jāvān mãĩ tenū̃ bulāvā̃
+                Gal sārī tā̃ hove
+                 
+                Mere ṭol, judāīyā̃ dī tenū̃ xabar kivẽ hove?
+                Ā jāve dil terā, pūrā vī nā hove
+                Hā̃, baṇiya baṇāīyā̃ dī gal bāt kivẽ hove?
+                Ā jāve dil terā, pūrā vī nā hove
+                 
+                Mere ṭol, judāīyā̃ dī sardārī nā hove
+                Mere ṭol, judāīyā̃ dī...
+                 
+                Mere ṭol, judāīyā̃ dī sardārī nā hove
+                Dildārā̃ dī, sáb yārā̃ di, āzārī nā hove
+                Dildārā̃ dī, sáb yārā̃ di, āzārī nā hove
+                 
+                Ā calẽ le ke tujhe
+                Hãĩ jahā̃ silsile
+                Tū hai, vahī hai terī kamī
+                Banā de, sajā de, panāh de hamẽ
+                Banā de, sajā de, panāh de hamẽ
+                 
+                Ag lāvā̃ majbūrī nū̃
+                Āṇ jāṇ dī pàsūṛī nū̃
+                Záhir baṇe, hā̃, terī
+                Pī jāvā̃ mãĩ pūrī nū̃
+                 
+                Rāvã ca bā́hvā̃ ca áuh nū̃ lukāvā̃
+                Kōī mainū̃ nā rūke
+                 
+                Mere ṭol, judāīyā̃ dī tenū̃ xabar kivẽ hove?
+                Ā jāve dil terā, pūrā vī nā hove
+                Hā̃, baṇiya baṇāīyā̃ dī gal bāt kivẽ hove?
+                Ā jāve dil terā, pūrā vī nā hove
+                 
+                Pūrā vī nā hove
+                Pūrā vī nā hove
+
+            .. grid-item-card:: Impatience/Difficulty
+                
+                Set fire to your worries
+                to waiting and to hurries
+                If your love is poison
+                I will drink it completely
+                 
+                He said he’d come, but he never did
+                My heart pounded repeatedly
+                Let the crow tell me why
+                And feast on sweet supply
+                 
+                I will hide him and bide him in loving embraces
+                No one makes me stop
+                 
+                My love, how can you know what happens when we part,
+                I hope you fall in love, I hope it breaks your heart
+                How will the willing, communicate
+                I hope you fall in love, I hope it breaks your heart
+                 
+                I forget about my helplessness,
+                And the customs of people
+                You’re enough for me
+                Please fulfill my destiny,
+                 
+                He said he will come but he never did
+                I could not see as the path was hidden
+                My heart gives solace
+                to wishes unfulfilled
+                 
+                I dote on you, I call out your name
+                Let’s have it out, for shame
+                 
+                My love, how can you know what happens when we part,
+                I hope you fall in love, I hope it breaks your heart
+                How will the willing, communicate
+                I hope you fall in love, I hope it breaks your heart
+                 
+                My love, don’t let this distance reign
+                My love, what of this distance
+                 
+                My love, don’t let this distance reign
+                Don’t let these lovers be in pain
+                Don’t let these lovers be in pain
+                 
+                Come let’s go away
+                where all the lovers meet
+                You are the one, it’s you I need
+                Give me life, give me love, take me in your arms
+                Give me life, give me love, take me in your arms
+                 
+                Set fire to your worries
+                to waiting and to hurries
+                If your love is poison
+                I will drink it completely
+                 
+                I will hide him and bide him in loving embraces
+                No one makes me stop
+                 
+                My love, how can you know what happens when we part,
+                I hope you fall in love, I hope it breaks your heart
+                How will the willing, communicate
+                I hope you fall in love, I hope it breaks your heart
+                 
+                I hope it breaks your heart
+                I hope it breaks your heart
+                

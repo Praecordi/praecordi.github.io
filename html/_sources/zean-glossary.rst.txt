@@ -1,0 +1,725 @@
+Zean Glossary
+=============
+
+For each base, we will give a general meaning of the base [#f1]_, the singular nominative inflection of the base and its meaning, and the 1st person simple singular present conjugation and its meaning.
+
+Names
+-----
+
+People
+^^^^^^
+
+.. glossary::
+  Names of Major `aiɖi`
+    - `etiaʃi` - Etiashi
+    - `aʃieti` - Ashieti
+    - `iʈʂedy` - Itshedu
+    - `iɖʐe` - Idzhe
+    - `ʂiɹiø` - Shiria
+    - `eʋʈi` - Evti
+    - `ɹyθiɛ` - Ruthia
+    - `zɛɹa` - Zara
+    - `seʃɹø` - Seshra
+    - `θaœ` - Thao
+    - `ʃɶða` - Shodha
+    - `dœʋa` - Dova
+    - `ʋaðœ` - Vadho
+    - `saɹeθɶ` - Saretho
+    - `yʈʂi` - Utshi
+  
+  Names of Minor `aiɖi`
+    - `iʋi` - Ivi
+    - `ʃeʃti` - Sheshti
+    - `ðija` - Dhiya
+    - `ijaði` - Iyadhi
+    - `søsji` - Sasyi
+    - `ðɶðastœ` - Dhodhasto
+    - `ysje` - Usye
+    - `ydɹi` - Udri
+    - `yʐʈa` - Uzhta
+    - `aʃœ` - Asho
+    - `iɖiʈi` - Iditi
+    - `jɶtɹa` - Yotra
+    - `ɹœa` - Roa
+    - `ʃadi` - Shadi
+    - `ʋɶɹa` - Vora
+    - `ʈeʋɛ` - Teva
+    - `tjɛda` - Tyada
+    - `isʋeʂʈie` - Isveshtie
+    - `etɛsa` - Etasa
+    - `etɛʃa` - Etasha
+    - `etɛda` - Etada
+    - `etɛða` - Etadha
+    - `etɛe` - Etae
+    - `eʈa` - Eta
+    - `etia` - Etia
+    - `eʈi` - Eti
+    - `ɛeta` - Aeta
+    - `aʈea` - Atea
+    - `aɹœʈi` - Aroti
+    - `iɹaʈœ` - Irato
+    - `izaɹi` - Izari
+    - `ʋaɖi` - Vadi
+    - `tiɛðø` - Tiadha
+    - `ɛðyti` - Adhuti
+    - `siaɹœ` - Siaro
+    - `ɹiɛsœ` - Riaso
+    - `aɹiɶsi` - Ariosi
+    - `ɹœaʋy` - Roavu
+    - `aʋyɹœ` - Avuro
+    - `aθɶ` - Atho
+    - `ɛditi` - Aditi
+    - `østia` - Astia
+    - `θaja` - Thaya
+    - `ɛzaɹy` - Azaru
+    - `ɛjyði` - Ayudhi
+  
+  Names of `isiʈeθɶ`
+    - `ajɛseɖi` - Ayasedi
+    - `saeθa` - Saetha
+    - `saiʃeʈa` - Saisheta
+    - `iɖe` - Ide
+    
+  Names of `zœeɖaʃi`  
+    - `sœʈi` - Soti
+    - `ʃɛʈaði` - Shatadhi
+    - `ɖɛʈaði` - Datadhi
+    - `eʈaði` - Etadhi
+    - `eʈiaði` - Etiadhi
+    - `aðia` - Adhia
+    - `seθi` - Sethi
+    - `aʃaða` - Ashadha
+    - `teʃi` - Teshi
+    - `siydi` - Siudi
+    - `θisœʈe` - Thisote
+    - `dea` - Dea
+    - `θea` - Thea
+    - `sjeði` - Syedhi
+    - `asʈeʋiaɹa` / `ase` - Asteviara / Ase
+    - `sia` - Sia
+    - `ʈaʃe` - Tashe
+    - `ʈɛe` - Tae
+    
+  Names of some `zea`
+    - `tœɹʋa` - Torva: a parent of `aʋeɹsadɹa`
+    - `aʋeɹsadɹa` - Aversadra
+    - `ʃɹyti` - Shruti
+    - `ʋidisø` - Vidisa
+    - `ʃɶtɹɶʃɶ` - Shotrosho: the Matriarch of `ɹyʋiœ` who created the Council of `ʃɶtɹɶʃɶ`
+    - `ʈesiaɹe` - Tesiare: father of `ase`
+    - `asteʋiɹa` - Astevira: mother of `ase`
+    - `ʃʈøtaɹi` - Shtatari: first partner of `aʋeɹsadɹa` and parent of `aʋeɹʃi`
+    - `aʋeɹʃi` - Avershi: the first demi-god and child of `ʃʈøtaɹi` and `aʋeɹsadɹa` hosting `iɖʐe`
+    - `ʋeɹsœ` - Verso: a collection of demi-gods born of `aʋeɹsadɹa` hosting `iɖʐe` and various mates and concubines
+    - `ʈɹiʈøsy` - Tritasu: a `ʋeɹsœ` unique in the fact that she was the only child of `aʋeɹsadɹa` to be born of `aʋeɹsadɹa`
+    - `ietœzi` - Ietozi: the leader of the easter `syɹa` and an accomplished `isʋe`
+    - `idœʃe` - Idoshe: a demi-god born of the Material body of `aʃieti` and `ietœzi`
+
+Creatures
+^^^^^^^^^
+
+.. glossary::
+  Names of `zœeɖaʃi` Fauna
+    - `isɛʃy` - Isashu
+    - `iɹɛɖy` - Iradu
+    - `iɹeʈy` - Iretu
+    - `iɹiyte` - Iriute
+    - `yʃʈia` - Ushtia
+    - `iɹyʋie` - Iruvie
+    - `tɹœʃʈa` - Troshta
+    - `ʋɛɹezy` - Varezu
+    - `ʒiyʃi` - Zhiushi
+    - `ziyte` - Ziute
+    - `ʋɶɹjɛ` - Vorya
+    - `eɹɛʈɶi` - Eratoi
+    - `iɹɛtisja` - Iretisya
+    - `ɖiɹja` - Dirya
+    - `ɹyœjœ` - Ruoyo
+    - `yɹœʈɶi` - Urotoi
+    - `aʋɹaʃi` - Avrashi
+    - `ɶʋyθœ` - Ovutho
+    - `ɹjyeʈœ` - Ryueto
+  
+  Names of Natural Fauna
+    - `yʈiʃy` - Utishu
+    - `ʋiɹɖai` - Virdai
+    - `yʈaɹʋy` - Utarvu
+    - `sɹeʋiœ` - Srevio
+    - `isɹaʈɶ` - Israto
+    - `tyɹti` - Turti
+    - `ɹiaʋœ` - Riavo
+    - `sɶɹaʃaɶ` - Sorashao
+    - `istɛɹi` - Istari
+    - `øɹa` - Ara
+    
+Words
+-----
+
+.. glossary::
+  :sorted:
+  
+  `aiɖi` : aidi
+    a being of the ethereal realm
+
+    - `aiɖisi` - I am a being from the ethereal realm
+    - `aiɖisa` - A/the being of the ethereal realm
+
+  `isiʈeθɶ` : isitetho
+    the title of `ajɛseɖi`, `saeθa`, `saiʃeʈa` and later `iɖe`; synonymous to a ruler
+
+    - `isiʈeθɶsi` - I rule
+    - `isiʈeθɶsa` - A/the ruler
+
+  `zœeɖaʃi` : zoedashi
+    the title given to `seθi`, `aʃaða`, `teʃi`, ...; synonymous to a governor
+
+    - `zœeɖaʃisi` - I govern
+    - `zœeɖaʃisa` - a/the governor
+
+  `aʋjasi` : avyasi
+    a class of changed humans and `zea` that occurs after corruption from a Creation Ritual
+
+    - `aʋjasisi` - I am an `aʋjasi`
+    - `aʋjasisa` - an `aʋjasi`
+
+  `ʃɛʈaie` : shataie
+    the title given to the daughters of `ajɛseɖi` and `stɹai`
+
+    - `ʃɛʈaiesi` - I am a `ʃɛʈaie` sister
+    - `ʃɛʈaiesa` - a `ʃɛʈaie` sister
+
+  `zea` : zea
+    resident of the `zai` system
+
+    - `zeasi` - I live in the `zai` system; I am a zean
+    - `zeasa` - a/the resident of the `zai` system; a/the zean
+
+  `ʈeaθyɖa` : teathuda
+    a race of `aɖasi`
+
+    - `ʈeaθyɖasi` - I am of the `ʈeaθyɖa` race
+    - `ʈeaθyɖasa` - a/the being of the `ʈeaθyɖa` race
+
+  `astɹœ` : astro
+    a race of `aɖasi` 
+
+    - `astɹœsi` - I am of the `astɹœ` race
+    - `astɹœsa` - a/the being of the `astɹœ` race
+
+  `ajɛsɖɶ` : ayasdo
+    a gender of `ʈeaθyɖa` and `astɹœ` race
+
+    - `ajɛsɖɶsi` - I am of gender `ajɛsɖɶ`
+    - `ajɛsɖɶsa` - a/the being of gender `ajɛsɖɶ`
+
+  `ɖiʒiɖi` : dizhidi
+    a gender of `ɖiʒiɖi`
+
+    - `ɖiʒiɖisi` - I am of gender `ɖiʒiɖi`
+    - `ɖiʒiɖisa` - a/the being of gender `ɖiʒiɖi`
+
+  `esiʈi` : esiti
+    a gender of `esiʈi`
+
+    - `esiʈisi` - I am of gender `esiʈi`
+    - `esiʈisa` - a/the being of gender `esiʈi`
+
+  `iɹeɖi` : iredi
+    a gender of `astɹœ`
+
+    - `iɹeɖisi` - I am of gender `iɹeɖi`
+    - `iɹeɖisa` - a/the being of gender `iɹeɖi`
+
+  `ʒiɹtɶ` : zhirto
+    the race of symbiotes in `aɖasi`
+
+    - `ʒiɹtɶsi` - I am of the `ʒiɹtɶ` race
+    - `ʒiɹtɶsa` - a/the being of the `ʒiɹtɶ` race
+
+  `aɖasi` : adasi
+    the name of the system `aɖasi`
+
+    - `aɖasisi` - I live in `aɖasi`
+    - `aɖasisa` - the system of the `aɖasi`
+
+  `ʋy` : vu
+    the true name; a name in an ethereal language where `sʋe` comes from; one's true nature
+
+    - `ʋysi` - I know my true self
+    - `ʋysa` - a/the true self/name of a person or thing
+
+  `sʋe` : sve
+    a spell in an ethereal language
+
+    - `sʋesi` - I cast a spell
+    - `sʋesa` - a/the spell
+
+  `isʋe` : isve
+    spell caster
+
+    - `isʋesi` - I am a spell caster
+    - `isʋesa` - a/the spell caster
+
+  `ʐisʋe` [#f2]_ : zhisve
+    a non-spell caster
+
+    - `ʐisʋesi` - I am a non-spell caster
+    - `ʐisʋesa` - a/the non-spell caster
+    
+  `ʋesy` : vesu
+    a type of energy commonly called upper body energy
+
+    - `ʋesysi` - I conduct `ʋesy`
+    - `ʋesysa` - `ʋesy`
+
+  `syʋe` : suve
+    a type of energy commonly called lower body energy
+
+    - `syʋesi` - I conduct `syʋe`
+    - `syʋesa` - `syʋe`
+
+  `tyθi` : tuthi
+    thought
+
+    - `tyθisi` - I think
+    - `tyθisa` - a/the thought
+
+  `øʒɛ` : ozha
+    sound
+
+    - `øʒɛsi` - I speak
+    - `øʒɛsa` - a sound
+
+  `itʒje` : itzhye
+    time
+
+    - `itʒjesi` - I move
+    - `itʒjesa` - a time period
+
+  `ajesɹɶ` : ayesro
+    beauty
+
+    - `ajesɹɶsi` - I am beautiful
+    - `ajesɹɶsa` - a/the beauty; a/the beautiful person
+
+  `ʃɶi` : shoi
+    sex/physical union
+
+    - `ʃɶisi` - I have sex
+    - `ʃɶisa` - the act of having sex
+
+  `ajɛʃɶi` : ayashoi
+    marriage
+
+    - `ajɛʃɶisi` - I am married
+    - `ajɛʃɶisa` - marriage
+
+  `ydza` : ydza
+    beginning
+
+    - `ydzasi` - I begin
+    - `ydzasa` - a/the beginning
+
+  `aʃi` : ashi
+    forward
+
+    - `aʃisi` - I go; this is for any action not just physical
+    - `aʃisa` - Future/Front
+
+  `ɶʂi` : oshi
+    air
+
+    - `ɶʂisi` - I fly
+    - `ɶʂisa` - air
+
+  `eʒi` : ezhi
+    backward
+
+    - `eʒisi` - I go back; this is for any action not just physical
+    - `eʒisa` - history/past/back
+
+  `zai` : zai
+    sun
+
+    - `zaisi` - I am radiant (glorious/resplendent like the sun)
+    - `zaisa` - sun
+
+  `øʐi` : azhi
+    earth
+
+    - `øʐisi` - I stand firm
+    - `øʐisa` - land
+
+  `yɹʋœ` : urvo
+    moon
+
+    - `yɹʋœsi` - I am shining (glorious/resplendent like the moon)
+    - `yɹʋœsa` - moon
+
+  `ɖa` : da
+    day
+
+    - `ɖasi` - I am in the morning
+    - `ɖasa` - day/morning
+
+  `sai` : sai
+    night
+
+    - `saisi` - I am in the night
+    - `saisa` - night/evening
+
+  `itʃi` : itshi
+    creation; mostly inanimate creation though it may be used for birth
+
+    - `itʃisi` - I create
+    - `itʃisa` - a/the Creation
+
+  `diʃi` : dishi
+    birth; this is used for animate creation or birth more often
+
+    - `diʃisi` - I bear
+    - `diʃisa` - a/the birth
+
+  `itʃiaʃi` : itshiashi
+    recreation; creation after destruction
+
+    - `itʃiaʃisi` - I recreate
+    - `itʃiaʃisa` - a recreation/reenactement
+
+  `diʃiaʃi` : dishiashi
+    rebirth; birth after death
+
+    - `diʃiaʃisi` - I re-bear (seldom used)
+    - `diʃiaʃisa` - a/the rebirth
+
+  `yʂi` : ushi
+    water/liquid
+
+    - `yʂisi` - I flow
+    - `yʂisa` - water/liquid
+
+  `itʒi` : itzhi
+    death
+
+    - `itʒisi` - I die
+    - `itʒisa` - a/the death
+
+  `ɹyθɛy` : rythay
+    destruction
+
+    - `ɹyθɛysi` - I destroy
+    - `ɹyθɛysa` - destruction
+
+  `yʐi` : uzhi
+    fire
+
+    - `yʐisi` - I burn
+    - `yʐisa` - fire
+
+  `ɶʈaʋɶ` : otavo
+    forever/infinite/eternal
+
+    - `ɶʈaʋɶsi` - I am forever
+    - `ɶʈaʋɶsa` - an immortal being/object
+
+  `iʃʋy` : ishvu
+    detail
+
+    - `iʃʋysi` - I detail (give detail)
+    - `iʃʋysa` - a/the detail
+
+  `ise` : ise
+    non-living
+
+    - `isesi` - I am a thing
+    - `isesa` - thing/something
+
+  `aze` : aze
+    living
+
+    - `azesi` - I am
+    - `azesa` - person (plural\: people/civilization)
+
+  `aʃize` : azhize
+    youth, young; the time period where one is young and health
+
+    - `aʃizesi` - I am young
+    - `aʃizesa` - a/the young person; a/the youth
+
+  `ʐaʃize` : zhashize
+    old, older; the time period after youth
+
+    - `ʐaʃizesi` - I am an elder
+    - `ʐaʃizesa` - an/the older person; an/the elder
+
+  `ʈʂy` : tshu
+    identity
+
+    - `ʈʂysi` - I identify (along the lines of "I recognise you", or "I see you")
+    - `ʈʂysa` - name
+
+  `eʒɶ` : ezho
+    physical rendering of onself
+
+    - `eʒɶsi` - I do
+    - `eʒɶsa` - a/the body
+
+  `øʃa` : asha
+    spiritual rendering of oneself
+
+    - `øʃasi` - I exist
+    - `øʃasa` - a/the spirit
+
+  `atɹi` : atri
+    the revelation of the hidden
+
+    - `atɹisi` - I show/reveal
+    - `atɹisa` - an event
+
+  `tɹi` : tri
+    knowledge
+
+    - `tɹisi` - I understand
+    - `tɹisa` - the knowledge
+
+  `itɹa` : itra
+    hidden
+
+    - `itɹasi` - I hide
+    - `itɹasa` - hidden
+
+  `azʋa` : azva
+    motivation
+
+    - `azʋasi` - I motivate
+    - `azʋasa` - a motivation
+
+  `iʃetsɛ` : ishetsa
+    category
+
+    - `iʃetsɛsi` - I categorize
+    - `iʃetsɛsa` - categories
+
+  `seʒiɹø` : sezhira
+    work/job/responsibility
+
+    - `seʒiɹøsi` - I work
+    - `seʒiɹøsa` - job/profession
+
+  `eɹiʃy` : erishu
+    empire
+
+    - `eɹiʃysi` - I am a citizen on the `eɹiʃy`
+    - `eɹiʃysa` - empire
+
+  `ʋɹɶ` : vro
+    bottom/low
+
+    - `ʋɹɶsi` - I am down;I crouch;I feel sad or depressed
+    - `ʋɹɶsa` - bottom/low
+
+  `ajesɖɶ` : ayasdo
+    top/high
+
+    - `ajesɖɶsi` - I am high/I am feeling excited
+    - `ajesɖɶsa` - top/high
+
+  `itʒieitʒi` : itzhieitzhi
+    constant movement
+
+    - `itʒieitʒisi` - I am a nomad
+    - `itʒieitʒisa` - a/the nomad
+
+  `ʐyʂi` : zhushi
+    desert/dry
+
+    - `ʐyʂisi` - I am dry
+    - `ʐyʂisa` - the desert
+
+  `ajɛstɹaɹi` : ayastrari
+    the appendage on the back of the `ʈeaθyɖa` and some of the `isiʈeθɶ` and `zœeɖaʃi`
+
+    - `ajɛstɹaɹisi` - I have `ajɛstɹaɹi`
+    - `ajɛstɹaɹisa` - a/the `ajɛstɹaɹi`
+
+Organizations
+-------------
+
+.. glossary::
+  :sorted:
+    
+  `tɹiɛʈɶɹe` : triatore
+    the personal guard of all the `isiʈeθɶ`
+
+    - `tɹiɛʈɶɹesi` - I am a member of the personal guard of the `isiʈeθɶ`
+    - `tɹiɛʈɶɹesa` - the main hall/headquarters of the `tɹiɛʈɶɹe`
+
+Places
+------
+
+.. glossary::
+  :sorted:
+
+  `izœ` : izo
+    biggest of the 3 continents of `aɖasi`
+
+    - `izœsi` - I am in `izœ`
+    - `izœsa` - the land of `izœ`
+
+  `adɹa` : adra
+    the second biggest of the 3 continents of `aɖasi`
+
+    - `adɹasi` - I am in `adɹa`
+    - `adɹasa` - the land of `adɹa`
+
+  `sɹɶzi` : srozi
+    smallest of the 3 continents
+
+    - `sɹɶzisi` - I am in `sɹɶzi`
+    - `sɹɶzisa` - the land of `sɹɶzi`
+
+  `idɹɶda` : idroda
+    fertile region on the western edge of the continent `izœ`
+
+    - `idɹɶdasi` - I am in `idɹɶda`
+    - `idɹɶdasa` - the land of `idɹɶda`
+
+  `atʒi` : atzhi
+    mountain range surrounding `idɹɶda`
+
+    - `atʒisi` - I am on `atʒi`
+    - `atʒisa` - the mountain range of `atʒi`
+
+  `ʈɹyɶtsi` : truotsi
+    dense forest in northern `izœ`
+
+    - `ʈɹyɶtsisi` - I am in `ʈɹyɶtsi`
+    - `ʈɹyɶtsisa` - the forest of `ʈɹyɶtsi`
+
+  `adøɹi` : adari
+    rainforest in `adɹa`
+  
+    - `adøɹisi` - I am in `adøɹi`
+    - `adøɹisa` - the rainforest of `adøɹi`
+
+  `iθiɹaiθa` : ithiraitha
+    mountainous region of eastern `izœ` historically controlled by the `iθiɹa`
+
+    - `iθiɹaiθasi` - I am in `iθiɹaiθa`
+    - `iθiɹaiθasa` - the land of the `iθiɹa`
+
+  `ɛjyɹi` : ayuri
+    the horseshoe shaped mountain range in eastern `izœ`
+
+    - `ɛjyɹisi` - I am on `ɛjyɹi`
+    - `ɛjyɹisa` - the mountain range of `ɛjyɹi`
+
+  `ɹiɖja` : ridya
+    a grassland that borders the `ɛjyɹi` mountains to the west, but still largely in `iθiɹa` land
+
+    - `ɹiɖjasi` - I am in `ɹiɖja`
+    - `ɹiɖjasa` - the grasslands of `ɹiɖja`
+
+  `aʋeɹsasjɛ` : aversasya
+    an outpost commissioned by `aʋeɹsadɹa`
+
+    - `aʋeɹsasjɛsi` - I am in `aʋeɹsasjɛ`
+    - `aʋeɹsasjɛsa` - the fort of `aʋeɹsasjɛ`
+
+  `ɹyʋiœ` : ryvio
+    a large city in the center of the `iɹiʋa` land
+
+    - `ɹyʋiœsi` - I am in `ɹyʋiœ`
+    - `ɹyʋiœsa` - the city of `ɹyʋiœ`
+
+  `ʐyʂiθa` : zhyshitha
+    the desert land of central `izœ`
+
+    - `ʐyʂiθasi` - I am in `ʐyʂiθa`
+    - `ʐyʂiθasa` - the land of `ʐyʂiθa`
+
+  `tœɹtɹœ` : tortro
+    the asteroid impact that introduced 4 aiɖi, and is also the name of the place [#f3]_. It can also be used as a metaphor for something disastrous or world-changing.
+
+    - `tœɹtɹœsi` - I am in the `tœɹtɹœ` region *or* I am the `tœɹtɹœ` asteroid [#f4]_
+    - `tœɹtɹœsa` - the `tœɹtɹœ` region *or* the `tœɹtɹœ` asteroid
+
+  `diʃietisjɛ` : dishietisya
+    the sacred city of the `ʃɹaʃjɛ` that acted as the capital of the `ʃɹaʃjɛ` coalition; it remained the capital until `ajɛseɖi` moved to `ʃœɹysiʋa` later
+
+    - `diʃietisjɛsi` - I live in the city of `diʃietisjɛ`/I am a resident of `diʃietisjɛ`
+    - `diʃietisjɛsa` - the city of `diʃietisjɛ`
+
+  `œʋiʐyʐi` : ovizhiyzhi
+    a city-state in mid-`adɹa`
+
+    - `œʋiʐyʐisi` - I live in the city of `œʋiʐyʐi`/ I am a resident of `œʋiʐyʐi`
+    - `œʋiʐyʐisa` - the city of `œʋiʐyʐi`
+
+  `ʃœɹysiʋa` : shorusiva
+    a city-state in eastern `adɹa`; the oldest of the Second Arrival cities in `adɹa` and the future capital under `ajɛseɖi`
+
+    - `ʃœɹysiʋasi` - I live in the city of `ʃœɹysiʋa`/I am a resident of `ʃœɹysiʋa`
+    - `ʃœɹysiʋasa` - the city of `ʃœɹysiʋa`
+
+  `θeʈiʃa` : thetisha
+    a city-state in western `adɹa`; the youngest of the Second Arrival cities in `adɹa`
+
+    - `θeʈiʃasi` - I live in the city of `θeʈiʃa`/ I am a resident of `θeʈiʃa`
+    - `θeʈiʃasa` - the city of `θeʈiʃa`
+
+  `yʈaɹyʈɛɖi` : utarutadi
+    a fortress in western `adɹa` controlled by `θeʈiʃa`
+
+    - `yʈaɹyʈɛɖisi` - I live in the fortress of `yʈaɹyʈɛɖi`
+    - `yʈaɹyʈɛɖisa` - the fortress of `yʈaɹyʈɛɖi`
+
+Words in `aθɶs` [#f5]_
+----------------------
+
+.. glossary::
+  :sorted:
+
+  `aθɶs` : athos
+    the name of the `aθɶs` planet and people
+
+    - `aθɶsi` - I am of the planet `aθɶs` *or* I am a human
+    - `aθɶsa` - the planet `aθɶs` *or* a human
+
+  `sayɹeʃʈe` : saureshte
+    the name of the family into which `saiʃeʈa` was born into
+
+    - `sayɹeʃʈesi` - I am of the `sayɹeʃʈe` family
+    - `sayɹeʃʈesa` - the `sayɹeʃʈe` family
+
+  `jyʋi` : yuvi
+    the name of the city as well as the family into which `saeθa` was born into
+
+    - `jyʋisi` - I live in the city of `jyʋi` *or* I am of the `jyʋi` family
+    - `jyʋisa` - the `jyʋi` city *or* the `jyʋi` family
+
+  `ʋeʃjœ` : veshyo
+    the city where `ajɛseɖi` was born in
+
+    - `ʋeʃjœsi` - I live in the city of `ʋeʃjœ`
+    - `ʋeʃjœsa` - the `ʋeʃjœ` city
+
+  `jyɹi` : yuri
+    an honorific used to address someone older or wiser
+
+    - `jyɹisi` - I am an older or wiser person
+    - `jyɹisa` - a/the person who is older or wiser than you
+
+----
+
+.. rubric:: Footnotes
+
+.. [#f1] Some of the English definitions offered in this lexicon are mere approximations of their actual meaning. Some of these words may be employed in a manner that does not coincide with the English meaning, but in terms of the philosophy of the language make better sense. 
+
+.. [#f2] Informally, negation of something is usually the same word but starting with ʐ if the syllabic rules allow.
+
+.. [#f3] Which of the two definitions to use can be guessed using context
+
+.. [#f4] The second statement and statements of a similar style are used as a metaphor and aren't taken literally.
+
+.. [#f5] `aθɶs` while commonly used in the Zean language isn't a Zean word, as it plainly disregards the rules of creating syllables in the Zean language. Thus it and all words originating from `aθɶs` (besides the names of the `isiʈeθɶ` and `zœeɖaʃi`) are included in a separate section.

@@ -1,0 +1,44 @@
+Adasi
+=====
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Contents
+    
+    History/history
+    Demographics/demographics
+    Culture/culture
+    Documents/documents
+    ideas
+    notes
+    zean-glossary
+    zean-reference
+..
+    Unlisted-Section/unlisted-section
+    
+
+*************************************************
+
+.. admonition:: Wiki Standards
+    :class: attention
+    
+    Please see :doc:`this page <wiki-standards>` for more information on standard practices.
+
+To-do
+-----
+.. todolist::
+
+Index
+-------
+
+* :ref:`genindex`
+
+.. 
+    Find: \{\{(.*?)\}\}
+    Replace: `$1`
+
+    To make wiki use
+    make html
+    
+    To make and run spell check use
+    make html spell_check

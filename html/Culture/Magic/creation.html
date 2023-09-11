@@ -1,0 +1,760 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <link rel="icon" href="../../_static/logo/favicon-white.svg" type="image/svg+xml"><link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="The Ethereal Plane" href="ethereal-plane.html" /><link rel="prev" title="Magic" href="magic.html" />
+
+    <!-- Generated with Sphinx 5.3.0 and Furo 2022.12.07 -->
+        <title>Creation - Adasi 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/decor.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/icons/idea.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/icons/question.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --color-brand-primary: black;
+  --color-brand-content: darkgoldenrod;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Adasi 1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="../../_static/logo/hires-logo-black.svg" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="../../_static/logo/hires-logo-white.svg" alt="Dark Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../History/history.html">History</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../History/before-founding.html">Before Founding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../History/first-arrival.html">First Arrival</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Demographics/demographics.html">Demographics</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/aidi.html"><span class="zean">aiɖi</span></a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/aidi/major-aidi.html">Major <span class="zean">aiɖi</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/aidi/minor-aidi.html">Minor <span class="zean">aiɖi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/avyasi.html"><span class="zean">aʋjasi</span></a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/avyasi/isitetho.html"><span class="zean">isiʈeθɶ</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/avyasi/zoedashi.html"><span class="zean">zœeɖaʃi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/zea-races.html"><span class="zean">zea</span> Races</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/zea-races/teathuda.html"><span class="zean">zea ʈeaθyɖa</span></a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/teathuda-simulation.html">Simulation Code</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/simulation.html">Main Simulation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/find-simulation-weights.html">Experiment Simulation Weights</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../culture.html">Culture</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 current has-children"><a class="reference internal" href="magic.html">Magic</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">Creation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ethereal-plane.html">The Ethereal Plane</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../Holds/holds.html">Holds</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../Pre-Arrival-Societies/pa-societies.html">Pre-Arrival Societies</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Documents/documents.html">Documents</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Documents/Stories/stories.html">Stories</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Documents/Stories/Excerpts_from_Ancient_History.html">Excerpts from Ancient History</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Documents/Stories/Excerpts_from_Before_Great_Split.html">Excerpts from Before Great Split</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../ideas.html">Ideas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notes.html">Miscellaneous Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../zean-glossary.html">Zean Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../zean-reference.html">Reference for the Zean Language</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="creation">
+<h1>Creation<a class="headerlink" href="#creation" title="Permalink to this heading">#</a></h1>
+<p><span class="zean">syʋe</span> and <span class="zean">ʋesy</span> are essential energies of the life. But they do not solely define the body. There are two steps to creation: first is to create a vessel for the energies, and then fill the vessel with some energies. This is done via two <span class="zean">sʋe</span>: one of which creates energy from nothing, but this is done by conjuring <span class="zean">syʋe</span> and <span class="zean">ʋesy</span> simultaneous but separately, thus the sign of the universe stays null, and one which transfers the energy into the created vessel, while the rest is consumed as corruption. Energy in your own body gives you some side effects that are sometimes advantageous and disadvantageous. Thus, the true test of creation is balancing the flow of energy so that both the product and the creator do not suffer from disadvantages of energy weakness.</p>
+<p>When creating the vessel, one makes the body of the creature depending on the intended energy one needs to transfer into the body. <span class="zean">syʋe</span> resides in the lower body, while <span class="zean">ʋesy</span> resides in the upper body. Thus, if one intends to have a higher <span class="zean">syʋe</span>, then one makes a lower body capable of handling higher <span class="zean">syʋe</span>. Creating a body that does not fit the energy it is used to contain can decrease the effectiveness of that part of the body for the whole race, and further, it increases the possibility of diseases occurring in that particular part of the body.</p>
+<p>The techniques of making the vessels or the body are varied. One can use a combination of <span class="zean">sʋe</span> to create material from scratch for the body and giving the rough body characteristics. This process takes time, as creating and modifying material with <span class="zean">sʋease</span> takes much energy and has a high chance of creating a body that is faulty. Another technique is to use sculpt the general shape of the body using common material, such as ash, clay, wood, or metal. Then using an <span class="zean">aiɖi</span>, cast a <span class="zean">sʋesa</span> to convert the inanimate material into biomaterial. The use of <span class="zean">aiɖi</span> is important as this allows the <span class="zean">aiɖi</span> to make such changes to the new biomaterial to allow complex functions. The advice of an <span class="zean">aiɖi</span> is what differentiates between the first technique and the second technique. Note that the use of material in the outset affects the biomaterial body. Which <span class="zean">aiɖi</span> is helping in the conversion also affects the final outcome of the biomaterial body. While we won’t specify how each outset material or <span class="zean">aiɖi</span> affects the final outcome, one can generally notice a pattern from the 5 cases we most commonly observe.</p>
+<p>Once we have created this vessel properly, animating this vessel is more complicated than regular animations <span class="zean">sʋe</span>. Most animated objects cast through regular animation <span class="zean">sʋe</span> are incapable of reproduction or thought besides the given commands. These animations are incapable of memory, or even learning. This is not only because of the inferior body used in common animation <span class="zean">sʋe</span>, it is also because of the inferiority of the <span class="zean">sʋe</span>. In the Creation Ritual, the <span class="zean">sʋe</span> used is much more powerful, and requires the aid of an <span class="zean">aiɖi</span>. Note that this <span class="zean">aiɖi</span> does not have to be the same to convert your body into the biomaterial, yet speculatively, it would result in a much better manageable outcome to use the same <span class="zean">aiɖi</span>. Withholding the details of this ritual, the idea is that the creator and the <span class="zean">aiɖi</span> summon energy. To maintain the balance of the universe, one can only summon equal amounts of <span class="zean">syʋe</span> and <span class="zean">ʋesy</span>, and only in groups of 5. Then the creator and <span class="zean">aiɖi</span> can then allow their wishes energy into the vessel they have created, yet they cannot transfer all energy created into this vessel. Since the body is made out of weaker material, it cannot hold so much energy at its creation, and must be given time before it can handle more energy. Thus, the extra energy must be placed in another vessel, specifically in that of the creator. To handle extra energy, updates to the vessel of the creator can be done by the <span class="zean">aiɖi</span>, to allow for the vessel of the creator to contain the influx of extra energy. These changes are besides the changes that the corruption of the <span class="zean">sʋe</span> has on the creator. The corruption by the <span class="zean">sʋe</span> is the corruption that forms the types of <span class="zean">aʋjasi</span>. Once this is done, the ritual is over, and a new creature has been created, one that can think, reproduce, and learn on its own.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Reference Tables<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="rubric">Table of <span class="zean">isiʈeθɶ</span> Energies</p>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default" style="width: 100%">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p class="sd-card-text">Race Created</p></th>
+<th class="head"><p class="sd-card-text">Creator</p></th>
+<th class="head"><p class="sd-card-text">Secondary Creator</p></th>
+<th class="head"><p class="sd-card-text">Gender</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">zea ʈeaθyɖa</span></p></td>
+<td><p class="sd-card-text"><span class="zean">ajɛseɖi</span></p>
+<p class="sd-card-text">8s/8v</p>
+</td>
+<td></td>
+<td><p class="sd-card-text"><span class="zean">ajɛsɖɶ</span></p>
+<p class="sd-card-text">2s/2v</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">zea ʈeaθyɖa</span></p></td>
+<td><p class="sd-card-text"><span class="zean">saeθa</span></p>
+<p class="sd-card-text">6s/8v</p>
+</td>
+<td></td>
+<td><p class="sd-card-text"><span class="zean">ɖiʒiɖi</span></p>
+<p class="sd-card-text">4s/2v</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">zea ʈeaθyɖa</span></p></td>
+<td><p class="sd-card-text"><span class="zean">saiʃeʈa</span></p>
+<p class="sd-card-text">8s/6v</p>
+</td>
+<td></td>
+<td><p class="sd-card-text"><span class="zean">esiʈi</span></p>
+<p class="sd-card-text">2s/4v</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">zea astɹœ</span></p></td>
+<td><p class="sd-card-text"><span class="zean">iɖe</span></p>
+<p class="sd-card-text">9s/9v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">saiʃeʈa</span></p>
+<p class="sd-card-text">8s/8v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">ajɛsɖɶ</span></p>
+<p class="sd-card-text">4s/3v</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">zea astɹœ</span></p></td>
+<td><p class="sd-card-text"><span class="zean">iɖe</span></p>
+<p class="sd-card-text">8s/9v</p>
+</td>
+<td></td>
+<td><p class="sd-card-text"><span class="zean">iɹeɖi</span></p>
+<p class="sd-card-text">2s/2v</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="sd-card-text">Table of <span class="zean">zœeɖaʃi</span> Energies</p>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default" style="width: 100%">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p class="sd-card-text">Creator</p></th>
+<th class="head"><p class="sd-card-text">Creature</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">ʃɛʈaði</span></p>
+<p class="sd-card-text">7s/7v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">isɛʃy</span></p>
+<p class="sd-card-text">1s/1v</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">ɖɛʈaði</span></p>
+<p class="sd-card-text">7s/7v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">iɹɛɖy</span></p>
+<p class="sd-card-text">1s/1v</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">eʈaði</span></p>
+<p class="sd-card-text">7s/7v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">iɹeʈy</span></p>
+<p class="sd-card-text">1s/1v</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">eʈiaði</span></p>
+<p class="sd-card-text">7s/7v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">iɹiyte</span></p>
+<p class="sd-card-text">1s/1v</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">aðia</span></p>
+<p class="sd-card-text">7s/7v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">yʃʈia</span></p>
+<p class="sd-card-text">1s/1v</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">sœʈi</span></p>
+<p class="sd-card-text">6s/8v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">iɹyʋie</span></p>
+<p class="sd-card-text">0s/2v</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">seθi</span></p>
+<p class="sd-card-text">5s/8v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">tɹœʃʈa</span></p>
+<p class="sd-card-text">0s/3v</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">aʃaða</span></p>
+<p class="sd-card-text">8s/5v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">ʋɛɹezy</span></p>
+<p class="sd-card-text">3s/0v</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">teʃi</span></p>
+<p class="sd-card-text">7s/6v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">ʒiyʃi</span></p>
+<p class="sd-card-text">2s/1v</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">siydi</span></p>
+<p class="sd-card-text">7s/8v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">ʋɶɹjɛ</span></p>
+<p class="sd-card-text">0s/2v</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">θisœʈe</span></p>
+<p class="sd-card-text">5s/8v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">eɹɛʈɶi</span></p>
+<p class="sd-card-text">0s/3v</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">dea</span></p>
+<p class="sd-card-text">6s/7v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">iɹɛtisja</span></p>
+<p class="sd-card-text">1s/2v</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">θea</span></p>
+<p class="sd-card-text">6s/7v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">ɖiɹja</span></p>
+<p class="sd-card-text">1s/2v</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">sjeði</span></p>
+<p class="sd-card-text">8s/7v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">ɹyœjœ</span></p>
+<p class="sd-card-text">2s/1v</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">teʃi</span></p>
+<p class="sd-card-text">9s/6v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">ziyte</span></p>
+<p class="sd-card-text">2s/0v</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">ase</span></p>
+<p class="sd-card-text">5s/5v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">yɹœʈɶi</span></p>
+<p class="sd-card-text">3s/1v</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">sia</span></p>
+<p class="sd-card-text">7s/8v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">aʋɹaʃi</span></p>
+<p class="sd-card-text">1s/2v</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">ʈaʃe</span></p>
+<p class="sd-card-text">8s/8v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">ɶʋyθœ</span></p>
+<p class="sd-card-text">2s/0v</p>
+</td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">ʈɛe</span></p>
+<p class="sd-card-text">8s/9v</p>
+</td>
+<td><p class="sd-card-text"><span class="zean">ɹjyeʈœ</span></p>
+<p class="sd-card-text">1s/1v</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="sd-card-text">Table of Energies after Creation</p>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default" style="width: 100%">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"><p class="sd-card-text">Before</p></th>
+<th class="head"><p class="sd-card-text">First Ritual</p></th>
+<th class="head"><p class="sd-card-text">Second Ritual</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">ajɛseɖi</span></p></td>
+<td><p class="sd-card-text">5s/5v</p></td>
+<td><p class="sd-card-text">8s/8v</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">ʃɛʈaði</span></p></td>
+<td><p class="sd-card-text">6s/6v</p></td>
+<td><p class="sd-card-text">7s/7v</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">ɖɛʈaði</span></p></td>
+<td><p class="sd-card-text">6s/6v</p></td>
+<td><p class="sd-card-text">7s/7v</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">eʈaði</span></p></td>
+<td><p class="sd-card-text">6s/6v</p></td>
+<td><p class="sd-card-text">7s/7v</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">eʈiaði</span></p></td>
+<td><p class="sd-card-text">6s/6v</p></td>
+<td><p class="sd-card-text">7s/7v</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">aðia</span></p></td>
+<td><p class="sd-card-text">6s/6v</p></td>
+<td><p class="sd-card-text">7s/7v</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">sœʈi</span></p></td>
+<td><p class="sd-card-text">6s/6v</p></td>
+<td><p class="sd-card-text">6s/8v</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">saeθa</span></p></td>
+<td><p class="sd-card-text">5s/5v</p></td>
+<td><p class="sd-card-text">6s/8v</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">seθi</span></p></td>
+<td><p class="sd-card-text">5s/5v</p></td>
+<td><p class="sd-card-text">5s/8v</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">aʃaða</span></p></td>
+<td><p class="sd-card-text">5s/5v</p></td>
+<td><p class="sd-card-text">8s/5v</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">teʃi</span></p></td>
+<td><p class="sd-card-text">5s/5v</p></td>
+<td><p class="sd-card-text">7s/6v</p></td>
+<td><p class="sd-card-text">9s/6v</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">siydi</span></p></td>
+<td><p class="sd-card-text">7s/6v</p></td>
+<td><p class="sd-card-text">7s/8v</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">saiʃeʈa</span></p></td>
+<td><p class="sd-card-text">5s/5v</p></td>
+<td><p class="sd-card-text">8s/6v</p></td>
+<td><p class="sd-card-text">8s/8v</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">θisœʈe</span></p></td>
+<td><p class="sd-card-text">5s/5v</p></td>
+<td><p class="sd-card-text">5s/8v</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">dea</span></p></td>
+<td><p class="sd-card-text">5s/5v</p></td>
+<td><p class="sd-card-text">6s/7v</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">θea</span></p></td>
+<td><p class="sd-card-text">5s/5v</p></td>
+<td><p class="sd-card-text">6s/7v</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">sjeði</span></p></td>
+<td><p class="sd-card-text">6s/6v</p></td>
+<td><p class="sd-card-text">8s/7v</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">iɖe</span></p></td>
+<td><p class="sd-card-text">5s/6v</p></td>
+<td><p class="sd-card-text">8s/9v</p></td>
+<td><p class="sd-card-text">9s/9v</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">ase</span></p></td>
+<td><p class="sd-card-text">2s/4v</p></td>
+<td><p class="sd-card-text">5s/5v</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">sia</span></p></td>
+<td><p class="sd-card-text">6s/6v</p></td>
+<td><p class="sd-card-text">7s/8v</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><span class="zean">ʈaʃe</span></p></td>
+<td><p class="sd-card-text">6s/8v</p></td>
+<td><p class="sd-card-text">8s/8v</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><span class="zean">ʈɛe</span></p></td>
+<td><p class="sd-card-text">7s/8v</p></td>
+<td><p class="sd-card-text">8s/9v</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</details><section id="ajasi">
+<h2><span class="zean">aʋjasi</span><a class="headerlink" href="#ajasi" title="Permalink to this heading">#</a></h2>
+<p>As noted above, extra energy is routed into the creator. The extra energy causes instability in the creator, changing the creator physically and physiologically. People who have performed the Creation Ritual and have been unbalanced by energies are collectively called <span class="zean">aʋjasi</span>, and the physical changes they experience is called corruption. The amount of energy absorbed the creator determine what kind of corruption they experience, and are separated into 5 Forms.</p>
+<div class="note admonition">
+<p class="admonition-title">Writer’s Note - The Laws of Corruption</p>
+<p>While energies and corruption in the world and esoteric, we can talk about energies and the resulting forms in terms of units of <span class="zean">syʋe</span> and <span class="zean">ʋesy</span> (abbreviated as ‘s’ and ‘v’ respectively after the units).</p>
+<ol class="arabic simple">
+<li><p>Total corruption of more than 5 units of either <span class="zean">syʋe</span> or <span class="zean">ʋesy</span> results in death of the caster and an instant failure of the ritual.</p>
+<ol class="loweralpha simple">
+<li><p>For more than one rituals, forms are obtained by the running sum of the corruption. Examine the case of <span class="zean">saiʃeʈa</span> and <span class="zean">iɖe</span>.</p></li>
+</ol>
+</li>
+<li><p>During a creation ritual, a caster can call energies of only 5s and 5v, nothing more or nothing less, to maintain the natural balance of the ritual</p></li>
+<li><p>A creature with exactly 5s and 5v cannot be created in a single ritual. Furthermore, such creature cannot reproduce.</p></li>
+<li><p>Reproduction</p>
+<ol class="loweralpha simple">
+<li><p>The race of the product of reproduction depends on the energy of the two beings.</p></li>
+<li><p>How the energies are combined depend on the beings, which is different for beings of <span class="zean">zai</span> and beings of another universe.</p></li>
+<li><p>The energy rule for creatures of <span class="zean">zai</span> is the sum of the two energies minus 2s/2v.</p></li>
+<li><p>The energy rule for <span class="zean">aʋjasi</span> themselves is the average of the two energies rounded down.</p></li>
+<li><p>The inclusion of <span class="zean">aʋjasi</span> in any mating pair, be it <span class="zean">zai</span> or any other, will still induce <span class="zean">aʋjasi</span> energy rule.</p></li>
+</ol>
+</li>
+</ol>
+</div>
+<p class="rubric">Forms</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-0">
+Form I</label><div class="sd-tab-content docutils">
+<p>Form I occur when a body endures a corruption of 1 of either <span class="zean">ʋesy</span> or <span class="zean">syʋe</span>. In case of a <span class="zean">ʋesy</span> corruption, we call the <span class="zean">aʋjasi</span> a Form I-v, and in case of a <span class="zean">syʋe</span> corruption, we call the <span class="zean">aʋjasi</span> a Form I-s.</p>
+<p>A Form I corruption results in fur-like projections in the designated area of corruption. <span class="zean">ʋesy</span> corruption causes these changes to appear in the upper body, while <span class="zean">syʋe</span> corruption causes these changes to appear in the lower body. The length and color of these projections are specific to the <span class="zean">aʋjasi</span> yet aren’t dependent on the color or length of the existing hair.</p>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-1">
+Form II</label><div class="sd-tab-content docutils">
+<p>Form II occur when a body endures a corruption of 2 of either <span class="zean">ʋesy</span> or <span class="zean">syʋe</span>. In case of a <span class="zean">ʋesy</span> corruption, we call the <span class="zean">aʋjasi</span> a Form II-v, and in case of a <span class="zean">syʋe</span> corruption, we call the <span class="zean">aʋjasi</span> a Form II-s.</p>
+<p>A Form II corruption results in slight leaks of energy from the skin in various parts of the body. <span class="zean">ʋesy</span> corruption causes these changes to appear in the upper body, while <span class="zean">syʋe</span> corruption causes these changes to appear in the lower body. The energy leaks form in lines on the body. The energy leak will release a faint glow that also reacts to emotional and physical state of the <span class="zean">aʋjasi</span>. The energy leak looks different for each <span class="zean">aʋjasi</span>.</p>
+</div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-2">
+Form III</label><div class="sd-tab-content docutils">
+<p>Form III occur when a body endures a corruption of 3 of either <span class="zean">ʋesy</span> or <span class="zean">syʋe</span>. In case of a ʋesy corruption, we call the <span class="zean">aʋjasi</span> a Form III-v, and in case of a <span class="zean">syʋe</span> corruption, we call the <span class="zean">aʋjasi</span> a Form III-s.</p>
+<p>A Form III corruption results in the protrusion of limb-like structures in the designated area of corruption. <span class="zean">ʋesy</span> corruption causes these changes to appear in the upper body, while <span class="zean">syʋe</span> corruption causes these changes to appear in the lower body. These limb-like structures are long, sometimes strong, tentacle-like growth. They are extremely flexible and feature no joints, but instead a spine like bone structure, that is quite flexible, but still limited. Particular features of these projections are specific to the <span class="zean">aʋjasi</span>. These protrusions are referred to as <span class="zean">ajɛstɹaɹi</span> (base).</p>
+</div>
+<input id="sd-tab-item-3" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-3">
+Form IV</label><div class="sd-tab-content docutils">
+<p>Form IV occurs when a body endures a corruption of 4 of either <span class="zean">ʋesy</span> or <span class="zean">syʋe</span>. In case of a <span class="zean">ʋesy</span> corruption we call the aʋjasi a Form IV-v, and in case of a <span class="zean">syʋe</span> corruption, we call the <span class="zean">aʋjasi</span> a Form IV-s.</p>
+<p>A Form IV corruption results in the growth of shell-like chitin in the designated area of corruption. <span class="zean">ʋesy</span> corruption causes these changes to appear in the upper body, while <span class="zean">syʋe</span> corruption causes these changes to appear in the lower body. The chitin grows sparsely and provides an armor-like look. Removal of the chitin is extremely painful as they are grown out of and literally attached to the person. Any part of the chitin will regrow if it has been removed.</p>
+</div>
+<input id="sd-tab-item-4" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-4">
+Form V</label><div class="sd-tab-content docutils">
+<p>Form V occurs when a body endures a corruption of 5 of either <span class="zean">ʋesy</span> or <span class="zean">syʋe</span>. In case of a <span class="zean">ʋesy</span> corruption we call the <span class="zean">aʋjasi</span> a Form V-v, and in case of a <span class="zean">syʋe</span> corruption, we call the <span class="zean">aʋjasi</span> a Form V-s.</p>
+<p>A Form V corruption results in a brittle stone-like texture in the designated area of corruption. <span class="zean">ʋesy</span> corruption causes these changes to appear in the upper body, while <span class="zean">syʋe</span> corruption causes these changes to appear in the lower body. The type and feel of the stone-like texture depends on the individual <span class="zean">aʋjasi</span>. This is also accompanied by an extreme desensitization of the skin.</p>
+<p>There are no documented Form V corruption.</p>
+</div>
+</div>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="ethereal-plane.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">The Ethereal Plane</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="magic.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Magic</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2020-2023, Praecordi
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Creation</a><ul>
+<li><a class="reference internal" href="#ajasi"><span class="zean">aʋjasi</span></a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/scripts/furo.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    </body>
+</html>

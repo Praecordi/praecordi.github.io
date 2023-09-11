@@ -1,0 +1,1082 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <link rel="icon" href="_static/logo/favicon-white.svg" type="image/svg+xml"><link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Reference for the Zean Language" href="zean-reference.html" /><link rel="prev" title="Miscellaneous Notes" href="notes.html" />
+
+    <!-- Generated with Sphinx 5.3.0 and Furo 2022.12.07 -->
+        <title>Zean Glossary - Adasi 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+    <link rel="stylesheet" type="text/css" href="_static/css/decor.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/icons/idea.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/icons/question.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --color-brand-primary: black;
+  --color-brand-content: darkgoldenrod;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">Adasi 1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="_static/logo/hires-logo-black.svg" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="_static/logo/hires-logo-white.svg" alt="Dark Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="History/history.html">History</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="History/before-founding.html">Before Founding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="History/first-arrival.html">First Arrival</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Demographics/demographics.html">Demographics</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Demographics/aidi.html"><span class="zean">aiɖi</span></a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/aidi/major-aidi.html">Major <span class="zean">aiɖi</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/aidi/minor-aidi.html">Minor <span class="zean">aiɖi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Demographics/avyasi.html"><span class="zean">aʋjasi</span></a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/avyasi/isitetho.html"><span class="zean">isiʈeθɶ</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/avyasi/zoedashi.html"><span class="zean">zœeɖaʃi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Demographics/zea-races.html"><span class="zean">zea</span> Races</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/zea-races/teathuda.html"><span class="zean">zea ʈeaθyɖa</span></a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="Demographics/zea-races/teathuda-simulation/teathuda-simulation.html">Simulation Code</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="Demographics/zea-races/teathuda-simulation/simulation.html">Main Simulation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Demographics/zea-races/teathuda-simulation/find-simulation-weights.html">Experiment Simulation Weights</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Culture/culture.html">Culture</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Culture/Magic/magic.html">Magic</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Culture/Magic/creation.html">Creation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Culture/Magic/ethereal-plane.html">The Ethereal Plane</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Culture/Holds/holds.html">Holds</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Culture/Pre-Arrival-Societies/pa-societies.html">Pre-Arrival Societies</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Documents/documents.html">Documents</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Documents/Stories/stories.html">Stories</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Documents/Stories/Excerpts_from_Ancient_History.html">Excerpts from Ancient History</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Documents/Stories/Excerpts_from_Before_Great_Split.html">Excerpts from Before Great Split</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ideas.html">Ideas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notes.html">Miscellaneous Notes</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Zean Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="zean-reference.html">Reference for the Zean Language</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="zean-glossary">
+<h1>Zean Glossary<a class="headerlink" href="#zean-glossary" title="Permalink to this heading">#</a></h1>
+<p>For each base, we will give a general meaning of the base <a class="footnote-reference brackets" href="#f1" id="id1">1</a>, the singular nominative inflection of the base and its meaning, and the 1st person simple singular present conjugation and its meaning.</p>
+<section id="names">
+<h2>Names<a class="headerlink" href="#names" title="Permalink to this heading">#</a></h2>
+<section id="people">
+<h3>People<a class="headerlink" href="#people" title="Permalink to this heading">#</a></h3>
+<dl class="glossary simple">
+<dt id="term-Names-of-Major-aii">Names of Major <span class="zean">aiɖi</span><a class="headerlink" href="#term-Names-of-Major-aii" title="Permalink to this term">#</a></dt><dd><ul class="simple">
+<li><p><span class="zean">etiaʃi</span> - Etiashi</p></li>
+<li><p><span class="zean">aʃieti</span> - Ashieti</p></li>
+<li><p><span class="zean">iʈʂedy</span> - Itshedu</p></li>
+<li><p><span class="zean">iɖʐe</span> - Idzhe</p></li>
+<li><p><span class="zean">ʂiɹiø</span> - Shiria</p></li>
+<li><p><span class="zean">eʋʈi</span> - Evti</p></li>
+<li><p><span class="zean">ɹyθiɛ</span> - Ruthia</p></li>
+<li><p><span class="zean">zɛɹa</span> - Zara</p></li>
+<li><p><span class="zean">seʃɹø</span> - Seshra</p></li>
+<li><p><span class="zean">θaœ</span> - Thao</p></li>
+<li><p><span class="zean">ʃɶða</span> - Shodha</p></li>
+<li><p><span class="zean">dœʋa</span> - Dova</p></li>
+<li><p><span class="zean">ʋaðœ</span> - Vadho</p></li>
+<li><p><span class="zean">saɹeθɶ</span> - Saretho</p></li>
+<li><p><span class="zean">yʈʂi</span> - Utshi</p></li>
+</ul>
+</dd>
+<dt id="term-Names-of-Minor-aii">Names of Minor <span class="zean">aiɖi</span><a class="headerlink" href="#term-Names-of-Minor-aii" title="Permalink to this term">#</a></dt><dd><ul class="simple">
+<li><p><span class="zean">iʋi</span> - Ivi</p></li>
+<li><p><span class="zean">ʃeʃti</span> - Sheshti</p></li>
+<li><p><span class="zean">ðija</span> - Dhiya</p></li>
+<li><p><span class="zean">ijaði</span> - Iyadhi</p></li>
+<li><p><span class="zean">søsji</span> - Sasyi</p></li>
+<li><p><span class="zean">ðɶðastœ</span> - Dhodhasto</p></li>
+<li><p><span class="zean">ysje</span> - Usye</p></li>
+<li><p><span class="zean">ydɹi</span> - Udri</p></li>
+<li><p><span class="zean">yʐʈa</span> - Uzhta</p></li>
+<li><p><span class="zean">aʃœ</span> - Asho</p></li>
+<li><p><span class="zean">iɖiʈi</span> - Iditi</p></li>
+<li><p><span class="zean">jɶtɹa</span> - Yotra</p></li>
+<li><p><span class="zean">ɹœa</span> - Roa</p></li>
+<li><p><span class="zean">ʃadi</span> - Shadi</p></li>
+<li><p><span class="zean">ʋɶɹa</span> - Vora</p></li>
+<li><p><span class="zean">ʈeʋɛ</span> - Teva</p></li>
+<li><p><span class="zean">tjɛda</span> - Tyada</p></li>
+<li><p><span class="zean">isʋeʂʈie</span> - Isveshtie</p></li>
+<li><p><span class="zean">etɛsa</span> - Etasa</p></li>
+<li><p><span class="zean">etɛʃa</span> - Etasha</p></li>
+<li><p><span class="zean">etɛda</span> - Etada</p></li>
+<li><p><span class="zean">etɛða</span> - Etadha</p></li>
+<li><p><span class="zean">etɛe</span> - Etae</p></li>
+<li><p><span class="zean">eʈa</span> - Eta</p></li>
+<li><p><span class="zean">etia</span> - Etia</p></li>
+<li><p><span class="zean">eʈi</span> - Eti</p></li>
+<li><p><span class="zean">ɛeta</span> - Aeta</p></li>
+<li><p><span class="zean">aʈea</span> - Atea</p></li>
+<li><p><span class="zean">aɹœʈi</span> - Aroti</p></li>
+<li><p><span class="zean">iɹaʈœ</span> - Irato</p></li>
+<li><p><span class="zean">izaɹi</span> - Izari</p></li>
+<li><p><span class="zean">ʋaɖi</span> - Vadi</p></li>
+<li><p><span class="zean">tiɛðø</span> - Tiadha</p></li>
+<li><p><span class="zean">ɛðyti</span> - Adhuti</p></li>
+<li><p><span class="zean">siaɹœ</span> - Siaro</p></li>
+<li><p><span class="zean">ɹiɛsœ</span> - Riaso</p></li>
+<li><p><span class="zean">aɹiɶsi</span> - Ariosi</p></li>
+<li><p><span class="zean">ɹœaʋy</span> - Roavu</p></li>
+<li><p><span class="zean">aʋyɹœ</span> - Avuro</p></li>
+<li><p><span class="zean">aθɶ</span> - Atho</p></li>
+<li><p><span class="zean">ɛditi</span> - Aditi</p></li>
+<li><p><span class="zean">østia</span> - Astia</p></li>
+<li><p><span class="zean">θaja</span> - Thaya</p></li>
+<li><p><span class="zean">ɛzaɹy</span> - Azaru</p></li>
+<li><p><span class="zean">ɛjyði</span> - Ayudhi</p></li>
+</ul>
+</dd>
+<dt id="term-Names-of-isie">Names of <span class="zean">isiʈeθɶ</span><a class="headerlink" href="#term-Names-of-isie" title="Permalink to this term">#</a></dt><dd><ul class="simple">
+<li><p><span class="zean">ajɛseɖi</span> - Ayasedi</p></li>
+<li><p><span class="zean">saeθa</span> - Saetha</p></li>
+<li><p><span class="zean">saiʃeʈa</span> - Saisheta</p></li>
+<li><p><span class="zean">iɖe</span> - Ide</p></li>
+</ul>
+</dd>
+<dt id="term-Names-of-zoeeai">Names of <span class="zean">zœeɖaʃi</span><a class="headerlink" href="#term-Names-of-zoeeai" title="Permalink to this term">#</a></dt><dd><ul class="simple">
+<li><p><span class="zean">sœʈi</span> - Soti</p></li>
+<li><p><span class="zean">ʃɛʈaði</span> - Shatadhi</p></li>
+<li><p><span class="zean">ɖɛʈaði</span> - Datadhi</p></li>
+<li><p><span class="zean">eʈaði</span> - Etadhi</p></li>
+<li><p><span class="zean">eʈiaði</span> - Etiadhi</p></li>
+<li><p><span class="zean">aðia</span> - Adhia</p></li>
+<li><p><span class="zean">seθi</span> - Sethi</p></li>
+<li><p><span class="zean">aʃaða</span> - Ashadha</p></li>
+<li><p><span class="zean">teʃi</span> - Teshi</p></li>
+<li><p><span class="zean">siydi</span> - Siudi</p></li>
+<li><p><span class="zean">θisœʈe</span> - Thisote</p></li>
+<li><p><span class="zean">dea</span> - Dea</p></li>
+<li><p><span class="zean">θea</span> - Thea</p></li>
+<li><p><span class="zean">sjeði</span> - Syedhi</p></li>
+<li><p><span class="zean">asʈeʋiaɹa</span> / <span class="zean">ase</span> - Asteviara / Ase</p></li>
+<li><p><span class="zean">sia</span> - Sia</p></li>
+<li><p><span class="zean">ʈaʃe</span> - Tashe</p></li>
+<li><p><span class="zean">ʈɛe</span> - Tae</p></li>
+</ul>
+</dd>
+<dt id="term-Names-of-some-zea">Names of some <span class="zean">zea</span><a class="headerlink" href="#term-Names-of-some-zea" title="Permalink to this term">#</a></dt><dd><ul class="simple">
+<li><p><span class="zean">tœɹʋa</span> - Torva: a parent of <span class="zean">aʋeɹsadɹa</span></p></li>
+<li><p><span class="zean">aʋeɹsadɹa</span> - Aversadra</p></li>
+<li><p><span class="zean">ʃɹyti</span> - Shruti</p></li>
+<li><p><span class="zean">ʋidisø</span> - Vidisa</p></li>
+<li><p><span class="zean">ʃɶtɹɶʃɶ</span> - Shotrosho: the Matriarch of <span class="zean">ɹyʋiœ</span> who created the Council of <span class="zean">ʃɶtɹɶʃɶ</span></p></li>
+<li><p><span class="zean">ʈesiaɹe</span> - Tesiare: father of <span class="zean">ase</span></p></li>
+<li><p><span class="zean">asteʋiɹa</span> - Astevira: mother of <span class="zean">ase</span></p></li>
+<li><p><span class="zean">ʃʈøtaɹi</span> - Shtatari: first partner of <span class="zean">aʋeɹsadɹa</span> and parent of <span class="zean">aʋeɹʃi</span></p></li>
+<li><p><span class="zean">aʋeɹʃi</span> - Avershi: the first demi-god and child of <span class="zean">ʃʈøtaɹi</span> and <span class="zean">aʋeɹsadɹa</span> hosting <span class="zean">iɖʐe</span></p></li>
+<li><p><span class="zean">ʋeɹsœ</span> - Verso: a collection of demi-gods born of <span class="zean">aʋeɹsadɹa</span> hosting <span class="zean">iɖʐe</span> and various mates and concubines</p></li>
+<li><p><span class="zean">ʈɹiʈøsy</span> - Tritasu: a <span class="zean">ʋeɹsœ</span> unique in the fact that she was the only child of <span class="zean">aʋeɹsadɹa</span> to be born of <span class="zean">aʋeɹsadɹa</span></p></li>
+<li><p><span class="zean">ietœzi</span> - Ietozi: the leader of the easter <span class="zean">syɹa</span> and an accomplished <span class="zean">isʋe</span></p></li>
+<li><p><span class="zean">idœʃe</span> - Idoshe: a demi-god born of the Material body of <span class="zean">aʃieti</span> and <span class="zean">ietœzi</span></p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="creatures">
+<h3>Creatures<a class="headerlink" href="#creatures" title="Permalink to this heading">#</a></h3>
+<dl class="glossary simple">
+<dt id="term-Names-of-zoeeai-Fauna">Names of <span class="zean">zœeɖaʃi</span> Fauna<a class="headerlink" href="#term-Names-of-zoeeai-Fauna" title="Permalink to this term">#</a></dt><dd><ul class="simple">
+<li><p><span class="zean">isɛʃy</span> - Isashu</p></li>
+<li><p><span class="zean">iɹɛɖy</span> - Iradu</p></li>
+<li><p><span class="zean">iɹeʈy</span> - Iretu</p></li>
+<li><p><span class="zean">iɹiyte</span> - Iriute</p></li>
+<li><p><span class="zean">yʃʈia</span> - Ushtia</p></li>
+<li><p><span class="zean">iɹyʋie</span> - Iruvie</p></li>
+<li><p><span class="zean">tɹœʃʈa</span> - Troshta</p></li>
+<li><p><span class="zean">ʋɛɹezy</span> - Varezu</p></li>
+<li><p><span class="zean">ʒiyʃi</span> - Zhiushi</p></li>
+<li><p><span class="zean">ziyte</span> - Ziute</p></li>
+<li><p><span class="zean">ʋɶɹjɛ</span> - Vorya</p></li>
+<li><p><span class="zean">eɹɛʈɶi</span> - Eratoi</p></li>
+<li><p><span class="zean">iɹɛtisja</span> - Iretisya</p></li>
+<li><p><span class="zean">ɖiɹja</span> - Dirya</p></li>
+<li><p><span class="zean">ɹyœjœ</span> - Ruoyo</p></li>
+<li><p><span class="zean">yɹœʈɶi</span> - Urotoi</p></li>
+<li><p><span class="zean">aʋɹaʃi</span> - Avrashi</p></li>
+<li><p><span class="zean">ɶʋyθœ</span> - Ovutho</p></li>
+<li><p><span class="zean">ɹjyeʈœ</span> - Ryueto</p></li>
+</ul>
+</dd>
+<dt id="term-Names-of-Natural-Fauna">Names of Natural Fauna<a class="headerlink" href="#term-Names-of-Natural-Fauna" title="Permalink to this term">#</a></dt><dd><ul class="simple">
+<li><p><span class="zean">yʈiʃy</span> - Utishu</p></li>
+<li><p><span class="zean">ʋiɹɖai</span> - Virdai</p></li>
+<li><p><span class="zean">yʈaɹʋy</span> - Utarvu</p></li>
+<li><p><span class="zean">sɹeʋiœ</span> - Srevio</p></li>
+<li><p><span class="zean">isɹaʈɶ</span> - Israto</p></li>
+<li><p><span class="zean">tyɹti</span> - Turti</p></li>
+<li><p><span class="zean">ɹiaʋœ</span> - Riavo</p></li>
+<li><p><span class="zean">sɶɹaʃaɶ</span> - Sorashao</p></li>
+<li><p><span class="zean">istɛɹi</span> - Istari</p></li>
+<li><p><span class="zean">øɹa</span> - Ara</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+</section>
+<section id="words">
+<h2>Words<a class="headerlink" href="#words" title="Permalink to this heading">#</a></h2>
+<dl class="glossary simple">
+<dt id="term-aii"><span class="zean">aiɖi</span><a class="headerlink" href="#term-aii" title="Permalink to this term">#</a></dt><dd><p>a being of the ethereal realm</p>
+<ul class="simple">
+<li><p><span class="zean">aiɖisi</span> - I am a being from the ethereal realm</p></li>
+<li><p><span class="zean">aiɖisa</span> - A/the being of the ethereal realm</p></li>
+</ul>
+</dd>
+<dt id="term-9"><span class="zean">ajesɖɶ</span><a class="headerlink" href="#term-9" title="Permalink to this term">#</a></dt><dd><p>top/high</p>
+<ul class="simple">
+<li><p><span class="zean">ajesɖɶsi</span> - I am high/I am feeling excited</p></li>
+<li><p><span class="zean">ajesɖɶsa</span> - top/high</p></li>
+</ul>
+</dd>
+<dt id="term-ajes"><span class="zean">ajesɹɶ</span><a class="headerlink" href="#term-ajes" title="Permalink to this term">#</a></dt><dd><p>beauty</p>
+<ul class="simple">
+<li><p><span class="zean">ajesɹɶsi</span> - I am beautiful</p></li>
+<li><p><span class="zean">ajesɹɶsa</span> - a/the beauty; a/the beautiful person</p></li>
+</ul>
+</dd>
+<dt id="term-ajstai"><span class="zean">ajɛstɹaɹi</span><a class="headerlink" href="#term-ajstai" title="Permalink to this term">#</a></dt><dd><p>the appendage on the back of the <span class="zean">ʈeaθyɖa</span> and some of the <span class="zean">isiʈeθɶ</span> and <span class="zean">zœeɖaʃi</span></p>
+<ul class="simple">
+<li><p><span class="zean">ajɛstɹaɹisi</span> - I have <span class="zean">ajɛstɹaɹi</span></p></li>
+<li><p><span class="zean">ajɛstɹaɹisa</span> - a/the <span class="zean">ajɛstɹaɹi</span></p></li>
+</ul>
+</dd>
+<dt id="term-ajs"><span class="zean">ajɛsɖɶ</span><a class="headerlink" href="#term-ajs" title="Permalink to this term">#</a></dt><dd><p>a gender of <span class="zean">ʈeaθyɖa</span> and <span class="zean">astɹœ</span> race</p>
+<ul class="simple">
+<li><p><span class="zean">ajɛsɖɶsi</span> - I am of gender <span class="zean">ajɛsɖɶ</span></p></li>
+<li><p><span class="zean">ajɛsɖɶsa</span> - a/the being of gender <span class="zean">ajɛsɖɶ</span></p></li>
+</ul>
+</dd>
+<dt id="term-aji"><span class="zean">ajɛʃɶi</span><a class="headerlink" href="#term-aji" title="Permalink to this term">#</a></dt><dd><p>marriage</p>
+<ul class="simple">
+<li><p><span class="zean">ajɛʃɶisi</span> - I am married</p></li>
+<li><p><span class="zean">ajɛʃɶisa</span> - marriage</p></li>
+</ul>
+</dd>
+<dt id="term-astoe"><span class="zean">astɹœ</span><a class="headerlink" href="#term-astoe" title="Permalink to this term">#</a></dt><dd><p>a race of <span class="zean">aɖasi</span></p>
+<ul class="simple">
+<li><p><span class="zean">astɹœsi</span> - I am of the <span class="zean">astɹœ</span> race</p></li>
+<li><p><span class="zean">astɹœsa</span> - a/the being of the <span class="zean">astɹœ</span> race</p></li>
+</ul>
+</dd>
+<dt id="term-ati"><span class="zean">atɹi</span><a class="headerlink" href="#term-ati" title="Permalink to this term">#</a></dt><dd><p>the revelation of the hidden</p>
+<ul class="simple">
+<li><p><span class="zean">atɹisi</span> - I show/reveal</p></li>
+<li><p><span class="zean">atɹisa</span> - an event</p></li>
+</ul>
+</dd>
+<dt id="term-aze"><span class="zean">aze</span><a class="headerlink" href="#term-aze" title="Permalink to this term">#</a></dt><dd><p>living</p>
+<ul class="simple">
+<li><p><span class="zean">azesi</span> - I am</p></li>
+<li><p><span class="zean">azesa</span> - person (plural: people/civilization)</p></li>
+</ul>
+</dd>
+<dt id="term-aza"><span class="zean">azʋa</span><a class="headerlink" href="#term-aza" title="Permalink to this term">#</a></dt><dd><p>motivation</p>
+<ul class="simple">
+<li><p><span class="zean">azʋasi</span> - I motivate</p></li>
+<li><p><span class="zean">azʋasa</span> - a motivation</p></li>
+</ul>
+</dd>
+<dt id="term-aasi"><span class="zean">aɖasi</span><a class="headerlink" href="#term-aasi" title="Permalink to this term">#</a></dt><dd><p>the name of the system <span class="zean">aɖasi</span></p>
+<ul class="simple">
+<li><p><span class="zean">aɖasisi</span> - I live in <span class="zean">aɖasi</span></p></li>
+<li><p><span class="zean">aɖasisa</span> - the system of the <span class="zean">aɖasi</span></p></li>
+</ul>
+</dd>
+<dt id="term-ai"><span class="zean">aʃi</span><a class="headerlink" href="#term-ai" title="Permalink to this term">#</a></dt><dd><p>forward</p>
+<ul class="simple">
+<li><p><span class="zean">aʃisi</span> - I go; this is for any action not just physical</p></li>
+<li><p><span class="zean">aʃisa</span> - Future/Front</p></li>
+</ul>
+</dd>
+<dt id="term-aize"><span class="zean">aʃize</span><a class="headerlink" href="#term-aize" title="Permalink to this term">#</a></dt><dd><p>youth, young; the time period where one is young and health</p>
+<ul class="simple">
+<li><p><span class="zean">aʃizesi</span> - I am young</p></li>
+<li><p><span class="zean">aʃizesa</span> - a/the young person; a/the youth</p></li>
+</ul>
+</dd>
+<dt id="term-ajasi"><span class="zean">aʋjasi</span><a class="headerlink" href="#term-ajasi" title="Permalink to this term">#</a></dt><dd><p>a class of changed humans and <span class="zean">zea</span> that occurs after corruption from a Creation Ritual</p>
+<ul class="simple">
+<li><p><span class="zean">aʋjasisi</span> - I am an <span class="zean">aʋjasi</span></p></li>
+<li><p><span class="zean">aʋjasisa</span> - an <span class="zean">aʋjasi</span></p></li>
+</ul>
+</dd>
+<dt id="term-dii"><span class="zean">diʃi</span><a class="headerlink" href="#term-dii" title="Permalink to this term">#</a></dt><dd><p>birth; this is used for animate creation or birth more often</p>
+<ul class="simple">
+<li><p><span class="zean">diʃisi</span> - I bear</p></li>
+<li><p><span class="zean">diʃisa</span> - a/the birth</p></li>
+</ul>
+</dd>
+<dt id="term-diiai"><span class="zean">diʃiaʃi</span><a class="headerlink" href="#term-diiai" title="Permalink to this term">#</a></dt><dd><p>rebirth; birth after death</p>
+<ul class="simple">
+<li><p><span class="zean">diʃiaʃisi</span> - I re-bear (seldom used)</p></li>
+<li><p><span class="zean">diʃiaʃisa</span> - a/the rebirth</p></li>
+</ul>
+</dd>
+<dt id="term-esii"><span class="zean">esiʈi</span><a class="headerlink" href="#term-esii" title="Permalink to this term">#</a></dt><dd><p>a gender of <span class="zean">esiʈi</span></p>
+<ul class="simple">
+<li><p><span class="zean">esiʈisi</span> - I am of gender <span class="zean">esiʈi</span></p></li>
+<li><p><span class="zean">esiʈisa</span> - a/the being of gender <span class="zean">esiʈi</span></p></li>
+</ul>
+</dd>
+<dt id="term-eiy"><span class="zean">eɹiʃy</span><a class="headerlink" href="#term-eiy" title="Permalink to this term">#</a></dt><dd><p>empire</p>
+<ul class="simple">
+<li><p><span class="zean">eɹiʃysi</span> - I am a citizen on the <span class="zean">eɹiʃy</span></p></li>
+<li><p><span class="zean">eɹiʃysa</span> - empire</p></li>
+</ul>
+</dd>
+<dt id="term-ei"><span class="zean">eʒi</span><a class="headerlink" href="#term-ei" title="Permalink to this term">#</a></dt><dd><p>backward</p>
+<ul class="simple">
+<li><p><span class="zean">eʒisi</span> - I go back; this is for any action not just physical</p></li>
+<li><p><span class="zean">eʒisa</span> - history/past/back</p></li>
+</ul>
+</dd>
+<dt id="term-e"><span class="zean">eʒɶ</span><a class="headerlink" href="#term-e" title="Permalink to this term">#</a></dt><dd><p>physical rendering of onself</p>
+<ul class="simple">
+<li><p><span class="zean">eʒɶsi</span> - I do</p></li>
+<li><p><span class="zean">eʒɶsa</span> - a/the body</p></li>
+</ul>
+</dd>
+<dt id="term-5"><span class="zean">ise</span><a class="headerlink" href="#term-5" title="Permalink to this term">#</a></dt><dd><p>non-living</p>
+<ul class="simple">
+<li><p><span class="zean">isesi</span> - I am a thing</p></li>
+<li><p><span class="zean">isesa</span> - thing/something</p></li>
+</ul>
+</dd>
+<dt id="term-isie"><span class="zean">isiʈeθɶ</span><a class="headerlink" href="#term-isie" title="Permalink to this term">#</a></dt><dd><p>the title of <span class="zean">ajɛseɖi</span>, <span class="zean">saeθa</span>, <span class="zean">saiʃeʈa</span> and later <span class="zean">iɖe</span>; synonymous to a ruler</p>
+<ul class="simple">
+<li><p><span class="zean">isiʈeθɶsi</span> - I rule</p></li>
+<li><p><span class="zean">isiʈeθɶsa</span> - A/the ruler</p></li>
+</ul>
+</dd>
+<dt id="term-ise"><span class="zean">isʋe</span><a class="headerlink" href="#term-ise" title="Permalink to this term">#</a></dt><dd><p>spell caster</p>
+<ul class="simple">
+<li><p><span class="zean">isʋesi</span> - I am a spell caster</p></li>
+<li><p><span class="zean">isʋesa</span> - a/the spell caster</p></li>
+</ul>
+</dd>
+<dt id="term-ita"><span class="zean">itɹa</span><a class="headerlink" href="#term-ita" title="Permalink to this term">#</a></dt><dd><p>hidden</p>
+<ul class="simple">
+<li><p><span class="zean">itɹasi</span> - I hide</p></li>
+<li><p><span class="zean">itɹasa</span> - hidden</p></li>
+</ul>
+</dd>
+<dt id="term-iti"><span class="zean">itʃi</span><a class="headerlink" href="#term-iti" title="Permalink to this term">#</a></dt><dd><p>creation; mostly inanimate creation though it may be used for birth</p>
+<ul class="simple">
+<li><p><span class="zean">itʃisi</span> - I create</p></li>
+<li><p><span class="zean">itʃisa</span> - a/the Creation</p></li>
+</ul>
+</dd>
+<dt id="term-itiai"><span class="zean">itʃiaʃi</span><a class="headerlink" href="#term-itiai" title="Permalink to this term">#</a></dt><dd><p>recreation; creation after destruction</p>
+<ul class="simple">
+<li><p><span class="zean">itʃiaʃisi</span> - I recreate</p></li>
+<li><p><span class="zean">itʃiaʃisa</span> - a recreation/reenactement</p></li>
+</ul>
+</dd>
+<dt id="term-2"><span class="zean">itʒi</span><a class="headerlink" href="#term-2" title="Permalink to this term">#</a></dt><dd><p>death</p>
+<ul class="simple">
+<li><p><span class="zean">itʒisi</span> - I die</p></li>
+<li><p><span class="zean">itʒisa</span> - a/the death</p></li>
+</ul>
+</dd>
+<dt id="term-itieiti"><span class="zean">itʒieitʒi</span><a class="headerlink" href="#term-itieiti" title="Permalink to this term">#</a></dt><dd><p>constant movement</p>
+<ul class="simple">
+<li><p><span class="zean">itʒieitʒisi</span> - I am a nomad</p></li>
+<li><p><span class="zean">itʒieitʒisa</span> - a/the nomad</p></li>
+</ul>
+</dd>
+<dt id="term-itje"><span class="zean">itʒje</span><a class="headerlink" href="#term-itje" title="Permalink to this term">#</a></dt><dd><p>time</p>
+<ul class="simple">
+<li><p><span class="zean">itʒjesi</span> - I move</p></li>
+<li><p><span class="zean">itʒjesa</span> - a time period</p></li>
+</ul>
+</dd>
+<dt id="term-iei"><span class="zean">iɹeɖi</span><a class="headerlink" href="#term-iei" title="Permalink to this term">#</a></dt><dd><p>a gender of <span class="zean">astɹœ</span></p>
+<ul class="simple">
+<li><p><span class="zean">iɹeɖisi</span> - I am of gender <span class="zean">iɹeɖi</span></p></li>
+<li><p><span class="zean">iɹeɖisa</span> - a/the being of gender <span class="zean">iɹeɖi</span></p></li>
+</ul>
+</dd>
+<dt id="term-iets"><span class="zean">iʃetsɛ</span><a class="headerlink" href="#term-iets" title="Permalink to this term">#</a></dt><dd><p>category</p>
+<ul class="simple">
+<li><p><span class="zean">iʃetsɛsi</span> - I categorize</p></li>
+<li><p><span class="zean">iʃetsɛsa</span> - categories</p></li>
+</ul>
+</dd>
+<dt id="term-iy"><span class="zean">iʃʋy</span><a class="headerlink" href="#term-iy" title="Permalink to this term">#</a></dt><dd><p>detail</p>
+<ul class="simple">
+<li><p><span class="zean">iʃʋysi</span> - I detail (give detail)</p></li>
+<li><p><span class="zean">iʃʋysa</span> - a/the detail</p></li>
+</ul>
+</dd>
+<dt id="term-sai"><span class="zean">sai</span><a class="headerlink" href="#term-sai" title="Permalink to this term">#</a></dt><dd><p>night</p>
+<ul class="simple">
+<li><p><span class="zean">saisi</span> - I am in the night</p></li>
+<li><p><span class="zean">saisa</span> - night/evening</p></li>
+</ul>
+</dd>
+<dt id="term-seio"><span class="zean">seʒiɹø</span><a class="headerlink" href="#term-seio" title="Permalink to this term">#</a></dt><dd><p>work/job/responsibility</p>
+<ul class="simple">
+<li><p><span class="zean">seʒiɹøsi</span> - I work</p></li>
+<li><p><span class="zean">seʒiɹøsa</span> - job/profession</p></li>
+</ul>
+</dd>
+<dt id="term-sye"><span class="zean">syʋe</span><a class="headerlink" href="#term-sye" title="Permalink to this term">#</a></dt><dd><p>a type of energy commonly called lower body energy</p>
+<ul class="simple">
+<li><p><span class="zean">syʋesi</span> - I conduct <span class="zean">syʋe</span></p></li>
+<li><p><span class="zean">syʋesa</span> - <span class="zean">syʋe</span></p></li>
+</ul>
+</dd>
+<dt id="term-se"><span class="zean">sʋe</span><a class="headerlink" href="#term-se" title="Permalink to this term">#</a></dt><dd><p>a spell in an ethereal language</p>
+<ul class="simple">
+<li><p><span class="zean">sʋesi</span> - I cast a spell</p></li>
+<li><p><span class="zean">sʋesa</span> - a/the spell</p></li>
+</ul>
+</dd>
+<dt id="term-tyi"><span class="zean">tyθi</span><a class="headerlink" href="#term-tyi" title="Permalink to this term">#</a></dt><dd><p>thought</p>
+<ul class="simple">
+<li><p><span class="zean">tyθisi</span> - I think</p></li>
+<li><p><span class="zean">tyθisa</span> - a/the thought</p></li>
+</ul>
+</dd>
+<dt id="term-ti"><span class="zean">tɹi</span><a class="headerlink" href="#term-ti" title="Permalink to this term">#</a></dt><dd><p>knowledge</p>
+<ul class="simple">
+<li><p><span class="zean">tɹisi</span> - I understand</p></li>
+<li><p><span class="zean">tɹisa</span> - the knowledge</p></li>
+</ul>
+</dd>
+<dt id="term-ydza"><span class="zean">ydza</span><a class="headerlink" href="#term-ydza" title="Permalink to this term">#</a></dt><dd><p>beginning</p>
+<ul class="simple">
+<li><p><span class="zean">ydzasi</span> - I begin</p></li>
+<li><p><span class="zean">ydzasa</span> - a/the beginning</p></li>
+</ul>
+</dd>
+<dt id="term-yoe"><span class="zean">yɹʋœ</span><a class="headerlink" href="#term-yoe" title="Permalink to this term">#</a></dt><dd><p>moon</p>
+<ul class="simple">
+<li><p><span class="zean">yɹʋœsi</span> - I am shining (glorious/resplendent like the moon)</p></li>
+<li><p><span class="zean">yɹʋœsa</span> - moon</p></li>
+</ul>
+</dd>
+<dt id="term-yi"><span class="zean">yʂi</span><a class="headerlink" href="#term-yi" title="Permalink to this term">#</a></dt><dd><p>water/liquid</p>
+<ul class="simple">
+<li><p><span class="zean">yʂisi</span> - I flow</p></li>
+<li><p><span class="zean">yʂisa</span> - water/liquid</p></li>
+</ul>
+</dd>
+<dt id="term-3"><span class="zean">yʐi</span><a class="headerlink" href="#term-3" title="Permalink to this term">#</a></dt><dd><p>fire</p>
+<ul class="simple">
+<li><p><span class="zean">yʐisi</span> - I burn</p></li>
+<li><p><span class="zean">yʐisa</span> - fire</p></li>
+</ul>
+</dd>
+<dt id="term-zai"><span class="zean">zai</span><a class="headerlink" href="#term-zai" title="Permalink to this term">#</a></dt><dd><p>sun</p>
+<ul class="simple">
+<li><p><span class="zean">zaisi</span> - I am radiant (glorious/resplendent like the sun)</p></li>
+<li><p><span class="zean">zaisa</span> - sun</p></li>
+</ul>
+</dd>
+<dt id="term-zea"><span class="zean">zea</span><a class="headerlink" href="#term-zea" title="Permalink to this term">#</a></dt><dd><p>resident of the <span class="zean">zai</span> system</p>
+<ul class="simple">
+<li><p><span class="zean">zeasi</span> - I live in the <span class="zean">zai</span> system; I am a zean</p></li>
+<li><p><span class="zean">zeasa</span> - a/the resident of the <span class="zean">zai</span> system; a/the zean</p></li>
+</ul>
+</dd>
+<dt id="term-zoeeai"><span class="zean">zœeɖaʃi</span><a class="headerlink" href="#term-zoeeai" title="Permalink to this term">#</a></dt><dd><p>the title given to <span class="zean">seθi</span>, <span class="zean">aʃaða</span>, <span class="zean">teʃi</span>, …; synonymous to a governor</p>
+<ul class="simple">
+<li><p><span class="zean">zœeɖaʃisi</span> - I govern</p></li>
+<li><p><span class="zean">zœeɖaʃisa</span> - a/the governor</p></li>
+</ul>
+</dd>
+<dt id="term-oa"><span class="zean">øʃa</span><a class="headerlink" href="#term-oa" title="Permalink to this term">#</a></dt><dd><p>spiritual rendering of oneself</p>
+<ul class="simple">
+<li><p><span class="zean">øʃasi</span> - I exist</p></li>
+<li><p><span class="zean">øʃasa</span> - a/the spirit</p></li>
+</ul>
+</dd>
+<dt id="term-oi"><span class="zean">øʐi</span><a class="headerlink" href="#term-oi" title="Permalink to this term">#</a></dt><dd><p>earth</p>
+<ul class="simple">
+<li><p><span class="zean">øʐisi</span> - I stand firm</p></li>
+<li><p><span class="zean">øʐisa</span> - land</p></li>
+</ul>
+</dd>
+<dt id="term-o"><span class="zean">øʒɛ</span><a class="headerlink" href="#term-o" title="Permalink to this term">#</a></dt><dd><p>sound</p>
+<ul class="simple">
+<li><p><span class="zean">øʒɛsi</span> - I speak</p></li>
+<li><p><span class="zean">øʒɛsa</span> - a sound</p></li>
+</ul>
+</dd>
+<dt id="term-a"><span class="zean">ɖa</span><a class="headerlink" href="#term-a" title="Permalink to this term">#</a></dt><dd><p>day</p>
+<ul class="simple">
+<li><p><span class="zean">ɖasi</span> - I am in the morning</p></li>
+<li><p><span class="zean">ɖasa</span> - day/morning</p></li>
+</ul>
+</dd>
+<dt id="term-iii"><span class="zean">ɖiʒiɖi</span><a class="headerlink" href="#term-iii" title="Permalink to this term">#</a></dt><dd><p>a gender of <span class="zean">ɖiʒiɖi</span></p>
+<ul class="simple">
+<li><p><span class="zean">ɖiʒiɖisi</span> - I am of gender <span class="zean">ɖiʒiɖi</span></p></li>
+<li><p><span class="zean">ɖiʒiɖisa</span> - a/the being of gender <span class="zean">ɖiʒiɖi</span></p></li>
+</ul>
+</dd>
+<dt id="term-1"><span class="zean">ɶʂi</span><a class="headerlink" href="#term-1" title="Permalink to this term">#</a></dt><dd><p>air</p>
+<ul class="simple">
+<li><p><span class="zean">ɶʂisi</span> - I fly</p></li>
+<li><p><span class="zean">ɶʂisa</span> - air</p></li>
+</ul>
+</dd>
+<dt id="term-4"><span class="zean">ɶʈaʋɶ</span><a class="headerlink" href="#term-4" title="Permalink to this term">#</a></dt><dd><p>forever/infinite/eternal</p>
+<ul class="simple">
+<li><p><span class="zean">ɶʈaʋɶsi</span> - I am forever</p></li>
+<li><p><span class="zean">ɶʈaʋɶsa</span> - an immortal being/object</p></li>
+</ul>
+</dd>
+<dt id="term-yy"><span class="zean">ɹyθɛy</span><a class="headerlink" href="#term-yy" title="Permalink to this term">#</a></dt><dd><p>destruction</p>
+<ul class="simple">
+<li><p><span class="zean">ɹyθɛysi</span> - I destroy</p></li>
+<li><p><span class="zean">ɹyθɛysa</span> - destruction</p></li>
+</ul>
+</dd>
+<dt id="term-aie"><span class="zean">ʃɛʈaie</span><a class="headerlink" href="#term-aie" title="Permalink to this term">#</a></dt><dd><p>the title given to the daughters of <span class="zean">ajɛseɖi</span> and <span class="zean">stɹai</span></p>
+<ul class="simple">
+<li><p><span class="zean">ʃɛʈaiesi</span> - I am a <span class="zean">ʃɛʈaie</span> sister</p></li>
+<li><p><span class="zean">ʃɛʈaiesa</span> - a <span class="zean">ʃɛʈaie</span> sister</p></li>
+</ul>
+</dd>
+<dt id="term-i"><span class="zean">ʃɶi</span><a class="headerlink" href="#term-i" title="Permalink to this term">#</a></dt><dd><p>sex/physical union</p>
+<ul class="simple">
+<li><p><span class="zean">ʃɶisi</span> - I have sex</p></li>
+<li><p><span class="zean">ʃɶisa</span> - the act of having sex</p></li>
+</ul>
+</dd>
+<dt id="term-eaya"><span class="zean">ʈeaθyɖa</span><a class="headerlink" href="#term-eaya" title="Permalink to this term">#</a></dt><dd><p>a race of <span class="zean">aɖasi</span></p>
+<ul class="simple">
+<li><p><span class="zean">ʈeaθyɖasi</span> - I am of the <span class="zean">ʈeaθyɖa</span> race</p></li>
+<li><p><span class="zean">ʈeaθyɖasa</span> - a/the being of the <span class="zean">ʈeaθyɖa</span> race</p></li>
+</ul>
+</dd>
+<dt id="term-7"><span class="zean">ʈʂy</span><a class="headerlink" href="#term-7" title="Permalink to this term">#</a></dt><dd><p>identity</p>
+<ul class="simple">
+<li><p><span class="zean">ʈʂysi</span> - I identify (along the lines of “I recognise you”, or “I see you”)</p></li>
+<li><p><span class="zean">ʈʂysa</span> - name</p></li>
+</ul>
+</dd>
+<dt id="term-esy"><span class="zean">ʋesy</span><a class="headerlink" href="#term-esy" title="Permalink to this term">#</a></dt><dd><p>a type of energy commonly called upper body energy</p>
+<ul class="simple">
+<li><p><span class="zean">ʋesysi</span> - I conduct <span class="zean">ʋesy</span></p></li>
+<li><p><span class="zean">ʋesysa</span> - <span class="zean">ʋesy</span></p></li>
+</ul>
+</dd>
+<dt id="term-y"><span class="zean">ʋy</span><a class="headerlink" href="#term-y" title="Permalink to this term">#</a></dt><dd><p>the true name; a name in an ethereal language where <span class="zean">sʋe</span> comes from; one’s true nature</p>
+<ul class="simple">
+<li><p><span class="zean">ʋysi</span> - I know my true self</p></li>
+<li><p><span class="zean">ʋysa</span> - a/the true self/name of a person or thing</p></li>
+</ul>
+</dd>
+<dt id="term-8"><span class="zean">ʋɹɶ</span><a class="headerlink" href="#term-8" title="Permalink to this term">#</a></dt><dd><p>bottom/low</p>
+<ul class="simple">
+<li><p><span class="zean">ʋɹɶsi</span> - I am down;I crouch;I feel sad or depressed</p></li>
+<li><p><span class="zean">ʋɹɶsa</span> - bottom/low</p></li>
+</ul>
+</dd>
+<dt id="term-6"><span class="zean">ʐaʃize</span><a class="headerlink" href="#term-6" title="Permalink to this term">#</a></dt><dd><p>old, older; the time period after youth</p>
+<ul class="simple">
+<li><p><span class="zean">ʐaʃizesi</span> - I am an elder</p></li>
+<li><p><span class="zean">ʐaʃizesa</span> - an/the older person; an/the elder</p></li>
+</ul>
+</dd>
+<dt id="term-0"><span class="zean">ʐisʋe</span> <a class="footnote-reference brackets" href="#f2" id="id2">2</a><a class="headerlink" href="#term-0" title="Permalink to this term">#</a></dt><dd><p>a non-spell caster</p>
+<ul class="simple">
+<li><p><span class="zean">ʐisʋesi</span> - I am a non-spell caster</p></li>
+<li><p><span class="zean">ʐisʋesa</span> - a/the non-spell caster</p></li>
+</ul>
+</dd>
+<dt id="term-10"><span class="zean">ʐyʂi</span><a class="headerlink" href="#term-10" title="Permalink to this term">#</a></dt><dd><p>desert/dry</p>
+<ul class="simple">
+<li><p><span class="zean">ʐyʂisi</span> - I am dry</p></li>
+<li><p><span class="zean">ʐyʂisa</span> - the desert</p></li>
+</ul>
+</dd>
+<dt id="term-it"><span class="zean">ʒiɹtɶ</span><a class="headerlink" href="#term-it" title="Permalink to this term">#</a></dt><dd><p>the race of symbiotes in <span class="zean">aɖasi</span></p>
+<ul class="simple">
+<li><p><span class="zean">ʒiɹtɶsi</span> - I am of the <span class="zean">ʒiɹtɶ</span> race</p></li>
+<li><p><span class="zean">ʒiɹtɶsa</span> - a/the being of the <span class="zean">ʒiɹtɶ</span> race</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="organizations">
+<h2>Organizations<a class="headerlink" href="#organizations" title="Permalink to this heading">#</a></h2>
+<dl class="glossary simple">
+<dt id="term-tie"><span class="zean">tɹiɛʈɶɹe</span><a class="headerlink" href="#term-tie" title="Permalink to this term">#</a></dt><dd><p>the personal guard of all the <span class="zean">isiʈeθɶ</span></p>
+<ul class="simple">
+<li><p><span class="zean">tɹiɛʈɶɹesi</span> - I am a member of the personal guard of the <span class="zean">isiʈeθɶ</span></p></li>
+<li><p><span class="zean">tɹiɛʈɶɹesa</span> - the main hall/headquarters of the <span class="zean">tɹiɛʈɶɹe</span></p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="places">
+<h2>Places<a class="headerlink" href="#places" title="Permalink to this heading">#</a></h2>
+<dl class="glossary simple">
+<dt id="term-adoi"><span class="zean">adøɹi</span><a class="headerlink" href="#term-adoi" title="Permalink to this term">#</a></dt><dd><p>rainforest in <span class="zean">adɹa</span></p>
+<ul class="simple">
+<li><p><span class="zean">adøɹisi</span> - I am in <span class="zean">adøɹi</span></p></li>
+<li><p><span class="zean">adøɹisa</span> - the rainforest of <span class="zean">adøɹi</span></p></li>
+</ul>
+</dd>
+<dt id="term-ada"><span class="zean">adɹa</span><a class="headerlink" href="#term-ada" title="Permalink to this term">#</a></dt><dd><p>the second biggest of the 3 continents of <span class="zean">aɖasi</span></p>
+<ul class="simple">
+<li><p><span class="zean">adɹasi</span> - I am in <span class="zean">adɹa</span></p></li>
+<li><p><span class="zean">adɹasa</span> - the land of <span class="zean">adɹa</span></p></li>
+</ul>
+</dd>
+<dt id="term-11"><span class="zean">atʒi</span><a class="headerlink" href="#term-11" title="Permalink to this term">#</a></dt><dd><p>mountain range surrounding <span class="zean">idɹɶda</span></p>
+<ul class="simple">
+<li><p><span class="zean">atʒisi</span> - I am on <span class="zean">atʒi</span></p></li>
+<li><p><span class="zean">atʒisa</span> - the mountain range of <span class="zean">atʒi</span></p></li>
+</ul>
+</dd>
+<dt id="term-aesasj"><span class="zean">aʋeɹsasjɛ</span><a class="headerlink" href="#term-aesasj" title="Permalink to this term">#</a></dt><dd><p>an outpost commissioned by <span class="zean">aʋeɹsadɹa</span></p>
+<ul class="simple">
+<li><p><span class="zean">aʋeɹsasjɛsi</span> - I am in <span class="zean">aʋeɹsasjɛ</span></p></li>
+<li><p><span class="zean">aʋeɹsasjɛsa</span> - the fort of <span class="zean">aʋeɹsasjɛ</span></p></li>
+</ul>
+</dd>
+<dt id="term-diietisj"><span class="zean">diʃietisjɛ</span><a class="headerlink" href="#term-diietisj" title="Permalink to this term">#</a></dt><dd><p>the sacred city of the <span class="zean">ʃɹaʃjɛ</span> that acted as the capital of the <span class="zean">ʃɹaʃjɛ</span> coalition; it remained the capital until <span class="zean">ajɛseɖi</span> moved to <span class="zean">ʃœɹysiʋa</span> later</p>
+<ul class="simple">
+<li><p><span class="zean">diʃietisjɛsi</span> - I live in the city of <span class="zean">diʃietisjɛ</span>/I am a resident of <span class="zean">diʃietisjɛ</span></p></li>
+<li><p><span class="zean">diʃietisjɛsa</span> - the city of <span class="zean">diʃietisjɛ</span></p></li>
+</ul>
+</dd>
+<dt id="term-idda"><span class="zean">idɹɶda</span><a class="headerlink" href="#term-idda" title="Permalink to this term">#</a></dt><dd><p>fertile region on the western edge of the continent <span class="zean">izœ</span></p>
+<ul class="simple">
+<li><p><span class="zean">idɹɶdasi</span> - I am in <span class="zean">idɹɶda</span></p></li>
+<li><p><span class="zean">idɹɶdasa</span> - the land of <span class="zean">idɹɶda</span></p></li>
+</ul>
+</dd>
+<dt id="term-izoe"><span class="zean">izœ</span><a class="headerlink" href="#term-izoe" title="Permalink to this term">#</a></dt><dd><p>biggest of the 3 continents of <span class="zean">aɖasi</span></p>
+<ul class="simple">
+<li><p><span class="zean">izœsi</span> - I am in <span class="zean">izœ</span></p></li>
+<li><p><span class="zean">izœsa</span> - the land of <span class="zean">izœ</span></p></li>
+</ul>
+</dd>
+<dt id="term-iiaia"><span class="zean">iθiɹaiθa</span><a class="headerlink" href="#term-iiaia" title="Permalink to this term">#</a></dt><dd><p>mountainous region of eastern <span class="zean">izœ</span> historically controlled by the <span class="zean">iθiɹa</span></p>
+<ul class="simple">
+<li><p><span class="zean">iθiɹaiθasi</span> - I am in <span class="zean">iθiɹaiθa</span></p></li>
+<li><p><span class="zean">iθiɹaiθasa</span> - the land of the <span class="zean">iθiɹa</span></p></li>
+</ul>
+</dd>
+<dt id="term-szi"><span class="zean">sɹɶzi</span><a class="headerlink" href="#term-szi" title="Permalink to this term">#</a></dt><dd><p>smallest of the 3 continents</p>
+<ul class="simple">
+<li><p><span class="zean">sɹɶzisi</span> - I am in <span class="zean">sɹɶzi</span></p></li>
+<li><p><span class="zean">sɹɶzisa</span> - the land of <span class="zean">sɹɶzi</span></p></li>
+</ul>
+</dd>
+<dt id="term-toetoe"><span class="zean">tœɹtɹœ</span><a class="headerlink" href="#term-toetoe" title="Permalink to this term">#</a></dt><dd><p>the asteroid impact that introduced 4 aiɖi, and is also the name of the place <a class="footnote-reference brackets" href="#f3" id="id3">3</a>. It can also be used as a metaphor for something disastrous or world-changing.</p>
+<ul class="simple">
+<li><p><span class="zean">tœɹtɹœsi</span> - I am in the <span class="zean">tœɹtɹœ</span> region <em>or</em> I am the <span class="zean">tœɹtɹœ</span> asteroid <a class="footnote-reference brackets" href="#f4" id="id4">4</a></p></li>
+<li><p><span class="zean">tœɹtɹœsa</span> - the <span class="zean">tœɹtɹœ</span> region <em>or</em> the <span class="zean">tœɹtɹœ</span> asteroid</p></li>
+</ul>
+</dd>
+<dt id="term-yayi"><span class="zean">yʈaɹyʈɛɖi</span><a class="headerlink" href="#term-yayi" title="Permalink to this term">#</a></dt><dd><p>a fortress in western <span class="zean">adɹa</span> controlled by <span class="zean">θeʈiʃa</span></p>
+<ul class="simple">
+<li><p><span class="zean">yʈaɹyʈɛɖisi</span> - I live in the fortress of <span class="zean">yʈaɹyʈɛɖi</span></p></li>
+<li><p><span class="zean">yʈaɹyʈɛɖisa</span> - the fortress of <span class="zean">yʈaɹyʈɛɖi</span></p></li>
+</ul>
+</dd>
+<dt id="term-oeiyi"><span class="zean">œʋiʐyʐi</span><a class="headerlink" href="#term-oeiyi" title="Permalink to this term">#</a></dt><dd><p>a city-state in mid-<span class="zean">adɹa</span></p>
+<ul class="simple">
+<li><p><span class="zean">œʋiʐyʐisi</span> - I live in the city of <span class="zean">œʋiʐyʐi</span>/ I am a resident of <span class="zean">œʋiʐyʐi</span></p></li>
+<li><p><span class="zean">œʋiʐyʐisa</span> - the city of <span class="zean">œʋiʐyʐi</span></p></li>
+</ul>
+</dd>
+<dt id="term-jyi"><span class="zean">ɛjyɹi</span><a class="headerlink" href="#term-jyi" title="Permalink to this term">#</a></dt><dd><p>the horseshoe shaped mountain range in eastern <span class="zean">izœ</span></p>
+<ul class="simple">
+<li><p><span class="zean">ɛjyɹisi</span> - I am on <span class="zean">ɛjyɹi</span></p></li>
+<li><p><span class="zean">ɛjyɹisa</span> - the mountain range of <span class="zean">ɛjyɹi</span></p></li>
+</ul>
+</dd>
+<dt id="term-ija"><span class="zean">ɹiɖja</span><a class="headerlink" href="#term-ija" title="Permalink to this term">#</a></dt><dd><p>a grassland that borders the <span class="zean">ɛjyɹi</span> mountains to the west, but still largely in <span class="zean">iθiɹa</span> land</p>
+<ul class="simple">
+<li><p><span class="zean">ɹiɖjasi</span> - I am in <span class="zean">ɹiɖja</span></p></li>
+<li><p><span class="zean">ɹiɖjasa</span> - the grasslands of <span class="zean">ɹiɖja</span></p></li>
+</ul>
+</dd>
+<dt id="term-yioe"><span class="zean">ɹyʋiœ</span><a class="headerlink" href="#term-yioe" title="Permalink to this term">#</a></dt><dd><p>a large city in the center of the <span class="zean">iɹiʋa</span> land</p>
+<ul class="simple">
+<li><p><span class="zean">ɹyʋiœsi</span> - I am in <span class="zean">ɹyʋiœ</span></p></li>
+<li><p><span class="zean">ɹyʋiœsa</span> - the city of <span class="zean">ɹyʋiœ</span></p></li>
+</ul>
+</dd>
+<dt id="term-oeysia"><span class="zean">ʃœɹysiʋa</span><a class="headerlink" href="#term-oeysia" title="Permalink to this term">#</a></dt><dd><p>a city-state in eastern <span class="zean">adɹa</span>; the oldest of the Second Arrival cities in <span class="zean">adɹa</span> and the future capital under <span class="zean">ajɛseɖi</span></p>
+<ul class="simple">
+<li><p><span class="zean">ʃœɹysiʋasi</span> - I live in the city of <span class="zean">ʃœɹysiʋa</span>/I am a resident of <span class="zean">ʃœɹysiʋa</span></p></li>
+<li><p><span class="zean">ʃœɹysiʋasa</span> - the city of <span class="zean">ʃœɹysiʋa</span></p></li>
+</ul>
+</dd>
+<dt id="term-ytsi"><span class="zean">ʈɹyɶtsi</span><a class="headerlink" href="#term-ytsi" title="Permalink to this term">#</a></dt><dd><p>dense forest in northern <span class="zean">izœ</span></p>
+<ul class="simple">
+<li><p><span class="zean">ʈɹyɶtsisi</span> - I am in <span class="zean">ʈɹyɶtsi</span></p></li>
+<li><p><span class="zean">ʈɹyɶtsisa</span> - the forest of <span class="zean">ʈɹyɶtsi</span></p></li>
+</ul>
+</dd>
+<dt id="term-yia"><span class="zean">ʐyʂiθa</span><a class="headerlink" href="#term-yia" title="Permalink to this term">#</a></dt><dd><p>the desert land of central <span class="zean">izœ</span></p>
+<ul class="simple">
+<li><p><span class="zean">ʐyʂiθasi</span> - I am in <span class="zean">ʐyʂiθa</span></p></li>
+<li><p><span class="zean">ʐyʂiθasa</span> - the land of <span class="zean">ʐyʂiθa</span></p></li>
+</ul>
+</dd>
+<dt id="term-eia"><span class="zean">θeʈiʃa</span><a class="headerlink" href="#term-eia" title="Permalink to this term">#</a></dt><dd><p>a city-state in western <span class="zean">adɹa</span>; the youngest of the Second Arrival cities in <span class="zean">adɹa</span></p>
+<ul class="simple">
+<li><p><span class="zean">θeʈiʃasi</span> - I live in the city of <span class="zean">θeʈiʃa</span>/ I am a resident of <span class="zean">θeʈiʃa</span></p></li>
+<li><p><span class="zean">θeʈiʃasa</span> - the city of <span class="zean">θeʈiʃa</span></p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="words-in-as">
+<h2>Words in <span class="zean">aθɶs</span> <a class="footnote-reference brackets" href="#f5" id="id5">5</a><a class="headerlink" href="#words-in-as" title="Permalink to this heading">#</a></h2>
+<dl class="glossary simple">
+<dt id="term-as"><span class="zean">aθɶs</span><a class="headerlink" href="#term-as" title="Permalink to this term">#</a></dt><dd><p>the name of the <span class="zean">aθɶs</span> planet and people</p>
+<ul class="simple">
+<li><p><span class="zean">aθɶsi</span> - I am of the planet <span class="zean">aθɶs</span> <em>or</em> I am a human</p></li>
+<li><p><span class="zean">aθɶsa</span> - the planet <span class="zean">aθɶs</span> <em>or</em> a human</p></li>
+</ul>
+</dd>
+<dt id="term-13"><span class="zean">jyɹi</span><a class="headerlink" href="#term-13" title="Permalink to this term">#</a></dt><dd><p>an honorific used to address someone older or wiser</p>
+<ul class="simple">
+<li><p><span class="zean">jyɹisi</span> - I am an older or wiser person</p></li>
+<li><p><span class="zean">jyɹisa</span> - a/the person who is older or wiser than you</p></li>
+</ul>
+</dd>
+<dt id="term-12"><span class="zean">jyʋi</span><a class="headerlink" href="#term-12" title="Permalink to this term">#</a></dt><dd><p>the name of the city as well as the family into which <span class="zean">saeθa</span> was born into</p>
+<ul class="simple">
+<li><p><span class="zean">jyʋisi</span> - I live in the city of <span class="zean">jyʋi</span> <em>or</em> I am of the <span class="zean">jyʋi</span> family</p></li>
+<li><p><span class="zean">jyʋisa</span> - the <span class="zean">jyʋi</span> city <em>or</em> the <span class="zean">jyʋi</span> family</p></li>
+</ul>
+</dd>
+<dt id="term-sayee"><span class="zean">sayɹeʃʈe</span><a class="headerlink" href="#term-sayee" title="Permalink to this term">#</a></dt><dd><p>the name of the family into which <span class="zean">saiʃeʈa</span> was born into</p>
+<ul class="simple">
+<li><p><span class="zean">sayɹeʃʈesi</span> - I am of the <span class="zean">sayɹeʃʈe</span> family</p></li>
+<li><p><span class="zean">sayɹeʃʈesa</span> - the <span class="zean">sayɹeʃʈe</span> family</p></li>
+</ul>
+</dd>
+<dt id="term-ejoe"><span class="zean">ʋeʃjœ</span><a class="headerlink" href="#term-ejoe" title="Permalink to this term">#</a></dt><dd><p>the city where <span class="zean">ajɛseɖi</span> was born in</p>
+<ul class="simple">
+<li><p><span class="zean">ʋeʃjœsi</span> - I live in the city of <span class="zean">ʋeʃjœ</span></p></li>
+<li><p><span class="zean">ʋeʃjœsa</span> - the <span class="zean">ʋeʃjœ</span> city</p></li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<p class="rubric">Footnotes</p>
+<dl class="footnote brackets">
+<dt class="label" id="f1"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>Some of the English definitions offered in this lexicon are mere approximations of their actual meaning. Some of these words may be employed in a manner that does not coincide with the English meaning, but in terms of the philosophy of the language make better sense.</p>
+</dd>
+<dt class="label" id="f2"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
+<dd><p>Informally, negation of something is usually the same word but starting with ʐ if the syllabic rules allow.</p>
+</dd>
+<dt class="label" id="f3"><span class="brackets"><a class="fn-backref" href="#id3">3</a></span></dt>
+<dd><p>Which of the two definitions to use can be guessed using context</p>
+</dd>
+<dt class="label" id="f4"><span class="brackets"><a class="fn-backref" href="#id4">4</a></span></dt>
+<dd><p>The second statement and statements of a similar style are used as a metaphor and aren’t taken literally.</p>
+</dd>
+<dt class="label" id="f5"><span class="brackets"><a class="fn-backref" href="#id5">5</a></span></dt>
+<dd><p><span class="zean">aθɶs</span> while commonly used in the Zean language isn’t a Zean word, as it plainly disregards the rules of creating syllables in the Zean language. Thus it and all words originating from <span class="zean">aθɶs</span> (besides the names of the <span class="zean">isiʈeθɶ</span> and <span class="zean">zœeɖaʃi</span>) are included in a separate section.</p>
+</dd>
+</dl>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="zean-reference.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Reference for the Zean Language</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="notes.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Miscellaneous Notes</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2020-2023, Praecordi
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Zean Glossary</a><ul>
+<li><a class="reference internal" href="#names">Names</a><ul>
+<li><a class="reference internal" href="#people">People</a></li>
+<li><a class="reference internal" href="#creatures">Creatures</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#words">Words</a></li>
+<li><a class="reference internal" href="#organizations">Organizations</a></li>
+<li><a class="reference internal" href="#places">Places</a></li>
+<li><a class="reference internal" href="#words-in-as">Words in <span class="zean">aθɶs</span> </a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/scripts/furo.js"></script>
+    <script src="_static/design-tabs.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    </body>
+</html>

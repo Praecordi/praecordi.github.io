@@ -1,0 +1,82 @@
+Pre-Arrival Societies
+=====================
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Contents
+        
+        
+Maker's Notes
+-------------
+
+.. dropdown:: On Pre-Arrival Society
+    :icon: clock
+    
+    .. rubric:: Society 1
+
+    - This society follows a strict caste system, a rigid social hierarchy, maybe based on birth, or some other physical characteristics which is already not "assigned" to one of the genders.
+      
+      + 5 castes: warrior caste, artists caste, scholar caste, worker caste, trader caste
+      + `ajɛsɖɶ` usually fall under the artists caste, but some are of the warrior, or scholar caste
+      + `esiʈi` usually fall under the scholar caste, but some are of the worker caste
+      + `ɖiʒiɖi` usually fall under the warrior or worker caste. 
+      + Any gender can fall under the trader caste which is usually the most detested caste. 
+
+    - This society has a philosophy which is filled with dichotomies: order and chaos, life and death, etc. Because of this, the gender roles in this community is much more fluid as based upon this binary dichotomy rather than ternary like the other societies.
+
+    .. rubric:: Society 2
+
+    - This society focuses on trade (obviously will have contentious relations with the society with the caste system); this society has established a large network of trade routes which span their continent and connect with most major societies in that region a la Silk Road.
+    - In this society, social hierarchy is based upon age and merit (i.e. your place in society is dependant on your age and merit achieved in their respective field).
+
+    .. rubric:: Society 3
+
+    - This society has a government system which is closely tied with its religious leadership and has a complex social hierarchy surrounding this intermingling.
+    - This society which favors love, honor and duty as the 3 major ideals to uphold in life. Their religious practices, societal values, and lifestyle reflect these ideals.
+
+    .. rubric:: Society 4
+
+    - The society is marked by the rise of major religion/cult which considers their `aiɖi` to be supreme. They have a holy book which consists of a "historic" story that recounts how their society came to be, and "explains" the other `aiɖi` and the `isiʈeθɶ` and `zœeɖaʃi`. 
+    - This society's art and literature is either restricted to only one gender (probably `ajɛsɖɶ`) or every gender is restricted to practicing art and literature in a very gender specific way.
+
+    .. rubric:: Society 5
+
+    - This society has bold flavors and spices; they are known for their spice export.
+    - This society is known for their impressive architectural undertakings; they erect large monuments either in respect to their `aiɖi` or their ruler. 
+
+
+    .. rubric:: Ideas
+    
+    .. grid:: 2
+    
+        .. grid-item:: 
+            
+            .. dropdown:: Temples, Priests & Education
+                
+                In one culture, there is only one temple dedicated to each `aiɖi` which is presided over by a family of priests. The role of head priest is hereditary, or hereditary masked in a democratic procedure, but revolutions are not uncommon. Everyday people worship in temples for large occasions, but also have their personal household gods. Aristocratic families can claim that their family `aiɖi` is a child of one of the major `aiɖi`. Each temple also contains a "school" where children of the elite are educated. Different temples have different types of schools for different professions.
+                
+                Rulers & monarchs during their reign always offer one big addition to the temple of their choice `aiɖi` during their reign as an offering.
+                
+        .. grid-item:: 
+        
+            .. dropdown:: Polis-inspired Society
+            
+                In one culture, the regions are split into fairly self-regulated societies similar to *polis*. Their lifestyle and government is set around this strict individualistic context, as well as some other defined traits. For more ideas on this, see :doc:`the notes on poleis </Unlisted-Section/Notes/polis>`.
+                
+        .. grid-item::
+        
+            .. dropdown:: Dynasties
+            
+                One issue with having dynasties is how they interact with rule by the `zœeɖaʃi` later. Rule by the `isiʈeθɶ` and `zœeɖaʃi` is a majority of the world-building, but we still want to have dynasties which last, or have some kind of dynamic after the `isiʈeθɶ` arrive.
+                
+                - One big dynasty that I'm set on is the Moon Dynasty which comes from empresses enslaving `zɛɹa`. 
+                
+                - I would like another dynasty which has massive amounts of inbreeding similar to the Egyptians. More research is required on how exactly did that work and what restrictions they Egyptians even had. But for this dynasty, I would still like to have some restrictions, such as in-breeding is only limited to brother-sister, or nephew-aunt/niece-uncle, or etc.
+                
+        .. grid-item::
+        
+            .. dropdown:: Harems
+                
+                In one culture, there is a tradition of harems indicating wealth. In this culture, people are split into two categories (regardless of their gender, though this is some correlation): the few (dominants) and the many (submissives). The few create harems filled with those considered "the many". Relationships in the harem are borne out of love and are not just purely carnal, while marriages are reserved for just social or political purposes (i.e. alliances or inheritance). So while for a submissive, being in a harem is more prestigious and fulfilling, being in a marriage is more advantageous (even though it is less fulfilling).
+                
+                If one is in a marriage, they are restricted to having sex with only their partner, who is usually not interested in it (though being in love with someone you are married with is possible, just rare).

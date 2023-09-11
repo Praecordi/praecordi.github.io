@@ -1,0 +1,625 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <link rel="icon" href="../../_static/logo/favicon-white.svg" type="image/svg+xml"><link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Minor aiɖi" href="minor-aidi.html" /><link rel="prev" title="aiɖi" href="../aidi.html" />
+
+    <!-- Generated with Sphinx 5.3.0 and Furo 2022.12.07 -->
+        <title>Major aiɖi - Adasi 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/decor.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/icons/idea.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/icons/question.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --color-brand-primary: black;
+  --color-brand-content: darkgoldenrod;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Adasi 1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="../../_static/logo/hires-logo-black.svg" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="../../_static/logo/hires-logo-white.svg" alt="Dark Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../History/history.html">History</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../History/before-founding.html">Before Founding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../History/first-arrival.html">First Arrival</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../demographics.html">Demographics</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 current has-children"><a class="reference internal" href="../aidi.html"><span class="zean">aiɖi</span></a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">Major <span class="zean">aiɖi</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="minor-aidi.html">Minor <span class="zean">aiɖi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../avyasi.html"><span class="zean">aʋjasi</span></a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../avyasi/isitetho.html"><span class="zean">isiʈeθɶ</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../avyasi/zoedashi.html"><span class="zean">zœeɖaʃi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../zea-races.html"><span class="zean">zea</span> Races</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../zea-races/teathuda.html"><span class="zean">zea ʈeaθyɖa</span></a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../zea-races/teathuda-simulation/teathuda-simulation.html">Simulation Code</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../zea-races/teathuda-simulation/simulation.html">Main Simulation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../zea-races/teathuda-simulation/find-simulation-weights.html">Experiment Simulation Weights</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Culture/culture.html">Culture</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Magic/magic.html">Magic</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Culture/Magic/creation.html">Creation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Culture/Magic/ethereal-plane.html">The Ethereal Plane</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Holds/holds.html">Holds</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Pre-Arrival-Societies/pa-societies.html">Pre-Arrival Societies</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Documents/documents.html">Documents</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Documents/Stories/stories.html">Stories</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Documents/Stories/Excerpts_from_Ancient_History.html">Excerpts from Ancient History</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Documents/Stories/Excerpts_from_Before_Great_Split.html">Excerpts from Before Great Split</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../ideas.html">Ideas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notes.html">Miscellaneous Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../zean-glossary.html">Zean Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../zean-reference.html">Reference for the Zean Language</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="major-aii">
+<h1>Major <span class="zean">aiɖi</span><a class="headerlink" href="#major-aii" title="Permalink to this heading">#</a></h1>
+<section id="etiai">
+<h2><span class="zean">etiaʃi</span><a class="headerlink" href="#etiai" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">ajesɹɶ eʒɶsjɛ</span> (Goddess of Physical Beauty)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>Transfiguration</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">etiaʃi</span> is the <span class="zean">aiɖi</span> of <span class="zean">ajesɹɶ eʒɶsjɛ</span>, physical beauty. Due to the paramount importance of beauty, particularly in its physical manifestation, <span class="zean">etiaʃi</span> stands as the most revered deity on <span class="zean">zai</span>. Her patronage primarily extends to the devoted <span class="zean">isʋe</span> who specialize in Transfiguration, thus emphasizing her connection to physical appearance. She is the elder sister of <span class="zean">aʃieti</span>.</p>
+<p>In any realm, the <span class="zean">aiɖi</span> herself possesses unparalleled beauty. Her presence captivates onlookers, making it challenging to precisely delineate her features, yet one can immediately grasp a general impression of her enchanting persona. <span class="zean">etiaʃi</span> assumes a form that closely resembles that of a human female. Often described as athletically proportioned, her physique emanates both strength and grace. Smooth and firm breasts harmonize with a delicate, slender waist, while robust hips and legs contribute to her powerful stride, causing her long hair to sway in a mesmerizing rhythm. Geometric lines adorning her breasts and stomach emit an intriguing dark luminescence, seemingly absorbing light.</p>
+<p>Encounters with <span class="zean">etiaʃi</span> leave most observers in a state of awe, as if in the presence of something divine. They report experiencing profound relaxation and a transformative effect on their own bodies, ignited by a primal urge awakened within them. Witnesses attest that the physical improvement is also evident in the company of others during such encounters, although those not present during these visits often remain unaware of these effects. When <span class="zean">etiaʃi</span> speaks, her voice exudes a soft and inviting allure, compelling listeners to lean closer, enticed by her heavenly, corporeal essence. Her commanding tone can stir a profound desire to fulfill her every wish.</p>
+<p>A firsthand account by <span class="zean">ajɛseɖi</span>, an individual deeply connected to <span class="zean">etiaʃi</span> and a frequent visitor, portrays the <span class="zean">aiɖi</span> as dignified and idealistic, to the point of seemingly defying reality. Possessiveness characterizes her nature, as she goes to great lengths to retain both objects and individuals she acquires. As befitting an <span class="zean">aiɖi</span> of Beauty, she possesses an insatiable libido, engaging in numerous intimate encounters with <span class="zean">ajɛseɖi</span> during their courtship, reportedly seven times daily, attesting to their profound connection.</p>
+<p>The alluring presence and captivating aura of <span class="zean">etiaʃi</span>, combined with her defining traits and ethereal allure, establish her as an unparalleled figure within the realm of <span class="zean">ajesɹɶ eʒɶsjɛ</span> and solidify her position as the embodiment of physical beauty on <span class="zean">zai</span>.</p>
+</section>
+<section id="aieti">
+<h2><span class="zean">aʃieti</span><a class="headerlink" href="#aieti" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">ajesɹɶ øʃasjɛ</span> (Goddess of Spiritual/Inner Beauty)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>Transfiguration</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">aʃieti</span> is the <span class="zean">aiɖi</span> of <span class="zean">ajesɹɶ øʃasjɛ</span> (spiritual beauty). Given the paramount importance of beauty within the realm of <span class="zean">zai</span>, coupled with her status as the younger sister of <span class="zean">etiaʃi</span>, <span class="zean">aʃieti</span> emerges as one of the most revered deities in the <span class="zean">zai</span> pantheon. Her primary patronage is directed towards <span class="zean">isʋe</span> devoted to Transfiguration, although her services are occasionally sought for Alteration <span class="zean">sʋease</span>.</p>
+<p>In many aspects, <span class="zean">aʃieti</span> bears similarities to and yet represents a polar opposite of <span class="zean">etiaʃi</span>. While her beauty remains renowned even among the <span class="zean">aiɖi</span>, it pales in comparison to that of <span class="zean">etiaʃi</span>. <span class="zean">aʃieti</span> assumes a physical appearance that exudes youthfulness. Though observers struggle to precisely articulate her features, they can provide a rough approximation of her persona. She manifests in a form that closely resembles that of a young human female, characterized by a petite stature, smaller breasts, and slender hips. Despite her perceived smallness and youthfulness, she emits an air of maturity. Like <span class="zean">etiaʃi</span>, geometric lines adorning her breasts and stomach emit a radiant white light. In contrast to <span class="zean">etiaʃi</span>, <span class="zean">aʃieti</span> typically appears clothed, often donning traditional attire reflective of the caller’s culture, yet frequently adorned in a soft, sleeveless midriff top and a slim, floor-length skirt. On rare occasions, <span class="zean">aʃieti</span> reveals her body, typically upon a firm request from an <span class="zean">isʋe</span> or as a reward.</p>
+<p>Individuals who have encountered the <span class="zean">aiɖi</span> describe her as a gentle and nurturing spirit. Similar to the experience with <span class="zean">etiaʃi</span>, they report a profound sense of relaxation and contentment. Many attest to the complete dissipation of stress and negative emotions, replaced by a surge of pure energy. When <span class="zean">aʃieti</span> speaks, her voice emanates a soft and caring tone, brimming with empathy and passion. Notably, meeting <span class="zean">aʃieti</span> proves considerably more challenging compared to encountering other <span class="zean">aiɖi</span>, including her sister <span class="zean">etiaʃi</span>.</p>
+<p>According to a secondary account relayed by <span class="zean">ajɛseɖi</span>, <span class="zean">etiaʃi</span> mentions that her sister can be somewhat demanding and inflexible, imposing regimented requirements on her followers. Conversely, <span class="zean">etiaʃi</span> acknowledges that <span class="zean">aʃieti</span> displays a certain level of naivety, often entangling herself in the intricacies of inter-deity politics. <span class="zean">ajɛseɖi</span> herself observes that both sisters share an idealistic nature, bordering on the unrealistic, regarding their expectations. However, <span class="zean">ajɛseɖi</span> also notes that <span class="zean">aʃieti</span>’s requirements primarily revolve around the well-being and inner peace of her followers, ultimately seeking to enhance their personal beauty.</p>
+</section>
+<section id="iedy">
+<h2><span class="zean">iʈʂedy</span><a class="headerlink" href="#iedy" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">itʒje</span> (Goddess of Time)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>Divination</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">iʈʂedy</span> is the <span class="zean">aiɖi</span> of <span class="zean">itʒje</span> (time). Unsurprisingly, she holds a central position in the hierarchy of revered deities due to her dominion over temporal matters. Owing to her formidable power and profound knowledge of time, she serves as the primary patron of Divination <span class="zean">isʋe</span>. <span class="zean">iʈʂedy</span> assumes the role of the elder sibling to <span class="zean">iɖʐe</span>.</p>
+<p>Among all the <span class="zean">aiɖi</span>, <span class="zean">iʈʂedy</span> stands as the eldest. Despite her frail and wiry frame, which sharply contrasts with the physique of <span class="zean">iɖʐe</span>, her face possesses an elongated and slender appearance. Those who encounter her often remark on her evasive gaze, as if she were timid. In reality, <span class="zean">iʈʂedy</span>’s eyes perpetually wander, absorbing the intricacies of her surroundings. Like her sister, she takes the form of a human female, although it remains largely unknown to the majority that she possesses a retractable penis, typically concealed within her form. However, <span class="zean">iʈʂedy</span> employs this additional organ far less frequently than her sister, if its presence is even noticeable. Accounts concerning <span class="zean">iʈʂedy</span>’s penis consistently describe it as flaccid, although it should be noted that only a few individuals have claimed to have witnessed it. Despite her slender and delicate build, she possesses surprisingly ample breasts, albeit smaller in comparison to other <span class="zean">aiɖi</span> such as <span class="zean">etiaʃi</span> or <span class="zean">θaœ</span>. One consistent aspect in each sighting of <span class="zean">iʈʂedy</span> is the irregularity of her attire. Some have reported her appearing in disheveled garments, while others note instances where she appeared partially clothed, or more frequently, completely naked.</p>
+<p>Contrary to the initial impression of shyness, <span class="zean">iʈʂedy</span>’s behavior more accurately aligns with hyperactivity. She transitions swiftly from one task to another without much contemplation, constantly preoccupied with the next endeavor. The perception of shyness is further compounded by her occasional moodiness or apparent indifference and neglectful demeanor. She is renowned for her resolute nature and adherence to principles, often declining requests that exhibit inconsiderate, imprudent, or irrational attributes.</p>
+<p>Both <span class="zean">saiʃeʈa</span> and <span class="zean">saeθa</span> concur that <span class="zean">iʈʂedy</span> is highly stubborn. She possesses a tendency to enter a dreamy and contemplative state, seemingly detached from external stimuli. <span class="zean">saeθa</span> humorously recounts instances during their mating sessions where <span class="zean">iʈʂedy</span> lost interest or desire midway through pleasuring <span class="zean">saeθa</span>. However, alongside her moodiness, both <span class="zean">isiʈeθɶ</span> affirm that <span class="zean">iʈʂedy</span> exemplifies an exceptional level of reliability and dutifulness, consistently fulfilling her obligations and tasks, provided one can persuade her to accept the assignment or directive.</p>
+</section>
+<section id="ie">
+<h2><span class="zean">iɖʐe</span><a class="headerlink" href="#ie" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">zai</span> (Goddess of Sun)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>Combat</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">iɖʐe</span> is the <span class="zean">aiɖi</span> of <span class="zean">zai</span>, sun. <span class="zean">Iɖʐe</span> is the <span class="zean">aiɖi</span> associated with <span class="zean">zai</span>, the sun. She holds the position of the younger sibling to <span class="zean">iʈʂedy</span>. Her authority over the sun establishes her as the primary patron of Combat <span class="zean">isʋe</span>.</p>
+<p><span class="zean">Iɖʐe</span> embodies an imposing figure among the <span class="zean">aiɖi</span>. Her physique is characterized by a substantial and remarkably muscular build. Her countenance emanates a radiant luminosity, imbued with an unfathomable brilliance, while perpetually retaining an introspective composure. In alignment with the general form observed in other <span class="zean">aiɖi</span>, she assumes an appearance closely resembling that of a human female. Similar to her sister <span class="zean">iʈʂedy</span>, she possesses a retractable penis, although her typical form features a vagina. Despite having given birth to a solitary <span class="zean">aiɖi</span>, <span class="zean">iɖʐe</span> has fathered numerous mortal beings. Corresponding to the robustness exhibited throughout her physique, her penis is broad and muscular. In comparison to other <span class="zean">aiɖi</span>, her breasts are relatively smaller, yet distinct and aesthetically pleasing. <span class="zean">Iɖʐe</span> consistently presents herself attired, adhering to a conservative and regimented style. She habitually dons her customary sleeveless red shirt, complemented by a flowing warrior’s skirt. Dual long swords, slightly curved at the tips, are secured to her belt, accompanied by a crimson cloth affixed to their hilts.</p>
+<p>Testimonials from those who have encountered the <span class="zean">aiɖi</span> frequently depict her as an intimidating presence. Preconceived notions often anticipate <span class="zean">iɖʐe</span> to be incessantly wrathful and destructive. Consequently, observers are surprised to encounter a composed, contemplative, and orderly deity. Rather than inciting impulses of destruction and devastation, witnesses frequently describe an overwhelming sense of tranquility and restraint, as if their internal turmoil has been quelled. <span class="zean">Iɖʐe</span> possesses a commanding voice, both forceful and composed, akin to a leader issuing orders to her subordinates. She exhibits a remarkable degree of resourcefulness and ingenuity, as reported by many.</p>
+<p>According to <span class="zean">saeθa</span>, their grandmother-in-law proves to be an exceedingly vibrant and dynamic personality once one becomes acquainted with her. She embodies a refreshing authenticity and lacks pretense. Conversely, <span class="zean">iɖʐe</span> exhibits a notable susceptibility to gullibility and impulsive behavior, constantly driven by a yearning for action and direction. <span class="zean">Saiʃeʈa</span> observes that in the absence of a designated mission or goal, <span class="zean">iɖʐe</span> ventures into pursuits of personal pleasure, often entailing either combat or seeking gratification. Regrettably, such endeavors seldom conclude favorably for the opposing party.</p>
+</section>
+<section id="iio">
+<h2><span class="zean">ʂiɹiø</span><a class="headerlink" href="#iio" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">ʋy</span> (Goddess of Nature)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>Elemental &amp; Divination</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">ʂiɹiø</span> is the <span class="zean">aiɖi</span> of <span class="zean">ʋy</span>, true nature. She bears the distinction of being the mother of <span class="zean">ɹyθiɛ</span>, conceived by an unknown mortal or <span class="zean">aiɖi</span>. Given her dominion over nature and the inner self, she serves as the primary patron for Elemental and Divination <span class="zean">isʋe</span>.</p>
+<p>As the eldest among the foreign <span class="zean">aiɖi</span>, <span class="zean">ʂiɹiø</span> possesses a distinct appearance that sets her apart from her counterparts. She bears no resemblance to any <span class="zean">ʈeaθyɖa</span>, <span class="zean">astɹœ</span>, or <span class="zean">aʋjasi</span>. Instead, she frequently manifests as a nebulous mist devoid of a discernible form. In her communication, she eschews physical sound waves, conveying her thoughts through a stream of images and emotions. Only during the act of mating does she assume a physical form, compelled by the circumstances. Due to her inherent nature as the <span class="zean">aiɖi</span> of Nature, when necessitated to adopt a physical manifestation for specific tasks or interactions, she automatically assumes the likeness of the individual involved.</p>
+<p>The fortunate few who have witnessed or experienced her presence describe <span class="zean">ʂiɹiø</span> as a warm and patient spirit. Possessing profound clairvoyance, she comprehends a vast array of potential futures, rendering her speech an invaluable source of insight into one’s own self and forthcoming events.</p>
+<p>Accounts from those acquainted with her character assert that she is remarkably forgetful and prone to instability. Given her profound comprehension of diverse future possibilities, she may exhibit considerable indecisiveness. Nevertheless, her sedentary disposition renders her relatively easy to locate.</p>
+</section>
+<section id="ei">
+<h2><span class="zean">eʋʈi</span><a class="headerlink" href="#ei" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">sai</span> (Goddess of the Night)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>Conjuration</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">eʋʈi</span> is the <span class="zean">aiɖi</span> of <span class="zean">sai</span>, the night. She stands as the older sibling of <span class="zean">zɛɹa</span> and one of the four foreign <span class="zean">aiɖi</span>. Diverging from her fellow deities, she has chosen to become the patron of Conjuration <span class="zean">isʋe</span>. Consequently, Conjuration is closely intertwined with the concept of the night, as she garners the highest reverence among practitioners seeking mastery in Conjuration <span class="zean">sʋe</span>.</p>
+<p>Among the newly recognized <span class="zean">aiɖi</span>, <span class="zean">eʋʈi</span> is most readily characterized as the epitome of angelic and ethereal beauty, rivaling even <span class="zean">etiaʃi</span> in allure. In contrast to the ever-shifting beauty perceived by onlookers in <span class="zean">etiaʃi</span>, <span class="zean">eʋʈi</span> manifests in a single, resplendent form. Possessing jet-black skin and radiant white eyes and teeth, she frequently appears in her natural state, unclad. On rare occasions when she adorns herself, she dons a white gown. Her obsidian hair cascades gracefully over her shoulders, each swaying strand regarded as a harmonious melody to the ears of <span class="zean">ʈeaθyɖa</span>. Her delicate breasts boast pale pink, almost white nipples, while the intimate recesses of her tightly enveloping vagina reveal a similar coloration. Her strength emanates from a combination of grace and a profound, penetrating gaze. She speaks sparingly, her voice resounding with deliberate cadence and an ancient resonance.</p>
+<p>Testimonies from those who have encountered her voice attest to its irresistible allure, gently coaxing listeners toward her, akin to a descent into a boundless void. Embracing her is reported to induce ultimate relaxation, as though a wave of lethargy washes over individuals, lulling them into slumber. Yet, her frigid kiss abruptly rouses them from their stupor, freezing them in alertness.</p>
+<p>Acquaintances of <span class="zean">eʋʈi</span> describe her as a commanding presence with flamboyant mannerisms. She possesses an insatiable craving for excellence, whether in relation to individuals or possessions. Such single-minded fixation may lead some to view her as predatory. Nevertheless, she emerges as the most dependable among the <span class="zean">aiɖi</span> in certain respects, despite her perceived scheming nature.</p>
+</section>
+<section id="za">
+<h2><span class="zean">zɛɹa</span><a class="headerlink" href="#za" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">yɹʋœ</span> (Goddess of the Moons)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>Animation &amp; Necromancy</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">zɛɹa</span> is the <span class="zean">aiɖi</span> of <span class="zean">yɹʋœase</span>, the diverse moons of <span class="zean">zai</span>. As the younger sister of <span class="zean">eʋʈi</span> and one of the four foreign <span class="zean">aiɖi</span>, she holds a distinctive position within the celestial hierarchy. Notably, <span class="zean">zɛɹa</span> functions as the patron of Animation and Necromancy <span class="zean">isʋe</span>, embodying the essence of these domains.</p>
+<p>While bearing a resemblance to her sister in terms of appearance, <span class="zean">zɛɹa</span> exhibits a stark contrast in personality. Just as angelic as her sister, she manifests herself in a singular, mesmerizing form. However, <span class="zean">zɛɹa</span> possesses distinct physical characteristics. Her pale white skin emits an ethereal glow, diverging from her sister’s jet-black complexion. Adorned with eyes tinged in a light purple hue and curly white hair, often styled in intricate rolls, <span class="zean">zɛɹa</span> dons rough dark attire that conceals her ample bosom. Furthermore, her vaginal region, while lighter in color than her sister’s, displays a purplish tint rather than the customary pink. Notably, <span class="zean">zɛɹa</span> possesses a retractable penis in place of her vagina, a feature distinct to her foreign nature. This appendage deviates from the norm observed among the other <span class="zean">aiɖi</span> of this world, characterized by a fleshy glans of matching color to her vaginal flesh, enclosed within a thick, ridged skin that envelops the shaft. Undulating openings along the underside of the shaft expose erogenous inner tissue. It is worth mentioning that <span class="zean">zɛɹa</span> possesses a conventionally beautiful vagina when this unusual appendage remains concealed. In contrast to her sister’s intense and direct gaze, <span class="zean">zɛɹa</span> portrays distant and contemplative eyes, while her gentle features seem perpetually immersed in profound contemplation.</p>
+<p>Diverging from the soft and encouraging nature of her sister, <span class="zean">zɛɹa</span> embodies a timid disposition. She demonstrates a protective instinct towards her followers and is easily impressed. In essence, she epitomizes a benevolent and supportive <span class="zean">aiɖi</span>, renowned for her willingness to collaborate with mortals and other <span class="zean">aiɖi</span> alike. It is primarily due to her docile and nurturing demeanor that she became imprisoned by the Moon Dynasty, whose rulers exploited her timid nature to establish a lineage of powerful demi-<span class="zean">aiɖi</span> empresses and ultimately the <span class="zean">ʒiɹtɶ</span>. It is important to note that while <span class="zean">zɛɹa</span> tends to be gentle, timid, and slow to anger, her formidable power and capacity for destruction match that of any <span class="zean">aiɖi</span> when provoked. Consequently, her unleashed fury becomes all the more perilous, underscoring the gravity of her wrath.</p>
+</section>
+<section id="yi">
+<h2><span class="zean">ɹyθiɛ</span><a class="headerlink" href="#yi" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">ɹyθɛy</span> (Goddess of Destruction)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>Combat</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">ɹyθiɛ</span> is the <span class="zean">aiɖi</span> of <span class="zean">ɹyθɛy</span>, destruction. She stands as the daughter of <span class="zean">ʂiɹiø</span>, conceived through an unknown mortal or <span class="zean">aiɖi</span>. As the <span class="zean">aiɖi</span> of destruction, she claims the position of primary patron of Combat <span class="zean">isʋe</span>.</p>
+<p>Diverging from her mother in terms of appearance, <span class="zean">ɹyθiɛ</span> possesses a commanding stature characterized by substantial muscularity, indicative of meticulousness. Her presence is typically accompanied by tailored attire, carefully selected to reflect the audience she engages with. Each movement and action she undertakes is calculated and executed with precision. Her mannerisms and garments adhere to a methodical, pristine, and regular standard, exuding an air of grooming and preparedness. Furthermore, her articulation is clear, while her vigilant eyes penetrate one’s very soul, assessing the most effective means of obliterating not only the physical self but also the mental, emotional, and spiritual realms.</p>
+<p><span class="zean">ɹyθiɛ</span> innately embodies a destructive nature, employing cunning and deception to fulfill her pursuits. Revered as a skilled tormentor and an inventive warrior, she continually devises novel methods of inflicting pain and suffering, surpassing previous thresholds of agony. Surprisingly, however, she remains accessible, readily appearing before her most devout followers. Her prominence primarily arises during times of war, commanding the adoration of countless warriors who diligently study her ways. Advocating for a strategic approach to killing, she prioritizes maximum devastation while conserving energy expenditure.</p>
+</section>
+<section id="seo">
+<h2><span class="zean">seʃɹø</span><a class="headerlink" href="#seo" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">itʃi</span> (Goddess of Creation)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>(Conjuration &amp; Animation)</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">seʃɹø</span> is the <span class="zean">aiɖi</span> of <span class="zean">itʃi</span>, creation. Unsurprisingly, she stands as a deity of paramount veneration due to her commanding power. As the patron of Conjuration and Divination <span class="zean">isʋe</span>, <span class="zean">seʃɹø</span> wields her creative abilities with great influence. She manifests as the offspring of <span class="zean">aʃieti</span> and <span class="zean">iɖʐe</span>.</p>
+<p>Possessing a resplendent, ethereal presence, <span class="zean">seʃɹø</span> embodies exceptional beauty, tenderness, purity, and compassion. Her appearances before her devoted followers are frequent and transformative, emanating from a radiant halo of pristine white light. Among the pantheon of deities, she stands as one of the most captivating and resplendent. While her physique differs from that of <span class="zean">etiaʃi</span> and <span class="zean">aʃieti</span>, her allure lies in delicate curves and an exquisitely refined aura inherited from her mother. Every aspect, from her arms and hands to her vagina and feet, exudes a remarkable fragility. A lesser-known fact, divulged only to her closest confidants, advisors, and devotees, is her possession of a retractable penis inherited from her father. Though smaller in scale compared to his, it remains a slender and elongated feature, typically concealed from view. Clad in flowing, immaculate white robes cinched at the waist by a cord, she veils her body from scrutiny.</p>
+<p>Accounts from those who have beheld <span class="zean">seʃɹø</span> depict a serene, radiant ambiance permeating their encounters. It is as if they float within the gentle embrace of the ethereal light radiating from the deity. Meetings with <span class="zean">seʃɹø</span> are suffused with an overwhelming sense of maternal love, akin to a long-awaited reunion with one’s mother. Surprisingly, the deity lingers for an unexpectedly prolonged duration, tenderly caressing and nurturing her followers. Such an experience is widely regarded as one of the most comforting and surreal encounters one can experience.</p>
+<p>Both <span class="zean">saiʃeʈa</span> and <span class="zean">saeθa</span> reverently describe their partner, highlighting her nurturing nature and modest demeanor. However, they express concern over <span class="zean">seʃɹø</span>’s pronounced vulnerability and trusting disposition. Consequently, she often engages with her followers without concern for her own safety, projecting an exceptionally transparent character. Fortunately, <span class="zean">saiʃeʈa</span> and <span class="zean">saeθa</span> emphasize that <span class="zean">seʃɹø</span> garners immense adoration from all deities, <span class="zean">aʋjasi</span>, and mortals alike, regardless of their allegiance or lineage. Only a truly malevolent and unrestrainedly destructive individual would harbor thoughts of inflicting harm upon <span class="zean">seʃɹø</span>.</p>
+</section>
+<section id="aoe">
+<h2><span class="zean">θaœ</span><a class="headerlink" href="#aoe" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">itɹa</span> (Goddess of the Hidden)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>Alteration</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">θaœ</span> is the <span class="zean">aiɖi</span> of <span class="zean">itɹa</span>, that which is hidden. She is popularly called the Hidden One. As the primary deity associated with Alteration <span class="zean">isʋe</span>, <span class="zean">θaœ</span> holds a position of significance. She arises as the offspring of <span class="zean">ajɛseɖi</span> and <span class="zean">etiaʃi</span>.</p>
+<p>While inheriting her mother’s remarkable beauty, <span class="zean">θaœ</span> predominantly shrouds herself in obscurity, seldom adopting a tangible form. Those fortunate enough to glimpse her presence encounter an exquisitely captivating silhouette amidst the shadows. Her countenance, often obscured by the veiling depths of her cowl, eludes easy recollection. Cloaked and wearing a skirt, her upper body remains exposed, adorned with enigmatic, dark geometric patterns. Among her defining features, her alluring, flowing hair emanates from the shadows, cascading gracefully between her breasts. Often braided, it effortlessly encircles her waist, swaying autonomously. Her voice resonates as a gentle whisper, imbued with a soothing quality. Her movements, discreet and elusive, can transpire imperceptibly, with individuals often unaware of her transition from before them to behind them.</p>
+<p>Accounts from the fortunate few who have encountered <span class="zean">θaœ</span> highlight a befuddling impact on their minds. They describe a pervasive sense of relaxation, accompanied by a noticeable surrendering of their mental barriers and defenses. Some recount an enveloping cool mist, while others evoke sensations of an enigmatic warmth, inducing perspiration. Remarkably, individuals driven by insatiable curiosity may find themselves disheartened or discouraged, as if an overwhelming lethargy has beset them. Notably, once the presence of the deity has departed, these same individuals often experience a sense of regret.</p>
+<p><span class="zean">ajɛseɖi</span> notes that her daughter is not inherently shy. Rather, <span class="zean">θaœ</span> possesses an insatiable, unrivaled curiosity, surpassed only by <span class="zean">aɹœʈi</span>. However, she exhibits pronounced timidity and insecurity. When she overcomes these inhibitions, her intellect shines forth with unparalleled cleverness and innovation, rivaling even that of <span class="zean">aɹœʈi</span>. Intriguingly, she has inherited a subtle semblance of her mother’s hypnotic and libidinous nature, though her reserved disposition tempers its manifestation.</p>
+</section>
+<section id="a">
+<h2><span class="zean">ʃɶða</span><a class="headerlink" href="#a" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">ʃɶi</span> (Goddess of Pleasure, Eroticism &amp; Sex)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>Restoration</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">ʃɶða</span> is the <span class="zean">aiɖi</span> of <span class="zean">ʃɶi</span>, sex. The revered deity enjoys paramount worship and followership, surpassing even <span class="zean">etiaʃi</span>, who remains highly venerated on <span class="zean">zai</span>. The temple of <span class="zean">ʃɶða</span> stands as a formidable influence among the sanctuaries present on the planet. Considering the inherent association of sexual activity with the revitalization of the soul, <span class="zean">ʃɶða</span> primarily aligns herself with <span class="zean">isʋe</span> disciplines devoted to Restoration. This illustrious deity traces her lineage to the union of <span class="zean">etiaʃi</span> and <span class="zean">ajɛseɖi</span>.</p>
+<p>In her physical form, <span class="zean">ʃɶða</span> unmistakably reflects the attributes of her mother, radiating exceptional beauty, albeit in an exceedingly extravagant manner. She embodies an appearance that not only appeals to individual preferences but encompasses the epitome of allure. Notably, unlike <span class="zean">etiaʃi</span>, <span class="zean">ʃɶða</span> manifests a gender congruent with the observer’s desires. Several constants define her captivating charm, notably her perpetual youthful visage, regardless of the observer’s perception. Sporting a slender figure adorned with a delicate layer of desirable adipose tissue, her touch exudes a softness that captivates. The size of her breasts adapts to suit the preferences of the viewer, typically striking a balance between modesty and delicacy. Her waist appears slender, harmonizing with her strong hips and legs. Each step she takes exudes an alluring sway that accentuates her bodily attributes.</p>
+<p><span class="zean">ʃɶða</span> embodies a nature characterized by extremes. Witnesses who have encountered <span class="zean">ʃɶða</span> invariably recall engaging in sexual encounters with the deity. They recount an <span class="zean">aiɖi</span> who displays a tender, youthful demeanor, bordering on shyness in conversation, yet exhibits remarkable vigor, assertiveness, and dominance in the realm of intimacy. Her reserved disposition extends to interactions with her followers, partly influenced by the magnitude of her devotees. Preferring to maintain a degree of distance during such encounters, she speaks sparingly, instead preferring to listen intently to their conversations and pleas. When she does speak, her voice, akin to her mother’s, emanates as a soft, sensual cadence that ensnares the listener’s attention. Consistent with her paradoxical persona, <span class="zean">ʃɶða</span> always remains fully clothed from head to toe, a stark departure from her inherent inclinations.</p>
+<p><span class="zean">ajɛseɖi</span>, <span class="zean">ʃɶða’s</span> mother, attests to her daughter’s susceptibility to distraction, owing to her heightened sensitivity. She remarks, “It is fortunate that most entities within the Ethereal Plane maintain familial boundaries, as otherwise she would engage in amorous encounters with numerous fellow deities.” In addition to her inherent shyness, <span class="zean">ʃɶða</span> exhibits a penchant for decadence, relishing in opulent displays of activities and an excess of material pleasures. While sharing her mother’s libidinous nature, <span class="zean">ʃɶða’s</span> desires manifest in distinct ways. While <span class="zean">etiaʃi</span> remains dedicated to sexual experiences with a select few, <span class="zean">ʃɶða</span> actively seeks a diverse range of partners, seldom engaging in repeat encounters. Although capable of experiencing love and indulging in recurring intimate liaisons, <span class="zean">ʃɶða</span> frequently seeks novelty. It is important not to mistake her apparent flightiness and perceived lack of intelligence as inherent traits; rather, they arise as consequences of her physical sensitivity and propensity for distractions. Beneath these surface traits, one discovers an immensely intelligent and vivacious force of nature.</p>
+</section>
+<section id="doea">
+<h2><span class="zean">dœʋa</span><a class="headerlink" href="#doea" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">aʃi</span> &amp; <span class="zean">ɶʂi</span> (Goddess of Future and Air)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>Air &amp; Divination</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">dœʋa</span> is the <span class="zean">aiɖi</span> of <span class="zean">aʃi</span> and <span class="zean">ɶʂi</span>, the future and air. Born to the union of <span class="zean">iʈʂedy</span>, <span class="zean">dœʋa</span> inherits mastery over the future while also possessing dominion over the element of air. As the primary patron of Divination and Air <span class="zean">isʋe</span>, she emerges as a significant deity in these domains, tracing her lineage to <span class="zean">iʈʂedy</span> and <span class="zean">saiʃeʈa</span>.</p>
+<p><span class="zean">dœʋa</span> manifests as an exceedingly slender figure. Initially, her diminutive physique may convey a sense of fragility and delicacy, yet it belies an unexpected strength that often catches observers off guard. Notably distinct from other <span class="zean">aiɖi</span>, she closely resembles her mother, <span class="zean">iʈʂedy</span>, surpassing even <span class="zean">saiʃeʈa</span> in resemblance. Some even assert that <span class="zean">dœʋa</span> possesses a wiry frame that surpasses her mother’s. Like <span class="zean">iʈʂedy</span>, she features small breasts and a waist that subtly blends into her hips. Differing from her mother, however, <span class="zean">dœʋa</span> does not inherit a phallus but instead presents with a vagina akin to <span class="zean">saiʃeʈa</span>. Her elongated legs contribute to the illusion of fragility, yet her movements exude grace and subtlety. Renowned for her remarkably light touch, she possesses exceptional skills in pickpocketing. While her physique harbors well-defined muscles, they remain concealed to the casual observer. Adorned in billowing white robes that perpetually flow outward, her attire fails in its attempt to provide ample coverage.</p>
+<p>The arrival of <span class="zean">dœʋa</span> is customarily heralded by gusts of wind, whose nature may range from turbulent to tranquil, but never absent. Similarly unpredictable are her mannerisms, defying assumptions and frequently deviating from anticipated behavior (unless no assumptions are made at all). Moreover, few secrets can be kept hidden from her discerning gaze. Although her brilliance often surprises her followers, it is important to note that she does not possess constant clairvoyance. Instead, she exhibits exceptional anticipation and deductive abilities. Yet, the advantage she gains from her foresight and intellect is counterbalanced by her capricious and impulsive nature. Among the <span class="zean">aiɖi</span>, she stands as one of the most obstinate and uncooperative, rarely granting the fulfillment of wishes.</p>
+<p>According to <span class="zean">saiʃeʈa</span>, her mother, <span class="zean">dœʋa</span> emanates an air of grace and tranquility despite her seemingly mannerless disposition. <span class="zean">saiʃeʈa</span> characterizes her daughter’s behavior as akin to that of her own: disorganized and reclusive. Unlike her more perilous and cunning siblings, <span class="zean">dœʋa</span> exhibits a certain naivety and contentment, although her nature is markedly more transient than that of <span class="zean">ʋaðœ</span>.</p>
+</section>
+<section id="id1">
+<h2><span class="zean">ʋaðœ</span><a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">eʒi</span> &amp; <span class="zean">øʐi</span> (Goddess of Past and Earth)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>Earth &amp; Divination</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">ʋaðœ</span> is the <span class="zean">aiɖi</span> of <span class="zean">eʒi</span> and <span class="zean">øʐi</span>, the past and earth. Born to the union of <span class="zean">iʈʂedy</span>, <span class="zean">ʋaðœ</span> inherits authority over the past while also commanding dominion over the element of earth. As the primary patron of Divination and Earth <span class="zean">isʋe</span>, she emerges as a significant deity in these realms, tracing her lineage to <span class="zean">iʈʂedy</span> and <span class="zean">saeθa</span>.</p>
+<p><span class="zean">ʋaðœ</span> can be aptly described as solid. Physically, she possesses a larger stature compared to her sister and bears greater resemblance to <span class="zean">saeθa</span> rather than <span class="zean">iʈʂedy</span>. However, even these inheritances do not manifest flawlessly. <span class="zean">ʋaðœ</span> is short yet muscular, lacking the curvaceous form associated with other <span class="zean">aiɖi</span>. Her breasts are small, and her hips and waist blend seamlessly. Nonetheless, <span class="zean">ʋaðœ</span> exudes a robust presence. Her hands are equivalent to the combined size of both thighs of <span class="zean">dœʋa</span>, exhibiting exceptional strength. Her posture exudes firmness and solidity, while her gait, though less graceful, radiates immense power. Despite her youthful and vibrant countenance, her face carries a knowing and burdened expression. Notably, <span class="zean">ʋaðœ</span> inherits her mother’s retractable penis, albeit on a grander scale. Indeed, her penis stands as the most imposing among all <span class="zean">aiɖi</span>, surpassing others in both length and girth, consistently remaining upright—a reflection of her unwavering personality. <span class="zean">ʋaðœ</span> predominantly keeps her phallus visible, particularly considering that her interactions with <span class="zean">aiɖi</span> and followers occur primarily in a state of nudity. However, it is essential to acknowledge that the sight of <span class="zean">ʋaðœ</span> unclothed may not always be aesthetically pleasing due to her typically dirty and unkempt appearance.</p>
+<p>The followers of <span class="zean">ʋaðœ</span> gravitate toward her for her wisdom and knowledge. She is revered for her unwavering commitment to self-improvement and righteousness. Nevertheless, she can be characterized as stubborn and cold, although her coldness differs from that of her distant sisters, stemming from her resolute and callous nature. <span class="zean">ʋaðœ</span> adheres strictly to her established ways and does not readily embrace change. Conversely, akin to her sister <span class="zean">dœʋa</span>, she approaches various aspects of life with contentment.</p>
+<p>According to <span class="zean">saeθa</span>, her mother, <span class="zean">ʋaðœ</span> exhibits an extreme possessiveness, likely stemming from her aversion to change. Despite her rough and uncivilized demeanor, she exudes a subtle charm. Interestingly, <span class="zean">saeθa</span> once remarked that <span class="zean">ʋaðœ</span>’s firmness, callousness, and uncouth nature serve as a beneficial defense against the overwhelming desire of others seeking to experience her more impressive attributes.</p>
+</section>
+<section id="sae">
+<h2><span class="zean">saɹeθɶ</span><a class="headerlink" href="#sae" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">itʒisjɛ itʃiaʃi</span> &amp; <span class="zean">yʐi</span> (Goddess of Recreation of the Dead and Fire)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>Fire &amp; Necromancy</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">saɹeθɶ</span> is the <span class="zean">aiɖi</span> of <span class="zean">itʒisjɛ itʃiaʃi</span> &amp; <span class="zean">yʐi</span>, recreation of the dead and fire. This designation establishes her as the primary patron of Necromancy and Fire <span class="zean">isʋe</span>. Born to the union of <span class="zean">seʃɹø</span> and <span class="zean">ʋaðœ</span>, she emerges as a noteworthy figure within these domains.</p>
+<p><span class="zean">saɹeθɶ</span> exudes elegance and sophistication. Like her half-sister, she possesses a lean and athletic physique, radiating strength. Her demeanor sets her apart with a confidence unparalleled among other <span class="zean">aiɖi</span>. Regarded as one of the most noble entities, her refined manner of walking and speaking exudes elegance without veering into seductiveness. Her physique, akin to her sister, embodies moderation—-a balance between muscle and fat, medium-length hair, medium-sized breasts, and a figure that strikes a harmonious chord between curvature and slimness. Strikingly, she bears a striking resemblance to her half-sister <span class="zean">yʈʂi</span>, despite their indirect relationship. Her attire typically consists of an elegant red dress, occasionally embracing nudity. A constant feature in all her appearances is a delicate gold necklace adorned with a blood-red ruby pendant.</p>
+<p>Eyewitness accounts depict <span class="zean">saɹeθɶ</span> as a proud <span class="zean">aiɖi</span>. Interestingly, similar to her sister, she projects an aura of ordinariness, devoid of halos, darkness, or temporal disruptions frequently associated with encounters with <span class="zean">aiɖi</span>. Most individuals are taken aback upon meeting <span class="zean">saɹeθɶ</span> due to her striking resemblance to an average person. However, it is widely acknowledged that <span class="zean">saɹeθɶ</span> possesses an extravagant and domineering personality, particularly in matters of sexuality.</p>
+<p>Described by <span class="zean">saiʃeʈa</span> as brutal and domineering, <span class="zean">saɹeθɶ</span> demonstrates exceptional calculation and apathy toward her enemies in times of war and conflict. <span class="zean">saiʃeʈa</span> further asserts that <span class="zean">saɹeθɶ</span>’s apathetic nature extends beyond the battlefield. Notably, <span class="zean">saiʃeʈa</span> highlights <span class="zean">saɹeθɶ</span> as the most charismatic among the <span class="zean">aiɖi</span>, emphasizing that mortals’ lack of realization serves as evidence of this quality.</p>
+</section>
+<section id="id2">
+<h2><span class="zean">yʈʂi</span><a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
+<div class="admonition-summary admonition">
+<p class="admonition-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Title</dt>
+<dd class="field-odd"><p><span class="zean">aiɖi</span> of <span class="zean">azesjɛ itʃiaʃi</span> &amp; <span class="zean">yʂi</span> (Goddess of Recreation of the Living and Water)</p>
+</dd>
+<dt class="field-even">Patronage</dt>
+<dd class="field-even"><p>Water &amp; Restoration</p>
+</dd>
+</dl>
+</div>
+<p><span class="zean">yʈʂi</span> is the <span class="zean">aiɖi</span> of <span class="zean">azesjɛ itʃiaʃi</span> &amp; <span class="zean">yʂi</span>, recreation of the living and water. As such, she holds the esteemed position of being the primary patron of Restoration and Water <span class="zean">isʋe</span>. Born to the union of <span class="zean">seʃɹø</span> and <span class="zean">dœʋa</span>, she emerges as a significant entity within these domains.</p>
+<p><span class="zean">yʈʂi</span> embodies an attractive and meticulous nature. Like her sister, she possesses a lean and athletic physique, projecting strength and agility. Her graceful demeanor and refined appearance captivate all those who encounter her. In contrast to the confidence exuded by <span class="zean">saɹeθɶ</span>, <span class="zean">yʈʂi</span> emanates elegance with a touch of seduction, using her captivating presence to enchant and mesmerize. Resembling her half-sister <span class="zean">saɹeθɶ</span>, she manifests a harmonious balance in her attributes—-an equilibrium between muscle and fat, medium-length hair, medium-sized breasts, and a figure that strikes a balance between curvature and slenderness. Notably, <span class="zean">yʈʂi</span> inherited both her mother’s and grandmother’s penis, which remains non-retractable, coexisting with her vagina. To conceal this aspect, she typically adorns breeches. However, her upper attire often comprises a flamboyant blue midriff garment adorned with intricate golden embellishments, showcasing her lean and attractive physique.</p>
+<p>Encounters with <span class="zean">yʈʂi</span>, even for mortals, often elicit descriptions of timidity and allure. She exudes attractiveness and captivation, though not in an overt manner. Similar to her sister, <span class="zean">yʈʂi</span> presents herself with an air of normality, devoid of halos or other supernatural manifestations. Apart from her flamboyant attire, she is indistinguishable from an ordinary mortal.</p>
+<p>However, <span class="zean">yʈʂi</span>’s mother, <span class="zean">saeθa</span>, cautions that beneath her timid and endearing appearance, her personality shares similarities with <span class="zean">saɹeθɶ</span>. While not inclined towards calculation or brutality, <span class="zean">yʈʂi</span> exhibits a cold and callous nature, particularly in times of conflict. Her reliability is notably questionable, requiring vigilance when interpreting her words. Although this charming yet aloof <span class="zean">aiɖi</span> can be somewhat disconcerting, <span class="zean">saeθa</span> assures us that <span class="zean">yʈʂi</span> also possesses a caring and magnanimous side. Nonetheless, her capriciousness makes it difficult to anticipate her actions.</p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="minor-aidi.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Minor <span class="zean">aiɖi</span></div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="../aidi.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title"><span class="zean">aiɖi</span></div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2020-2023, Praecordi
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Major <span class="zean">aiɖi</span></a><ul>
+<li><a class="reference internal" href="#etiai"><span class="zean">etiaʃi</span></a></li>
+<li><a class="reference internal" href="#aieti"><span class="zean">aʃieti</span></a></li>
+<li><a class="reference internal" href="#iedy"><span class="zean">iʈʂedy</span></a></li>
+<li><a class="reference internal" href="#ie"><span class="zean">iɖʐe</span></a></li>
+<li><a class="reference internal" href="#iio"><span class="zean">ʂiɹiø</span></a></li>
+<li><a class="reference internal" href="#ei"><span class="zean">eʋʈi</span></a></li>
+<li><a class="reference internal" href="#za"><span class="zean">zɛɹa</span></a></li>
+<li><a class="reference internal" href="#yi"><span class="zean">ɹyθiɛ</span></a></li>
+<li><a class="reference internal" href="#seo"><span class="zean">seʃɹø</span></a></li>
+<li><a class="reference internal" href="#aoe"><span class="zean">θaœ</span></a></li>
+<li><a class="reference internal" href="#a"><span class="zean">ʃɶða</span></a></li>
+<li><a class="reference internal" href="#doea"><span class="zean">dœʋa</span></a></li>
+<li><a class="reference internal" href="#id1"><span class="zean">ʋaðœ</span></a></li>
+<li><a class="reference internal" href="#sae"><span class="zean">saɹeθɶ</span></a></li>
+<li><a class="reference internal" href="#id2"><span class="zean">yʈʂi</span></a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/scripts/furo.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    </body>
+</html>

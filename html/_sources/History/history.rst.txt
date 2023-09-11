@@ -1,0 +1,59 @@
+History
+=======
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Contents
+
+    before-founding
+    first-arrival
+
+Maker's Notes
+-------------
+
+.. dropdown:: Revisions of History
+    :icon: clock
+
+    .. grid:: 2
+        
+        .. grid-item:: 
+            
+            .. dropdown:: Before Founding
+                :color: success
+                
+                I think we can change some of `ajɛseɖi`'s storyline. The idea is that `ajɛseɖi` is a princess of a nation which is conquered. `ðœdɛ`, who is the queen, is forced into being a lowly prostitute, and `ajɛseɖi` as a prostitute's daughter is sent to the *Academy Courtesan* (at a much older age than others; this could also be why she falls in love with the older `stɹai`) where her story proceeds as usual. 
+                
+                `saiʃeʈa`'s storyline can remain the same. Her education in clothing can be advantageous in the new magic system.
+                
+                I like the idea of a main character not being special (i.e. a noble or queen). Changing the story from `ajɛseɖi` being born into prostitution to being born as a princess and then going into prostitution changes that. Thus I want to have `saeθa` have that storyline instead. When `ajɛseɖi` enters the *Academy Courtesan*, she is put under `eɹaʈɛ`, and also meets the younger Novice `saeθa`.
+                
+                When `ajɛseɖi` graduates, she is hired by `øθysa`, while both `saeθa` and `eɹaʈɛ` become temple prostitutes. When `øθysa` falls this is where `ajɛseɖi` and `saiʃeʈa` goes with `θisœʈe`.
+                
+        .. grid-item::
+        
+            .. dropdown:: First Arrival
+            
+                Need to change the story for the First Arrival. Maybe `ajɛseɖi` did not come alone, but came with `saiʃeʈa` and `saeθa`?
+            
+        .. grid-item::
+        
+            .. dropdown:: Before Second Arrival
+            
+                The Ranthis storylines can change a little bit. Completely reword `ajɛseɖi`'s Ranthis storyline. `saeθa` and `seθi`'s storyline is good. Keep it as is. Same for `θisœʈe` and `stɹai`. Rework `saiʃeʈa`, `θea` and `teʃi`'s storyline.
+            
+        .. grid-item::
+        
+            .. dropdown:: Second Arrival
+            
+                By far the longest of the timelines. We need to show the rise of the `isiʈeθɶ` and properly develop how they adopted and used the magic. Their primary fight is with the Moon Dynasty, who still has `zɛɹa` enslaved.
+            
+        .. grid-item::
+        
+            .. dropdown:: After Great Split
+            
+                The event I'm most excited about, but probably can't get to in a long time. Think about how to approach this after finishing the rest of the events.
+                
+.. dropdown:: Rough Timeline of History
+    :icon: clock
+    
+    Since this section might be long, it has been separated into a :doc:`separate orphan page <timelines>`.

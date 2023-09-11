@@ -1,0 +1,614 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <link rel="icon" href="../../_static/logo/favicon-white.svg" type="image/svg+xml"><link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 5.3.0 and Furo 2022.12.07 -->
+        <title>Races - Adasi 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/decor.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/icons/idea.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/icons/question.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --color-brand-primary: black;
+  --color-brand-content: darkgoldenrod;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Adasi 1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="../../_static/logo/hires-logo-black.svg" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="../../_static/logo/hires-logo-white.svg" alt="Dark Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../History/history.html">History</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../History/before-founding.html">Before Founding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../History/first-arrival.html">First Arrival</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Demographics/demographics.html">Demographics</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/aidi.html"><span class="zean">aiɖi</span></a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/aidi/major-aidi.html">Major <span class="zean">aiɖi</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/aidi/minor-aidi.html">Minor <span class="zean">aiɖi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/avyasi.html"><span class="zean">aʋjasi</span></a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/avyasi/isitetho.html"><span class="zean">isiʈeθɶ</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/avyasi/zoedashi.html"><span class="zean">zœeɖaʃi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/zea-races.html"><span class="zean">zea</span> Races</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/zea-races/teathuda.html"><span class="zean">zea ʈeaθyɖa</span></a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/teathuda-simulation.html">Simulation Code</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/simulation.html">Main Simulation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/find-simulation-weights.html">Experiment Simulation Weights</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Culture/culture.html">Culture</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Magic/magic.html">Magic</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Culture/Magic/creation.html">Creation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Culture/Magic/ethereal-plane.html">The Ethereal Plane</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Holds/holds.html">Holds</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Pre-Arrival-Societies/pa-societies.html">Pre-Arrival Societies</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Documents/documents.html">Documents</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Documents/Stories/stories.html">Stories</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Documents/Stories/Excerpts_from_Ancient_History.html">Excerpts from Ancient History</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Documents/Stories/Excerpts_from_Before_Great_Split.html">Excerpts from Before Great Split</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../ideas.html">Ideas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notes.html">Miscellaneous Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../zean-glossary.html">Zean Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../zean-reference.html">Reference for the Zean Language</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="races-1">
+<h1>Races <a class="footnote-reference brackets" href="#id8" id="id1">1</a><a class="headerlink" href="#races-1" title="Permalink to this heading">#</a></h1>
+<section id="human-2">
+<h2>Human <a class="footnote-reference brackets" href="#id9" id="id2">2</a><a class="headerlink" href="#human-2" title="Permalink to this heading">#</a></h2>
+<p class="rubric">Physiology</p>
+<dl class="field-list simple">
+<dt class="field-odd">Average height</dt>
+<dd class="field-odd"><p>225cm (7ft, 4.5in)</p>
+</dd>
+<dt class="field-even">Average weight</dt>
+<dd class="field-even"><p>100kg (220lbs)</p>
+</dd>
+<dt class="field-odd">Pregnancy length</dt>
+<dd class="field-odd"><p>1 year</p>
+</dd>
+<dt class="field-even">Average over-bust</dt>
+<dd class="field-even"><p>120cm (47.2in)</p>
+</dd>
+<dt class="field-odd">Average under-bust</dt>
+<dd class="field-odd"><p>105cm (41.3in)</p>
+</dd>
+<dt class="field-even">Average waist</dt>
+<dd class="field-even"><p>90cm (35.4in)</p>
+</dd>
+<dt class="field-odd">Average hips</dt>
+<dd class="field-odd"><p>115cm (45.3in)</p>
+</dd>
+<dt class="field-even">Average penis length</dt>
+<dd class="field-even"><p>18cm (7.1in)</p>
+</dd>
+<dt class="field-odd">Description</dt>
+<dd class="field-odd"><p>The Rankvahn human body is of an athletic shape, with low body fat and defined muscles. The average Rankvahn human (from here will be called “Vahn”) has long, thin, and slightly drooping ears. Her nasal bridge and nostrils are wide.</p>
+</dd>
+</dl>
+<p>A Vahn has hair growing from the scalp region and the tailbone region. The part growing from the tailbone looks like a tail, though it does not connect to the nervous system, and cannot be moved as a limb. Short and sparse hair grows on the back of the forearm, the testicles, the back of the calves, below the scalp region, on the eyebrows, and ahead of the ears. Pubic hair grows on the armpits, on the inner thigh, around the erogenous zones, and below the navel.</p>
+<p>Below are four illustrations. On the far left, there is the average our-world male, standing at 1.7 to 1.8 meters (5ft, 6in - 5ft, 10in). To its right, an illustration of the average Vahn. That illustration features a naked and hairless member. To its right, an illustration showing the hair distributions on the average Vahn from a frontal perspective. On the far right, an illustration showing their hair distributions on the average Vahn from a back perspective. Additionally, different colors were assigned to each type of hair distribution. Note that each length provided is the average length, not the only length possible.</p>
+<figure class="align-default">
+<img alt="../../_images/Human-1.png" src="../../_images/Human-1.png" />
+</figure>
+</section>
+<section id="dragonfolk-3">
+<h2>Dragonfolk <a class="footnote-reference brackets" href="#id10" id="id3">3</a><a class="headerlink" href="#dragonfolk-3" title="Permalink to this heading">#</a></h2>
+<p class="rubric">Physiology</p>
+<dl class="field-list simple">
+<dt class="field-odd">Average Height</dt>
+<dd class="field-odd"><p>250cm (8’2”)</p>
+</dd>
+<dt class="field-even">Average Weight</dt>
+<dd class="field-even"><p>180kg (400lbs)</p>
+</dd>
+<dt class="field-odd">Pregnancy Length</dt>
+<dd class="field-odd"><p>15 months</p>
+</dd>
+<dt class="field-even">Average Tail Length</dt>
+<dd class="field-even"><p>170cm (5’7”)</p>
+</dd>
+<dt class="field-odd">Average Wingspan</dt>
+<dd class="field-odd"><p>~5.5m (18’)</p>
+</dd>
+<dt class="field-even">Description</dt>
+<dd class="field-even"><p>Dragonfolk bear traits of Rankvahn dragons. By our-world definitions, the closest mythical creature comparable to a Rankvahn dragon would be a <a class="reference external" href="https://en.wikipedia.org/wiki/Wyvern">wyvern</a> - reptilians with a tail, a pair of hind legs, a pair of wings attached to the shoulders, and usually a pair of horns. Their arms and upper body are particularly muscular, which is essential for flight. The tail is flattened and widened at the end, improving minute control of direction.</p>
+</dd>
+</dl>
+<p>Dragonfolk are known to have brains more developed than other races, making them better at learning new things, recognizing patterns, and connecting pieces of information to build a greater picture. With naturally magnificent and toned physiques, minds capable of great revelations, and <a class="reference internal" href="agriculture-and-dietary-practices.html"><span class="doc">intoxicating sexual fluids</span></a>, it seems Dragonfolk are the perfect race.</p>
+<p>In reality, being a Dragonfolk isn’t an entirely positive experience. Their large physiques need more living space than most other races, and they cannot grab and hold objects due to having wings instead of normal hands. Due to all this, Dragonfolk almost never live completely independent lives.</p>
+<p>Below is an illustration of an average Dragonfolk. Her torso wear is a one-piece, mainly covering the front to protect from dirt in the wind. The area covering the breasts is made of more durable fabric, since it faces the most air resistance while flying. Just to get it out there, the face isn’t covered so as to not obscure vision, since you need to see where you fly. The back is not covered above the tail. Instead, there are strings connected to the front that can be tied from behind. The cloth does not cover the vagina and anus, to allow for excreting without needing another person’s help to move the cloth out of the way (I forgot to add that part to the illustration). A separate sleeve covers the tail, to protect it from being bruised whenever it inevitably bumps into things. It goes without saying that the illustrated Dragonfolk needed assistance to put her clothes on.</p>
+<figure class="align-default">
+<img alt="../../_images/Dragonfolk-1.png" src="../../_images/Dragonfolk-1.png" />
+</figure>
+</section>
+<section id="beastfolk-horse-type-4">
+<h2>Beastfolk (Horse-type) <a class="footnote-reference brackets" href="#id11" id="id4">4</a><a class="headerlink" href="#beastfolk-horse-type-4" title="Permalink to this heading">#</a></h2>
+<p class="rubric">Physiology</p>
+<dl class="field-list simple">
+<dt class="field-odd">Average Height</dt>
+<dd class="field-odd"><p>270cm (8’10”)</p>
+</dd>
+<dt class="field-even">Average Weight</dt>
+<dd class="field-even"><p>1 metric tonne (2200lbs)</p>
+</dd>
+<dt class="field-odd">Pregnancy Length</dt>
+<dd class="field-odd"><p>18 months</p>
+</dd>
+<dt class="field-even">Average Lower Torso Length</dt>
+<dd class="field-even"><p>180cm (5’10”)</p>
+</dd>
+<dt class="field-odd">Description</dt>
+<dd class="field-odd"><p>A Horse Beastfolk’s body is muscular, to say the least. Their weight and size mean more energy needed to move, so they naturally develop muscles stronger than a human’s, and their appetites fit the job.</p>
+</dd>
+</dl>
+<p>Below is an illustration of a Horse-type Beastfolk, with a small strapless bra, and a special type of underpants fit for Horse-type Beastfolk. The underpants have a hole in the back for the tail, and a hole in the front for the penis and testicles. To prevent the penis from swinging uncontrollably (Since Horse-type Beastfolk don’t have penile bones like horses), a small semi-elastic strap is attached to the front of the underpants, and connects to a small sleeve the penis can be inserted to. The sleeve is designed with a hole in the front to allow for urinating without taking the underpants off, which is not the easiest thing to do alone. On the top of the underpants’ back (Hidden in the illustration, my bad) is a pair of laces, that can be taught to keep the underpants tight and prevent them from sliding off.</p>
+<figure class="align-default" id="id15">
+<img alt="A Horse-type Beastfolk in all her glory" src="../../_images/Beastfolk-%28Horse-type%29-1.png" />
+<figcaption>
+<p><span class="caption-text">A Horse-type Beastfolk in all her glory</span><a class="headerlink" href="#id15" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="beastfolk-fish-type-5">
+<h2>Beastfolk (Fish-type) <a class="footnote-reference brackets" href="#id12" id="id5">5</a><a class="headerlink" href="#beastfolk-fish-type-5" title="Permalink to this heading">#</a></h2>
+<p class="rubric">Physiology</p>
+<dl class="field-list simple">
+<dt class="field-odd">Average Height (Torso + Tail Length)</dt>
+<dd class="field-odd"><p>2.5m (8’2”)</p>
+</dd>
+<dt class="field-even">Average Weight</dt>
+<dd class="field-even"><p>300kg (660lbs)</p>
+</dd>
+<dt class="field-odd">Pregnancy Length</dt>
+<dd class="field-odd"><p>13 months</p>
+</dd>
+<dt class="field-even">Average Tolerance Until Visible Intoxication</dt>
+<dd class="field-even"><p>100ml (16oz) for once-distilled “alcohol”</p>
+</dd>
+<dt class="field-odd">Description</dt>
+<dd class="field-odd"><p>Despite being called “Fish-type Beastfolk”, they don’t descend from humans mating with fish. Rather, they descend from humans mating with marine mammals, especially dolphins. Their ears resemble fish fins, though that is only coincidental. Their anuses are not on the hind, but rather below their vagina. Fish-type Beastfolk appear to have inverted nipples, but the truth is that these are slits in the areolae, which are surprisingly tight until they are sexually aroused. The average Fish-type Beastfolk’s tolerance to once-distilled Dragonfolk semen (The Rankvahn equivalent of alcohol) is noticeably low. A (Rankvahn) shot glass of it is enough to get them to a drunken state, and each subsequent distillation increases its potency on them in a rate much higher than humans and other demi-humans.</p>
+</dd>
+</dl>
+<p>Below is an illustration of a Fish-type Beastfolk, enjoying much more than 100ml of alcohol and getting herself “in the mood”. With only one hand, she can only drink from one bottle at a time, which frankly only does her good. Her pants are a single sheet of loose cloth with strings at the back that can be tied to tighten the piece, somewhat like a corset. The sheet has a hole in the front for the penis and vagina, which can also be stretched slightly to allow for defecation.</p>
+<figure class="align-default">
+<img alt="../../_images/Beastfolk-%28Fish-type%29-1.png" src="../../_images/Beastfolk-%28Fish-type%29-1.png" />
+</figure>
+</section>
+<section id="catfolk-lion-type-6">
+<h2>Catfolk (Lion-type) <a class="footnote-reference brackets" href="#id13" id="id6">6</a><a class="headerlink" href="#catfolk-lion-type-6" title="Permalink to this heading">#</a></h2>
+<p class="rubric">Physiology</p>
+<dl class="field-list simple">
+<dt class="field-odd">Average Height</dt>
+<dd class="field-odd"><p>220cm (7’2”)</p>
+</dd>
+<dt class="field-even">Average Weight</dt>
+<dd class="field-even"><p>100kg (220lbs)</p>
+</dd>
+<dt class="field-odd">Pregnancy Length</dt>
+<dd class="field-odd"><p>12 months</p>
+</dd>
+<dt class="field-even">Average Tail Length</dt>
+<dd class="field-even"><p>1m (3’3”)</p>
+</dd>
+<dt class="field-odd">Description</dt>
+<dd class="field-odd"><p>Catfolk descend not from small cats like lynx or caracals. Instead, they descend from lions, tigers, and other large wild cats. Due to this, many of them have manes that spread across their heads and faces. While their muscles are on average more toned than the average human, getting to an aethletic level of muscularity still requires work.</p>
+</dd>
+</dl>
+<p>Below is an illustration of a Lion-type Catfolk athlete, wearing erotic clothes designed to entice her partner. The top is designed to only cover the shoulders and the arms, and the neck area isn’t just a hole. Rather, there is a button on the front, that allows to fasten the top in place on the base of the neck. The bottom is designed to cover the legs, and also has a small slot in the back for a tail. The top and bottom have special buttons on them, that allow use of suspender-like strings, so that the bottom doesn’t fall off.</p>
+<figure class="align-default" id="id16">
+<img alt="A Lion-type Catfolk inviting you to enjoy yourself" src="../../_images/Catfolk-%28Lion-type%29-1.png" />
+<figcaption>
+<p><span class="caption-text">A Lion-type Catfolk inviting you to enjoy yourself</span><a class="headerlink" href="#id16" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="snakefolk-7">
+<h2>Snakefolk <a class="footnote-reference brackets" href="#id14" id="id7">7</a><a class="headerlink" href="#snakefolk-7" title="Permalink to this heading">#</a></h2>
+<p class="rubric">Physiology</p>
+<dl class="field-list simple">
+<dt class="field-odd">Average Height (Torso + Tail Length)</dt>
+<dd class="field-odd"><p>5m (16’5”)</p>
+</dd>
+<dt class="field-even">Average Weight</dt>
+<dd class="field-even"><p>600kg (1320lbs)</p>
+</dd>
+<dt class="field-odd">Pregnancy Length</dt>
+<dd class="field-odd"><p>15 months</p>
+</dd>
+<dt class="field-even">Average Tail Length (From Pelvis)</dt>
+<dd class="field-even"><p>4m (13’1”)</p>
+</dd>
+<dt class="field-odd">Description</dt>
+<dd class="field-odd"><p>Snakefolk, as implied by the name, bear a partial resemblance to snakes. Their lower body is that of a snake, and their body is partially covered in scaly plates. Above the pelvis, the frontal plates become softer and more similar to the flesh around them, with the breast plate being the softest. Their anus is situated behind the plate that is below the vagina. The plate can be opened up voluntarily. Snakefolk have strong, almost-prehensile tongues that can easily reach their eyes, which can be helpful considering the fact that their eyes dry up faster than other demi-humans’ or humans’ eyes.</p>
+</dd>
+</dl>
+<p>Below is an illustration of a Snakefolk who reached a bit too far with her tongue in her childhood, and accidentally unplugged one of her natural cameras. To cover the empty space, she wears an eyepatch made of a simple piece of cloth.</p>
+<figure class="align-default" id="id17">
+<img alt="A Snakefolk in her birthday armor" src="../../_images/Snakefolk-1.png" />
+<figcaption>
+<p><span class="caption-text">A Snakefolk in her birthday armor</span><a class="headerlink" href="#id17" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="note">
+<h2>Note<a class="headerlink" href="#note" title="Permalink to this heading">#</a></h2>
+<p>In Rankvah, different races have different lifespans. The age of consent
+is 14, regardless of race, but each race reaches maturity on at a
+different age.</p>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 34%" />
+<col style="width: 41%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Race</p></th>
+<th class="head"><p>Average Lifespan</p></th>
+<th class="head"><p>Average Maturity Age</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Human</p></td>
+<td><p>60</p></td>
+<td><p>18</p></td>
+</tr>
+<tr class="row-odd"><td><p>Beastfolk</p></td>
+<td><p>75</p></td>
+<td><p>19</p></td>
+</tr>
+<tr class="row-even"><td><p>Birdfolk</p></td>
+<td><p>50</p></td>
+<td><p>17</p></td>
+</tr>
+<tr class="row-odd"><td><p>Catfolk</p></td>
+<td><p>55</p></td>
+<td><p>16</p></td>
+</tr>
+<tr class="row-even"><td><p>Dragonfolk</p></td>
+<td><p>80</p></td>
+<td><p>21</p></td>
+</tr>
+<tr class="row-odd"><td><p>Houndfolk</p></td>
+<td><p>55</p></td>
+<td><p>15</p></td>
+</tr>
+<tr class="row-even"><td><p>Snakefolk</p></td>
+<td><p>50</p></td>
+<td><p>17</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>As for adult age differences, it depends on the race. A 30-year-old
+Dragonfolk and a 22-year-old human is seen as normal, since in this
+case, both of them have passed the same relative percentage of their
+lifespan. While some places would tell you that “A &lt;race X&gt; and a &lt;race
+Y&gt; should be &lt;age gap Z&gt; years apart at most”, but in reality nobody
+really cares, as long as both partners are happy. People will, however,
+not succeed at hiding their curiosity of age gaps of over 20 years.</p>
+<p>Everyone is aware of each other’s different mortalities, though, so you
+wouldn’t see too many Dragonfolk-Snakefolk couples walking around town.
+Another thing to consider is that genetic defects caused by incest are
+nowhere near as likely as they are in our world, so a Dragonfolk married
+to a Snakefolk might even marry her daughters, provided that they agree,
+and have sex with them. It’s a way of “enhancing the love” between two
+partners of very apparent age gaps, that isn’t very common, but none the
+less exists.</p>
+</section>
+<section id="personal-note">
+<h2>Personal Note<a class="headerlink" href="#personal-note" title="Permalink to this heading">#</a></h2>
+<p>No information on the Houndfolk is given, but existence of there being
+one is confirmed. For now, we may extrapolate more types of races.</p>
+<p>Some that I have extrapolated are:</p>
+<ul class="simple">
+<li><p>Houndfolk (Dog-type)</p></li>
+<li><p>Houndfolk (Wolf-type)</p></li>
+<li><p>Catfolk (Tiger-type)</p></li>
+<li><p>Catfolk (Leapord-type)</p></li>
+<li><p>Catfolk (Panther-type)</p></li>
+<li><p>Beastfolk (Cow-type) (this one is confirmed I think, but I don’t remember where)</p></li>
+<li><p>Beastfolk (Bull-type)</p></li>
+<li><p>Beastfolk (Monkey-type)</p></li>
+<li><p>Birdfolk (see <a class="reference internal" href="technology-and-occupations.html"><span class="doc">Technology and Occupations </span></a>)</p></li>
+</ul>
+<dl class="footnote brackets">
+<dt class="label" id="id8"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p><a class="reference external" href="https://www.reddit.com/r/NSFWworldbuilding/comments/hmv5dr/how_are_adult_age_differences_especially_between/fx8h4a7/?context=3">How are (adult) age differences — especially between partners of different life spans — seen in your world?</a></p>
+</dd>
+<dt class="label" id="id9"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
+<dd><p><a class="reference external" href="https://www.reddit.com/r/NSFWworldbuilding/comments/hh65za/the_world_of_rankvah_the_average_human/">The World of Rankvah: The Average Human</a></p>
+</dd>
+<dt class="label" id="id10"><span class="brackets"><a class="fn-backref" href="#id3">3</a></span></dt>
+<dd><p><a class="reference external" href="https://www.reddit.com/r/NSFWworldbuilding/comments/jj6dhi/the_world_of_rankvah_the_average_dragonfolk/">The World of Rankvah: The Average Dragonfolk</a></p>
+</dd>
+<dt class="label" id="id11"><span class="brackets"><a class="fn-backref" href="#id4">4</a></span></dt>
+<dd><p><a class="reference external" href="https://www.reddit.com/r/NSFWworldbuilding/comments/hqpfuc/the_world_of_rankvah_the_average_beastfolk/">The World of Rankvah: The Average Beastfolk, Horse-Type</a></p>
+</dd>
+<dt class="label" id="id12"><span class="brackets"><a class="fn-backref" href="#id5">5</a></span></dt>
+<dd><p><a class="reference external" href="https://www.reddit.com/r/NSFWworldbuilding/comments/huw7u9/the_world_of_rankvah_example_of_a_fishtype/">The World of Rankvah: Example of a Fish-type Beastfolk (Mermaid)</a></p>
+</dd>
+<dt class="label" id="id13"><span class="brackets"><a class="fn-backref" href="#id6">6</a></span></dt>
+<dd><p><a class="reference external" href="https://www.reddit.com/r/NSFWworldbuilding/comments/hr8k9e/the_world_of_rankvah_the_average_catfolk_liontype/">The World of Rankvah: The Average Catfolk, Lion-Type</a></p>
+</dd>
+<dt class="label" id="id14"><span class="brackets"><a class="fn-backref" href="#id7">7</a></span></dt>
+<dd><p><a class="reference external" href="https://www.reddit.com/r/NSFWworldbuilding/comments/hsjq6x/the_world_of_rankvah_the_average_snakefolk/">The World of Rankvah: The Average Snakefolk</a></p>
+</dd>
+</dl>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2020-2023, Praecordi
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Races </a><ul>
+<li><a class="reference internal" href="#human-2">Human </a></li>
+<li><a class="reference internal" href="#dragonfolk-3">Dragonfolk </a></li>
+<li><a class="reference internal" href="#beastfolk-horse-type-4">Beastfolk (Horse-type) </a></li>
+<li><a class="reference internal" href="#beastfolk-fish-type-5">Beastfolk (Fish-type) </a></li>
+<li><a class="reference internal" href="#catfolk-lion-type-6">Catfolk (Lion-type) </a></li>
+<li><a class="reference internal" href="#snakefolk-7">Snakefolk </a></li>
+<li><a class="reference internal" href="#note">Note</a></li>
+<li><a class="reference internal" href="#personal-note">Personal Note</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/scripts/furo.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    </body>
+</html>

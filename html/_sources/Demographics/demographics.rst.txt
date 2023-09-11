@@ -1,0 +1,36 @@
+Demographics
+============
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Contents
+
+    aidi
+    avyasi
+    zea-races
+    
+Maker's Notes
+-------------
+
+.. dropdown:: On Family Trees
+    :icon: book
+        
+    .. rubric:: `aiɖi` Family Tree
+
+    .. figure:: /_static/family-tree/aidi_dark.png
+       :align: center
+       :class: only-dark
+
+    .. figure:: /_static/family-tree/aidi_light.png
+       :align: center
+       :class: only-light
+    
+    .. rubric:: `isiʈeθɶ` and `zœeɖaʃi` Family Tree
+
+    .. figure:: /_static/family-tree/rulers_dark.png
+       :align: center
+       :class: only-dark
+
+    .. figure:: /_static/family-tree/rulers_light.png
+       :align: center
+       :class: only-light

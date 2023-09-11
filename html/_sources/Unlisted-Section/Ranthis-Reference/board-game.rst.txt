@@ -1,0 +1,125 @@
+=======================================
+An Orgy Board Game Called Sekbarab [1]_
+=======================================
+
+Overview
+========
+
+The game Sekbarab is a game simulating an orgy of two teams trying to out-pleasure each other with skill and cunning. The game has elements similar to real-world chess, but also has its own twist - pieces don’t capture or get captured outright. Instead, they have points that can be measured and taken away by “fucking” another piece.
+
+Rules
+=====
+
+Sekbarab is played with two players on a board with a hexagonal tile design. Each player controls pieces on the board, and each player’s objective is to either remove the pieces of their opponent from the game or make their opponent concede.
+
+On each player’s turn, they move up to three of their pieces. Each piece can move one tile per turn, unless its ability rules otherwise. Then, the player may have any pieces they control fuck any piece that’s adjacent to it. To know how each piece fucks, each piece has two numbers related to it - Ejaculation and Endurance.
+
+When piece A is declared as fucking piece B, piece B loses a number of Endurance points equal to A’s Ejaculation rating. You can think of Endurance like your stamina in bed, or more accurately, how many times you can handle being penetrated and ejaculated inside. When a piece runs out of Endurance points, it’s removed from the game, unless its ability rules otherwise. Additionally, pieces can have different abilities depending on what piece it is, and a player may have each piece fuck individually after being moved, or have them all fuck at once.
+
+**Edited after posting**: Mentally keeping track of Endurance is not easy, so most versions of the game’s pieces come with small holes on them, inside which you can place pins to keep track of their Endurance points. Once you remove all pins from a piece, its Endurance runs out. Thank you to u/RonaldGargoyle for drawing my attention to keeping track of Endurance.
+
+The Pieces
+==========
+
+.. table:: 
+
+    +--------------------+-------------+-----------+------------------------+
+    | Name               | Ejaculation | Endurance | Abilities              |
+    +====================+=============+===========+========================+
+    | Beast              | 2           | 4         |                        |
+    +--------------------+-------------+-----------+------------------------+
+    | Bird               | 1           | 3         | A Bird can move up to  |
+    |                    |             |           | three spaces in one    |
+    |                    |             |           | turn.                  |
+    +--------------------+-------------+-----------+------------------------+
+    | Cat                | 1           | 2         | If a Cat would be      |
+    |                    |             |           | fucked, its controller |
+    |                    |             |           | may move it one space  |
+    |                    |             |           | further from the piece |
+    |                    |             |           | that would fuck it. If |
+    |                    |             |           | they do, they can’t    |
+    |                    |             |           | repeat this until      |
+    |                    |             |           | their next-next turn.  |
+    +--------------------+-------------+-----------+------------------------+
+    | Hound              | 2           | 2         | A Hound’s Ejaculation  |
+    |                    |             |           | strength increases by  |
+    |                    |             |           | 1 if it’s adjacent to  |
+    |                    |             |           | another Hound.         |
+    +--------------------+-------------+-----------+------------------------+
+    | Dragon             | 3           | 5         | A Dragon can move up   |
+    |                    |             |           | to two spaces in one   |
+    |                    |             |           | turn.                  |
+    +--------------------+-------------+-----------+------------------------+
+    | Human              | 3           | 2         |                        |
+    +--------------------+-------------+-----------+------------------------+
+    | Nymphomaniac       | 1           | 2         | A Nymph must somehow   |
+    | (shortened to      |             |           | fuck each turn if it’s |
+    | Nymph)             |             |           | able. At the beginning |
+    |                    |             |           | of your turn, restore  |
+    |                    |             |           | all of your Nymphs’    |
+    |                    |             |           | Endurance. Nymphs are  |
+    |                    |             |           | not removed from the   |
+    |                    |             |           | game when they run out |
+    |                    |             |           | of Endurance.          |
+    +--------------------+-------------+-----------+------------------------+
+    | Prostitute         | 2           | 7         | A Prostitute can fuck  |
+    |                    |             |           | any number of pieces   |
+    |                    |             |           | that are adjacent to   |
+    |                    |             |           | it.                    |
+    +--------------------+-------------+-----------+------------------------+
+    | Ruler              | 2           | 4         | A Ruler can, instead   |
+    |                    |             |           | of fucking, make       |
+    |                    |             |           | another adjacent piece |
+    |                    |             |           | fuck a piece that’s    |
+    |                    |             |           | adjacent to it.        |
+    +--------------------+-------------+-----------+------------------------+
+    | Sage               | 1           | 3         | If a piece adjacent to |
+    |                    |             |           | a Sage is fucked, all  |
+    |                    |             |           | of its Endurance is    |
+    |                    |             |           | removed.               |
+    +--------------------+-------------+-----------+------------------------+
+    | Secretor           | 2           | 3         | At the beginning of    |
+    |                    |             |           | each player’s turn,    |
+    |                    |             |           | each of their pieces   |
+    |                    |             |           | that’s adjacent to a   |
+    |                    |             |           | Secretor loses one     |
+    |                    |             |           | Endurance point.       |
+    +--------------------+-------------+-----------+------------------------+
+    | Snake              | 1           | 5         | Whenever a Snake fucks |
+    |                    |             |           | another piece, that    |
+    |                    |             |           | piece cannot be moved  |
+    |                    |             |           | on its controller’s    |
+    |                    |             |           | next turn.             |
+    +--------------------+-------------+-----------+------------------------+
+
+The Specifics
+=============
+
+.. figure:: /_static/ranthis-reference/Board-Game-1.png
+   :alt: A Sekbarab Board Design
+
+   A Sekbarab Board Design
+
+Unlike real-world chess, there isn’t only one way to start a game. Each player will always control a Prostitute and at least one Human from the start of the game. These have no specific importance in the game, since Sekbarab is about removing your opponent’s pieces from the board, not capturing a specific piece. The Prostitute and Human exist to ensure that, no matter what pieces you picked or took, you’ll always be familiar with at least two pieces.
+
+Setting Up a Game
+-----------------
+
+.. figure:: /_static/ranthis-reference/Board-Game-2.png
+   :alt: Setting Up a Game
+
+   Setting Up a Game
+
+Before the start of a game, players choose their own pieces. In the illustration above, the southern player chooses the pieces on their left. These pieces can be any piece they’d like. On the other side, the northern player picks the pieces on their right. Then, each player mimics their opponent’s choice. This is to ensure that each side is equally powerful, and the only factor that will change the outcome is skill.
+
+For example, I am the southern player, and I pick a Cat, a Ruler, and a Secretor as my pieces. I put them on my left. My opponent, the northern player, puts a Cat, a Ruler, and a Secretor on their left. Then, my opponent picks a Nymph and two Humans, and places them on the right. I do the same.
+
+After the pieces are in place, the game can begin.
+
+In Culture
+==========
+
+The game of Sekbarab is played everywhere around the world, and is used also as a tie-breaker of various conflicts. It can also be used for gambling, and also has religious importance. It’s said that women who win frequently in a game of Sekbarab achieve sexual wisdom, and entire facilities meant in which women are taught how to play Sekbarab by very competent players. There is one legendary woman who is said to have never lost a game of Sekbarab, and achieved sexual enlightenment.
+
+.. [1]
+   `The World of Rankvah: An Orgy Board Game Called Sekbarab <https://www.reddit.com/r/NSFWworldbuilding/comments/heludt/the_world_of_rankvah_an_orgy_board_game_called/>`__

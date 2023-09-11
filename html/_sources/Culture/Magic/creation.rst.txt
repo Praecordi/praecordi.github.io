@@ -1,0 +1,239 @@
+Creation
+========
+
+`syʋe` and `ʋesy` are essential energies of the life. But they do not solely define the body. There are two steps to creation: first is to create a vessel for the energies, and then fill the vessel with some energies. This is done via two `sʋe`: one of which creates energy from nothing, but this is done by conjuring `syʋe` and `ʋesy` simultaneous but separately, thus the sign of the universe stays null, and one which transfers the energy into the created vessel, while the rest is consumed as corruption. Energy in your own body gives you some side effects that are sometimes advantageous and disadvantageous. Thus, the true test of creation is balancing the flow of energy so that both the product and the creator do not suffer from disadvantages of energy weakness. 
+
+When creating the vessel, one makes the body of the creature depending on the intended energy one needs to transfer into the body. `syʋe` resides in the lower body, while `ʋesy` resides in the upper body. Thus, if one intends to have a higher `syʋe`, then one makes a lower body capable of handling higher `syʋe`. Creating a body that does not fit the energy it is used to contain can decrease the effectiveness of that part of the body for the whole race, and further, it increases the possibility of diseases occurring in that particular part of the body. 
+
+The techniques of making the vessels or the body are varied. One can use a combination of `sʋe` to create material from scratch for the body and giving the rough body characteristics. This process takes time, as creating and modifying material with `sʋease` takes much energy and has a high chance of creating a body that is faulty. Another technique is to use sculpt the general shape of the body using common material, such as ash, clay, wood, or metal. Then using an `aiɖi`, cast a `sʋesa` to convert the inanimate material into biomaterial. The use of `aiɖi` is important as this allows the `aiɖi` to make such changes to the new biomaterial to allow complex functions. The advice of an `aiɖi` is what differentiates between the first technique and the second technique. Note that the use of material in the outset affects the biomaterial body. Which `aiɖi` is helping in the conversion also affects the final outcome of the biomaterial body. While we won’t specify how each outset material or `aiɖi` affects the final outcome, one can generally notice a pattern from the 5 cases we most commonly observe.
+
+Once we have created this vessel properly, animating this vessel is more complicated than regular animations `sʋe`. Most animated objects cast through regular animation `sʋe` are incapable of reproduction or thought besides the given commands. These animations are incapable of memory, or even learning. This is not only because of the inferior body used in common animation `sʋe`, it is also because of the inferiority of the `sʋe`. In the Creation Ritual, the `sʋe` used is much more powerful, and requires the aid of an `aiɖi`. Note that this `aiɖi` does not have to be the same to convert your body into the biomaterial, yet speculatively, it would result in a much better manageable outcome to use the same `aiɖi`. Withholding the details of this ritual, the idea is that the creator and the `aiɖi` summon energy. To maintain the balance of the universe, one can only summon equal amounts of `syʋe` and `ʋesy`, and only in groups of 5. Then the creator and `aiɖi` can then allow their wishes energy into the vessel they have created, yet they cannot transfer all energy created into this vessel. Since the body is made out of weaker material, it cannot hold so much energy at its creation, and must be given time before it can handle more energy. Thus, the extra energy must be placed in another vessel, specifically in that of the creator. To handle extra energy, updates to the vessel of the creator can be done by the `aiɖi`, to allow for the vessel of the creator to contain the influx of extra energy. These changes are besides the changes that the corruption of the `sʋe` has on the creator. The corruption by the `sʋe` is the corruption that forms the types of `aʋjasi`. Once this is done, the ritual is over, and a new creature has been created, one that can think, reproduce, and learn on its own.
+
+.. dropdown:: Reference Tables
+
+    .. rubric:: Table of `isiʈeθɶ` Energies
+
+    .. table::
+        :width: 100%
+        
+        +-----------------+-----------------+-----------------+-----------------+
+        |Race Created     |Creator          |Secondary Creator|Gender           |
+        +=================+=================+=================+=================+
+        |`zea ʈeaθyɖa`    |`ajɛseɖi`        |                 |`ajɛsɖɶ`         |
+        |                 |                 |                 |                 |
+        |                 |8s/8v            |                 |2s/2v            |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`zea ʈeaθyɖa`    |`saeθa`          |                 |`ɖiʒiɖi`         |
+        |                 |                 |                 |                 |
+        |                 |6s/8v            |                 |4s/2v            |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`zea ʈeaθyɖa`    |`saiʃeʈa`        |                 |`esiʈi`          |
+        |                 |                 |                 |                 |
+        |                 |8s/6v            |                 |2s/4v            |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`zea astɹœ`      |`iɖe`            |`saiʃeʈa`        |`ajɛsɖɶ`         |
+        |                 |                 |                 |                 |
+        |                 |9s/9v            |8s/8v            |4s/3v            |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`zea astɹœ`      |`iɖe`            |                 |`iɹeɖi`          |
+        |                 |                 |                 |                 |
+        |                 |8s/9v            |                 |2s/2v            |
+        +-----------------+-----------------+-----------------+-----------------+
+
+    Table of `zœeɖaʃi` Energies
+
+    .. table:: 
+        :width: 100%
+
+        +-----------------------------------+-----------------------------------+
+        | Creator                           | Creature                          |
+        +===================================+===================================+
+        | `ʃɛʈaði`                          | `isɛʃy`                           |
+        |                                   |                                   |
+        | 7s/7v                             | 1s/1v                             |
+        +-----------------------------------+-----------------------------------+
+        | `ɖɛʈaði`                          | `iɹɛɖy`                           |
+        |                                   |                                   |
+        | 7s/7v                             | 1s/1v                             |
+        +-----------------------------------+-----------------------------------+
+        | `eʈaði`                           | `iɹeʈy`                           |
+        |                                   |                                   |
+        | 7s/7v                             | 1s/1v                             |
+        +-----------------------------------+-----------------------------------+
+        | `eʈiaði`                          | `iɹiyte`                          |
+        |                                   |                                   |
+        | 7s/7v                             | 1s/1v                             |
+        +-----------------------------------+-----------------------------------+
+        | `aðia`                            | `yʃʈia`                           |
+        |                                   |                                   |
+        | 7s/7v                             | 1s/1v                             |
+        +-----------------------------------+-----------------------------------+
+        | `sœʈi`                            | `iɹyʋie`                          |
+        |                                   |                                   |
+        | 6s/8v                             | 0s/2v                             |
+        +-----------------------------------+-----------------------------------+
+        | `seθi`                            | `tɹœʃʈa`                          |
+        |                                   |                                   |
+        | 5s/8v                             | 0s/3v                             |
+        +-----------------------------------+-----------------------------------+
+        | `aʃaða`                           | `ʋɛɹezy`                          |
+        |                                   |                                   |
+        | 8s/5v                             | 3s/0v                             |
+        +-----------------------------------+-----------------------------------+
+        | `teʃi`                            | `ʒiyʃi`                           |
+        |                                   |                                   |
+        | 7s/6v                             | 2s/1v                             |
+        +-----------------------------------+-----------------------------------+
+        | `siydi`                           | `ʋɶɹjɛ`                           |
+        |                                   |                                   |
+        | 7s/8v                             | 0s/2v                             |
+        +-----------------------------------+-----------------------------------+
+        | `θisœʈe`                          | `eɹɛʈɶi`                          |
+        |                                   |                                   |
+        | 5s/8v                             | 0s/3v                             |
+        +-----------------------------------+-----------------------------------+
+        | `dea`                             | `iɹɛtisja`                        |
+        |                                   |                                   |
+        | 6s/7v                             | 1s/2v                             |
+        +-----------------------------------+-----------------------------------+
+        | `θea`                             | `ɖiɹja`                           |
+        |                                   |                                   |
+        | 6s/7v                             | 1s/2v                             |
+        +-----------------------------------+-----------------------------------+
+        | `sjeði`                           | `ɹyœjœ`                           |
+        |                                   |                                   |
+        | 8s/7v                             | 2s/1v                             |
+        +-----------------------------------+-----------------------------------+
+        | `teʃi`                            | `ziyte`                           |
+        |                                   |                                   |
+        | 9s/6v                             | 2s/0v                             |
+        +-----------------------------------+-----------------------------------+
+        | `ase`                             | `yɹœʈɶi`                          |
+        |                                   |                                   |
+        | 5s/5v                             | 3s/1v                             |
+        +-----------------------------------+-----------------------------------+
+        | `sia`                             | `aʋɹaʃi`                          |
+        |                                   |                                   |
+        | 7s/8v                             | 1s/2v                             |
+        +-----------------------------------+-----------------------------------+
+        | `ʈaʃe`                            | `ɶʋyθœ`                           |
+        |                                   |                                   |
+        | 8s/8v                             | 2s/0v                             |
+        +-----------------------------------+-----------------------------------+
+        | `ʈɛe`                             | `ɹjyeʈœ`                          |
+        |                                   |                                   |
+        | 8s/9v                             | 1s/1v                             |
+        +-----------------------------------+-----------------------------------+
+
+    Table of Energies after Creation
+
+    .. table::
+        :width: 100%
+        
+        +-----------------+-----------------+-----------------+-----------------+
+        |                 |Before           |First Ritual     |Second Ritual    |
+        +=================+=================+=================+=================+
+        |`ajɛseɖi`        |5s/5v            |8s/8v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`ʃɛʈaði`         |6s/6v            |7s/7v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`ɖɛʈaði`         |6s/6v            |7s/7v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`eʈaði`          |6s/6v            |7s/7v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`eʈiaði`         |6s/6v            |7s/7v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`aðia`           |6s/6v            |7s/7v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`sœʈi`           |6s/6v            |6s/8v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`saeθa`          |5s/5v            |6s/8v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`seθi`           |5s/5v            |5s/8v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`aʃaða`          |5s/5v            |8s/5v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`teʃi`           |5s/5v            |7s/6v            |9s/6v            |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`siydi`          |7s/6v            |7s/8v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`saiʃeʈa`        |5s/5v            |8s/6v            |8s/8v            |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`θisœʈe`         |5s/5v            |5s/8v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`dea`            |5s/5v            |6s/7v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`θea`            |5s/5v            |6s/7v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`sjeði`          |6s/6v            |8s/7v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`iɖe`            |5s/6v            |8s/9v            |9s/9v            |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`ase`            |2s/4v            |5s/5v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`sia`            |6s/6v            |7s/8v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`ʈaʃe`           |6s/8v            |8s/8v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+        |`ʈɛe`            |7s/8v            |8s/9v            |                 |
+        +-----------------+-----------------+-----------------+-----------------+
+
+`aʋjasi`
+--------
+
+As noted above, extra energy is routed into the creator. The extra energy causes instability in the creator, changing the creator physically and physiologically. People who have performed the Creation Ritual and have been unbalanced by energies are collectively called `aʋjasi`, and the physical changes they experience is called corruption. The amount of energy absorbed the creator determine what kind of corruption they experience, and are separated into 5 Forms.
+
+.. admonition:: Writer's Note - The Laws of Corruption
+    :class: note
+    
+    While energies and corruption in the world and esoteric, we can talk about energies and the resulting forms in terms of units of `syʋe` and `ʋesy` (abbreviated as 's' and 'v' respectively after the units).
+    
+    1. Total corruption of more than 5 units of either `syʋe` or `ʋesy` results in death of the caster and an instant failure of the ritual.
+      
+       a. For more than one rituals, forms are obtained by the running sum of the corruption. Examine the case of `saiʃeʈa` and `iɖe`.
+    
+    2. During a creation ritual, a caster can call energies of only 5s and 5v, nothing more or nothing less, to maintain the natural balance of the ritual
+    3. A creature with exactly 5s and 5v cannot be created in a single ritual. Furthermore, such creature cannot reproduce.
+    4. Reproduction
+      
+       a. The race of the product of reproduction depends on the energy of the two beings.
+       b. How the energies are combined depend on the beings, which is different for beings of `zai` and beings of another universe. 
+       c. The energy rule for creatures of `zai` is the sum of the two energies minus 2s/2v.
+       d. The energy rule for `aʋjasi` themselves is the average of the two energies rounded down.
+       e. The inclusion of `aʋjasi` in any mating pair, be it `zai` or any other, will still induce `aʋjasi` energy rule.
+
+.. rubric:: Forms
+
+.. tab-set::
+    
+    .. tab-item:: Form I
+    
+        Form I occur when a body endures a corruption of 1 of either `ʋesy` or `syʋe`. In case of a `ʋesy` corruption, we call the `aʋjasi` a Form I-v, and in case of a `syʋe` corruption, we call the `aʋjasi` a Form I-s.
+
+        A Form I corruption results in fur-like projections in the designated area of corruption. `ʋesy` corruption causes these changes to appear in the upper body, while `syʋe` corruption causes these changes to appear in the lower body. The length and color of these projections are specific to the `aʋjasi` yet aren’t dependent on the color or length of the existing hair.
+    
+    .. tab-item:: Form II
+
+        Form II occur when a body endures a corruption of 2 of either `ʋesy` or `syʋe`. In case of a `ʋesy` corruption, we call the `aʋjasi` a Form II-v, and in case of a `syʋe` corruption, we call the `aʋjasi` a Form II-s.
+
+        A Form II corruption results in slight leaks of energy from the skin in various parts of the body. `ʋesy` corruption causes these changes to appear in the upper body, while `syʋe` corruption causes these changes to appear in the lower body. The energy leaks form in lines on the body. The energy leak will release a faint glow that also reacts to emotional and physical state of the `aʋjasi`. The energy leak looks different for each `aʋjasi`.
+        
+    .. tab-item:: Form III
+
+        Form III occur when a body endures a corruption of 3 of either `ʋesy` or `syʋe`. In case of a ʋesy corruption, we call the `aʋjasi` a Form III-v, and in case of a `syʋe` corruption, we call the `aʋjasi` a Form III-s.
+
+        A Form III corruption results in the protrusion of limb-like structures in the designated area of corruption. `ʋesy` corruption causes these changes to appear in the upper body, while `syʋe` corruption causes these changes to appear in the lower body. These limb-like structures are long, sometimes strong, tentacle-like growth. They are extremely flexible and feature no joints, but instead a spine like bone structure, that is quite flexible, but still limited. Particular features of these projections are specific to the `aʋjasi`. These protrusions are referred to as `ajɛstɹaɹi` (base).
+        
+    .. tab-item:: Form IV
+
+        Form IV occurs when a body endures a corruption of 4 of either `ʋesy` or `syʋe`. In case of a `ʋesy` corruption we call the aʋjasi a Form IV-v, and in case of a `syʋe` corruption, we call the `aʋjasi` a Form IV-s.
+
+        A Form IV corruption results in the growth of shell-like chitin in the designated area of corruption. `ʋesy` corruption causes these changes to appear in the upper body, while `syʋe` corruption causes these changes to appear in the lower body. The chitin grows sparsely and provides an armor-like look. Removal of the chitin is extremely painful as they are grown out of and literally attached to the person. Any part of the chitin will regrow if it has been removed.
+
+    .. tab-item:: Form V
+
+        Form V occurs when a body endures a corruption of 5 of either `ʋesy` or `syʋe`. In case of a `ʋesy` corruption we call the `aʋjasi` a Form V-v, and in case of a `syʋe` corruption, we call the `aʋjasi` a Form V-s.
+
+        A Form V corruption results in a brittle stone-like texture in the designated area of corruption. `ʋesy` corruption causes these changes to appear in the upper body, while `syʋe` corruption causes these changes to appear in the lower body. The type and feel of the stone-like texture depends on the individual `aʋjasi`. This is also accompanied by an extreme desensitization of the skin.
+
+        There are no documented Form V corruption.

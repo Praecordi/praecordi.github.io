@@ -1,0 +1,43 @@
+Genesis Documents
+=================
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Version 1 Contents
+    
+    v1-high-empress
+    v1-al-manat
+    v1-khatas
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Version 2 Contents
+    
+    v2-al-manat
+    v2-ma-sekhis
+    v2-sibyl
+    v2-tengri
+    v2-dea
+    v2-thea
+    v2-sotryphaena
+    v2-the-pallakidan-army
+    v2-zena-pallakida-lifestyle
+    
+.. toctree::
+    :maxdepth: 1
+    :caption: Version 3 Contents
+    
+    v3-high-empresses
+    v3-high-xerates
+    v3-iroe-bini-beori
+    v3-idaes-hold
+    
+.. toctree::
+    :maxdepth: 1
+    :caption: Version 4 Contents
+    
+    v4-iasedis-hold-architecture
+    v4-saethas-hold-architecture
+    v4-saishetas-hold-architecture
+    v4-event-dress
+    v4-traditional-dresses

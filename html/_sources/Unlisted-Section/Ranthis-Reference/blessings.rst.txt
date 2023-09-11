@@ -1,0 +1,105 @@
+====================================
+Blessings of the Decade’s Start [1]_
+====================================
+
+How to Get Blessed
+==================
+
+The first day of the year is a special day, for obvious reasons. In Rankvah, there’s another reason why that day is special: during that day, anyone human or demi-human has a chance of being born with a Blessing. Said chance is so low that there’s no accurate measure of it, but it’s definitely not reliable. A Blessing, in short, is an extraordinary difference in the physique of one’s body that can be traced to a natural entity. Those with Blessings may count as a superior species in certain Rankvahn subcultures, and for no small reason. Blessed people are born with superhuman physical qualities, which makes them a cut above the rest in physicality. There are also those born with multiple Blessings, something said to occur once in decades, even centuries. People with more than one Blessing are revered as part-divine, and they will be worshiped in almost the same capacity as the actual pantheon, though not more. The same Blessing can also be enhanced, depending on the person’s race. For example, the Blessing of the Cow has an additional effect if the person in question is a Horse-type Beastfolk.
+
+Types of Blessings - Bodily Enhancements
+========================================
+
+Blessing of Acute Senses
+------------------------
+
+The Blessed’s senses are extremely accurate and sensitive.
+
+Blessing of Flowing Hair
+------------------------
+
+The Blessed’s hair grows unnaturally fast and to roughly three times
+the Blessed’s height.
+
+Blessing of Long Fingers [2]_
+-----------------------------
+
+The Blessed’s bones are 1.5 times longer than average.
+
+Blessing of New Limbs
+---------------------
+
+The Blessed has an additional pair of arms.
+
+Blessing of Mirrored Damage
+---------------------------
+
+The Blessed cannot be damaged or hurt physically. If anything would damage or hurt the Blessed, that damage or pain is instead transferred to its source.
+
+Blessing of Unnatural Strength
+------------------------------
+
+The Blessed’s physical prowess exceeds what would be assumed of her physicality.
+
+Types of Blessings - Natural Influences
+=======================================
+
+Blessing of the Bear
+--------------------
+
+The Blessed’s arms resemble those of a bear. Her sense of smell also becomes more acute.
+
+If the Blessed is a Horse-type Beastfolk, her lower body will resemble the body of a bear instead of a horse.
+
+Blessing of the Cow
+-------------------
+
+The Blessed’s breasts will grow to a size and weight exceeding their head. Their breast milk will be much thicker, and taste much sweeter than the average person’s breast milk. The milk also has medicinal properties.
+
+Additionally, if the Blessed is a Horse-type Beastfolk, her lower body will resemble the body of a cow instead of a horse.
+
+Blessing of the Octopus
+-----------------------
+
+The Blessed does not have normal limbs. Instead, they have two octopus-like tentacles sprouting out of where the limbs would be attached normally.
+
+Additionally, if the Blessed is a Snakefolk, instead of having a total of four tentacles and a tail, she will have instead have eight tentacles and a tail. The tentacles will extend from the shoulders, the shoulder blades, below the shoulders, and above the hip.
+
+.. role:: strike 
+
+:strike:`Blessing of the River`
+---------------------------------
+
+.. container:: strike
+
+    The Blessed constantly excretes clean water from her orifices, especially from her mouth, eyes, and genitals. This does not dehydrate the Blessed. The water has medicinal properties.
+
+Blessing of the Snow
+--------------------
+
+The Blessed’s skin is white, and her body temperature is below average. She can handle cold environments easily.
+
+*Note: Rankvahn people are dark-skinned.*
+
+Blessing of the Spider
+----------------------
+
+The Blessed has six additional eyes; a pair above the eyebrows, a pair below the “normal” eyes, a pair to the “normal eyes”’ side, and a pair above and to the outside of the eyebrows.
+
+Additionally, if the Blessed is a Beastfolk, their lower body will be that of a spider instead of any other type it would’ve had.
+
+Blessing of the Sun
+-------------------
+
+The Blessed’s body temperature is above average. This also causes her to be less prone to disease, but weakens her immune system in return.
+
+Blessing of the Tree
+--------------------
+
+The Blessed’s muscle tissue is much more solid than average. Additionally, the Blessed’s hair resembles leaves.
+
+.. [1]
+   `The World of Rankvah: Blessings of the Decade’s Start <https://www.reddit.com/r/NSFWworldbuilding/comments/i5nuwr/the_world_of_rankvah_blessings_of_the_decades/>`__
+
+.. [2]
+   Blessing of Long Fingers is changed to Blessing of Long Limbs These Blesseds limbs are longer than normal, while their body is normally proportioned. Thus they usually have longer hands, are taller because of their tall legs, and usually have a much longer penis.

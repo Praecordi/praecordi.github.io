@@ -1,0 +1,884 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <link rel="icon" href="_static/logo/favicon-white.svg" type="image/svg+xml"><link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="prev" title="Zean Glossary" href="zean-glossary.html" />
+
+    <!-- Generated with Sphinx 5.3.0 and Furo 2022.12.07 -->
+        <title>Reference for the Zean Language - Adasi 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+    <link rel="stylesheet" type="text/css" href="_static/css/decor.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/icons/idea.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/icons/question.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --color-brand-primary: black;
+  --color-brand-content: darkgoldenrod;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">Adasi 1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="_static/logo/hires-logo-black.svg" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="_static/logo/hires-logo-white.svg" alt="Dark Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="History/history.html">History</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="History/before-founding.html">Before Founding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="History/first-arrival.html">First Arrival</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Demographics/demographics.html">Demographics</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Demographics/aidi.html"><span class="zean">aiɖi</span></a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/aidi/major-aidi.html">Major <span class="zean">aiɖi</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/aidi/minor-aidi.html">Minor <span class="zean">aiɖi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Demographics/avyasi.html"><span class="zean">aʋjasi</span></a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/avyasi/isitetho.html"><span class="zean">isiʈeθɶ</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/avyasi/zoedashi.html"><span class="zean">zœeɖaʃi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Demographics/zea-races.html"><span class="zean">zea</span> Races</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/zea-races/teathuda.html"><span class="zean">zea ʈeaθyɖa</span></a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="Demographics/zea-races/teathuda-simulation/teathuda-simulation.html">Simulation Code</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="Demographics/zea-races/teathuda-simulation/simulation.html">Main Simulation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Demographics/zea-races/teathuda-simulation/find-simulation-weights.html">Experiment Simulation Weights</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Culture/culture.html">Culture</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Culture/Magic/magic.html">Magic</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Culture/Magic/creation.html">Creation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Culture/Magic/ethereal-plane.html">The Ethereal Plane</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Culture/Holds/holds.html">Holds</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Culture/Pre-Arrival-Societies/pa-societies.html">Pre-Arrival Societies</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Documents/documents.html">Documents</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Documents/Stories/stories.html">Stories</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Documents/Stories/Excerpts_from_Ancient_History.html">Excerpts from Ancient History</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Documents/Stories/Excerpts_from_Before_Great_Split.html">Excerpts from Before Great Split</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ideas.html">Ideas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notes.html">Miscellaneous Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="zean-glossary.html">Zean Glossary</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Reference for the Zean Language</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="reference-for-the-zean-language">
+<h1>Reference for the Zean Language<a class="headerlink" href="#reference-for-the-zean-language" title="Permalink to this heading">#</a></h1>
+<section id="sounds-in-the-zea-language">
+<h2>Sounds in the <span class="zean">zea</span> Language<a class="headerlink" href="#sounds-in-the-zea-language" title="Permalink to this heading">#</a></h2>
+<section id="vowels">
+<h3>Vowels<a class="headerlink" href="#vowels" title="Permalink to this heading">#</a></h3>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>IPA Sounds</p></th>
+<th class="head"><p>Unicode</p></th>
+<th class="head"><p>Type</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><span class="zean-like">i</span></p></td>
+<td><p>U+0069</p></td>
+<td><p>Close, front, unrounded</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">y</span></p></td>
+<td><p>U+0079</p></td>
+<td><p>Close, front, rounded</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">e</span></p></td>
+<td><p>U+0065</p></td>
+<td><p>Close-mid, front, unrounded</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">ø</span></p></td>
+<td><p>U+00F8</p></td>
+<td><p>Close-mid, front, rounded</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">ɛ</span></p></td>
+<td><p>U+025B</p></td>
+<td><p>Open-mid, front, unrounded</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">œ</span></p></td>
+<td><p>U+0153</p></td>
+<td><p>Open-mid, front, rounded</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">a</span></p></td>
+<td><p>U+0061</p></td>
+<td><p>Open, front, unrounded</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">ɶ</span></p></td>
+<td><p>U+0276</p></td>
+<td><p>Open, front, rounded</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="consonants">
+<h3>Consonants<a class="headerlink" href="#consonants" title="Permalink to this heading">#</a></h3>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>IPA Sounds</p></th>
+<th class="head"><p>Unicode</p></th>
+<th class="head"><p>Type</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><span class="zean-like">t</span></p></td>
+<td><p>U+0074</p></td>
+<td><p>Voiceless alveolar plosive</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">d</span></p></td>
+<td><p>U+0064</p></td>
+<td><p>Voiced alveolar plosive</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">ʈ</span></p></td>
+<td><p>U+0288</p></td>
+<td><p>Voiceless retroflex plosive</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">ɖ</span></p></td>
+<td><p>U+0256</p></td>
+<td><p>Voiced retroflex plosive</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">θ</span></p></td>
+<td><p>U+03B8</p></td>
+<td><p>Voiceless dental fricative</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">ð</span></p></td>
+<td><p>U+00F0</p></td>
+<td><p>Voiced dental fricative</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">s</span></p></td>
+<td><p>U+0073</p></td>
+<td><p>Voiceless alveolar fricative</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">z</span></p></td>
+<td><p>U+007A</p></td>
+<td><p>Voiced alveolar fricative</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">ʃ</span></p></td>
+<td><p>U+0283</p></td>
+<td><p>Voiceless post-alveolar fricative</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">ʒ</span></p></td>
+<td><p>U+0292</p></td>
+<td><p>Voiced post-alveolar fricative</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">ʂ</span></p></td>
+<td><p>U+0282</p></td>
+<td><p>Voiceless retroflex fricative</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">ʐ</span></p></td>
+<td><p>U+0290</p></td>
+<td><p>Voiced retroflex fricative</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">ʋ</span></p></td>
+<td><p>U+028B</p></td>
+<td><p>Labiodental approximant</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">j</span></p></td>
+<td><p>U+006A</p></td>
+<td><p>Palatal approximant</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">ɹ</span></p></td>
+<td><p>U+0279</p></td>
+<td><p>Voiced alveolar approximant</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="phonological-constraints">
+<h3>Phonological Constraints<a class="headerlink" href="#phonological-constraints" title="Permalink to this heading">#</a></h3>
+<p>Every syllable is constructed as follows:</p>
+<ul class="simple">
+<li><p>(V-) P (F) (A) V (V)</p></li>
+<li><p>(V-) F (A) V (V)</p></li>
+<li><p>(V-) A (V) V</p></li>
+</ul>
+<p>There are three types of syllables</p>
+<ol class="arabic simple">
+<li><p>Type 1 must contain a plosive (P) followed by a vowel (V). Any number of vowels (V-) can precede the plosive (P), and a fricative (F) or an approximant (A) or both can precede the vowel (V). An extra vowel (V) may follow the last vowel.</p></li>
+<li><p>Type 2 must contain a fricative (F) followed by a vowel (V). Similar to Type 1, any number of vowels (V-) can precede the fricative and an approximant (A) can precede the vowel (V). An extra vowel (V) may follow the last vowel.</p></li>
+<li><p>Type 3 must contain an approximant (A) followed by a vowel. Similar to Type 1 and 2, any number of vowels (V-) can precede the fricative (F). An extra vowel (V) may follow the last vowel.</p></li>
+</ol>
+<p>Additionally, we have that a retroflex fricative must be replaced by a post-alveolar fricative if it follows a plosive, and a dental fricative cannot follow a plosive.</p>
+</section>
+</section>
+<section id="grammar">
+<h2>Grammar<a class="headerlink" href="#grammar" title="Permalink to this heading">#</a></h2>
+<section id="bases">
+<h3>Bases<a class="headerlink" href="#bases" title="Permalink to this heading">#</a></h3>
+<p>Formation of words in the <span class="zean">zea</span> language refers to the most basic idea of the statement. Bases represents the most general idea and are not necessarily a thing or action. Most of the times, we associate an intangible idea with a base and then create a tangible ideas through the base. Thus words are then created by adding morphemes to these bases. Let’s take an example:</p>
+<p>We have a base</p>
+<blockquote>
+<div><div class="line-block">
+<div class="line"><span class="zean">tyθi</span> - the idea of a thought (base)</div>
+<div class="line"><span class="zean">tyθisa</span> - A thought (nominative noun)</div>
+<div class="line"><span class="zean">tyθisi</span> - I think (first-person present verb)</div>
+</div>
+</div></blockquote>
+<p>Another example is the base <span class="zean">øʒɛ</span>:</p>
+<blockquote>
+<div><div class="line-block">
+<div class="line"><span class="zean">øʒɛ</span> - the idea of vibrations that create sound (base)</div>
+<div class="line"><span class="zean">øʒɛsa</span> - sound (nominative noun)</div>
+<div class="line"><span class="zean">øʒɛsi</span> - I speak (first-person present verb)</div>
+</div>
+</div></blockquote>
+<p>How do we refer to a person? Names are classified as a base. Let us look at a name of a most important person:</p>
+<blockquote>
+<div><div class="line-block">
+<div class="line"><span class="zean">ajɛseɖi</span> - name (base)</div>
+<div class="line"><span class="zean">ajɛseɖisa</span> - the body of <span class="zean">ajɛseɖi</span> (nominative noun)</div>
+<div class="line"><span class="zean">ajɛseɖisi</span> - the current action of <span class="zean">ajɛseɖi</span> (first-person present verb)</div>
+</div>
+</div></blockquote>
+<p>The verb is somewhat harder to understand. A good example would be consider the sentence “We will do what Ayasedi is doing.” In the <span class="zean">zea</span> language, we can represent this sentence in one word <span class="zean">ajɛseɖiyʒi</span>.</p>
+</section>
+<section id="verbs">
+<h3>Verbs<a class="headerlink" href="#verbs" title="Permalink to this heading">#</a></h3>
+<p>Verbs in the <span class="zean">zea</span> language are indicated by their endings. A verb in the <span class="zean">zea</span> language has 3 tenses: present, past, future. Each tense has 4 aspects, 3 simple and 1 compound</p>
+<p>A verb in the simple aspect indicates just the action: for example “I eat”, “I ate”, “I will eat”. A verb in the progressive aspect indicates an ongoing action: for example “I am eating”, “I was eating”, “I will be eating”. A verb in the perfect aspect indicates a finished action: for example “I have eaten”, “I had eaten”, “I will have eaten”. These 3 tenses are the simple aspect. There is one more aspect that acts as a combination of the progressive and perfect. A verb in the perfect progressive aspect indicates an action that was ongoing moments ago, but has been completed: for example, “I have been eating”, “I had been eating”, “I will have been eating”.</p>
+<p>To create a verb in the <span class="zean">zea</span> language, we can simply take an ending of a single aspect and tense and place it behind a base. For example, the phrase “I speak” (present simple 1st person singular) can be translated as <span class="zean">øʒɛsi</span>. Similarly, the phrase “We were saying” (past progressive 3rd person plural) can be translated as <span class="zean">øʒɛyʃʋi</span>.</p>
+<div class="table-wrapper docutils container" id="id1">
+<table class="docutils align-default" id="id1">
+<caption><span class="caption-text">Simple Endings</span><a class="headerlink" href="#id1" title="Permalink to this table">#</a></caption>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 15%" />
+<col style="width: 14%" />
+<col style="width: 15%" />
+<col style="width: 14%" />
+<col style="width: 15%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Tense</p></th>
+<th class="head"><p>Singular Present</p></th>
+<th class="head"><p>Plural Present</p></th>
+<th class="head"><p>Singular Past</p></th>
+<th class="head"><p>Plural Past</p></th>
+<th class="head"><p>Singular Future</p></th>
+<th class="head"><p>Plural Future</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1st</p></td>
+<td><p>-<span class="zean-like">si</span></p></td>
+<td><p>-<span class="zean-like">isi</span></p></td>
+<td><p>-<span class="zean-like">ʃi</span></p></td>
+<td><p>-<span class="zean-like">iʃi</span></p></td>
+<td><p>-<span class="zean-like">ʒi</span></p></td>
+<td><p>-<span class="zean-like">iʒi</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>2nd</p></td>
+<td><p>-<span class="zean-like">se</span></p></td>
+<td><p>-<span class="zean-like">esi</span></p></td>
+<td><p>-<span class="zean-like">ʃe</span></p></td>
+<td><p>-<span class="zean-like">eʃi</span></p></td>
+<td><p>-<span class="zean-like">ʒe</span></p></td>
+<td><p>-<span class="zean-like">eʒi</span></p></td>
+</tr>
+<tr class="row-even"><td><p>3rd</p></td>
+<td><p>-<span class="zean-like">sy</span></p></td>
+<td><p>-<span class="zean-like">ysi</span></p></td>
+<td><p>-<span class="zean-like">ʃy</span></p></td>
+<td><p>-<span class="zean-like">yʃi</span></p></td>
+<td><p>-<span class="zean-like">ʒy</span></p></td>
+<td><p>-<span class="zean-like">yʒi</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper docutils container" id="id2">
+<table class="docutils align-default" id="id2">
+<caption><span class="caption-text">Perfect Endings</span><a class="headerlink" href="#id2" title="Permalink to this table">#</a></caption>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 14%" />
+<col style="width: 15%" />
+<col style="width: 14%" />
+<col style="width: 15%" />
+<col style="width: 14%" />
+<col style="width: 15%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Tense</p></th>
+<th class="head"><p>Singular Present</p></th>
+<th class="head"><p>Plural Present</p></th>
+<th class="head"><p>Singular Past</p></th>
+<th class="head"><p>Plural Past</p></th>
+<th class="head"><p>Singular Future</p></th>
+<th class="head"><p>Plural Future</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1st</p></td>
+<td><p>-<span class="zean-like">tsi</span></p></td>
+<td><p>-<span class="zean-like">itsi</span></p></td>
+<td><p>-<span class="zean-like">tʃi</span></p></td>
+<td><p>-<span class="zean-like">itʃi</span></p></td>
+<td><p>-<span class="zean-like">tʒi</span></p></td>
+<td><p>-<span class="zean-like">itʒi</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>2nd</p></td>
+<td><p>-<span class="zean-like">tse</span></p></td>
+<td><p>-<span class="zean-like">etsi</span></p></td>
+<td><p>-<span class="zean-like">tʃe</span></p></td>
+<td><p>-<span class="zean-like">etʃi</span></p></td>
+<td><p>-<span class="zean-like">tʒe</span></p></td>
+<td><p>-<span class="zean-like">etʒi</span></p></td>
+</tr>
+<tr class="row-even"><td><p>3rd</p></td>
+<td><p>-<span class="zean-like">tsy</span></p></td>
+<td><p>-<span class="zean-like">ytsi</span></p></td>
+<td><p>-<span class="zean-like">tʃy</span></p></td>
+<td><p>-<span class="zean-like">ytʃi</span></p></td>
+<td><p>-<span class="zean-like">tʒy</span></p></td>
+<td><p>-<span class="zean-like">ytʒi</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper docutils container" id="id3">
+<table class="docutils align-default" id="id3">
+<caption><span class="caption-text">Progressive Endings</span><a class="headerlink" href="#id3" title="Permalink to this table">#</a></caption>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 14%" />
+<col style="width: 15%" />
+<col style="width: 14%" />
+<col style="width: 15%" />
+<col style="width: 14%" />
+<col style="width: 15%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Tense</p></th>
+<th class="head"><p>Singular Present</p></th>
+<th class="head"><p>Plural Present</p></th>
+<th class="head"><p>Singular Past</p></th>
+<th class="head"><p>Plural Past</p></th>
+<th class="head"><p>Singular Future</p></th>
+<th class="head"><p>Plural Future</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1st</p></td>
+<td><p>-<span class="zean-like">sʋi</span></p></td>
+<td><p>-<span class="zean-like">isʋi</span></p></td>
+<td><p>-<span class="zean-like">ʃʋi</span></p></td>
+<td><p>-<span class="zean-like">iʃʋi</span></p></td>
+<td><p>-<span class="zean-like">ʒʋi</span></p></td>
+<td><p>-<span class="zean-like">iʒʋi</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>2nd</p></td>
+<td><p>-<span class="zean-like">sʋe</span></p></td>
+<td><p>-<span class="zean-like">esʋi</span></p></td>
+<td><p>-<span class="zean-like">ʃʋe</span></p></td>
+<td><p>-<span class="zean-like">eʃʋi</span></p></td>
+<td><p>-<span class="zean-like">ʒʋe</span></p></td>
+<td><p>-<span class="zean-like">eʒʋi</span></p></td>
+</tr>
+<tr class="row-even"><td><p>3rd</p></td>
+<td><p>-<span class="zean-like">sʋy</span></p></td>
+<td><p>-<span class="zean-like">ysʋi</span></p></td>
+<td><p>-<span class="zean-like">ʃʋy</span></p></td>
+<td><p>-<span class="zean-like">yʃʋi</span></p></td>
+<td><p>-<span class="zean-like">ʒʋy</span></p></td>
+<td><p>-<span class="zean-like">yʒʋi</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper docutils container" id="id4">
+<table class="docutils align-default" id="id4">
+<caption><span class="caption-text">Perfect Progressive Endings</span><a class="headerlink" href="#id4" title="Permalink to this table">#</a></caption>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 14%" />
+<col style="width: 15%" />
+<col style="width: 14%" />
+<col style="width: 15%" />
+<col style="width: 14%" />
+<col style="width: 15%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Tense</p></th>
+<th class="head"><p>Singular Present</p></th>
+<th class="head"><p>Plural Present</p></th>
+<th class="head"><p>Singular Past</p></th>
+<th class="head"><p>Plural Past</p></th>
+<th class="head"><p>Singular Future</p></th>
+<th class="head"><p>Plural Future</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1st</p></td>
+<td><p>-<span class="zean-like">tsʋi</span></p></td>
+<td><p>-<span class="zean-like">itsʋi</span></p></td>
+<td><p>-<span class="zean-like">tʃʋi</span></p></td>
+<td><p>-<span class="zean-like">itʃʋi</span></p></td>
+<td><p>-<span class="zean-like">tʒʋi</span></p></td>
+<td><p>-<span class="zean-like">itʒʋi</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>2nd</p></td>
+<td><p>-<span class="zean-like">tsʋe</span></p></td>
+<td><p>-<span class="zean-like">etsʋi</span></p></td>
+<td><p>-<span class="zean-like">tʃʋe</span></p></td>
+<td><p>-<span class="zean-like">etʃʋi</span></p></td>
+<td><p>-<span class="zean-like">tʒʋe</span></p></td>
+<td><p>-<span class="zean-like">etʒʋi</span></p></td>
+</tr>
+<tr class="row-even"><td><p>3rd</p></td>
+<td><p>-<span class="zean-like">tsʋy</span></p></td>
+<td><p>-<span class="zean-like">ytsʋi</span></p></td>
+<td><p>-<span class="zean-like">tʃʋy</span></p></td>
+<td><p>-<span class="zean-like">ytʃʋi</span></p></td>
+<td><p>-<span class="zean-like">tʒʋy</span></p></td>
+<td><p>-<span class="zean-like">ytʒʋi</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>To negate a sentence, simply place -<span class="zean-like">θɶ</span>- before the ending, after the base. Example: <span class="zean">øʒɛθɶtʃi</span> which means “I had not spoken”.</p>
+</section>
+<section id="nouns">
+<h3>Nouns<a class="headerlink" href="#nouns" title="Permalink to this heading">#</a></h3>
+<p>There are 3 parts to an noun in the <span class="zean">zea</span> language. The first part is trivially the base. The second part is the number of the noun. The third part is the function of the noun in the sentence. Nouns in the <span class="zean">zea</span> language are described only in the singular or the plural.</p>
+<p>The function of nouns in the <span class="zean">zea</span> language are described with inflections. <span class="zean">zea</span> has standard inflection on nouns. There are 7 inflections: Nominative, Accusative, Dative, Genitive, Lative, Ablative and Instrumental.</p>
+<p>A noun in the Nominative case represents a subject. A noun in the Accusative case represents a direct object. A noun in the Dative case represents an indirect object. A noun in the Genitive case is used to mark possession. A noun in the Lative case represents a destination. A noun in the Ablative case represents origin. A noun in the Instrumental case represents a tool or companion.</p>
+<p>The endings of each case with their respective numbers are displayed below</p>
+<div class="table-wrapper docutils container" id="id5">
+<table class="docutils align-default" id="id5">
+<caption><span class="caption-text">Noun Endings</span><a class="headerlink" href="#id5" title="Permalink to this table">#</a></caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Case</p></th>
+<th class="head"><p>Singular</p></th>
+<th class="head"><p>Plural</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Nominative</p></td>
+<td><p>-<span class="zean-like">sa</span></p></td>
+<td><p>-<span class="zean-like">ase</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>Accusative</p></td>
+<td><p>-<span class="zean-like">sœ</span></p></td>
+<td><p>-<span class="zean-like">œse</span></p></td>
+</tr>
+<tr class="row-even"><td><p>Dative</p></td>
+<td><p>-<span class="zean-like">ɖʂa</span></p></td>
+<td><p>-<span class="zean-like">aɖʂe</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>Genitive</p></td>
+<td><p>-<span class="zean-like">sjɛ</span></p></td>
+<td><p>-<span class="zean-like">ɛsje</span></p></td>
+</tr>
+<tr class="row-even"><td><p>Lative</p></td>
+<td><p>-<span class="zean-like">iða</span></p></td>
+<td><p>-<span class="zean-like">aiðe</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>Ablative</p></td>
+<td><p>-<span class="zean-like">iθa</span></p></td>
+<td><p>-<span class="zean-like">aiθe</span></p></td>
+</tr>
+<tr class="row-even"><td><p>Instrumental</p></td>
+<td><p>-<span class="zean-like">sʋa</span></p></td>
+<td><p>-<span class="zean-like">asʋe</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Note that the Nominative of a base representing a person is equivalent to the physical rendering of that person, i.e. the body of that person. Thus, in a perfect technical sense, <span class="zean">ajɛseɖisa</span> is equivalent to <span class="zean">eʒɶsa ajɛseɖisjɛ</span>. Nevertheless, these two methods are useful to distinguish between a person and the body of that person. For example, consider “<span class="zean">tyθisi ajɛseɖisœ</span>” and “<span class="zean">tyθisi eʒɶsœ ajɛseɖisjɛ</span>”. The former means “I think of Ayasedi”, and the latter means “I think of Ayasedi’s body”. These two sentences represent totally different ideas, thus are useful to distinguish between.</p>
+</section>
+<section id="pronouns-queries">
+<h3>Pronouns &amp; Queries<a class="headerlink" href="#pronouns-queries" title="Permalink to this heading">#</a></h3>
+<p>Pronouns are special bases which cannot be converted into verbs; they exist solely as nouns. However pronouns are inflected the same way as normal nouns. Queries or questions are created by leaving any unaccounted query pronoun in the sentence. Furthermore questions are also indicated by a slight lowering of tone near the pronoun of the query. These pronouns can also be used to create sub-clauses, although forming sub-clauses puts some restrictions to the word order. A query pronoun can be used to create sub-clauses but the sub-clause must appear after the pronoun.</p>
+</section>
+<section id="participles">
+<h3>Participles<a class="headerlink" href="#participles" title="Permalink to this heading">#</a></h3>
+<p>To create a participle, one can take any base and add the 3rd person present tense in any aspect to the base and then add a case in which the respective participle will go. For example, the phrase “<span class="zean">sai ʃɶisysœ ɶʈaʋɶsjɛ</span>” translates to “night of having eternal pleasures”. The participle “<span class="zean">ʃɶisysœ</span>” represents “of having pleasures” since it is a direct object of night and is a participle indicating of people having alot of sex. <span class="zean">ɶʈaʋɶsjɛ</span> modifies <span class="zean">ʃɶisysœ</span>.</p>
+</section>
+</section>
+<section id="orthography">
+<h2>Orthography<a class="headerlink" href="#orthography" title="Permalink to this heading">#</a></h2>
+<p>While the <span class="zean">zea</span> language has its own orthography, unicode IPA characters are used when writing words of the <span class="zean">zea</span> language in any english text. Furthermore, <span class="zean">zea</span> words can be easily anglicized by using standard conversions. Note that the standard conversion is not one-to-one. Thus either IPA, or standard <span class="zean">zea</span> orthography is needed to perfectly identify a word. Words in anglicized Zean may be confused if one doesn’t have context.</p>
+<div class="table-wrapper docutils container" id="id6">
+<table class="docutils align-default" id="id6">
+<caption><span class="caption-text">Anglicized <span class="zean">zea</span> letters</span><a class="headerlink" href="#id6" title="Permalink to this table">#</a></caption>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><span class="zean">zea</span></p></th>
+<th class="head"><p>Anglicized</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><span class="zean-like">i</span></p></td>
+<td><p>i</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">y</span></p></td>
+<td><p>u</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">e</span></p></td>
+<td><p>e</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">ø</span></p></td>
+<td><p>a</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">ɛ</span></p></td>
+<td><p>a</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">œ</span></p></td>
+<td><p>o</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">a</span></p></td>
+<td><p>a</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">ɶ</span></p></td>
+<td><p>o</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">t</span></p></td>
+<td><p>t</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">d</span></p></td>
+<td><p>d</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">ʈ</span></p></td>
+<td><p>t</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">ɖ</span></p></td>
+<td><p>d</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">s</span></p></td>
+<td><p>s</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">z</span></p></td>
+<td><p>z</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">ʃ</span></p></td>
+<td><p>sh</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">ʒ</span></p></td>
+<td><p>zh</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">ʂ</span></p></td>
+<td><p>sh</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">ʐ</span></p></td>
+<td><p>zh</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">ʋ</span></p></td>
+<td><p>v</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="zean-like">j</span></p></td>
+<td><p>y</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="zean-like">ɹ</span></p></td>
+<td><p>r</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>So for example <span class="zean">ajɛseɖi</span> becomes “Ayasedi”, and the <span class="zean">aiɖi yʈʂi</span> becomes “Aidi Utshi”. As you can see, while anglicized words are mostly correct, using unicode IPA is still preferable as they are much more clearer. For example, saying “Utshi” can refer to either <span class="zean-like">yʈʂi</span>, <span class="zean-like">ytʂi</span>, <span class="zean-like">yʈʃi</span> or <span class="zean-like">ytʃi</span>.</p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          <a class="prev-page" href="zean-glossary.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Zean Glossary</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2020-2023, Praecordi
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Reference for the Zean Language</a><ul>
+<li><a class="reference internal" href="#sounds-in-the-zea-language">Sounds in the <span class="zean">zea</span> Language</a><ul>
+<li><a class="reference internal" href="#vowels">Vowels</a></li>
+<li><a class="reference internal" href="#consonants">Consonants</a></li>
+<li><a class="reference internal" href="#phonological-constraints">Phonological Constraints</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#grammar">Grammar</a><ul>
+<li><a class="reference internal" href="#bases">Bases</a></li>
+<li><a class="reference internal" href="#verbs">Verbs</a></li>
+<li><a class="reference internal" href="#nouns">Nouns</a></li>
+<li><a class="reference internal" href="#pronouns-queries">Pronouns &amp; Queries</a></li>
+<li><a class="reference internal" href="#participles">Participles</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#orthography">Orthography</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/scripts/furo.js"></script>
+    <script src="_static/design-tabs.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    </body>
+</html>

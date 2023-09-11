@@ -1,0 +1,402 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <link rel="icon" href="../../_static/logo/favicon-white.svg" type="image/svg+xml"><link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 5.3.0 and Furo 2022.12.07 -->
+        <title>The High Xerates - Adasi 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/decor.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/icons/idea.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/icons/question.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --color-brand-primary: black;
+  --color-brand-content: darkgoldenrod;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Adasi 1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="../../_static/logo/hires-logo-black.svg" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="../../_static/logo/hires-logo-white.svg" alt="Dark Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../History/history.html">History</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../History/before-founding.html">Before Founding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../History/first-arrival.html">First Arrival</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Demographics/demographics.html">Demographics</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/aidi.html"><span class="zean">aiɖi</span></a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/aidi/major-aidi.html">Major <span class="zean">aiɖi</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/aidi/minor-aidi.html">Minor <span class="zean">aiɖi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/avyasi.html"><span class="zean">aʋjasi</span></a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/avyasi/isitetho.html"><span class="zean">isiʈeθɶ</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/avyasi/zoedashi.html"><span class="zean">zœeɖaʃi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/zea-races.html"><span class="zean">zea</span> Races</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/zea-races/teathuda.html"><span class="zean">zea ʈeaθyɖa</span></a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/teathuda-simulation.html">Simulation Code</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/simulation.html">Main Simulation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/find-simulation-weights.html">Experiment Simulation Weights</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Culture/culture.html">Culture</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Magic/magic.html">Magic</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Culture/Magic/creation.html">Creation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Culture/Magic/ethereal-plane.html">The Ethereal Plane</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Holds/holds.html">Holds</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Pre-Arrival-Societies/pa-societies.html">Pre-Arrival Societies</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Documents/documents.html">Documents</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Documents/Stories/stories.html">Stories</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Documents/Stories/Excerpts_from_Ancient_History.html">Excerpts from Ancient History</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Documents/Stories/Excerpts_from_Before_Great_Split.html">Excerpts from Before Great Split</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../ideas.html">Ideas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notes.html">Miscellaneous Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../zean-glossary.html">Zean Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../zean-reference.html">Reference for the Zean Language</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="the-high-xerates">
+<h1>The High Xerates<a class="headerlink" href="#the-high-xerates" title="Permalink to this heading">#</a></h1>
+<p>The High Xerates are the three immortal rulers of the Ocae system. All three Xerates are frozen in time at the age of 112. The Xerates were previously Pallakidans. The High Xerates were one of the only Pallakidans to breach the security of Iaseri Altum. With the information there, they were able to alter themselves and recreate the process of creating life. Each of the High Xerates are exceptional Suasids who lived in the time period, Before the Time of the Empresses, a period of dark, unrecorded history of Adasi. The High Xerates are completely against the High Empresses and their rule, and themselves wish to take over the Adasi system in the future. The Xerates are rulers of 1 star, 3 planets, 42 moons and countless small asteroid.</p>
+<section id="xerates">
+<h2>Xerates<a class="headerlink" href="#xerates" title="Permalink to this heading">#</a></h2>
+<section id="xerate-idae-hjie-pei-jheadi">
+<h3>Xerate Idae Hjie Pei Jheadi<a class="headerlink" href="#xerate-idae-hjie-pei-jheadi" title="Permalink to this heading">#</a></h3>
+<p>Xerate Idae was an Elit before the transformation. Each transformation of the 3 Pallakidans to their current form happened with a different ratio of Blue and Red Light. This caused each of their form to be different physically and to have different personalities. For Xerate Idae, the third one to be altered, the ratio used upon her was a fourth Blue Light and the remaining Red Light.</p>
+<p>Xerate Idae is the Xerate of the Iroe Asproe. In appearance, the Xerate Idae is similar to her creation, Iroe Asproe. Her skin is a brilliant white color that glows abnormally. Xerate Idae is about the height of Empress Iasedi. Her eyes are almond shaped with vertical pupils and a fully nictitating membrane. The skin of both her eyes fold over the upper eyelid, covering the inner corner of her eyes. Her pupils are a pure white while her irises are a light gray. Her nose is small and slightly upturned. Her lips are full and colored a natural light pink. Her nose is very well defined and very sharp. The Xerate’s hair is very long and wavy, naturally colored a brilliant white similar to her skin. Her long hair is enough to hide the short yet pointed ears. Her neck is short yet slim that connect to wide muscular shoulders. Her hands have six long fingers with slim knuckles. Her arms are slim yet muscular. And her six fingers are long and slim. Her hips perfectly match her bust. Xerate Idae has large breasts that have small, white nipples. The Xerate’s breast match those of her creation in being plush yet firm enough to stay mostly upright. Like an Iroe, the Xerate does not have a navel. Her vagina is smooth and fully white. She has legs that are longer than her upper body and are extremely muscular. Her foot has five toes like a Pallakidan. The higher ratio of Red Light gave Xerate Idae the ability to glow at will. An organ in her body allows her to produce a chemical that gives of a glow. The organ is situated under her lungs which delivers the chemical into the blood cells. At will, the Xerate can allow an enzyme into the cells making the chemical give off a whitish-blue light. In addition to the glow, the Xerate has another set of mandibular gland that creates venom. This neurotoxin can be shot out of a set of salivary glands that are outside her teeth, but also from her breasts. The neurotoxin commonly results in paralysis but can also cause death.</p>
+</section>
+<section id="xerate-esji-gi-jse">
+<h3>Xerate Esji Gi Jse<a class="headerlink" href="#xerate-esji-gi-jse" title="Permalink to this heading">#</a></h3>
+<p>Xerate Idae was an Elit before the transformation. Each transformation of the 3 Pallakidans to their current form happened with a different ratio of Blue and Red Light. This caused each of their form to be different physically and to have different personalities. For Xerate Esji, the second one to be altered, the ratio used upon her was a half Blue Light and half Red Light.</p>
+<p>Xerate Esji is the Xerate of the Iroe Eryvena. In appearance, the Xerate Esji is similar to her creation, Iroe Eryvena. Her skin is a slight shade of red. She is about as tall as Xerate Idae. Her eyes are a large round shape with round pupils and a fully nictitating membrane. Her pupils are a dark red with black irises. Her nose, like her creation, is just two holes. Her ears, like her creation, are almost nonexistent, marked only by two holes on the side of her head. The Xerate’s hair is short, only shoulder length, and colored a natural red. Her neck is long and slim that connect to wide muscular shoulders. Her arms are large and muscular. Her hands have 5 short fingers that are also extremely strong. Her hips are small and only slightly larger in diameter than the waist. The Xerate’s breast are small like those of her creation. And the girth of her chest renders the small breast even smaller though they are still noticeable. Like an Iroe, the Xerate doesn’t have a navel. Her vagina is smooth with dark red lips that surprisingly stand out from her skin. Her extremely muscular feet each only has 4 fingers. The body of the Xerate Esji has been modified by the amount of Red Light to also include mandibular glands similar to Xerate Idae. The neurotoxin can be shot out of a set of fangs only found on Xerate Esji, and also from an artery on her wrist. The neurotoxin only needs touch to paralyze the enemy.</p>
+</section>
+<section id="xerate-epey-sigis-yepe">
+<h3>Xerate Epey Sigis Yepe<a class="headerlink" href="#xerate-epey-sigis-yepe" title="Permalink to this heading">#</a></h3>
+<p>Xerate Epey was an Elit before the transformation. Each transformation of the 3 Pallakidans to their current form happened with a different ratio of Blue and Red Light. This caused each of their form to be different physically and to have different personalities. For Xerate Epey, the first one to be altered, the ratio used upon her was a fourth Red Light and the remaining Blue Light.</p>
+<p>Xerate Epey is the Xerate of the Iroe Kitrshar. In appearance, the Xerate Epey is similar to her creation, Iroe Kitrshar. Her skin is a light shade of yellow. She is shorter than Xerate Idae. Her eyes are small, straight and deep set. She has small round pupils that are colored a dark yellow. Unlike her creation, she has a nictitating membrane. Her nose is short and round. Her ears protrude out like Xerate Idae. Her hair is long and curly, and colored a light blonde yellow. Her neck is long and thin that open abruptly to thin shoulders. Her arms are long with 5 fingers on each of her hands that are long, thin and delicate. Her hips are small, but the same size as her shoulders. The Xerate’s breast are average unlike those of her creation, though they seem large because of her slim body. Like an Iroe, the Xerate has no navel. Her vagina is smooth that seem to blend in her skin. Her feet has five fingers. Unlike Xerate Idae and Xerate Esji, the Red Light did not instill any special modifications in Xerate Epey because of the lower ratio of Red Light. Xerate Epey is extremely intelligent which is more so because of her previous nature which the Red Light seems to have exemplified.</p>
+</section>
+</section>
+<section id="dress">
+<h2>Dress<a class="headerlink" href="#dress" title="Permalink to this heading">#</a></h2>
+<p>The Xerates use a doctrine similar to the Empresses. The doctrine is a statement of competition against the Empresses. The doctrine is to expose the breasts as a way to challenge the conventional Pallakidan way. While the breasts are seen as important to the Pallakidan lives, covering them makes it even more important to make a statement of privacy. The Xerates’ doctrine is very contrary to the Empresses’ doctrine. Unlike the Empresses’ doctrine the Xerates have to keep their breasts exposed at all time. Similar to the Empresses, there must be two versions to the Royal Dress: one used for private places while one used for public. The public version of the dresses must cover the midriff and the vagina, while the private version has a much broader range.</p>
+<section id="xerate-idaes-dresses">
+<h3>Xerate Idae’s Dresses<a class="headerlink" href="#xerate-idaes-dresses" title="Permalink to this heading">#</a></h3>
+<p>This dress is Idae’s favorite dress. It is Idae’s first dress as the ruler of the Ocae. This dress is special since it is an unlikely gift from Isitetho Iasedi. Made from technology similar to the one used to turn the Idae to what she is now, this dress uses Red Light to a similar effect as Iasedi’s dress uses Blue Light. Unlike the dress of the other two Xerate, this dress features a Red Light component that compliments her glowing figure. This Red Light component hidden in the dress serves as a hidden armor. This armor fully protects Idae against power weapons by destroying the weapon itself. The component radiates a field of pure Red Light that destroys anything that tries to cross it. Most cannot see this armor. To touch Idae when she is wearing this, the other Xerates use a metal disk which the armor can detect. Iasedi made 3 disks, one for each of the other Xerates and one which is kept alongside of her own dress.</p>
+<p>The dress itself is a white cloak, but made to expose the breasts. The top is a white midriff that is high-necked and has no sleeves. The midriff is bare, but the cloth in the back extends all the way down to the ankle. In the center of the dress is a cut oval. This oval is large enough that both breasts can hang out. The cloth around the breasts is tight enough to support the breasts and keep them seemingly upright. On the hands are two white gloves that expose the fingertips and the first finger joint from the bottom. The gloves are fitted with a magnet that allows Idae to hold on to anything metal. The trousers are white and tight, so that they stick to the skin, and are made of exotic silk. Holsters, that blend in smoothly into the trousers, are strapped onto the thighs. On the trousers, there is a white belt with a silver buckle. The trousers are tucked neatly into knee-high boots made of hard scale skin that are white.</p>
+<p>The public version of this dress includes a black long sleeved jacket. The jacket is thick with fur lining the collars and the lapel. The jacket is buttoned only half way so as to hide the midriff but still keep the breasts exposed. In addition, the Xerate wears a black transparent skirt that can be attached to the belt. This skirt is light and slit in the front and easily flies in the wind to provide an effect.</p>
+</section>
+<section id="xerate-esjis-dresses">
+<h3>Xerate Esji’s Dresses<a class="headerlink" href="#xerate-esjis-dresses" title="Permalink to this heading">#</a></h3>
+<p><span class="mark">The top is a tight midriff colored blue. It covers the chest, yet the sleeves are swept back so much that the shoulders are exposed. The whole of the upper back is covered except for a small part of the skin that is revealed by an oval cut on the back that is wide enough to accomodate the Isitetho’s iastrars. The front has a long v-neck that shows considerable cleavage and has a peaked lapel. The midriff is double breasted and extends down much more than the usual midriff in the Teathudan community do. The bottom are white pants that reveals more skin than most pants. The pants are tight, but provide excellent mobility. Near the thighs the pants are especially tight to show off muscle. Laced sections on the side stylishly show off skin. These sections start right before the knee joint and get larger as they go higher. The pant is much looser at the lower leg. The front part of the lower leg is cut altogether to reveal muscular legs. The remaining parts are tucked into a shorter version of knee high boots that only extend half way. A belt is used to keep the pants up. The pant is usually worn very low on the hip, so that the same area of midriff would be exposed if the midriff had been worn higher. The boots that come with this dress are not knee length but they do extend a quarter of the way to the knee. They are dark and made out of scale, like those of the Iasedi’s.</span></p>
+<p><span class="mark">The addition to the Royal Dress has two parts. The first part is a kind of body less midriff. It contains only a long sleeve that is tight for the upper arms but loose for the lower portion of the arms, and a back that only covers the upper portion of the back. The collar of this piece of midriff is quite high but not tight, and both sides are attached together when worn. So when this midriff is worn by itself, it reveals the whole of the chest, yet covers most of the upper back. The second part is a detachable transparent skirt that is attached onto the belt. The skirt is a white transparent color, and is slit in the front for easier mobility. It extends all the way to the floor, and the back extends even further so that it drags along.</span></p>
+</section>
+<section id="xerate-epeys-dresses">
+<h3>Xerate Epey’s Dresses<a class="headerlink" href="#xerate-epeys-dresses" title="Permalink to this heading">#</a></h3>
+<p><span class="mark">The dress as always bares the midriff. The midriff is all based on a collar that is worn on the neck. Transparent, purple clothes are attached to the front and the back of the collar and these clothes expand as they go down to cover the breasts. The front cloth is made in such a way that as it nears any one of the nipple it gets denser to hide them. The two clothes, fully expanded and covering the breasts, are connected to each other by a thin string and folded under the breasts so that they are emphasized. The back cloth contains a large hole to expose the skin on the back as much as possible. The clothes are stretched as tightly as possible over the chest and fully expose the arms and shoulders. Because of the tightness of the midriff and how it emphasizes the breast it is considered very revealing by humane standards but acceptable for Teathudans.The bottom is also as revealing as the midriff. The bottom starts off with a belt that is worn right above the hips. The belt is made so that it remains the same width and is usually worn over the head, so that it loosely hangs at the hip. The width is small enough so that the belt doesn’t slip off the hip, but large enough so that it can be worn over the head. At the middle of the front and the back of the belt, there is a metal ring that supports a cloth. The purple cloth, bordered with white, is a large loop similar to a skirt but without the contractions to make it fit a person, in that it has the same width from the bottom to the top. A small loop is created in the middle of the cloth in the front and back where the ring goes. The cloth is hung just by the ring so that it covers the crotch and the rear. The sides of the cloth hang very low so that most of the muscular thighs are visible for anyone to admire. Strapped sandals are worn on the feet alongside this dress.</span></p>
+<p><span class="mark">The addition to Isitetho Sakatha’s Royal Dress is a kind of cape. The cape is attached to the collar via small hooks and is made of a thick material. Strings on the cape wrap around to the front and right under the arms to bring the cape to the side to cover it somewhat. The shoulders and arm still retain their mobility and exposure.</span></p>
+</section>
+<section id="xerates-dresses">
+<h3>Xerates’ Dresses<a class="headerlink" href="#xerates-dresses" title="Permalink to this heading">#</a></h3>
+</section>
+</section>
+<section id="personal-armor">
+<h2>Personal Armor<a class="headerlink" href="#personal-armor" title="Permalink to this heading">#</a></h2>
+<section id="weapons">
+<h3>Weapons<a class="headerlink" href="#weapons" title="Permalink to this heading">#</a></h3>
+<section id="xerate-idae">
+<h4>Xerate Idae<a class="headerlink" href="#xerate-idae" title="Permalink to this heading">#</a></h4>
+</section>
+<section id="xerate-epey">
+<h4>Xerate Epey<a class="headerlink" href="#xerate-epey" title="Permalink to this heading">#</a></h4>
+</section>
+<section id="xerate-esji">
+<h4>Xerate Esji<a class="headerlink" href="#xerate-esji" title="Permalink to this heading">#</a></h4>
+</section>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2020-2023, Praecordi
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">The High Xerates</a><ul>
+<li><a class="reference internal" href="#xerates">Xerates</a><ul>
+<li><a class="reference internal" href="#xerate-idae-hjie-pei-jheadi">Xerate Idae Hjie Pei Jheadi</a></li>
+<li><a class="reference internal" href="#xerate-esji-gi-jse">Xerate Esji Gi Jse</a></li>
+<li><a class="reference internal" href="#xerate-epey-sigis-yepe">Xerate Epey Sigis Yepe</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dress">Dress</a><ul>
+<li><a class="reference internal" href="#xerate-idaes-dresses">Xerate Idae’s Dresses</a></li>
+<li><a class="reference internal" href="#xerate-esjis-dresses">Xerate Esji’s Dresses</a></li>
+<li><a class="reference internal" href="#xerate-epeys-dresses">Xerate Epey’s Dresses</a></li>
+<li><a class="reference internal" href="#xerates-dresses">Xerates’ Dresses</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#personal-armor">Personal Armor</a><ul>
+<li><a class="reference internal" href="#weapons">Weapons</a><ul>
+<li><a class="reference internal" href="#xerate-idae">Xerate Idae</a></li>
+<li><a class="reference internal" href="#xerate-epey">Xerate Epey</a></li>
+<li><a class="reference internal" href="#xerate-esji">Xerate Esji</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/scripts/furo.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    </body>
+</html>

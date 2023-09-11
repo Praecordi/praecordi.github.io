@@ -1,0 +1,19 @@
+.zean {
+    font-family: "Brygada1918-Regular, Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif";
+    color: gold;
+    font-style: italic;
+}
+
+.zean-like {
+    font-family: "Brygada1918-Regular, Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif";
+    color: gold;
+    font-style: italic;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.mark {
+    background-color:rgba(255, 255, 0, 0.5)
+}

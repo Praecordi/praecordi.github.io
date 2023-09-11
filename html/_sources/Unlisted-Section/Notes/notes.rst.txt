@@ -1,0 +1,14 @@
+Notes
+=====
+
+.. toctree::
+    :caption: Contents
+    
+    polytheism
+    bread
+    clothing
+    iron
+    polis
+    lonely-cities
+    empires
+    fremen

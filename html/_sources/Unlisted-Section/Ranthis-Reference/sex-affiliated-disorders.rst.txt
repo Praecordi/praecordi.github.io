@@ -1,0 +1,79 @@
+=============================
+Sex-Affiliated Disorders [1]_
+=============================
+
+
+Just as a notice, the disorders in this post have nothing to do with any existing disorders from the real world that I know of unless stated otherwise. Anything similar but not explicitly stated is a coincidence, and I don’t mean to offend anyone suffering from them.
+
+History of Disorders
+====================
+
+The Three Daughters, as is obvious from the previous posts, adore humanity to a fault. This adoration got them to think, for the first time, that maybe they should tone down their favoritism of humans. As a solution, they thought for a long time, and created what’s known as disorders.
+
+The Three Daughters introduced disorders that would give humanity a slightly harder time, but their love for humans prevented them from going all-out and bringing anything life-threatening by itself, and also caused them to “refund” life expectancy to those with a disorder. While the average life expectancy for a human is just below 70 years, a person with a disorder has a life expectancy of around 75, and each added disorder adds another few years. Additionally, the Three Daughters wanted to slightly alter humanity’s experience of sex, and came to a total of six ideas.
+
+The disorders are hereditary, meaning they can pass on to the next generation. The probability of an individual inheriting a disorder genetically or being born with a disorder without regard to heritage depends on its race and the disorder.
+
+List of Disorders
+=================
+
+Over-Extended Refractory Period
+-------------------------------
+
+This disorder causes one’s refractory period to increase significantly. In the real world, a refractory period usually ranges from a few minutes to a few hours, averaging at half an hour for adults. The OERP disorder causes that refractory period to last for almost a week. Women with OERP tend to plan their sex very carefully, since one wrong move could end the act too quickly, and they’ll have to wait for very long until the next time they can try again.
+
+Sexual Overfunction
+-------------------
+
+To balance the disorder above, the Three Daughters made a disorder that causes the subject to be constantly aroused. A woman suffering from SOF is constantly in heat, with a near-permanent erection, a vagina that is almost always wet, and have a hard time concentrating on other matters. Every touch at any moment brings them closer to the next orgasm, and there is no telling when one could come at random. Women with SOF have no refractory period, and their testicles create sperm at a much higher rate than other women. It’s easy to tell if a woman has this disorder by looking at her ears - while the average Rankvahn’s ears droop slightly, the ears of a woman with SOF instead point upwards.
+
+Orgasmic Incapacitation
+-----------------------
+
+People with this disorder experience what can only be considered the best orgasms. Unfortunately, those orgasms result in a loss of muscle tone everywhere, and difficulty forming coherent thoughts or sentences, all of this lasting for a few hours, and gradually fading. The tale of the Sage who discovered prostate orgasms is what inspired the Three Goddesses to make this disorder. The Sage did not have the disorder, but simply experienced a prostate orgasm, which is something that nobody in the real world should underestimate. To someone with OIC, prostate orgasms feel like the apex of all pleasure in the world combined, but can also render them in a near-vegetative state for a few days.
+
+Mid-Course Muscular Hyperactivity
+---------------------------------
+
+This disorder causes rhythmic muscle twitches during or after sex. MCMHA is similar to real-world tonic, myoclonic, and clonic seizures, and just like them, MCMHA seizures come in a wide range, from weak twitches that are only quick enough to be mildly inconvenient, to stronger jerks that seem like the person is actively struggling against something, to stiffening of muscles that prevents a person from moving freely, or even at all. These seizures last for a minute or two on average, and rarely above five. During MCMHA seizures, the person can experience fatigue or partial losses of consciousness, depending on the severity of the seizure. MCMHA seizures tend to happen more frequently before or during orgasm.
+
+Pheromone-Infused Secretions
+----------------------------
+
+Women with PIS constantly emit sex pheromones, and their excretions are infused with them, from their sweat, to their urine, breast milk, and even blood. Inhaling said pheromones for around a minute or coming into contact with them for around ten minutes excites a subject sexually, and causes them to behave with a single-minded sex drive, usually directed at the woman whose pheromones the subject interacted with.
+
+Subconscious Exhibitionistic Behavior
+-------------------------------------
+
+Women with SEB can go about their daily lives normally, until a sudden subconscious urge pops up. It’s usually an urge to reveal her own body to as many people as possible. Anyone who makes eye contact with a naked person with SEB while she is naked becomes charmed by her, and feels compelled to have sex with her. A SEB episode can end naturally within around half an hour, or immediately when the woman with it receives semen of another woman with a natural immunity to its effects.
+
+SEB is not hereditary.
+
+Interactions with Demi-Humans
+=============================
+
+Demi-humans are, according to the Three Daughters, “human enough”. This means that the disorders above can apply to demi-humans as well as humans, though the frequency of cases varies in relation to humans. Below is a table of number of cases by race. The table is formatted as [ X / Y% ]. X means “1 in X people are born with this disorder without regard for heritage”, and Y means “Y% chance to inherit this disorder from parents”. The numbers were rounded to the nearest hundred and the nearest full number for the percentage. On the SEB column, Y represents instead the number of people with a natural immunity to the effects of SEB episodes.
+
+.. table::
+    
+    +------------+----------+------------+-------------+------------+-------------+
+    | Race       | OERP     | SOF        | OIC         | PIS        | SEB         |
+    +============+==========+============+=============+============+=============+
+    | Human      | 100 / 1% | 200 / 1%   | 700 / 2%    | 2,000 / 0% | 4,500 / 1%  |
+    +------------+----------+------------+-------------+------------+-------------+
+    | Beastfolk  | 200 / 2% | 400 / 3%   | 900 / 3%    | 4,500 / 0% | 6,100 / 2%  |
+    +------------+----------+------------+-------------+------------+-------------+
+    | Birdfolk   | 400 / 1% | 700 / 1%   | 1,300 / 1%  | 1,800 / 0% | 3,700 / 7%  |
+    +------------+----------+------------+-------------+------------+-------------+
+    | Catfolk    | 700 / 2% | 300 / 2%   | 600 / 17%   | 1,100 / 0% | 2,900 / 3%  |
+    +------------+----------+------------+-------------+------------+-------------+
+    | Dogfolk    | 300 / 1% | 200 / 12%  | 400 / 25%   | 900 / 1%   | 1,200 / 0%  |
+    +------------+----------+------------+-------------+------------+-------------+
+    | Dragonfolk | 100 / 4% | 800 / 5%   | 2,500 / 33% | 3,100 / 3$ | 7,500 / 12% |
+    +------------+----------+------------+-------------+------------+-------------+
+    | Snakefolk  | 200 / 7% | 1,200 / 1% | 100 / 1%    | 7,100 / 0$ | 9,300 / 2%  |
+    +------------+----------+------------+-------------+------------+-------------+
+
+.. [1]
+   `The World of Rankvah: Sex-Affiliated
+   Disorders <https://www.reddit.com/r/NSFWworldbuilding/comments/hdeds1/the_world_of_rankvah_sexaffiliated_disorders/>`__

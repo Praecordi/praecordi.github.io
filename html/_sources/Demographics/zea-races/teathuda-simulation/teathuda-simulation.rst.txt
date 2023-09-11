@@ -1,0 +1,80 @@
+Simulation Code
+===============
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Contents
+
+    simulation
+    find-simulation-weights
+
+Simulation Utility Documentation
+--------------------------------
+
+.. automodule:: pyAdasi.sim_utils
+    :members:
+    
+Stationary Distribution Calculation
+-----------------------------------
+.. admonition:: Attention
+    :class: attention
+    
+    I am only going to display the maths for the selected gender system which is X-dominant O-recessive.
+    
+
+First, we define some variables
+
+.. math:: 
+    :label: variable definitions
+    
+    \begin{align*}
+        a_n &= \text{probability of genome OO at the nth term of the sequence} \\
+        b_n &= \text{probability of genome YO at the nth term of the sequence} \\
+        c_n &= \text{probability of genome YY at the nth term of the sequence} \\
+        d_n &= \text{probability of genome XO at the nth term of the sequence} \\
+        e_n &= \text{probability of genome XY at the nth term of the sequence} \\
+        f_n &= \text{probability of genome XX at the nth term of the sequence} \\
+        s^1_n &= a_n + b_n + c_n \\
+        s^2_n &= a_n + d_n + e_n + f_n
+    \end{align*}
+    
+Then, we can define a formula for the next probability in the sequence:
+
+.. math::
+    :label: primary simulation equations
+    
+    \begin{align*}
+        a_{n + 1} ={}& a_n^2 + \frac{1}{2} a_nd_n \left( 1 + \frac{1}{s^1_n} \right) + \frac{1}{2}a_nb_n \left( 1 + \frac{1}{s^2_n} \right)+ \frac{1}{4} b_nd_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) \\
+        b_{n + 1} ={}& \frac{1}{2}a_nb_n \left( 1 + \frac{1}{s^2_n} \right) + a_nc_n \left( 1 + \frac{1}{s^2_n} \right) + \frac{1}{2} a_ne_n \left( 1 + \frac{1}{s^1_n} \right) + \frac{1}{4} e_nb_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) + \frac{1}{4} d_nb_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) + \frac{1}{2}c_nd_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) \\
+        ={}& a_n \left( \frac{1}{2}b_n + c_n \right) \left( 1 + \frac{1}{s^2_n} \right) + \frac{1}{2} a_ne_n \left( 1 + \frac{1}{s^1_n} \right) + \left( \frac{1}{4}e_nb_n + \frac{1}{4} d_nb_n + \frac{1}{2}c_nd_n \right) \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) \\
+        c_{n + 1} ={}& \frac{1}{4} b_ne_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) + \frac{1}{2} c_ne_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) \\
+        ={}& e_n \left( \frac{1}{4} b_n + \frac{1}{2} c_n \right) \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) \\
+        d_{n + 1} ={}& \frac{1}{2}e_na_n \left( 1 + \frac{1}{s^1_n} \right) + \frac{1}{4} e_nb_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) + \frac{1}{2} d_na_n \left( 1 + \frac{1}{s^1_n} \right) + \frac{1}{4} d_nb_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) + f_na_n \left( 1 + \frac{1}{s^1_n} \right) + \frac{1}{2} f_nb_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) \\
+        ={}& a_n \left( \frac{1}{2} e_n + \frac{1}{2}d_n + f_n \right) \left( 1 + \frac{1}{s^1_n} \right) + b_n \left( \frac{1}{4} e_n + \frac{1}{4} d_n + \frac{1}{2} f_n \right) \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) \\
+        e_{n + 1} ={}& \frac{1}{4} e_nb_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) + \frac{1}{2} e_nc_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) + \frac{1}{2} d_nc_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) + \frac{1}{4} d_nb_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) + \frac{1}{2} f_nb_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) + f_nc_n \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) \\
+        ={}& \left( \frac{1}{4} e_nb_n + \frac{1}{2} e_nc_n + \frac{1}{2} d_nc_n + \frac{1}{4} d_nb_n + \frac{1}{2} f_nb_n + f_nc_n \right) \left( \frac{1}{s^1_n} + \frac{1}{s^2_n} \right) \\
+        f_{n + 1} ={}& 0
+    \end{align*}
+
+To verify, one can simply add all the terms together, and if the result is 1, then the calculation is successful. 
+
+This sequence is constructed on the very naive simulation based on probabilities of finding a gender/genome and mating. It is a plain stochastic sequence. We can add some complexity to simulate real world by considering how the population perceives itself and how it tries to correct its mating practices to keep a balance between the genders. 
+
+First we define the inverse distribution function
+
+.. math::
+    :label: inverse distribution function
+    
+    \begin{equation*}
+        i(\mathbf{x}) = \frac{\mathbf{1} - \mathbf{x}}{\sum \left( \mathbf{1} - \mathbf{x} \right)}
+    \end{equation*}
+    
+which represents the goal of going in the "opposite" direction of population growth, i.e. if there are more `ajɛsɖɶ`, then in the next then the inverse distribution will indicate a lowering `ajɛsɖɶ` population. Let :math:`\lambda, \gamma \in [0, 1]`, :math:`\left\{\mathbf{x} \mid \mathbf{x} \in \mathbb{R}_{[0, 1]}^6\right\}_n` be the weighted simulation sequence, and let :math:`f: \mathbb{R}_{[0, 1]}^6 \to \mathbb{R}_{[0, 1]}^6` be the function which takes applies the primary simulation equation to grant the next distribution (i.e. for an unweighted sequence :math:`\left\{\mathbf{y}\right\}_n`, :math:`\mathbf{y}_{n + 1} = f(\mathbf{y}_n)`).
+
+.. math::
+    :label: final simulation equation
+    
+    \begin{equation*}
+        \mathbf{x}_{n + 1} = \lambda f(\mathbf{x_{n + 1}}) + (1 - \lambda) \gamma \mathbf{x}_n + (1 - \lambda) (1 - \gamma) i(\mathbf{x}_n)
+    \end{equation*}
+    

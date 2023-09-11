@@ -1,0 +1,400 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <link rel="icon" href="../../_static/logo/favicon-white.svg" type="image/svg+xml"><link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 5.3.0 and Furo 2022.12.07 -->
+        <title>Polis - Adasi 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/decor.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/icons/idea.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/icons/question.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --color-brand-primary: black;
+  --color-brand-content: darkgoldenrod;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Adasi 1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="../../_static/logo/hires-logo-black.svg" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="../../_static/logo/hires-logo-white.svg" alt="Dark Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../History/history.html">History</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../History/before-founding.html">Before Founding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../History/first-arrival.html">First Arrival</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Demographics/demographics.html">Demographics</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/aidi.html"><span class="zean">aiɖi</span></a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/aidi/major-aidi.html">Major <span class="zean">aiɖi</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/aidi/minor-aidi.html">Minor <span class="zean">aiɖi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/avyasi.html"><span class="zean">aʋjasi</span></a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/avyasi/isitetho.html"><span class="zean">isiʈeθɶ</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/avyasi/zoedashi.html"><span class="zean">zœeɖaʃi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Demographics/zea-races.html"><span class="zean">zea</span> Races</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Demographics/zea-races/teathuda.html"><span class="zean">zea ʈeaθyɖa</span></a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/teathuda-simulation.html">Simulation Code</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/simulation.html">Main Simulation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../Demographics/zea-races/teathuda-simulation/find-simulation-weights.html">Experiment Simulation Weights</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Culture/culture.html">Culture</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Magic/magic.html">Magic</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Culture/Magic/creation.html">Creation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Culture/Magic/ethereal-plane.html">The Ethereal Plane</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Holds/holds.html">Holds</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Culture/Pre-Arrival-Societies/pa-societies.html">Pre-Arrival Societies</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Documents/documents.html">Documents</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Documents/Stories/stories.html">Stories</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Documents/Stories/Excerpts_from_Ancient_History.html">Excerpts from Ancient History</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Documents/Stories/Excerpts_from_Before_Great_Split.html">Excerpts from Before Great Split</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../ideas.html">Ideas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notes.html">Miscellaneous Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../zean-glossary.html">Zean Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../zean-reference.html">Reference for the Zean Language</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="polis">
+<h1>Polis<a class="headerlink" href="#polis" title="Permalink to this heading">#</a></h1>
+<p>These are some notes on <a class="reference external" href="https://acoup.blog/2023/03/10/collections-how-to-polis-101-part-i-component-parts/">this article</a> and the following articles. For this series, I have opted of taking note of details which may not be required for world-building. This is not the case for all other pages.</p>
+<section id="part-1">
+<h2>Part 1<a class="headerlink" href="#part-1" title="Permalink to this heading">#</a></h2>
+<ul>
+<li><p>In a rough sense, the <em>polis</em> represents a town, the surrounding region controlled by that town, as well it’s political population (adult citizen (sometimes land-owning) males).</p>
+<ul class="simple">
+<li><p>There were a lot of small <em>polis</em> and unusually large <em>polis</em>. Similar to modern cities, most people lived in big <em>polis</em> even though most <em>polis</em> were small.</p></li>
+</ul>
+</li>
+<li><p><em>Polis</em> were composed of <em>oikoi</em> (singular <em>oikos</em>) or households. For the Greeks, the household wasn’t just the house and the family contained inside, but also includes the servants and properties. Creation of a <em>polis</em> meant combining <em>oikoi</em> quite literally as well as symbolically.</p>
+<p>It is also in a sense the merging of families, as one of the key privileges of citizenship in a polis was the right to marry women of citizen status (that is, the daughters of citizens) and thus have citizen children.</p>
+</li>
+</ul>
+<div class="note admonition">
+<p class="admonition-title">Writer’s Note</p>
+<p>For <span class="zean">aɖasi</span>, the idea is to have heads of household be set as the citizens of a “<em>polis</em>”, and their mates to be citizen class.</p>
+</div>
+<ul class="simple">
+<li><p>A <em>polis</em> is composed of the <em>astu</em>, the town itself, and the <em>chora</em> or the countryside controlled by the town. In large <em>polis</em>, the <em>chora</em> will also contain smaller villages. Territory could be broken up into neighborhood units called <em>demes</em> or <em>komai</em> (plural of <em>kome</em>). These would be used for voting or organizational purposes, and they could also organize local governing functions or festivals. They never had their own councils or mint.</p></li>
+<li><p>Most <em>poleis</em> were walled, which would delineate the <em>astu</em> and <em>chora</em>. There was a second fortified zone called the <em>acropolis</em>, an elevated citadel within the city. The acropolis often had its own walls, or (as implied by the name) was on some forbidding height within the city or frequently both.</p></li>
+<li><p>Every <em>polis</em> had an <em>agora</em>, a open central square which seems to have served first as a meeting or assembly place, but also quickly became a central market. For most smaller <em>poleis</em>, the <em>agora</em> was the meeting place for the <em>ekklesia</em>, or assembly. For larger <em>poleis</em>, a special assembly point would also exist called the <em>ekklesiasterion</em>.</p>
+<ul>
+<li><p>The <em>agora</em> would also contain two more buildings: a council house called <em>bouleuterion</em> where the <em>boule</em> would meet, and the <em>prytaneion</em>, a building for leading magistrates which always had a dining room to entertain guests and citizens.</p></li>
+<li><p>The <em>agora</em> would never be on the <em>acropolis</em> but just outside it.</p></li>
+</ul>
+</li>
+<li><p>In its fundamental meaning a <em>polites</em> is a person engaged in the running of the polis. The <em>politai</em> were adult, citizen men; women, children, the enslaved and free non-citizens were all excluded from this group. A bit of demographic math might suggest that a modest <em>polis</em> with 2000 inhabitants might thus have just 300-400 <em>politai</em>.</p>
+<ul>
+<li><p>Women would have citizen status, but not actual citizens; this allows them to be able to bear citizen children with a citizen.</p></li>
+<li><p>Oligarchic <em>poleis</em> also imposed a wealth qualification.</p></li>
+</ul>
+</li>
+<li><p>Those who live in a <em>polis</em> but are not necessarily citizens are called <em>astos</em> and <em>aste</em>, “townsman” and “townswoman”, respectively.</p></li>
+<li><p>Subdivisions also existed within the <em>politai</em> (distinct from <em>demes</em>). In some <em>poleis</em>, citizens were divided into mess groups (<em>syssitia</em> or <em>andreia</em>). The most common and important division was into <em>phylai</em> or tribes, inherited kinship groups that formed the largest subdivision of the <em>politai</em>.</p></li>
+<li><p>Another distinction (in my opinion is more vague) is between the few (<em>hoi oligoi</em>) and the many (<em>hoi polloi</em>). The few were the economic elite (wealthy landowners) and dominant group in oligarchies. The many were citizens but still poor.</p></li>
+</ul>
+</section>
+<section id="part-2">
+<h2>Part 2<a class="headerlink" href="#part-2" title="Permalink to this heading">#</a></h2>
+<ul>
+<li><p>Almost every <em>polis</em> is made up of</p>
+<ol class="arabic simple">
+<li><p>an assembly (<em>ekklesia</em>) of <strong>all</strong> the <em>politai</em>.</p></li>
+<li><p>a smaller council (<em>boule</em> or <em>gerousia</em>) of selected <em>politai</em>.</p></li>
+<li><p>a set of executive magistrates (<em>archontes</em> or archons) who carry out day-to-day functions of the state</p></li>
+<li><p>law courts (<em>dikasteria</em>) in which serious disputes are settled typically by juries composed of the <em>politai</em>.</p></li>
+</ol>
+</li>
+<li><p>Meetings of <em>ekklesia</em> occured at a regular schedule (once a month). An <em>ekklesia</em> also generally didn’t set its own agenda, but rather voted (and perhaps debated) issues put before it either by the <em>boule</em> or the magistrates. Nevertheless the <em>ekklesia</em> usually had at least the notional final say over new laws (including honorary decrees and extraordinary grants of citizenship) and the issues of war or peace; they also very frequently elected magistrates. In this sense, even in oligarchies or tyrannies, notionally it was the <em>ekklesia</em> which was the sovereign, supreme authority from which the powers of all other bodies derived, though of course in practice an <em>ekklesia</em> might be much weaker than this. Finally, in some cases the <em>ekklesia</em> could function as a whole as a sort of high court; in Athens the <em>ekklesia</em> could try cases of certain high crimes under a procedure known as <em>eisangelia</em>.</p></li>
+<li><p>There are two major types of small council, and a <em>polis</em> may or may not have both types, but they almost always have one. The first is <em>boule</em> composed of around 500 citizens drawn from an assembly. Alternatively, a <em>gerousia</em> would be smaller (30-100) and members would be elected or achieve membership by virtue of having held a magistracy; this might be further compounded by restricting magistracies to specific families which would then in turn restrict the gerousia to specific families.</p></li>
+<li><p>The main job of both of these sorts of councils was to act as a sort of steering committee for the assembly: councils often met more frequently and had the job of setting the assembly’s agenda, including drafting legislation for it to vote on; a major difference between constitutions is if the <em>ekklesia</em> can modify that agenda or draft legislation or if it must merely vote yes or no.</p></li>
+<li><p>The decisions of these bodies (the assembly and council or councils) are then carried out in practice a bunch of executive officers scholars will collectively call magistrates; the most important of these fellows in a Greek polis were often called archons.</p>
+<ul class="simple">
+<li><p>The Greeks tended to understand (Aristotle says this explicitly) that these archons took over the powers originally held by kings, breaking them up into smaller units; the presence of archons whose job was to fill-in for the non-existent king in religious functions (the <em>archon basileus</em> or ‘king archon’ in Athens) supports that notion.</p></li>
+<li><p>The most important magistrates tend to be charged with organizing and leading the military, performing key religious duties associated with the state and managing the court system. The role of ancient judicial magistrates is typically much more restricted; at some early point they held the power to hear disputes and make judgements but by the time we can observe these systems, the power to make judgements (at least in the most serious cases) has passed to juries, the <em>ekklesia</em> or one or another form of council. Judicial officials were thus more organizers than judges; they heard complaints and then directed the case to the relevant body (a public court with a jury (or the council or the assembly) for serious crimes, but there was also typically a system of arbitration to resolve less serious disputes more quickly).</p></li>
+</ul>
+</li>
+<li><p>The Greeks understood all poleis governments as conforming essentially to one of three basic types. By and large the difference between these isn’t adding or removing major elements of the government, but changing who is eligible for them and how they relate to each other.</p>
+<ol class="arabic">
+<li><p>Democracy - everyone (all citizens) is allowed to participate including hold the more powerful positions</p></li>
+<li><p>Oligarchy - there were multiple ways of restricting political participation:</p>
+<ul class="simple">
+<li><p>limited by wealth; a mild form of this restriction is those who can afford the armor and equipment to be a hoplite. Most forms of oligarchy were narrower than this.</p></li>
+<li><p>An oligarchy might be structured so that specific parts of the government were restricted. The most closed sorts of oligarchies might, for instance, restrict specific offices to a handful of eligible families.</p></li>
+<li><p>Alternately, magistrates and members of the council might be selected by co-optation, that is, by the existing office holders or somehow by other members of the oligarchy. The more subtle way of doing this might be to employ systems of elections which were prone to influence of subterfuge. Spartan elections in its <em>ekklesia</em> for the <em>ephors</em> and members of the <em>gerousia</em>, for instance, were done by acclamation; the spartiates would shout for the candidates they wanted and victory was judged by who got the loudest shouts when it was their turn.</p></li>
+</ul>
+</li>
+<li><p>Tyranny - a tyrant ruled extra-constitutionally (i.e. unlike monarchy where the king is allowed by the constitution to rule, a tyrant does it outside of the constitution).</p>
+<p>Tyrants do not abolist key civic institutions like the <em>ekklesia</em> or law courts; the tyrant controls these things by co-opting the remaining elite families, using violence and the threat of violence against those who would resist and installing cronies in positions of power. Tyrannies did not last outside of one person; they usually went back to an oligarchy or democracy.</p>
+</li>
+</ol>
+</li>
+<li></li>
+</ul>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2020-2023, Praecordi
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Polis</a><ul>
+<li><a class="reference internal" href="#part-1">Part 1</a></li>
+<li><a class="reference internal" href="#part-2">Part 2</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/scripts/furo.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    </body>
+</html>

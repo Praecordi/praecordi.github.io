@@ -1,0 +1,188 @@
+`aiɖi`
+======
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Contents
+
+    aidi/major-aidi
+    aidi/minor-aidi
+
+Maker's Notes
+-------------
+
+.. dropdown:: On the Personalities of `aiɖi` [#f1]_
+    :icon: clock
+
+    .. dropdown:: Major `aiɖi`
+        :icon: archive
+
+        .. grid:: 2
+            :gutter: 3
+            
+            .. grid-item-card:: `etiaʃi`
+                :class-card: sd-border-2 sd-rounded-2
+                
+                :bdg-success-line:`Physical Beauty`
+                :bdg-info-line:`Transfiguration`
+            
+                :Positive: :bdg-primary-line:`Aesthetic` :bdg-secondary-line:`Charismatic` :bdg-secondary-line:`Dignified` :bdg-secondary-line:`Attractive` :bdg-secondary-line:`Idealistic` :bdg-secondary-line:`Sexy`
+                :Neutral: :bdg-primary-line:`Hypnotic`
+                :Negative: :bdg-primary-line:`Domineering` :bdg-secondary-line:`Provocative` :bdg-secondary-line:`Hedonistic` :bdg-secondary-line:`Libidinous` :bdg-secondary-line:`Unrealistic` :bdg-secondary-line:`Possessive`
+                
+            .. grid-item-card:: `aʃieti`
+                :class-card: sd-border-2 sd-rounded-2
+                
+                :bdg-success-line:`Physical Beauty`
+                :bdg-info-line:`Transfiguration` :bdg-info-line:`Alteration`
+                
+                :Positive: :bdg-primary-line:`Allocentric` :bdg-secondary-line:`Caring` :bdg-secondary-line:`Empathetic` :bdg-secondary-line:`Firm` :bdg-secondary-line:`Idealistic` :bdg-secondary-line:`Passionate`
+                :Neutral: :bdg-primary-line:`Guileless`
+                :Negative: :bdg-primary-line:`Naive` :bdg-secondary-line:`Conventional` :bdg-secondary-line:`Demanding` :bdg-secondary-line:`Rigid` :bdg-secondary-line:`Unrealistic` :bdg-secondary-line:`Regimental`
+                
+            .. grid-item-card:: `iʈʂedy`
+                :class-card: sd-border-2 sd-rounded-2
+            
+                :bdg-success-line:`Time`
+                :bdg-info-line:`Divination`
+            
+                :Positive: :bdg-primary-line:`Balanced` :bdg-secondary-line:`Firm` :bdg-secondary-line:`Dutiful` :bdg-secondary-line:`Farsighted` :bdg-secondary-line:`Observant` :bdg-secondary-line:`Principled`
+                :Neutral: :bdg-primary-line:`Dreamy`
+                :Negative: :bdg-primary-line:`Moody` :bdg-secondary-line:`Imprudent` :bdg-secondary-line:`Confused` :bdg-secondary-line:`Uncaring` :bdg-secondary-line:`Neglectful` :bdg-secondary-line:`Fixed`
+                
+            .. grid-item-card:: `iɖʐe`
+                :class-card: sd-border-2 sd-rounded-2
+            
+                :bdg-success-line:`Sun`
+                :bdg-info-line:`Combat`
+                
+                :Positive: :bdg-primary-line:`Restrained` :bdg-secondary-line:`Disciplined` :bdg-secondary-line:`Dynamic` :bdg-secondary-line:`Exciting` :bdg-secondary-line:`Imaginative` :bdg-secondary-line:`Orderly`
+                :Neutral: :bdg-primary-line:`Irreverent`
+                :Negative: :bdg-primary-line:`Ritualistic` :bdg-secondary-line:`Imprudent` :bdg-secondary-line:`Gullible` :bdg-secondary-line:`Impulsive` :bdg-secondary-line:`Hedonistic` :bdg-secondary-line:`Unpolished`
+                
+            .. grid-item-card:: `ʂiɹiø` :bdg-warning:`Foreign`
+                :class-card: sd-border-2 sd-rounded-2
+            
+                :bdg-success-line:`Nature`
+                :bdg-info-line:`Elemental` :bdg-info-line:`Divination`
+                
+                :Positive: :bdg-primary-line:`Providential` :bdg-secondary-line:`Purposeful` :bdg-secondary-line:`Patient` :bdg-secondary-line:`Multi-leveled` :bdg-secondary-line:`Incorruptible` :bdg-secondary-line:`Warm`
+                :Neutral: :bdg-primary-line:`Earthy`
+                :Negative: :bdg-primary-line:`Extreme`
+                 :bdg-secondary-line:`Forgetful` :bdg-secondary-line:`Hidebound` :bdg-secondary-line:`Unstable` :bdg-secondary-line:`Sedentary` :bdg-secondary-line:`Indecisive`
+                
+            .. grid-item-card:: `eʋʈi` :bdg-warning:`Foreign`
+                :class-card: sd-border-2 sd-rounded-2
+            
+                :bdg-success-line:`Night`
+                :bdg-info-line:`Conjuration` 
+                
+                :Positive: :bdg-primary-line:`Reliable`
+                 :bdg-secondary-line:`Elegant` :bdg-secondary-line:`Deep` :bdg-secondary-line:`Seraphic` :bdg-secondary-line:`Sexy` :bdg-secondary-line:`Winning`
+                :Neutral: :bdg-primary-line:`Hypnotic`
+                :Negative: :bdg-primary-line:`Cold`
+                 :bdg-secondary-line:`Scheming` :bdg-secondary-line:`Domineering` :bdg-secondary-line:`Flamboyant` :bdg-secondary-line:`Gloomy` :bdg-secondary-line:`Predatory`
+                
+            .. grid-item-card:: `ɹyθiɛ` :bdg-warning:`Foreign`
+                :class-card: sd-border-2 sd-rounded-2
+                
+                :bdg-success-line:`Destruction`
+                :bdg-info-line:`Combat` 
+                
+                :Positive: :bdg-primary-line:`Methodical` :bdg-secondary-line:`Invulnerable` :bdg-secondary-line:`Energetic` :bdg-secondary-line:`Clear-headed` :bdg-secondary-line:`Alert` :bdg-secondary-line:`Accessible`
+                :Neutral: :bdg-primary-line:`Tough`
+                :Negative: :bdg-primary-line:`Destructive` :bdg-secondary-line:`Dishonest` :bdg-secondary-line:`Deceitful` :bdg-secondary-line:`Cold` :bdg-secondary-line:`Brutal` :bdg-secondary-line:`Agonizing`
+                
+            .. grid-item-card:: `zɛɹa` :bdg-warning:`Foreign`
+                :class-card: sd-border-2 sd-rounded-2
+            
+                :bdg-success-line:`Moons`
+                :bdg-info-line:`Animation` :bdg-info-line:`Necromancy` 
+
+                :Positive: :bdg-primary-line:`Seraphic` :bdg-secondary-line:`Responsible` :bdg-secondary-line:`Protective` :bdg-secondary-line:`Profound` :bdg-secondary-line:`Impressive` :bdg-secondary-line:`Cooperative`
+                :Neutral: :bdg-primary-line:`Unchanging`
+                :Negative: :bdg-primary-line:`Puritanical` :bdg-secondary-line:`Narrow` :bdg-secondary-line:`Aloof` :bdg-secondary-line:`Vague` :bdg-secondary-line:`Timid` :bdg-secondary-line:`Gloomy`
+                
+            .. grid-item-card:: `seʃɹø`
+                :class-card: sd-border-2 sd-rounded-2
+            
+                :bdg-success-line:`Creation`
+                :bdg-info-line:`Conjuration` :bdg-info-line:`Animation` 
+
+                :Positive: :bdg-primary-line:`Creative` :bdg-secondary-line:`Balanced` :bdg-secondary-line:`Allocentric` :bdg-secondary-line:`Caring` :bdg-secondary-line:`Modest` :bdg-secondary-line:`Seraphic`
+                :Neutral: :bdg-primary-line:`Pure`
+                :Negative: :bdg-primary-line:`Delicate` :bdg-secondary-line:`Fearful` :bdg-secondary-line:`Distractible` :bdg-secondary-line:`Gullible` :bdg-secondary-line:`Transparent` :bdg-secondary-line:`Weak`
+                
+            .. grid-item-card:: `θaœ` (The Hidden One)
+                :class-card: sd-border-2 sd-rounded-2
+            
+                :bdg-success-line:`Change`
+                :bdg-info-line:`Alteration` 
+                
+                :Positive: :bdg-primary-line:`Curious` :bdg-secondary-line:`Clever` :bdg-secondary-line:`Clear-headed` :bdg-secondary-line:`Innovative` :bdg-secondary-line:`Decisive` :bdg-secondary-line:`Focused`
+                :Neutral: :bdg-primary-line:`Reserved`
+                :Negative: :bdg-primary-line:`Timid` :bdg-secondary-line:`Libidinous` :bdg-secondary-line:`Impatient` :bdg-secondary-line:`Insecure` :bdg-secondary-line:`Moody` :bdg-secondary-line:`Passive`
+                
+            .. grid-item-card:: `ʃɶða`
+                :class-card: sd-border-2 sd-rounded-2
+            
+                :bdg-success-line:`Pleasure, Eroticism, Sex`
+                :bdg-info-line:`Restoration` 
+
+                :Positive: :bdg-primary-line:`Sexy` :bdg-secondary-line:`Seraphic` :bdg-secondary-line:`Sensitive` :bdg-secondary-line:`Youthful` :bdg-secondary-line:`Well-bred` :bdg-secondary-line:`Vivacious`
+                :Neutral: :bdg-primary-line:`Sensual`
+                :Negative: :bdg-primary-line:`Hedonistic` :bdg-secondary-line:`Libidinous` :bdg-secondary-line:`Distractible` :bdg-secondary-line:`Compulsive` :bdg-secondary-line:`Decadent` :bdg-secondary-line:`Delicate`
+                
+            .. grid-item-card:: `dœʋa`
+                :class-card: sd-border-2 sd-rounded-2
+            
+                :bdg-success-line:`Air` :bdg-success-line:`Future`
+                :bdg-info-line:`Air` :bdg-info-line:`Divination` 
+
+                :Positive: :bdg-primary-line:`Anticipative` :bdg-secondary-line:`Brilliant` :bdg-secondary-line:`Calm` :bdg-secondary-line:`Gracious` :bdg-secondary-line:`Subtle` :bdg-secondary-line:`Dynamic`
+                :Neutral: :bdg-primary-line:`Breezy`
+                :Negative: :bdg-primary-line:`Uncooperative` :bdg-secondary-line:`Disorganized` :bdg-secondary-line:`Impulsive` :bdg-secondary-line:`Manner-less` :bdg-secondary-line:`Wishful` :bdg-secondary-line:`Unstable`
+                
+            .. grid-item-card:: `ʋaðœ`
+                :class-card: sd-border-2 sd-rounded-2
+            
+                :bdg-success-line:`Earth` :bdg-success-line:`Past`
+                :bdg-info-line:`Earth` :bdg-info-line:`Divination` 
+                
+                :Positive: :bdg-primary-line:`Solid` :bdg-secondary-line:`Stoic` :bdg-secondary-line:`Firm` :bdg-secondary-line:`Upright` :bdg-secondary-line:`Wise` :bdg-secondary-line:`Knowledgeable`
+                :Neutral: :bdg-primary-line:`Old-fashioned`
+                :Negative: :bdg-primary-line:`Steely` :bdg-secondary-line:`Barbaric` :bdg-secondary-line:`Callous` :bdg-secondary-line:`Narrow-minded` :bdg-secondary-line:`Possessive` :bdg-secondary-line:`Unpolished`
+                
+            .. grid-item-card:: `saɹeθɶ`
+                :class-card: sd-border-2 sd-rounded-2
+            
+                :bdg-success-line:`Fire` :bdg-success-line:`Recreation of the Dead`
+                :bdg-info-line:`Fire` :bdg-info-line:`Necromancy` 
+
+                :Positive: :bdg-primary-line:`Suave` :bdg-secondary-line:`Charismatic` :bdg-secondary-line:`Athletic` :bdg-secondary-line:`Confident` :bdg-secondary-line:`Dignified` :bdg-secondary-line:`Elegant`
+                :Neutral: :bdg-primary-line:`Proud`
+                :Negative: :bdg-primary-line:`Destructive` :bdg-secondary-line:`Apathetic` :bdg-secondary-line:`Brutal` :bdg-secondary-line:`Calculating` :bdg-secondary-line:`Domineering` :bdg-secondary-line:`Extravagant`
+                
+            .. grid-item-card:: `yʈʂi`
+                :class-card: sd-border-2 sd-rounded-2
+            
+                :bdg-success-line:`Water` :bdg-success-line:`Recreation of the Living`
+                :bdg-info-line:`Water` :bdg-info-line:`Restoration` 
+
+                :Positive: :bdg-primary-line:`Meticulous` :bdg-secondary-line:`Attractive` :bdg-secondary-line:`Captivating` :bdg-secondary-line:`Flexible` :bdg-secondary-line:`Magnanimous` :bdg-secondary-line:`Gracious`
+                :Neutral: :bdg-primary-line:`Cute`
+                :Negative: :bdg-primary-line:`Destructive` :bdg-secondary-line:`Fickle` :bdg-secondary-line:`Callous` :bdg-secondary-line:`Cold` :bdg-secondary-line:`Flamboyant` :bdg-secondary-line:`Unreliable`
+                
+    .. dropdown:: Minor `aiɖi`
+        :icon: clock
+        
+        TBC
+
+
+---------------------
+
+.. rubric:: Footnotes
+
+.. [#f1] So here's how I'm going to determine the personality of `aiɖi`. This `website <http://ideonomy.mit.edu/essays/traits.html>`__ lists 638 traits divided into three loose categories: positive, neutral and negative. Thus as a loose characterization of each `aiɖi`, pick one trait from each category. Note that these traits are not the only traits of these `aiɖi`, but they are the defining trait of each `aiɖi`. Furthermore, the positive and negative categories will be allotted five extra slots as secondary traits. 
+
+    For the minor `aiɖi`, we will only define primary positive, neutral and negative personality trait, and 1 extra positive and negative personality trait that will come from a major `aiɖi` ancestor

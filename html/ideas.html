@@ -1,0 +1,982 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <link rel="icon" href="_static/logo/favicon-white.svg" type="image/svg+xml"><link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Miscellaneous Notes" href="notes.html" /><link rel="prev" title="Excerpts from Before Great Split" href="Documents/Stories/Excerpts_from_Before_Great_Split.html" />
+
+    <!-- Generated with Sphinx 5.3.0 and Furo 2022.12.07 -->
+        <title>Ideas - Adasi 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+    <link rel="stylesheet" type="text/css" href="_static/css/decor.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/icons/idea.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/icons/question.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --color-brand-primary: black;
+  --color-brand-content: darkgoldenrod;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #ffffffcc;
+  --color-brand-content: palegoldenrod;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">Adasi 1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="_static/logo/hires-logo-black.svg" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="_static/logo/hires-logo-white.svg" alt="Dark Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="History/history.html">History</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="History/before-founding.html">Before Founding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="History/first-arrival.html">First Arrival</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Demographics/demographics.html">Demographics</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Demographics/aidi.html"><span class="zean">aiɖi</span></a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/aidi/major-aidi.html">Major <span class="zean">aiɖi</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/aidi/minor-aidi.html">Minor <span class="zean">aiɖi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Demographics/avyasi.html"><span class="zean">aʋjasi</span></a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/avyasi/isitetho.html"><span class="zean">isiʈeθɶ</span></a></li>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/avyasi/zoedashi.html"><span class="zean">zœeɖaʃi</span></a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Demographics/zea-races.html"><span class="zean">zea</span> Races</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Demographics/zea-races/teathuda.html"><span class="zean">zea ʈeaθyɖa</span></a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="Demographics/zea-races/teathuda-simulation/teathuda-simulation.html">Simulation Code</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="Demographics/zea-races/teathuda-simulation/simulation.html">Main Simulation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Demographics/zea-races/teathuda-simulation/find-simulation-weights.html">Experiment Simulation Weights</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Culture/culture.html">Culture</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Culture/Magic/magic.html">Magic</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Culture/Magic/creation.html">Creation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Culture/Magic/ethereal-plane.html">The Ethereal Plane</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Culture/Holds/holds.html">Holds</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Culture/Pre-Arrival-Societies/pa-societies.html">Pre-Arrival Societies</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Documents/documents.html">Documents</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Documents/Stories/stories.html">Stories</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Documents/Stories/Excerpts_from_Ancient_History.html">Excerpts from Ancient History</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Documents/Stories/Excerpts_from_Before_Great_Split.html">Excerpts from Before Great Split</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Ideas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notes.html">Miscellaneous Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="zean-glossary.html">Zean Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="zean-reference.html">Reference for the Zean Language</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="ideas">
+<h1>Ideas<a class="headerlink" href="#ideas" title="Permalink to this heading">#</a></h1>
+<section id="brainstorming-with-chatgpt">
+<h2>Brainstorming with ChatGPT<a class="headerlink" href="#brainstorming-with-chatgpt" title="Permalink to this heading">#</a></h2>
+<p>These were my conversation with ChatGPT on various topics. Obviously, I won’t be using these ideas word-for-word, but rather I’ll use it as a launching ground for a better, more believable world. My motivation for this was my dissatisfaction of a clear usage of the magic system in my world as well as my dissatisfaction of the composition of races. I believe after these two conversations I have a better idea of nuances that I could include in my world.</p>
+<section id="clothing-based-magic-system">
+<h3>Clothing-based Magic System<a class="headerlink" href="#clothing-based-magic-system" title="Permalink to this heading">#</a></h3>
+<p>Can you make an original magic system for fantasy fiction that follows Brandon Sanderson’s three rules of magic. Base this magic system around channeling magic through specific clothing</p>
+<blockquote>
+<div><p>Certainly! Here’s a magic system that follows Brandon Sanderson’s three rules of magic, based on channeling magic through specific clothing:</p>
+<p><strong>Rule #1: The magic has to have clear limitations.</strong></p>
+<p>The magic in this system involves channeling power through specific clothing items. However, each clothing item can only be used to cast a specific type of spell, and each spell has its own limitations. For example, a wizard might wear a cloak that allows them to create illusions, but the illusions can only last for a few seconds and cannot create anything larger than the size of the cloak itself. Another wizard might wear a hat that allows them to teleport, but they can only teleport a short distance and must wait a certain amount of time before teleporting again.</p>
+<p><strong>Rule #2: The magic cannot solve everything.</strong></p>
+<p>While this magic system is powerful, it cannot solve all problems. Each clothing item can only be used for one specific type of spell, and there are limits to what each spell can do. For example, a wizard wearing a pair of boots that allow them to walk on water can still drown if they are knocked unconscious while in the water. In addition, each clothing item has a limited amount of magic that it can hold, so once that magic is used up, the item is no longer useful until it is recharged.</p>
+<p><strong>Rule #3: The magic must have costs.</strong></p>
+<p>Using this magic system has costs. Each clothing item requires a certain amount of magical energy to use, and that energy must come from somewhere. A wizard might be able to draw on their own magical energy to power their spells, but doing so can be exhausting and can even cause injury or death if they overexert themselves. Alternatively, a wizard might be able to draw on the magical energy in the environment, but doing so can have unintended consequences, such as disrupting the natural balance of magic in the world.</p>
+<p>Overall, this magic system provides a rich source of conflict and tension for a fantasy story. Wizards must carefully choose which clothing items they wear and which spells they cast, as each choice has consequences. And while the magic is powerful, it is not all-encompassing, and there are still plenty of challenges that the characters must face without relying solely on their magic.</p>
+</div></blockquote>
+<p>I liked the last system, but I was thinking of using clothing to enhance or diminish the energy based on the location of the clothing on the body and/or the material of the clothing itself. For example, wearing a certain type a shirt made out of woven gold enhances elemental powers. Could you expand on the previous magic system by incorporating on these ideas?</p>
+<blockquote>
+<div><p>Sure, here’s an expanded version of the magic system that incorporates these new ideas:</p>
+<p><strong>Rule #1: The magic has to have clear limitations.</strong></p>
+<p>In this magic system, the power of magic is channeled through specific clothing items, but the type and quality of the clothing can affect the potency and nature of the magic. For example, wearing a shirt made of woven gold can enhance elemental powers, while wearing a shirt made of silk can increase mental focus and clarity. However, each piece of clothing has its own limitations in terms of the type and amount of magic it can channel.</p>
+<p><strong>Rule #2: The magic cannot solve everything.</strong></p>
+<p>While clothing can enhance and channel magic, it cannot solve every problem. The type of magic that can be accessed is limited by the clothing being worn, and even the most powerful garments have their limits. Additionally, the use of clothing to channel magic can be disrupted by environmental factors such as interference from other magic or the presence of anti-magic fields.</p>
+<p><strong>Rule #3: The magic must have costs.</strong></p>
+<p>Using clothing to channel magic has its costs as well. Some clothing items can be very expensive, limiting access to more powerful spells for those who cannot afford them. Wearing certain types of clothing for prolonged periods can also have negative effects on the body, such as causing fatigue or damage to the skin. Additionally, the use of powerful spells can drain the energy of the clothing item, making it less effective until it is recharged.</p>
+<p>Overall, this expanded magic system provides additional complexity and nuance to the use of clothing to channel magic. Characters must carefully choose their clothing items and balance the benefits of enhanced magic with the potential drawbacks and costs. This system could also lend itself well to a magic-based economy, where powerful clothing items become valuable commodities traded between wizards and other magical practitioners.</p>
+</div></blockquote>
+<p>This is great! But I misspoke when I asked for “Brandon Sanderson’s Rules of Magic”. It is Brandon Sanderson’s “Laws of Magic” according to his website. They are as follows:</p>
+<p>The First Law</p>
+<p>An author’s ability to solve conflict with magic is DIRECTLY PROPORTIONAL to how well the reader understands said magic.</p>
+<p>The Second Law</p>
+<p>The Second Law can be written very simply. It goes like this: Limitations &gt; Powers</p>
+<p>The Third Law</p>
+<p>The Third Law is as follows: Expand what you already have before you add something new</p>
+<p>Can you please expand on the last power system using these laws?</p>
+<blockquote>
+<div><p>Certainly! Here’s an expanded version of the magic system that incorporates Brandon Sanderson’s Laws of Magic:</p>
+<p><strong>The First Law: An author’s ability to solve conflict with magic is DIRECTLY PROPORTIONAL to how well the reader understands said magic.</strong></p>
+<p>In this magic system, the power of magic is channeled through specific clothing items, and the type and quality of the clothing can affect the potency and nature of the magic. For example, a wizard might wear a cloak that allows them to create illusions, but the illusions can only last for a few seconds and cannot create anything larger than the size of the cloak itself. Similarly, wearing a shirt made of woven gold enhances elemental powers, while wearing a shirt made of silk can increase mental focus and clarity.</p>
+<p>To ensure that the reader understands how the magic works, the limitations and capabilities of each clothing item must be clearly defined and established early on in the story. This can include the type of magic that can be channeled, the limitations of each piece of clothing, and the potential risks and drawbacks of using them.</p>
+<p><strong>The Second Law: Limitations &gt; Powers</strong></p>
+<p>While clothing can enhance and channel magic, it cannot solve every problem. The type of magic that can be accessed is limited by the clothing being worn, and even the most powerful garments have their limits. Additionally, the use of clothing to channel magic can be disrupted by environmental factors such as interference from other magic or the presence of anti-magic fields.</p>
+<p>To adhere to this law, it’s important to establish clear and consistent limitations to the magic system. This can include limitations on the types of spells that can be cast, the amount of magic that can be channeled through each piece of clothing, and the potential consequences and drawbacks of using magic.</p>
+<p><strong>The Third Law: Expand what you already have before you add something new</strong></p>
+<p>To adhere to this law, it’s important to focus on expanding and developing the existing magic system before adding new elements. This can include exploring the potential of different types of clothing to channel magic, introducing new limitations or drawbacks to existing spells, or delving into the history and lore of the magical clothing.</p>
+<p>Overall, this expanded magic system provides additional complexity and nuance to the use of clothing to channel magic. Characters must carefully choose their clothing items and balance the benefits of enhanced magic with the potential drawbacks and costs, and the reader must have a clear understanding of the magic system in order to fully appreciate its use in solving conflicts and advancing the plot.</p>
+</div></blockquote>
+<p>According to this magic system that we’ve created, can you brainstorm some possible types of magic that can be channeled, the different types of material that can be used in clothing, the limitations of those clothing and potential risks and drawbacks of using them. Please generate at least 5 types of such material.</p>
+<p>Furthermore, how would wearing each such material on a different part of the body change the properties of the magic you can channel?</p>
+<blockquote>
+<div><p>Sure, here are some possible types of magic that can be channeled through clothing, along with different types of materials that can be used in the clothing, limitations, and potential risks and drawbacks of using them:</p>
+<ol class="arabic simple">
+<li><p><strong>Elemental Magic</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Materials</dt>
+<dd class="field-odd"><p>Woven gold, silver, and copper</p>
+</dd>
+<dt class="field-even">Limitations</dt>
+<dd class="field-even"><p>The magic can only manipulate one of the four basic elements - fire, water, air, or earth - and cannot create or destroy matter.</p>
+</dd>
+<dt class="field-odd">Risks and Drawbacks</dt>
+<dd class="field-odd"><p>Wearing clothing made of precious metals can attract thieves and other unsavory characters. Wearing the woven gold on the arms and hands may increase the potency of fire spells, while wearing the woven silver on the head and neck may increase the potency of air spells.</p>
+</dd>
+</dl>
+</li>
+<li><p><strong>Illusion Magic</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Materials</dt>
+<dd class="field-odd"><p>Silk, velvet, and lace</p>
+</dd>
+<dt class="field-even">Limitations</dt>
+<dd class="field-even"><p>The magic can only create visual and auditory illusions and cannot affect the physical world.</p>
+</dd>
+<dt class="field-odd">Risks and Drawbacks</dt>
+<dd class="field-odd"><p>Using illusion magic can be mentally taxing, causing exhaustion and confusion. Wearing silk on the chest and stomach may increase the potency of mental illusions, while wearing lace on the arms and hands may increase the potency of physical illusions.</p>
+</dd>
+</dl>
+</li>
+<li><p><strong>Divination Magic</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Materials</dt>
+<dd class="field-odd"><p>Fur, feathers, and leather</p>
+</dd>
+<dt class="field-even">Limitations</dt>
+<dd class="field-even"><p>The magic can only reveal information that is already present and cannot predict the future or read minds.</p>
+</dd>
+<dt class="field-odd">Risks and Drawbacks</dt>
+<dd class="field-odd"><p>Using divination magic can be emotionally draining, causing anxiety and stress. Wearing fur on the head and neck may increase the potency of animal-based divination, while wearing leather on the feet and legs may increase the potency of location-based divination.</p>
+</dd>
+</dl>
+</li>
+<li><p><strong>Enchantment Magic</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Materials</dt>
+<dd class="field-odd"><p>Velvet, satin, and brocade</p>
+</dd>
+<dt class="field-even">Limitations</dt>
+<dd class="field-even"><p>The magic can only affect the emotions and desires of living beings and cannot control their actions or thoughts.</p>
+</dd>
+<dt class="field-odd">Risks and Drawbacks</dt>
+<dd class="field-odd"><p>Using enchantment magic can be morally questionable, causing guilt and remorse. Wearing velvet on the chest and stomach may increase the potency of romantic enchantments, while wearing brocade on the arms and hands may increase the potency of persuasive enchantments.</p>
+</dd>
+</dl>
+</li>
+<li><p><strong>Necromancy Magic</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Materials</dt>
+<dd class="field-odd"><p>Bone, leather, and wool</p>
+</dd>
+<dt class="field-even">Limitations</dt>
+<dd class="field-even"><p>The magic can only communicate with the dead and cannot bring them back to life or control their actions.</p>
+</dd>
+<dt class="field-odd">Risks and Drawbacks</dt>
+<dd class="field-odd"><p>Using necromancy magic can be physically and emotionally draining, causing exhaustion and depression. Wearing bone on the head and neck may increase the potency of spirit communication, while wearing wool on the feet and legs may increase the potency of animal-based necromancy.</p>
+</dd>
+</dl>
+</li>
+</ol>
+<p>Wearing the materials on different parts of the body can change the properties of the magic being channeled. For example, wearing silk on the chest and stomach may increase the potency of mental illusions, while wearing silk on the arms and hands may increase the potency of physical illusions. The specific properties of each clothing item must be clearly defined and established in the story to ensure that the reader understands how the magic works.</p>
+</div></blockquote>
+<p>Just like the last response, can you generate 5 more types of magic that can be channeled, the different types of material that can be used in clothing, the limitations of those clothing and potential risks and drawbacks of using them. And also include how wearing each such material on a different part of the body changes the properties of the magic you can channel.</p>
+<blockquote>
+<div><p>Of course, here are 5 more types of magic that can be channeled through clothing, along with different types of materials that can be used in the clothing, limitations, and potential risks and drawbacks of using them:</p>
+<ol class="arabic simple" start="6">
+<li><p><strong>Healing Magic</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Materials</dt>
+<dd class="field-odd"><p>Cotton, linen, and wool</p>
+</dd>
+<dt class="field-even">Limitations</dt>
+<dd class="field-even"><p>The magic can only heal physical injuries and cannot cure diseases or revive the dead.</p>
+</dd>
+<dt class="field-odd">Risks and Drawbacks</dt>
+<dd class="field-odd"><p>Using healing magic can be physically and emotionally taxing, causing exhaustion and sadness. Wearing cotton on the chest and stomach may increase the potency of internal healing, while wearing wool on the arms and hands may increase the potency of external healing.</p>
+</dd>
+</dl>
+</li>
+<li><p><strong>Necrosis Magic</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Materials</dt>
+<dd class="field-odd"><p>Leather, wool, and silk</p>
+</dd>
+<dt class="field-even">Limitations</dt>
+<dd class="field-even"><p>The magic can only cause decay and destruction and cannot create or repair anything.</p>
+</dd>
+<dt class="field-odd">Risks and Drawbacks</dt>
+<dd class="field-odd"><p>Using necrosis magic can be morally questionable, causing guilt and remorse. Wearing leather on the head and neck may increase the potency of bone necrosis, while wearing silk on the feet and legs may increase the potency of plant necrosis.</p>
+</dd>
+</dl>
+</li>
+<li><p><strong>Time Magic</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Materials</dt>
+<dd class="field-odd"><p>Silk, satin, and brocade</p>
+</dd>
+<dt class="field-even">Limitations</dt>
+<dd class="field-even"><p>The magic can only manipulate time within a small range, such as a few seconds or minutes, and cannot travel through time.</p>
+</dd>
+<dt class="field-odd">Risks and Drawbacks</dt>
+<dd class="field-odd"><p>Using time magic can be mentally exhausting, causing confusion and disorientation. Wearing silk on the head and neck may increase the potency of time manipulation in the present, while wearing satin on the arms and hands may increase the potency of time perception.</p>
+</dd>
+</dl>
+</li>
+<li><p><strong>Telekinesis Magic</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Materials</dt>
+<dd class="field-odd"><p>Leather, silk, and velvet</p>
+</dd>
+<dt class="field-even">Limitations</dt>
+<dd class="field-even"><p>The magic can only move small, lightweight objects and cannot affect living beings or heavy objects.</p>
+</dd>
+<dt class="field-odd">Risks and Drawbacks</dt>
+<dd class="field-odd"><p>Using telekinesis magic can be physically tiring, causing muscle fatigue and soreness. Wearing leather on the arms and hands may increase the potency of telekinetic movement, while wearing velvet on the head and neck may increase the potency of telekinetic perception.</p>
+</dd>
+</dl>
+</li>
+<li><p><strong>Shadow Magic</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Materials</dt>
+<dd class="field-odd"><p>Silk, velvet, and leather</p>
+</dd>
+<dt class="field-even">Limitations</dt>
+<dd class="field-even"><p>The magic can only manipulate shadows and darkness and cannot create or control light.</p>
+</dd>
+<dt class="field-odd">Risks and Drawbacks</dt>
+<dd class="field-odd"><p>Using shadow magic can be emotionally draining, causing fear and anxiety. Wearing silk on the feet and legs may increase the potency of shadow movement, while wearing leather on the chest and stomach may increase the potency of shadow perception.</p>
+</dd>
+</dl>
+</li>
+</ol>
+<p>Wearing the materials on different parts of the body can change the properties of the magic being channeled. For example, wearing cotton on the chest and stomach may increase the potency of internal healing, while wearing wool on the arms and hands may increase the potency of external healing. The specific properties of each clothing item must be clearly defined and established in the story to ensure that the reader understands how the magic works.</p>
+</div></blockquote>
+<p>In the previous prompt, I didn’t really like risks and drawbacks of elemental magic. Could you redo that? Furthermore, could you expand on how the potency of all 4 elements can be enhanced by wearing the material on which parts of the body?</p>
+<blockquote>
+<div><p>Sure, I apologize for the previous answer. Here is an updated version:</p>
+<p><strong>Elemental Magic</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Materials</dt>
+<dd class="field-odd"><p>Gold, silver, copper, and platinum</p>
+</dd>
+<dt class="field-even">Limitations</dt>
+<dd class="field-even"><p>The magic can only manipulate natural elements such as fire, water, air, and earth, and cannot create new elements or affect living beings.</p>
+</dd>
+<dt class="field-odd">Risks and Drawbacks</dt>
+<dd class="field-odd"><p>Using elemental magic can be dangerous, as the elements can quickly spiral out of control and cause unintended harm. The potency of elemental magic can be enhanced by wearing the material on different parts of the body:</p>
+<ul class="simple">
+<li><p>Wearing gold on the hands and arms can enhance the potency of fire magic, making it more intense and powerful.</p></li>
+<li><p>Wearing silver on the chest and stomach can enhance the potency of water magic, making it more fluid and versatile.</p></li>
+<li><p>Wearing copper on the feet and legs can enhance the potency of air magic, making it more mobile and agile.</p></li>
+<li><p>Wearing platinum on the head and neck can enhance the potency of earth magic, making it more solid and stable.</p></li>
+</ul>
+</dd>
+</dl>
+<p>By wearing specific materials on different parts of their body, a magic user can control and manipulate the elements with greater precision and strength. It is important to note that the type of material used and the specific parts of the body that they are worn on must be established and explained in detail in the story to ensure that the reader fully understands the mechanics of the magic system.</p>
+</div></blockquote>
+</section>
+<section id="teathuda-a-unique-gender-system">
+<h3>Teathuda: A Unique Gender System<a class="headerlink" href="#teathuda-a-unique-gender-system" title="Permalink to this heading">#</a></h3>
+<p>I’m making a fantasy world filled with a race called “Teathuda”. This race only contains females and no males, but there are still 3 genders. How could you expand on this concept?</p>
+<blockquote>
+<div><p>It’s intriguing to hear that you’re creating a fantasy world with a unique race called Teathuda, that has three genders but no males. Here are some ways you could expand on this concept:</p>
+<ol class="arabic simple">
+<li><p>Clarify the three genders: You could expand on the specific roles and characteristics of the three genders in Teathuda society. For example, one gender could be responsible for reproduction, while another gender could have traits like physical strength or intelligence.</p></li>
+<li><p>Explore their reproduction process: Since Teathuda doesn’t have males, you could explore how they reproduce. Perhaps they reproduce asexually or through a complex mating system where all three genders play a role.</p></li>
+<li><p>Develop their culture and beliefs: With a unique gender system, Teathuda could have a culture and beliefs that differ from other societies. For example, the different genders could have their own rituals or traditions that are specific to their role in the society.</p></li>
+<li><p>Consider how they interact with other species: With no males, how do the Teathuda interact with other species that have a male-female binary gender system? Do they have any social or political conflicts because of their gender system?</p></li>
+<li><p>Include a diverse range of characters: It’s important to ensure that Teathuda characters are not defined solely by their gender identity. Consider including characters with different backgrounds, personalities, and interests.</p></li>
+<li><p>Think about the challenges they face: Teathuda’s gender system could bring both benefits and challenges to their society. Think about the challenges they face and how they overcome them. For example, the reproduction system could be vulnerable to disease or infertility.</p></li>
+</ol>
+<p>Overall, there are many ways you could expand on the concept of Teathuda and their unique gender system. Consider the different aspects of their society and how they might interact with other aspects of your world-building.</p>
+</div></blockquote>
+<p>I would like this race to be oviparous, that is they lay eggs instead of giving birth to mature zygotes, but still similar to humans. Could you brainstorm some ideas on the physical description and reproduction of this 3 gendered race?</p>
+<blockquote>
+<div><p>Certainly! Here are some ideas for the physical description and reproduction of your oviparous, three-gendered Teathuda race:</p>
+<p>Physical Description:</p>
+<ul class="simple">
+<li><p>Teathuda could have a humanoid appearance similar to humans, but with some distinguishing features such as scaled or feathered skin, brightly colored hair or feathers, or horns on their heads.</p></li>
+<li><p>Each of the three genders could have their own physical traits. For example, the gender responsible for reproduction could have a larger body size or specialized organs for egg-laying, while another gender could have more developed muscles for physical labor or specialized senses like heightened hearing or sight.</p></li>
+<li><p>To reflect their oviparous nature, Teathuda could have slightly different reproductive organs compared to humans. For example, the reproductive gender could have a specialized ovipositor for laying eggs, while the other two genders might have complementary organs that assist with the fertilization process.</p></li>
+</ul>
+<p>Reproduction:</p>
+<ul class="simple">
+<li><p>The reproductive gender would be responsible for laying eggs, which would then be fertilized by the other two genders during a specific mating season or cycle.</p></li>
+<li><p>Depending on the specific mechanics of Teathuda reproduction, it’s possible that one or both of the non-reproductive genders could have a unique way of transferring sperm to the egg. This could involve specialized organs, physical interaction, or a combination of both.</p></li>
+<li><p>The eggs themselves could be laid in protective nests or incubation areas to ensure they develop properly. It’s also possible that Teathuda society places a high value on the care and protection of these eggs, with rituals or traditions associated with egg-laying and incubation.</p></li>
+</ul>
+<p>These are just a few ideas to get you started. As you develop your Teathuda race and their unique reproductive system, you can explore different biological and cultural aspects to make them more detailed and interesting.</p>
+</div></blockquote>
+<p>Let’s say the Teathuda race is artificially created by 3 humanoid beings in conjunction with the gods of this world. Specifically, one gender, called Ayasdo, was created with the Goddess of Physical Beauty, the second gender, called Dizhidi, was created with the Goddess of the Moons, and the last, called Esiti, was created with the Goddess of the Sun. How do you think would the genders differ physically, and how would reproduction work theoretically?</p>
+<blockquote>
+<div><p>If the Teathuda race was created artificially by three humanoid beings in conjunction with the gods of this world, with each gender linked to a different deity, it’s possible that each gender could have unique physical characteristics and reproductive abilities. Here are some ideas based on the goddesses you mentioned:</p>
+<p>Ayasdo (linked to the Goddess of Physical Beauty):</p>
+<ul class="simple">
+<li><p>Ayasdo could have a particularly striking and symmetrical appearance, with a focus on physical beauty and grace.</p></li>
+<li><p>They could have specialized organs or abilities related to their role in reproduction. For example, they could have a larger pelvis to accommodate egg-laying or special muscles for laying eggs with precision and care.</p></li>
+<li><p>Ayasdo could also be particularly attuned to their surroundings, with heightened senses and an ability to communicate non-verbally with other Teathuda.</p></li>
+</ul>
+<p>Dizhidi (linked to the Goddess of the Moons):</p>
+<ul class="simple">
+<li><p>Dizhidi could have a more ethereal or mystical appearance, with a focus on lunar symbolism such as pale skin, silver hair, or glowing eyes.</p></li>
+<li><p>They could have specialized abilities related to lunar cycles and reproduction. For example, they could have a hormone or pheromone release cycle that coincides with the phases of the moon, or they could have specialized organs that are more active during specific lunar cycles.</p></li>
+<li><p>Dizhidi could also have a unique connection to magic and divination, with an ability to sense and interpret signs from the heavens.</p></li>
+</ul>
+<p>Esiti (linked to the Goddess of the Sun):</p>
+<ul class="simple">
+<li><p>Esiti could have a more radiant or fiery appearance, with a focus on solar symbolism such as golden skin, red hair, or blazing eyes.</p></li>
+<li><p>They could have specialized abilities related to solar energy and reproduction. For example, they could have a hormone or pheromone release cycle that coincides with the position of the sun in the sky, or they could have specialized organs that are more active during the day.</p></li>
+<li><p>Esiti could also have a unique connection to strength and power, with an ability to harness and channel the energy of the sun.</p></li>
+</ul>
+<p>Reproduction:</p>
+<ul class="simple">
+<li><p>Teathuda reproduction could involve a complex mating system where all three genders play a role in fertilization and egg-laying.</p></li>
+<li><p>During a specific mating season or cycle, Ayasdo would lay their eggs in a carefully prepared nest or incubation area.</p></li>
+<li><p>Dizhidi and Esiti would then take turns fertilizing the eggs by depositing their genetic material onto or into the eggs in a specific order or pattern.</p></li>
+<li><p>Depending on the specifics of the reproductive system, the fertilized eggs could then undergo a period of incubation and development before hatching into fully-formed Teathuda.</p></li>
+</ul>
+<p>These are just a few ideas to get you started. As you develop your Teathuda race and their unique reproductive system, you can explore different biological and cultural aspects to make them more detailed and interesting.</p>
+</div></blockquote>
+<p>Let’s expand on the Ayasdo. I would like this gender to be physically stunning, to primarily be responsible for child-bearing, but also be the natural warriors, athletes and performers of this world.  Expand on this gender. How are they physically and mentally different from human females and how are they similar? What social role would they fulfill in this society?</p>
+<blockquote>
+<div><p>Sure, here are some possible traits and characteristics that could make the Ayasdo gender physically and mentally different from human females:</p>
+<p>Physical Traits:</p>
+<ul class="simple">
+<li><p>Ayasdo could have a unique physique that combines beauty and athleticism. For example, they could have long, lean limbs, a sculpted abdomen, and a muscular build.</p></li>
+<li><p>They could also have features that are considered universally attractive, such as symmetrical features, clear skin, and bright, expressive eyes.</p></li>
+<li><p>In addition, Ayasdo could have specialized organs or abilities related to their role in reproduction. For example, they could have a larger pelvis to accommodate egg-laying, specialized muscles for laying eggs with precision and care, or heightened sensory abilities to protect their nests and young.</p></li>
+</ul>
+<p>Mental Traits:</p>
+<ul class="simple">
+<li><p>Ayasdo could possess a unique mindset that combines discipline and creativity. For example, they could be highly focused and goal-oriented, with a strong sense of purpose and drive.</p></li>
+<li><p>They could also have a natural affinity for physical expression, whether it’s through dance, acrobatics, or other forms of movement.</p></li>
+<li><p>Additionally, Ayasdo could have a heightened sense of empathy and connection to others, making them natural leaders and mentors.</p></li>
+</ul>
+<p>Social Role:</p>
+<ul class="simple">
+<li><p>In Teathuda society, Ayasdo could hold a revered position as the primary child-bearers and caretakers of the young.</p></li>
+<li><p>Their physical abilities could also make them natural protectors and defenders of their community, serving as warriors or guardians.</p></li>
+<li><p>In addition, Ayasdo could be highly valued for their creative talents, such as music, dance, or other forms of artistic expression.</p></li>
+<li><p>Overall, Ayasdo could be seen as the embodiment of physical and creative excellence in Teathuda society, with a role that is both practical and inspirational.</p></li>
+</ul>
+</div></blockquote>
+<p>Let’s expand on the Dizhidi. I would like this gender to be intelligent and capable, to primarily be responsible for rearing the child and the most submissive of the 3 genders. Expand on this gender. How are they physically and mentally different from human females and how are they similar? How are they similar or different from the Ayasdo? What social role would they fulfill in this society?</p>
+<blockquote>
+<div><p>Sure, here are some possible traits and characteristics that could make the Dizhidi gender physically and mentally different from human females:</p>
+<p>Physical Traits:</p>
+<ul class="simple">
+<li><p>Dizhidi could have a lean, agile build that allows them to move swiftly and quietly. They could be smaller and more nimble than the Ayasdo.</p></li>
+<li><p>They could also have features that are considered delicate and refined, such as long, slender fingers and a pointed chin.</p></li>
+<li><p>In addition, Dizhidi could have specialized organs or abilities related to their role in child-rearing. For example, they could have a heightened sense of smell or hearing to detect and respond to their offspring’s needs, or they could have specialized milk glands to provide nourishment for their young.</p></li>
+</ul>
+<p>Mental Traits:</p>
+<ul class="simple">
+<li><p>Dizhidi could possess a sharp, analytical mind that is well-suited to problem-solving and strategic planning.</p></li>
+<li><p>They could be highly adaptable and resourceful, able to make the most of limited resources and find creative solutions to challenges.</p></li>
+<li><p>Additionally, Dizhidi could be highly attuned to social dynamics and skilled at mediating conflicts and building consensus.</p></li>
+</ul>
+<p>Similarities and Differences with Ayasdo:</p>
+<ul class="simple">
+<li><p>While Ayasdo are primarily focused on physical expression, Dizhidi could be more focused on intellectual pursuits and social dynamics.</p></li>
+<li><p>Dizhidi could be more introverted and contemplative, while Ayasdo are more extroverted and action-oriented.</p></li>
+<li><p>Both genders could share a sense of empathy and nurturing, but Dizhidi’s focus on child-rearing could make this aspect of their personality more pronounced.</p></li>
+</ul>
+<p>Social Role:</p>
+<ul class="simple">
+<li><p>In Teathuda society, Dizhidi could be responsible for raising and educating the young, as well as managing the community’s resources and infrastructure.</p></li>
+<li><p>Their analytical skills and strategic thinking could make them highly valued as advisors and planners.</p></li>
+<li><p>Additionally, Dizhidi could be respected for their emotional intelligence and ability to build strong, supportive relationships.</p></li>
+<li><p>Overall, Dizhidi could play a crucial role in maintaining the stability and harmony of Teathuda society, ensuring that the community is well-cared for and prepared for any challenges that arise.</p></li>
+</ul>
+</div></blockquote>
+<p>Let’s expand on the Esiti. I would like this gender to be strong and resilient, and the most dominant of the 3 genders. Expand on this gender. How are they physically and mentally different from human females and how are they similar? How are they similar or different from the Ayasdo and Dizhidi? What social role would they fulfill in this society?</p>
+<blockquote>
+<div><p>Sure, here are some possible traits and characteristics that could make the Esiti gender physically and mentally different from human females:</p>
+<p>Physical Traits:</p>
+<ul class="simple">
+<li><p>Esiti could have a muscular and athletic build, with broad shoulders and powerful limbs. They could be larger and more imposing than both Ayasdo and Dizhidi.</p></li>
+<li><p>They could have features that are considered strong and rugged, such as a square jaw and prominent brow ridge.</p></li>
+<li><p>In addition, Esiti could have heightened senses, such as a strong sense of smell or keen eyesight, that help them navigate their environment and protect their community.</p></li>
+</ul>
+<p>Mental Traits:</p>
+<ul class="simple">
+<li><p>Esiti could possess a fierce and determined mindset, with a strong sense of loyalty and protectiveness towards their community and loved ones.</p></li>
+<li><p>They could be highly independent and self-sufficient, with a preference for taking action rather than waiting for others to lead.</p></li>
+<li><p>Additionally, Esiti could be highly attuned to their instincts and capable of making split-second decisions in high-pressure situations.</p></li>
+</ul>
+<p>Similarities and Differences with Ayasdo and Dizhidi:</p>
+<ul class="simple">
+<li><p>Esiti could be more focused on physical strength and endurance, with a greater emphasis on combat and survival skills.</p></li>
+<li><p>They could be more assertive and dominant in social situations, with a natural tendency towards leadership.</p></li>
+<li><p>While they may not possess the same level of analytical thinking as Dizhidi or the same level of aesthetic appreciation as Ayasdo, Esiti could have a deep appreciation for natural beauty and a strong sense of intuition.</p></li>
+</ul>
+<p>Social Role:</p>
+<ul class="simple">
+<li><p>In Teathuda society, Esiti could play a crucial role in defending the community from external threats, such as predators or rival factions.</p></li>
+<li><p>They could also be responsible for hunting and gathering food and resources for the community, as well as maintaining the community’s infrastructure and physical defenses.</p></li>
+<li><p>Additionally, Esiti could be highly respected for their strength and resilience, with their leadership skills valued in times of crisis or conflict.</p></li>
+<li><p>Overall, Esiti could be the backbone of Teathuda society, providing the physical and emotional strength needed to weather any challenges that arise.</p></li>
+</ul>
+</div></blockquote>
+<p>Based on what we have said above, can you expand on a possible biological mechanism to determine the gender of a child?</p>
+<blockquote>
+<div><p>Sure! Here is a possible biological mechanism for determining the gender of a Teathuda child:</p>
+<p>Teathuda reproductive biology could involve a combination of genetic and environmental factors that determine the gender of a child. Specifically, the genes of the mother and the father could play a role in determining which gender-specific traits are expressed in the child. However, the environment in which the child is developing could also play a role in determining the child’s gender.</p>
+<p>One possible mechanism for determining gender could involve the release of different hormones during the early stages of embryonic development. For example, the presence of high levels of androgens (male sex hormones) could lead to the development of masculine traits, while the absence of androgens could lead to the development of feminine traits.</p>
+<p>In Teathuda reproduction, the Ayasdo gender could be responsible for carrying and laying eggs, which would contain both genetic material from the mother and the father. However, the environment in which the egg is incubated could play a role in determining the gender of the developing embryo. For example, if the egg is exposed to high levels of androgens during incubation, the resulting offspring could develop masculine traits and be born as an Esiti. If the egg is exposed to lower levels of androgens or no androgens at all, the offspring could develop feminine traits and be born as either an Ayasdo or a Dizhidi, depending on other genetic and environmental factors.</p>
+<p>This mechanism could allow for a certain degree of genetic diversity within each gender, while also ensuring that each gender possesses certain core traits that are necessary for fulfilling their societal roles. Additionally, this mechanism could be subject to some degree of natural variation or manipulation by individuals or groups with knowledge of the system, which could lead to interesting storylines and conflicts within the world.</p>
+</div></blockquote>
+<p>What are some possible causes of conflict in this particular 3 gendered system?</p>
+<blockquote>
+<div><p>There are several possible causes of conflict that could arise in this particular 3 gendered system, including:</p>
+<ol class="arabic simple">
+<li><p>Gender inequality: Despite the fact that each gender has its own unique strengths and roles, there could still be inequality between them. For example, the Ayasdo could be seen as the most valuable gender because they are responsible for child-bearing and are also natural warriors and performers. This could lead to the other genders being devalued or discriminated against, which could cause conflict.</p></li>
+<li><p>Reproductive rights: Since the Ayasdo are responsible for laying and incubating the eggs, they could have a greater degree of control over the reproductive process. This could lead to conflicts over who has the right to decide when and how to have children.</p></li>
+<li><p>Inter-gender relationships: With three genders, there are potentially more options for romantic and sexual relationships than in a two-gendered system. However, this could also lead to conflicts and misunderstandings between the genders. For example, an Ayasdo might not understand why an Esiti would want to be in a romantic relationship with a Dizhidi, or vice versa.</p></li>
+<li><p>Access to resources: Each gender could have its own set of resources or privileges that are not available to the other genders. This could lead to conflicts over access to these resources or privileges, especially if one gender feels that they are being unfairly excluded or disadvantaged.</p></li>
+<li><p>Cultural norms and expectations: Each gender could have its own set of cultural norms and expectations that are difficult or impossible for the other genders to meet. For example, the Dizhidi might be expected to be submissive and passive, while the Esiti might be expected to be dominant and aggressive. This could lead to conflicts if individuals within a gender do not conform to these expectations or if individuals from different genders clash over their differences.</p></li>
+</ol>
+<p>Overall, the presence of three genders in this system could lead to a complex set of social, cultural, and political issues that could generate interesting conflicts and plotlines in a fictional world.</p>
+</div></blockquote>
+<p>Because the Teathuda have a 3 gendered system, there is no clear concept of patriarchy. What type of system would the Teathuda develop instead of patriarchy? What type of government would naturally form in this system?</p>
+<blockquote>
+<div><p>In a 3 gendered system like the Teathuda, it’s difficult to predict exactly what type of social, cultural, and political systems would emerge. However, it’s likely that the Teathuda would not develop a patriarchal system since there are no males in their society.</p>
+<p>One possibility is that the Teathuda could develop a matriarchal system, where power and authority are primarily held by the female genders. However, it’s important to note that not all societies with a predominantly female population are matriarchal, and there could be other types of systems that emerge.</p>
+<p>Another possibility is that the Teathuda could develop a more egalitarian system, where power and authority are distributed among all three genders. This could lead to a more balanced and harmonious society where each gender is valued equally for their unique contributions.</p>
+<p>In terms of government, the Teathuda could develop a variety of systems depending on their cultural and historical context. For example, they could have a council of representatives from each gender who make decisions together, or they could have a rotating leadership system where individuals from each gender take turns leading the society. Alternatively, they could have a more hierarchical system with a single leader, although this is less likely in a society without a clear patriarchal structure.</p>
+<p>Overall, the Teathuda’s unique 3 gendered system could lead to a variety of interesting political and social structures, and the specific system that emerges would depend on a range of factors including their history, culture, and values.</p>
+</div></blockquote>
+<p>Some goddesses created a 2 gendered race in contrast with this 3 gendered race. This new race called the Astro also do not have a male gender, but are created to be the foil of the Ayasdo. What are possible ways this new race foils the Ayasdo?</p>
+<blockquote>
+<div><p>As the Astro race is created to be the foil of the Ayasdo, there could be several ways in which they differ from the Teathuda race, and specifically the Ayasdo gender. Here are a few possible ideas:</p>
+<ol class="arabic simple">
+<li><p>Physical Appearance: The Astro could have a distinct physical appearance that contrasts with the Ayasdo’s beauty. For example, they could have rough skin or a more rugged physique, making them appear less refined than the Ayasdo.</p></li>
+<li><p>Personality Traits: The Astro could have a more aggressive and assertive personality compared to the Ayasdo’s more calm and composed nature. This could lead to a society that values strength and dominance over beauty and grace.</p></li>
+<li><p>Social Roles: While the Ayasdo are the natural warriors, athletes, and performers of their society, the Astro could be more focused on practical skills such as farming, building, or hunting. This could lead to a society where physical strength and practical skills are valued over aesthetics and artistic ability.</p></li>
+<li><p>Reproduction: The Astro could have a different reproductive system than the Teathuda, which could also contribute to their foil-like status. For example, they could reproduce through parthenogenesis (asexual reproduction) or have a shorter gestation period than the Teathuda, making them more resilient and adaptable to their environment.</p></li>
+<li><p>Cultural Values: The Astro could have a different set of cultural values compared to the Teathuda, which could lead to different societal norms and expectations. For example, they could prioritize individualism over communal living, or place a higher value on innovation and progress compared to tradition and cultural heritage.</p></li>
+</ol>
+<p>Overall, the foil to the Ayasdo could be created through a variety of means, and the exact nature of the contrast between the two races would depend on the world-building and storytelling goals of the creator.</p>
+</div></blockquote>
+<p>Let us expand on the Astro. I want the Astro to also be oviparous. I also want one gender called Ostari to be an improvement of both the Dizhidi and Esiti gender, while the other gender called Iredi to be an improvement of the Ayasdo. What would the physical and mental characteristics of these two genders be?</p>
+<blockquote>
+<div><p>If the Astro race is also oviparous, they would have a different reproductive system than humans, similar to the Teathuda race. Here are some possible physical and mental characteristics of the two genders you mentioned:</p>
+<ol class="arabic simple">
+<li><p>Ostari Gender:
+* Physical Characteristics: The Ostari gender could be physically strong and resilient like the Esiti, but also intelligent and capable like the Dizhidi. They might have a muscular build with prominent bone structure, and could be taller and more robust than the Iredi. They may also have sharp senses and keen instincts, which help them navigate their environment.
+* Mental Characteristics: The Ostari could be independent, resourceful, and strategic thinkers, with a talent for problem-solving and innovation. They may also have a deep respect for tradition and history, which they use as a foundation for building new ideas and technologies.
+* Social Role: The Ostari could occupy a leadership role in their society, using their strength and intelligence to protect their community and advance their culture. They might be responsible for tasks such as organizing labor, managing resources, and defending their community against external threats.</p></li>
+<li><p>Iredi Gender:
+* Physical Characteristics: The Iredi gender could be physically stunning like the Ayasdo, with graceful movements and striking features. They might have a slender build with delicate bone structure, and could be smaller in stature than the Ostari. They may also have a natural aptitude for the arts, such as music, dance, and visual arts.
+* Mental Characteristics: The Iredi could be empathetic, intuitive, and emotionally expressive, with a talent for communication and relationship-building. They may also have a deep connection to nature, and be attuned to the rhythms and patterns of the natural world.
+* Social Role: The Iredi could occupy a cultural role in their society, using their artistic talent and emotional intelligence to enrich their community and connect with others. They might be responsible for tasks such as teaching, counseling, and preserving cultural traditions.</p></li>
+</ol>
+<p>Of course, these are just some possible characteristics of the Ostari and Iredi genders, and their exact traits would depend on the world-building and storytelling goals of the creator.</p>
+</div></blockquote>
+<p>In terms of their reproduction, how could the Astro gender be different from the Teathuda, but at the same time an improvement over the old system?</p>
+<blockquote>
+<div><p>One possible way that the Astro reproduction could differ from the Teathuda system is through the introduction of an external fertilization process. Instead of the Ostari and Iredi genders mating and fertilizing internally, they could lay their eggs and then engage in a fertilization process that occurs outside of the body. This could involve both genders contributing genetic material to the eggs, creating offspring that are genetically diverse and potentially even more resilient than the Teathuda offspring.</p>
+<p>Additionally, the Astro system could have a more complex and nuanced process for determining the gender of offspring. Rather than simply having three distinct genders like the Teathuda, the Astro system could involve a range of gender expressions and identities that are determined by a variety of biological and social factors. This could create a more diverse and fluid system of gender that allows for greater individual expression and exploration.</p>
+</div></blockquote>
+<p>While the Astro race is created to be superior to the Teathuda, how could the Teathuda still excel in certain hardships than the Astro?</p>
+<blockquote>
+<div><p>Even though the Astro are created to be superior to the Teathuda in some ways, there may still be areas in which the Teathuda excel due to their unique biology and cultural practices. For example:</p>
+<ol class="arabic simple">
+<li><p>Adaptation to extreme environments: The Teathuda may have evolved to thrive in certain environments that the Astro find inhospitable, such as arid deserts or cold tundras.</p></li>
+<li><p>Cultural practices: The Teathuda may have developed unique cultural practices, such as martial arts or herbal medicine, that give them an advantage in certain situations.</p></li>
+<li><p>Physical abilities: The Teathuda’s natural athleticism and strength may give them an edge in certain physical activities, such as running or swimming.</p></li>
+<li><p>Resistance to disease: The Teathuda may have developed natural immunities to certain diseases or parasites that affect the Astro.</p></li>
+</ol>
+<p>Ultimately, while the Astro may be superior to the Teathuda in certain ways, there will always be individual differences and unique circumstances that allow certain members of the Teathuda race to excel in different areas.</p>
+</div></blockquote>
+<p>While the Astro and Teathuda are two different races with different reproductive systems, would it be possible for an Astro and Teathuda to produce a child? What are some possible ways this could happen? And what are some challenges or conflicts that could arise from this?</p>
+<blockquote>
+<div><p>It is unlikely that an Astro and Teathuda could produce a child through sexual reproduction, as their reproductive systems are too different. However, there could be other ways for them to conceive a child together, such as:</p>
+<ol class="arabic simple">
+<li><p>Magic or divine intervention: In a fantasy world, it is possible that magic or divine intervention could allow for a Teathuda and an Astro to conceive a child.</p></li>
+<li><p>Genetic engineering: If advanced genetic engineering technology exists in this world, it may be possible to combine the genetic material of an Astro and a Teathuda to create a hybrid offspring.</p></li>
+</ol>
+<p>Regardless of the method used, there would likely be challenges and conflicts that arise from the creation of a mixed-race child. Some possible challenges include:</p>
+<ol class="arabic simple">
+<li><p>Cultural differences: The Astro and Teathuda likely have very different cultural norms and practices, which could make it difficult for the mixed-race child to fit in with either group.</p></li>
+<li><p>Physical differences: Depending on the genetic makeup of the mixed-race child, they may have physical characteristics that are not typical of either the Astro or the Teathuda. This could lead to ostracization or discrimination from both groups.</p></li>
+<li><p>Political tensions: The creation of a mixed-race child could lead to political tensions between the Astro and Teathuda, as both groups may see the child as a threat to their way of life or as evidence of the other group’s inferiority.</p></li>
+</ol>
+<p>Overall, while it may be possible for an Astro and Teathuda to conceive a child through unconventional means, there would likely be significant challenges and conflicts that arise from this union.</p>
+</div></blockquote>
+<p>Let’s move back a little bit. We’ve established that both the Teathuda and Astro are created artificially by some goddess and a mortal. What could this process look like, and how could genetic diversity be established in the early stages of creation?</p>
+<blockquote>
+<div><p>The process of creating a new race like the Teathuda and Astro could involve a combination of magical and scientific processes. The goddesses could provide the necessary divine magic and guidance to create the initial genetic code for each gender, while the mortals could use advanced genetic engineering techniques to manipulate and refine the genetic material to create the desired physical and mental traits.</p>
+<p>To establish genetic diversity, the initial genetic code could be intentionally varied in subtle ways, such as introducing small differences in certain genes or altering the epigenetic marks that control gene expression. This could lead to slight variations in physical and mental traits between individuals within each gender, which would allow for natural selection to occur over time and increase the overall genetic diversity of the population.</p>
+<p>Additionally, once the initial population of each gender is created, they could be allowed to mate freely and produce offspring. This could further increase genetic diversity and create new combinations of genes and traits that were not present in the initial genetic code.</p>
+<p>Overall, the process of creating these races would require a combination of divine magic and advanced scientific techniques, and establishing genetic diversity would be a key factor in ensuring the long-term viability and adaptability of the new populations.</p>
+</div></blockquote>
+<p>The creation of Teathudans happens in stages, with the Ayasdo created first, the Dizhidi second and Esiti third. With this hierarchy but with their physical differences, what kind of cultural and political system would be established?</p>
+<blockquote>
+<div><p>With the hierarchy of creation, it’s likely that the Ayasdo would be seen as the most revered and powerful of the three genders, while the Dizhidi and Esiti may be seen as somewhat subordinate. This could lead to a culture where the Ayasdo have more political and social power than the other genders, and they may be seen as the leaders of society.</p>
+<p>However, the specific cultural and political system would depend on the values and beliefs of the Teathuda society. If they prioritize physical beauty and strength above all else, then the Ayasdo may be seen as the ruling class, with the Dizhidi and Esiti serving under them. On the other hand, if intelligence and knowledge are valued more highly, then the Dizhidi may hold more power, with the Ayasdo and Esiti being seen as subservient.</p>
+<p>Regardless of the specifics, the hierarchy of creation would likely be a significant factor in shaping the societal norms and expectations of the Teathuda. There may be certain rituals or traditions that emphasize the importance of the Ayasdo, or certain roles that only they are allowed to hold. At the same time, the Dizhidi and Esiti may have their own unique cultural practices and traditions that reflect their respective roles and abilities.</p>
+</div></blockquote>
+<p>If I wanted to use an ancient human civilization as the basis for the culture of certain Teathudan society, what human cultures could I use, and how would those human cultural characteristics translate to the Teathudan cultures?</p>
+<blockquote>
+<div><p>There are many ancient human civilizations that you could draw inspiration from for Teathudan cultures, and how their cultural characteristics translate to Teathudan cultures would depend on how you want to adapt and modify those characteristics to fit the unique aspects of the Teathudan world. Here are a few examples:</p>
+<ol class="arabic simple">
+<li><p>Ancient Greek civilization: The Greeks were known for their emphasis on philosophy, art, and democracy. You could adapt these characteristics to a Teathudan society by creating a culture that values intellectual pursuits, artistic expression, and democratic decision-making processes. The Ayasdo, with their emphasis on physical beauty and athleticism, could be seen as the equivalent of Greek athletes, while the Dizhidi, with their intelligence and nurturing abilities, could be seen as the equivalent of Greek philosophers. The Esiti, with their strength and dominance, could be seen as the equivalent of Greek warriors.</p></li>
+<li><p>Ancient Egyptian civilization: The Egyptians were known for their sophisticated system of hieroglyphic writing, their religious beliefs centered around the pharaohs and their mummification practices. You could adapt these characteristics to a Teathudan society by creating a culture that places a high value on literacy and communication, has a religious system centered around powerful female figures, and practices a unique form of burial or reincarnation. The Ayasdo, with their beauty and physical prowess, could be seen as the equivalent of Egyptian queens, while the Dizhidi, with their intelligence and nurturing abilities, could be seen as the equivalent of Egyptian priestesses. The Esiti, with their strength and dominance, could be seen as the equivalent of Egyptian military commanders.</p></li>
+<li><p>Ancient Chinese civilization: The Chinese were known for their strong emphasis on family values, their complex system of writing and literature, and their belief in the concept of yin and yang. You could adapt these characteristics to a Teathudan society by creating a culture that values family ties and honor, has a sophisticated system of writing and literature that is integral to their way of life, and sees the interplay of feminine and masculine energies as central to their worldview. The Ayasdo, with their physical beauty and athleticism, could be seen as the equivalent of Chinese courtesans, while the Dizhidi, with their intelligence and nurturing abilities, could be seen as the equivalent of Chinese scholars. The Esiti, with their strength and dominance, could be seen as the equivalent of Chinese warriors or empresses.</p></li>
+</ol>
+<p>These are just a few examples, but there are many other ancient human civilizations that you could draw inspiration from and adapt to fit your Teathudan world.</p>
+</div></blockquote>
+<p>I want to use the ancient Indian civilization as the basis for a specific Teathudan society. How would the human cultural characteristics translate to the Teathudan society?</p>
+<blockquote>
+<div><p>If you want to use ancient Indian civilization as the basis for a specific Teathudan society, you could incorporate some of the following cultural characteristics:</p>
+<ol class="arabic simple">
+<li><p>Caste System: Ancient India had a rigid social hierarchy based on the caste system, which placed people into specific groups based on their birth. You could incorporate a similar hierarchy in the Teathudan society, with each gender being assigned a specific social status.</p></li>
+<li><p>Religion: Ancient India was also known for its diverse religious traditions, such as Hinduism, Buddhism, and Jainism. You could incorporate a similar range of religious beliefs and practices into the Teathudan society, with each gender having its own set of religious practices and beliefs.</p></li>
+<li><p>Philosophy: Ancient Indian civilization was also known for its rich philosophical traditions, such as yoga, meditation, and the concept of karma. You could incorporate similar concepts into the Teathudan society, with each gender having its own unique approach to philosophy and spirituality.</p></li>
+<li><p>Art and Literature: Ancient India was known for its vibrant art and literature, including the epic poem, the Ramayana, and the ancient Sanskrit text, the Vedas. You could incorporate similar artistic and literary traditions into the Teathudan society, with each gender having its own unique artistic and literary styles.</p></li>
+<li><p>Cuisine: Indian cuisine is known for its bold flavors and use of spices. You could incorporate similar culinary traditions into the Teathudan society, with each gender having its own unique approach to cooking and food.</p></li>
+</ol>
+<p>Overall, by incorporating these cultural characteristics, you could create a rich and diverse Teathudan society that draws on the traditions of ancient India while also incorporating its own unique elements.</p>
+</div></blockquote>
+<p>Could you expand on how cultural characteristics such as the Indian caste system, philosophy and art and literature could translate to Teathudan society in their own societal system, philosophy, art as well as gender identity?</p>
+<blockquote>
+<div><p>Certainly! Here are some possible ways the cultural characteristics of ancient Indian civilization could translate to a Teathudan society:</p>
+<ol class="arabic simple">
+<li><p>Caste System: In ancient India, society was divided into four major castes or varnas, with the Brahmins (priests and scholars) at the top, followed by the Kshatriyas (warriors), Vaishyas (merchants and traders), and Shudras (laborers). The Teathudan society could have a similar hierarchical caste system, with the Ayasdo at the top as the ruling class and warriors, the Dizhidi as the intellectual and administrative class, and the Esiti as the laborers and craftsmen. There could also be sub-castes within each of these major castes based on occupation or specific abilities.</p></li>
+<li><p>Philosophy: Ancient Indian philosophy is characterized by a focus on spirituality, karma, and the pursuit of enlightenment. The Teathudan philosophy could similarly focus on spiritual pursuits and the attainment of higher consciousness, with a belief in reincarnation and the cyclical nature of time. They could have their own unique concepts of karma and dharma, and seek to live in harmony with the natural world.</p></li>
+<li><p>Art and Literature: Indian art and literature are rich and varied, with a long tradition of storytelling and mythmaking. The Teathudan society could similarly have a rich tradition of storytelling, poetry, and drama, with themes of love, honor, and duty. They could have their own unique mythologies and creation stories, which explain the origins of their society and the world around them.</p></li>
+<li><p>Gender Identity: In ancient India, gender roles were often defined by caste and occupation, with men typically occupying the roles of power and authority. However, there were also powerful women in Indian history and mythology, such as the warrior queen Rani Lakshmibai and the goddess Kali. The Teathudan society could similarly have a complex gender identity, with the Ayasdo as powerful warrior women and the Dizhidi as intellectuals and administrators, while the Esiti could have both male and female members occupying roles as laborers and craftsmen. There could also be fluidity in gender identity and expression, with individuals able to choose their own gender identity based on their abilities and inclinations.</p></li>
+</ol>
+<p>Overall, the cultural characteristics of ancient India could be translated to a Teathudan society in unique and creative ways, reflecting the differences in their biology and history. The Teathudan society could have its own distinct flavor, while still being rooted in the rich cultural heritage of ancient India.</p>
+</div></blockquote>
+<p>I want to use the ancient Chinese civilization as the basis for a specific Teathudan society. How would the human cultural characteristics translate to the Teathudan society?</p>
+<blockquote>
+<div><p>If you want to use ancient Chinese civilization as the basis for a specific Teathudan society, there are a few cultural characteristics that you could consider incorporating into their society:</p>
+<ol class="arabic simple">
+<li><p>Confucianism: Confucianism is an ancient Chinese philosophy that emphasizes moral values, social order, and respect for authority. Confucianism could translate to Teathudan society in terms of a strong emphasis on social hierarchy and respect for authority figures such as religious leaders and elders. The Teathudans may also place a strong emphasis on education and the pursuit of knowledge.</p></li>
+<li><p>Taoism: Taoism is another ancient Chinese philosophy that emphasizes living in harmony with nature and the universe. This could translate to Teathudan society in terms of a respect for the natural world and a focus on balance and harmony in their everyday lives.</p></li>
+<li><p>Silk Road Trade: The Silk Road was an ancient trade route that connected China to other parts of Asia and Europe. This could translate to Teathudan society in terms of a focus on trade and commerce, with the Teathudans becoming skilled merchants and traders.</p></li>
+<li><p>Art and Literature: Ancient Chinese art and literature is known for its intricate designs and attention to detail. This could translate to Teathudan society in terms of a focus on art and aesthetics, with the Teathudans becoming skilled artisans and craftsmen.</p></li>
+<li><p>Gender Roles: Ancient Chinese society was patriarchal, with men holding positions of power and women expected to fulfill domestic roles. However, there were also notable exceptions, such as the legendary female warriors known as the “mulan”. This could translate to Teathudan society in terms of a complex gender system with different genders having specific roles and responsibilities.</p></li>
+</ol>
+<p>Overall, incorporating elements of ancient Chinese culture into Teathudan society could create a rich and diverse civilization with a unique set of beliefs, values, and traditions.</p>
+</div></blockquote>
+<p>I want to use the ancient Egyptian civilization as the basis for a specific Teathudan society. How would the human cultural characteristics translate to the Teathudan society?</p>
+<blockquote>
+<div><p>If you were to use ancient Egyptian civilization as the basis for a specific Teathudan society, you could consider incorporating some of the following cultural characteristics:</p>
+<ol class="arabic simple">
+<li><p>Religion: Ancient Egyptians were known for their complex religion, which included a pantheon of gods and goddesses. The Teathudan society could have a similar system of deities and beliefs that influence their daily lives.</p></li>
+<li><p>Hieroglyphs: Ancient Egyptians developed a writing system known as hieroglyphs, which were pictorial representations of words and concepts. The Teathudan society could have a unique form of writing or communication, such as a system of symbols or gestures.</p></li>
+<li><p>Architecture: Ancient Egyptians built impressive structures such as pyramids, temples, and tombs. The Teathudan society could have a similar emphasis on monumental architecture, and their structures could incorporate unique features based on their biology and technology.</p></li>
+<li><p>Art: Ancient Egyptian art was known for its stylized and symbolic representations of people, animals, and gods. The Teathudan society could have their own unique art style that reflects their biology and cultural values.</p></li>
+<li><p>Social hierarchy: Ancient Egyptians had a complex social hierarchy that included the pharaoh, priests, nobles, and commoners. The Teathudan society could have a similar system of social classes or roles based on their gender and abilities.</p></li>
+<li><p>Technology: Ancient Egyptians developed many technological innovations such as irrigation systems, tools, and weapons. The Teathudan society could have their own unique technology that reflects their biology and cultural values.</p></li>
+<li><p>Philosophy: Ancient Egyptians had a unique worldview that emphasized the cyclical nature of life and death, as well as the importance of ma’at (balance and order). The Teathudan society could have their own philosophy that reflects their biology and cultural values, such as the importance of balance between the genders and respect for their unique abilities.</p></li>
+</ol>
+<p>Overall, by incorporating these cultural characteristics, you could create a Teathudan society that is rich in history, art, and philosophy, while also reflecting the unique biology and gender dynamics of the species.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="random-list-of-ideas">
+<h2>Random List of Ideas<a class="headerlink" href="#random-list-of-ideas" title="Permalink to this heading">#</a></h2>
+<section id="on-cultural-gender-roles">
+<h3>On Cultural Gender Roles<a class="headerlink" href="#on-cultural-gender-roles" title="Permalink to this heading">#</a></h3>
+<p>The introduction of the <span class="zean">ɖiʒiɖi</span> and <span class="zean">esiʈi</span> in the dominantly <span class="zean">ajɛsɖɶ</span> culture was surprisingly quick. There were many changes in the <span class="zean">ajɛsɖɶ</span> culture to accomodate the coming of the new genders. We will elucidate the described roles of the gender in the <span class="zean">ajɛsɖɶ</span> community which is described by the <span class="zean">ajɛsɖɶ</span> themselves, specifically younger <span class="zean">ajɛsɖɶ</span> who observed the festival first hand, without the input of any <span class="zean">ɖiʒiɖi</span> or <span class="zean">esiʈi</span>.</p>
+<p>Note that many of these traditions were more frequently and more stringently followed on the Eastern side of <span class="zean">adɹa</span> where the influence of the <span class="zean">isiʈeθɶ</span> was minimized as they fought the war with the Moon Empire on the western front.</p>
+<p>Before talking about the role of the new genders in the existing community, let us talk a little about the structure of family units (mostly in <span class="zean">adɹa</span>) before the introduction of the new genders.</p>
+<ul class="simple">
+<li><p>Because there were no genders to differentiate between pre-Second Arrival, societal hierarchy was based upon either other physical or mental attributes, or professions, and in some rare cases merit (this is actually more prevalent in regions controlled by the Moon Empire where state governance was given to those with merit, whereas the Empire was controlled by the Dynasty). While this usually also differed across city-states and regions, the most common form was that of basing societal hierarchy on professions of some kind or age.</p></li>
+<li><p>We will not into details of their societal organization, but for western <span class="zean">adɹa</span>, societal standing determined where in the government you are, and your societal standing depended on your heredity and wealth. In eastern <span class="zean">adɹa</span>, societal standing was based upon the number of people in the household which directly corresponded with beauty and wealth.</p></li>
+<li><p>This is only for societal hierarchy. A household in <span class="zean">adɹa</span> was less organized. Households in <span class="zean">adɹa</span>, and to different levels the rest of <span class="zean">aɖasi</span>, were a communal affair. A households are large with various relationships where each age group shared some responsibility of the household. In <span class="zean">adɹa</span>, a singular person did not have power, but rather the household, and by extension the leader of the household (usually the most able age group), held power.</p></li>
+<li><p>In a household, the oldest were considered the advisors, and/or caretakers, spending their retirement watching children or, if able, keeping track of finances. Those in the beginnings of their adulthood usually took care of their younger siblings. While the middle age group handled the family earning or took upon positions of power in the government.</p></li>
+<li><p>A household consists of a group of adults who are mutual mates. <span class="zean">adɹa</span> family are not monogamous and any <span class="zean">ajɛsɖɶ</span> in a household may mate with another of the same age (who usually isn’t related). The children of the household are the children produced by such mating pairs, and the older family members are parents of the adults who choose to be there.</p></li>
+<li><p>Membership of a household is arbitrary. It is arbitrary which mate leaves their household and which one joins. Rarely does it occur that couple or mating group split off to create their own household as households usually carry prebuilt political and societal significance.</p></li>
+</ul>
+<section id="on-the-iii-s-role-in-the-community">
+<h4>On the <span class="zean">ɖiʒiɖi</span>’s Role in the Community<a class="headerlink" href="#on-the-iii-s-role-in-the-community" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p>The <span class="zean">isiʈeθɶ</span> first introduced the <span class="zean">ɖiʒiɖi</span> in the festival as a gender intended to allow a faster growth in the population. <span class="zean">ajɛseɖi</span> mentions that the <span class="zean">ɖiʒiɖi</span> could not give birth, but would allow <span class="zean">ajɛsɖɶ</span> to give birth more often as they were slowed down by pregnancy. <span class="zean">ajɛsɖɶ</span> mating was inefficient as clitoral insemination was unreliable.</p></li>
+<li><p>This is often misinterpreted by <span class="zean">ajɛsɖɶ</span> writers as being proof that the <span class="zean">ɖiʒiɖi</span> were created for the sole purpose of being breeders and caregivers. The fact that <span class="zean">ɖiʒiɖi</span> breasts are naturally larger and contain more milk than those of <span class="zean">ajɛsɖɶ</span> is also given as evidence of this theory. Furthermore, you also have the fact that <span class="zean">ɖiʒiɖi</span> are softer and have more curves than the <span class="zean">ajɛsɖɶ</span> giving the appearance of weak and fragile, especially to the <span class="zean">ajɛsɖɶ</span> in <span class="zean">adɹa</span> who had been engaged in war and so frequently a more defined muscular structure.</p></li>
+<li><p>With this being said, we can now speak on the more concrete role of the <span class="zean">ɖiʒiɖi</span> in the existing family units of the <span class="zean">ajɛsɖɶ</span>.</p></li>
+<li><p>Most family units got larger with the addition of the <span class="zean">ɖiʒiɖi</span>. One philosophy that was accepted by most <span class="zean">ajɛsɖɶ</span> was that mating with a <span class="zean">ɖiʒiɖi</span> is one of necessity while mating with a fellow <span class="zean">ajɛsɖɶ</span> was a relationship of love. Thus, the number of <span class="zean">ajɛsɖɶ</span> adults in a household grew smaller, to approximately 2-4 <span class="zean">ajɛsɖɶ</span>, as they became more intimate. The 2-4 adult <span class="zean">ajɛsɖɶ</span> would share 4-6 <span class="zean">ɖiʒiɖi</span> amongst them.</p></li>
+<li><p><span class="zean">ɖiʒiɖi</span> children stayed with their parents in the same household. When <span class="zean">ɖiʒiɖi</span> children came of age, they would be courted by <span class="zean">ajɛsɖɶ</span> and would then move to their household.</p></li>
+<li><p>No matter the standing of a household, <span class="zean">ɖiʒiɖi</span> were rarely allowed to work outside. Some regions also prevented <span class="zean">ɖiʒiɖi</span> to go outside without covering themselves. In some areas, or after some time, alpha <span class="zean">ɖiʒiɖi</span> were given more freedom, mostly because of their close appearance to <span class="zean">ajɛsɖɶ</span>.</p></li>
+<li><p>Beta <span class="zean">ajɛsɖɶ</span> are still treated as <span class="zean">ajɛsɖɶ</span> since they are indistinguisable as children. In later stages of life, they are usually restricted from mating with <span class="zean">ɖiʒiɖi</span>, alpha or pure. Unfortunately, it is sometimes difficult to distinguish between a beta and pure <span class="zean">ajɛsɖɶ</span> even in adulthood.</p></li>
+</ul>
+</section>
+<section id="on-the-esii-s-role-in-the-community">
+<h4>On the <span class="zean">esiʈi</span>’s Role in the Community<a class="headerlink" href="#on-the-esii-s-role-in-the-community" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p>The <span class="zean">esiʈi</span> gender had a much easier transition into the <span class="zean">ajɛsɖɶ</span> society than did the <span class="zean">ɖiʒiɖi</span>. The <span class="zean">esiʈi</span> were larger, and looked more similar to the <span class="zean">ajɛsɖɶ</span> than did the <span class="zean">ɖiʒiɖi</span>.</p></li>
+<li><p>The <span class="zean">esiʈi</span> were considered both a burden and an asset into a household. Most household who had an <span class="zean">esiʈi</span>, especially at an early stage were considered powerful. Even more so considering <span class="zean">esiʈi</span> were frequently denied to go into battle and specifically instructed to reproduce, allowing a rise in <span class="zean">esiʈi</span> population.</p></li>
+<li><p>During the festival, most <span class="zean">esiʈi</span> were assigned to households with a large adult <span class="zean">ajɛsɖɶ</span> population. This was because clitoral mating is already inefficient, but since mating with an <span class="zean">esiʈi</span> required more effort, a larger <span class="zean">ajɛsɖɶ</span> population would be more successful in rendering an <span class="zean">esiʈi</span> pregnant.</p></li>
+<li><p>It was a common, in the beginning, for an <span class="zean">esiʈi</span> to regularly be in the bedroom mating with someone to provide as many eggs as possible. Furthermore, the same <span class="zean">ajɛsɖɶ</span> would also need to be present to continuously provide fluid to the <span class="zean">esiʈi</span> while the egg is being made.</p></li>
+<li><p>An <span class="zean">esiʈi</span> mating with a <span class="zean">ɖiʒiɖi</span> was considered distasteful and not very common, especially in the first few years of introduction.</p></li>
+<li><p>A popular technique did evolve in households with both an <span class="zean">esiʈi</span> and <span class="zean">ɖiʒiɖi</span>, wherein the <span class="zean">ɖiʒiɖi</span> would get to penetrate an <span class="zean">esiʈi</span> right after the <span class="zean">ajɛsɖɶ</span> had mated with her to push the fluids into the oviduct quicker. This could improve fertility rates considerably and reduce wait time and chances, as well as provide a better estimate on how the father is. Unfortunately, this could also cause accidents when a <span class="zean">ɖiʒiɖi</span> came inside an <span class="zean">esiʈi</span> from accident.</p></li>
+<li><p><span class="zean">esiʈi</span> had much better social standing in the households than <span class="zean">ɖiʒiɖi</span> and even outside. <span class="zean">esiʈi</span> would be able to lead the household and make decisions concerning them. They could work outside the household and hold power. Most <span class="zean">esiʈi</span> later in the war would be used as frontend or elite soldiers.</p></li>
+<li><p>An <span class="zean">esiʈi</span> would usually be one to leave the household to join the household of other <span class="zean">ajɛsɖɶ</span>. Pure <span class="zean">esiʈi</span> had enough standing to attract <span class="zean">ajɛsɖɶ</span> into their household. There are stories about a rare pure <span class="zean">esiʈi</span> birth by a omega <span class="zean">esiʈi</span> and alpha <span class="zean">ɖiʒiɖi</span> caused the revival of a household.</p></li>
+<li><p>An omega <span class="zean">esiʈi</span> were still afforded the same respect as pure <span class="zean">esiʈi</span> but as stated above would be the one leaving their household to go to their mates’.</p></li>
+</ul>
+</section>
+</section>
+<section id="on-relationships-and-society-and-family-structures">
+<h3>On Relationships and Society and Family Structures<a class="headerlink" href="#on-relationships-and-society-and-family-structures" title="Permalink to this heading">#</a></h3>
+<section id="on-marriage">
+<h4>On Marriage<a class="headerlink" href="#on-marriage" title="Permalink to this heading">#</a></h4>
+<p>Different types of marriages in Hindu mythology</p>
+<dl class="simple">
+<dt>Brahma Marriage</dt><dd><p>considered the religious marriage, and the most prevalent among Hindus in modern day India. The father finds a man and proposes the marriage of that man’s daughter to his son. The groom, bride, and families freely concur with the proposal. The two families and relatives meet, the daughter is ceremonially decorated, the father gives away his daughter in betrothal, and a Vedic marriage ceremony is conducted. There is no extensive inventory of possessions involved and the girl enters the boy’s house with two sets of clothes and some ornaments as seen fit by her family. “Kanyadaan”, which is the handing of the bride by her father to the groom, is an important ritual of the Brahma Vivah.</p>
+</dd>
+<dt>Daiva Marriage</dt><dd><p>the father gives away his daughter along with ornaments to a priest as a sacrificial fee. This form of marriage occurred in ancient times when yajna sacrifices were prevalent. In this type of wedding, there are no feasts or celebrations that are specific to the wedding, but the wedding of the daughter of a poor family is held as an act of charity by wealthy people. It was customary for kings, landlords and rich merchants to facilitate rituals for social upliftment where charity would be given to all. During these great events, a poor man would sometimes approach the wealthy host and seek the charity that his daughter’s wedding be performed at this time. This type of marriage may take place if the girl’s parents are unable to locate a suitable groom within a reasonable period (several years) after the girl has attained puberty. Often, the reason for this would be that the parents of the bride cannot afford the expense of their daughter’s marriage. It was considered improper or unsafe to keep a girl unwed past her teens, and anyway the chances of an aging girl getting a good husband were not better than the same girl getting a good husband at a younger age. So the girl would be bedecked with flowers and whatever small ornaments the parents could provide and taken to the venue of the religious ceremony or sacrifice being performed by a rich magnate. She would be offered in marriage to any willing man and generally this would be one of the priests, young or old. The wedding ceremony would be performed in short order and the feasts which were anyway being hosted as part of the festivities would suffice for this extra wedding also. According to the Dharmashastra, Daiva marriage is considered avoidable but is still respectable since poverty is not culpable; lack of virtue is reprehensible but honest poverty is acceptable.</p>
+</dd>
+<dt>Arsha Marriage</dt><dd><p>the groom gives a cow and a bull (kanya-shulkam or bride-price) to the father of the bride and the father exchanges his daughter in marriage. The groom takes a vow to fulfill his obligations to the bride and his commitment to family life and the home (Grihasthashram, ‘householder’). According to certain texts, the prescribed bride-price is a cow with a calf and a pair of bulls. The sacred texts provide various lists of specific communities where this custom prevailed and imply that it is unfitting in general society. However, several instances are found in the puranas of marriage between a man from mainstream communities and a woman from one of the bride-price seeking communities (Pandu-Madri, Dasharatha-Kaikeyi, etc.). In nearly all cases, the man willingly pays the bride-price and brings his bride home.</p>
+</dd>
+<dt>Prajapatya Marriage</dt><dd><p>similar to the Brahma vivaah, except that the bride’s father gives her away as a gift, not to the groom, but to the groom’s father. This type of marriage is resorted to when the groom and bride are both very young. Thus, the protection of the bride or daughter is handed over by her father to the groom’s father during the Panigrahan (hand-receiving) ceremony. The wedding ceremony involving the young bride and groom may take place immediately afterwards, but the wedding may not be consummated for several years, until the bride and groom are old enough.</p>
+</dd>
+<dt>Gandharva Marriage</dt><dd><p>the couple simply choose to marry by mutual consent. The marriage is entered into without religious ceremonies and sometimes with vows involving Agni as in the case of a Brahma marriage. The Hindu Shastras, Naradsmriti, and, in the Mahabharata, Rishi Kanva, the foster-father of Shakuntala, claim that this form of marriage is the most ideal. Examples of such Vivaah were Dushyanta-Shakuntala, Krishna-Rukmini and Arjuna-Subhadra from Mahabharata, where the marriages were performed because of the love between bride and groom, and without consents from all family members of two-sides. Opposing this type of marriage was considered sinful in many Hindu texts.</p>
+</dd>
+<dt>Asura Marriage</dt><dd><p>the groom offers a dowry to the father of the bride and the bride; both accept the dowry out of free will, and he receives the bride in exchange. This is akin to marrying off a daughter for money, and is considered inappropriate by Hindu Smriti-writers because greed, not what is best for the woman, can corrupt the selection process. Generally the groom is of lower social rank or caste than the bride.</p>
+</dd>
+<dt>Rakshasa Marriage</dt><dd><p>where the groom forcibly abducts the bride against her will and her family’s will (the word Rakshasa roughly means “devil”). This is essentially marriage by abduction. In cases where the girl is willing to marry the boy but her family is against the alliance, the girl may be abducted and married. It is essential that the girl be willing, because otherwise, the puranas and shastras in The Scripture treat the incident of abduction as with consequent cosmic vengeance and retribution. Although the marriages of Krishna-Rukmini and Arjuna-Subhadra seem like Rakshasa Vivaah, they were actually Gandharva Vivahaah, because in all of which cases the girl was willing and the results were good.</p>
+</dd>
+<dt>Paishacha Marriage</dt><dd><p>where the man forces himself on a woman when she is insentient: when she is drugged or drunken, possessed or unconscious and thus is married unwillingly, and which has been outlawed by Manu.</p>
+</dd>
+</dl>
+<p class="rubric">Translation to <span class="zean">aɖasi</span></p>
+<ol class="arabic simple">
+<li><p>Marriage is arranged and organized by the parents of the two partners. In case, a parent isn’t alive, then the closest relative arranges the marriage.</p></li>
+<li><p>The marriage is sponsored by a wealthy patron. The “bride” is married to however is present and willing at the day of the sponsored marriage.</p></li>
+<li><p>One partner’s parent arranges the marriage of their child by giving a gift to their proposed partner’s family. The marriage only happens upon acceptance of parent and child.</p></li>
+<li><p>A form of underage marriage, where the parent of a child gives them to the partner’s family. The marriage is performed but not consummated until they have grown</p></li>
+<li><p>A marriage which is decided solely by the two partners. A marriage ceremony is not important in this case, and may be even skipped</p></li>
+<li><p>A marriage where one parent gives a gift to the partner’s parent who may then choose to giver their child as partner. The only difference between this one and #3 is that this one doesn’t require the consent of the child.</p></li>
+<li><p>A marriage when one partner abducts their partner and forcefully marries them against theirs and their family’s will.</p></li>
+<li><p>The “marriage” happens when one forces themselves upon their partner when they are insentient. There are no ceremonies nor vows.</p></li>
+</ol>
+</section>
+</section>
+<section id="walking-ideas">
+<h3>Walking Ideas<a class="headerlink" href="#walking-ideas" title="Permalink to this heading">#</a></h3>
+<section id="on-floral-and-faunal-fertility-symbol">
+<h4>On Floral and Faunal Fertility Symbol<a class="headerlink" href="#on-floral-and-faunal-fertility-symbol" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p>A plant, similar to the bamboo, which grows extremely fast, and cannot be cut down as quickly as it grows by the <span class="zean">ʈeaθyɖa</span>.</p></li>
+<li><p>An animal that mainly eats the plant above, and is the only one which can maintain the growth of this plant.</p></li>
+<li><p>There is a symbiotic relationship between these two species.</p></li>
+<li><p>The plant is a symbol for a fertility <span class="zean">aiɖi</span>, while the animal is a symbol for some kind of destruction <span class="zean">aiɖi</span>. And this showcases not only some kind of enmity, but friendship and balance between two opposite thoughts.</p></li>
+</ul>
+</section>
+<section id="on-cultural-conflict-in-before-second-arrival-cultures">
+<h4>On Cultural Conflict in Before Second Arrival Cultures<a class="headerlink" href="#on-cultural-conflict-in-before-second-arrival-cultures" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p>A culture which holds <span class="zean">etiaʃi</span> and <span class="zean">aʃieti</span> to the highest regard in their local pantheon; they consider beauty, it may be outer or inner, to be the most important thing in an individual.</p></li>
+<li><p>A second culture which holds beauty to be a vanity, and holds another <span class="zean">aiɖi</span> to be essential in their pantheon.</p></li>
+<li><p>The idea is to have these two cultures in an ever-ongoing war with each other. Although there is occasional fighting, these two cultures hate each other and cannot stand each other.</p></li>
+<li><p>Since these two kingdoms are also fairly large, their infighting and lack of local political control allows the Moon Empire to rise later on.</p></li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="notes.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Miscellaneous Notes</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="Documents/Stories/Excerpts_from_Before_Great_Split.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Excerpts from Before Great Split</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2020-2023, Praecordi
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Ideas</a><ul>
+<li><a class="reference internal" href="#brainstorming-with-chatgpt">Brainstorming with ChatGPT</a><ul>
+<li><a class="reference internal" href="#clothing-based-magic-system">Clothing-based Magic System</a></li>
+<li><a class="reference internal" href="#teathuda-a-unique-gender-system">Teathuda: A Unique Gender System</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#random-list-of-ideas">Random List of Ideas</a><ul>
+<li><a class="reference internal" href="#on-cultural-gender-roles">On Cultural Gender Roles</a><ul>
+<li><a class="reference internal" href="#on-the-iii-s-role-in-the-community">On the <span class="zean">ɖiʒiɖi</span>’s Role in the Community</a></li>
+<li><a class="reference internal" href="#on-the-esii-s-role-in-the-community">On the <span class="zean">esiʈi</span>’s Role in the Community</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#on-relationships-and-society-and-family-structures">On Relationships and Society and Family Structures</a><ul>
+<li><a class="reference internal" href="#on-marriage">On Marriage</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#walking-ideas">Walking Ideas</a><ul>
+<li><a class="reference internal" href="#on-floral-and-faunal-fertility-symbol">On Floral and Faunal Fertility Symbol</a></li>
+<li><a class="reference internal" href="#on-cultural-conflict-in-before-second-arrival-cultures">On Cultural Conflict in Before Second Arrival Cultures</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/scripts/furo.js"></script>
+    <script src="_static/design-tabs.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+Iron
+====
+
+These are some notes on `this article <https://acoup.blog/2020/09/18/collections-iron-how-did-they-make-it-part-i-mining/>`_ and the following articles.

@@ -1,0 +1,367 @@
+Holds
+=====
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Contents
+        
+Maker's Notes
+-------------
+
+
+.. dropdown:: Holds
+    :icon: clock
+    
+    These societies are the bases of the holds which will share the cultures of the Pre-Arrival societies. There are 8 planned holds: 
+    
+    - 1 ruled by `θisœʈe`
+    - 3 ruled by the daughters of `eɹaʈɛ` (`seθi`, `aʃaða`, and `teʃi`)
+    - 2 ruled by the daughters of `saiʃeʈa` (`dea` and `θea`)
+    - Later, 1 hold is added which is ruled by the 5 daughters of `ajɛseɖi` and `stɹai` (commonly called the `ʃɛʈaie`)
+    - 1 is added which is ruled by `iɖe` who is the daughter of `θisœʈe` and `stɹai` (but `θisœʈe` does not make this publicly known). 
+    
+    After `iɖe` rebels against `ajɛseɖi`, and unites with `saiʃeʈa` into her own separate confederacy, more holds into both `ajɛseɖi` and `saeθa`'s confederacy as well as `iɖe` and `saiʃeʈa`'s confederacy. Namely, there are 6 more holds added:
+    
+    - 1 for `siydi`, daughter of `aʃaða` and `θea`
+    - 1 for `sjeði`, daughter of `teʃi` and `dea`
+    - 1 for `ase`, adopted by `iɖe`
+    - 1 for `sœʈi`, daughter of `aðia` and `iɖe` (sister of `sia`)
+    - 1 for `ʈaʃe`, daughter of `iɖe` and `seθi`
+    - 1 for `ʈɛe`, daughter of `iɖe` and `dea`
+    
+    `iɖe`'s old hold is inherited by her favorite daughter `sia`.
+    
+    Which hold's culture is based upon which Pre-Arrival society is dependent on their geographic location and will be decided upon later.
+
+.. dropdown:: On Hold Doctrines
+    :icon: clock
+
+    .. todo:: 
+        
+        Redo the doctrines based around the new clothing-based magical system. The doctrines should follow the magical preferences of the `isiʈeθɶ` (for the hold doctrines) and the `zœeɖaʃi` (for the claim doctrines). Maybe hold doctrines should have a choice and specify material while claim doctrines should specify area (?).
+        
+        Remove transparency.
+        
+        I think the doctrines should be an extension of heraldry in medieval Europe. There should be an intricate system of introducing doctrines and many more elements to it, including specific clothing items and accessories. This should be for later. For now keep it simple.
+
+    Doctrines are an important part of holds, as because of the clothing-based magic system, more popular than the energy-based magic system due to its rarity, caused clothing to be an important part of cultures across `aɖasi`. While most every day people couldn't perform this magic because of the lack of resources required, people adopted the tradition of wearing clothing similar to the magicians they followed or were in allegiance to. Rulers would wear the clothings similar to those in legends as a way to consolidate their rule. 
+    
+    When the `isiʈeθɶ` and `zœeɖaʃi` were installed as rulers of `aɖasi`, they adopted a similar system. The Hold Doctrines, as they are called, are a cascading system of doctrines of which areas of the body an outfit should keep covered or uncovered, as well as the type of material the clothing should be made of. These doctrines are an important ceremonial tradition maintained by the `isiʈeθɶ` and `zœeɖaʃi`. 
+    
+    During the Great Split, the turning of `saiʃeʈa` was indicated through her change in clothing which followed a different doctrine. `teʃi` also changed the doctrine of her hold to follow that of her mentor. When `θea` switched over to `saeθa`, she adopted a doctrine following that of `saeθa`. `iɖe`, when creating a new coalition after the Great Split, created a doctrine that followed her inspiration, `θisœʈe`. 
+    
+    .. rubric:: Rules of the Doctrines
+    
+    The body is divided into 4 parts: the top, arms, middle and bottom. The top consists of the shoulders and chest. Then there are the arms. The middle consists of the stomach and extends past the waist to the hips. The bottom consists of the hips and the legs.
+
+    Each part is divided into its left and right side. Furthermore, the top and bottom are divided into smaller parts: the upper and the lower. The upper top consists of the parts between the neck and the breasts. The lower top consists primarily of the breasts, and may include some areas below the breasts but are not required to. The upper bottom primarily includes the waist to the crotch, and may include the thighs but are not required to. The lower bottom includes the lower legs, including the knee.
+
+    In total, the body is thus divided into 12 different parts:
+
+    #. upper left top
+    #. upper right top
+    #. lower left top
+    #. lower right top
+    #. left arm
+    #. right arm
+    #. left middle
+    #. right middle
+    #. upper left bottom
+    #. upper right bottom
+    #. lower left bottom
+    #. lower right bottom
+
+    .. tab-set:: 
+    
+        .. tab-item:: Doctrines before the Great Split
+            
+            The only coalition during this time was the `ateɹti` coalition. `ajɛseɖi`'s coalition had established a doctrine of exposing the middle to distinguish between the rulers who had turned to the coalition and the ones who hadn't.
+            
+            .. tab-set:: 
+            
+                .. tab-item:: `ajɛseɖi`'s Hold
+                
+                    The general rule in `ajɛseɖi`'s hold is to expose the lower top or arms or half of both, and cover the remaining.
+                    
+                    .. tab-set::
+                        
+                        .. tab-item:: `ajɛseɖi`
+                        
+                            :Cover: (lower top), upper bottom
+                            :Expose: (arms)
+                            
+                            .. figure:: /_static/doctrines/10_Ayasedi.png
+                                :width: 50%
+                        
+                        .. tab-item:: `ʃɛʈaie`
+                        
+                            :Cover: (arms)
+                            :Expose: (lower top), lower bottom
+                            
+                            .. figure:: /_static/doctrines/11_Shataie.png
+                                :width: 50%
+                        
+                        .. tab-item:: `sœʈi`
+                        
+                            :Cover: (lower right top), upper right top, (left arm)
+                            :Expose: (lower left top), (right arm)
+                            
+                            .. figure:: /_static/doctrines/12_Soti.png
+                                :width: 50%
+                        
+                .. tab-item:: `saeθa`'s Hold
+                
+                    The general rule in `saeθa`'s hold is to expose the lower top or arms or half of both, and cover the remaining with any transparent material.
+                    
+                    .. tab-set::
+                        
+                        .. tab-item:: `saeθa`
+                        
+                            :Cover: upper top
+                            :Expose: (arms)
+                            :Transparent: (lower top)
+                        
+                            .. figure:: /_static/doctrines/20_Saetha.png
+                                :width: 50%
+                        
+                        .. tab-item:: `seθi`
+                        
+                            :Cover: upper right top
+                            :Expose: upper left top, (lower right top), (right arm)
+                            :Transparent: (lower left top), (left arm)
+                            
+                            .. figure:: /_static/doctrines/21_Sethi.png
+                                :width: 50%
+                        
+                        .. tab-item:: `aʃaða`
+                        
+                            :Cover: upper bottom
+                            :Expose: (arms)
+                            :Transparent: (lower top), lower bottom
+                            
+                            .. figure:: /_static/doctrines/22_Ashadha.png
+                                :width: 50%
+                        
+                        .. tab-item:: `teʃi`
+                
+                            :Cover: upper right top, right bottom
+                            :Expose: (lower left top), (left arm)
+                            :Transparent: (lower right top), (right arm)
+                            
+                            .. figure:: /_static/doctrines/23_Teshi.png
+                                :width: 50%
+                        
+                .. tab-item:: `saiʃeʈa`'s Hold
+                
+                    The general rule in `saiʃeʈa`'s hold is to expose the upper top or lower top or either half of both, and cover the remaining parts
+                    
+                    
+                    .. tab-set::
+                        
+                        .. tab-item:: `saiʃeʈa`
+                        
+                            :Cover: (lower top), lower bottom
+                            :Expose: (upper top)
+                            
+                            .. figure:: /_static/doctrines/30_Saisheta.png
+                                :width: 50%
+                        
+                        .. tab-item:: `θisœʈe`
+                        
+                            :Cover: (right top), right arm, left bottom
+                            :Expose: (left top)
+                            
+                            .. figure:: /_static/doctrines/31_Thisote.png
+                                :width: 50%
+                        
+                        .. tab-item:: `dea`
+                        
+                            :Cover: (upper top), right bottom
+                            :Expose: (lower top), lower left bottom
+                            
+                            .. figure:: /_static/doctrines/32_Dea.png
+                                :width: 50%
+                        
+                        .. tab-item:: `θea`
+                
+                            :Cover: (upper top), upper bottom
+                            :Expose: (lower top), lower bottom
+                            
+                            .. figure:: /_static/doctrines/33_Thea.png
+                                :width: 50%
+                        
+                
+        .. tab-item:: Doctrines after the Great Split
+        
+            The doctrine of the `ateɹti` coaltion remained the same. The rival coalition, `itɹati`, implemented a general doctrine of covering the right top. 
+            
+            .. tab-set:: 
+            
+                .. tab-item:: `ajɛseɖi`'s Hold
+                
+                    The general rule in `ajɛseɖi`'s hold is to expose the lower top or arms or half of both, and cover the remaining.
+                    
+                    .. tab-set::
+                        
+                        .. tab-item:: `ajɛseɖi`
+                        
+                            :Cover: (lower top), upper bottom
+                            :Expose: (arms)
+                            
+                            .. figure:: /_static/doctrines/10_Ayasedi.png
+                                :width: 50%
+                        
+                        .. tab-item:: `ʃɛʈaie`
+                        
+                            :Cover: (arms)
+                            :Expose: (lower top), lower bottom
+                            
+                            .. figure:: /_static/doctrines/11_Shataie.png
+                                :width: 50%
+                        
+                        .. tab-item:: `sœʈi`
+                        
+                            :Cover: (lower right top), upper right top, (left arm)
+                            :Expose: (lower left top), (right arm)
+                            
+                            .. figure:: /_static/doctrines/12_Soti.png
+                                :width: 50%
+                        
+                .. tab-item:: `saeθa`'s Hold
+                
+                    The general rule in `saeθa`'s hold is to expose the lower top or arms or half of both, and cover the remaining with any transparent material.
+                    
+                    .. tab-set::
+                        
+                        .. tab-item:: `saeθa`
+                        
+                            :Cover: upper top
+                            :Expose: (arms)
+                            :Transparent: (lower top)
+                            
+                            .. figure:: /_static/doctrines/20_Saetha.png
+                                :width: 50%
+                        
+                        .. tab-item:: `seθi`
+                        
+                            :Cover: upper right top
+                            :Expose: upper left top, (lower right top), (right arm)
+                            :Transparent: (lower left top), (left arm)
+                            
+                            .. figure:: /_static/doctrines/21_Sethi.png
+                                :width: 50%
+                        
+                        .. tab-item:: `aʃaða`
+                        
+                            :Cover: upper bottom
+                            :Expose: (arms)
+                            :Transparent: (lower top), lower bottom
+                            
+                            .. figure:: /_static/doctrines/22_Ashadha.png
+                                :width: 50%
+                        
+                        .. tab-item:: `θea`
+                        
+                            :Expose: (lower top), lower bottom
+                            :Transparent: upper bottom, (arms)
+                            
+                            .. figure:: /_static/doctrines/24_Thea;\ AGS.png
+                                :width: 50%
+                        
+                        .. tab-item:: `siydi`
+                
+                            :Cover: right bottom
+                            :Expose: (arms), lower left bottom
+                            :Transparent: (lower top)
+                            
+                            .. figure:: /_static/doctrines/25_Siudi.png
+                                :width: 50%
+                        
+                .. tab-item:: `saiʃeʈa`'s Hold
+                
+                    The general rule in `saiʃeʈa`'s new hold is to expose the middle or arms or half of both and cover the remaining
+                    
+                    .. tab-set::
+                        
+                        .. tab-item:: `saiʃeʈa`
+                        
+                            :Cover: (arms), lower bottom)
+                            :Expose: (middle)
+                            
+                            .. figure:: /_static/doctrines/40_Saisheta;\ AGS.png
+                                :width: 50%
+                        
+                        .. tab-item:: `teʃi`
+                        
+                            :Cover: (right middle), (right arm), left bottom
+                            :Expose: (left middle), (left arm)
+                            
+                            .. figure:: /_static/doctrines/41_Teshi;\ AGS.png
+                                :width: 50%
+                        
+                        .. tab-item:: `dea`
+                        
+                            :Cover: (left middle), (left arm), right bottom
+                            :Expose: (right middle), (right arm), lower left bottom
+                            
+                            .. figure:: /_static/doctrines/42_Dea;\ AGS.png
+                                :width: 50%
+                        
+                        .. tab-item:: `sjeði`
+                
+                            :Cover: (left middle), (right arm), upper left bottom
+                            :Expose: (right middle), (left arm), lower left bottom
+                            
+                            .. figure:: /_static/doctrines/43_Syedhi;\ AGS.png
+                                :width: 50%
+                        
+                .. tab-item:: `iɖe`'s Hold
+                
+                    The general rule in `iɖe`'s hold is to expose the left top or middle or half of both and cover the remaining with any transparent material
+                    
+                    .. tab-set::
+                        
+                        .. tab-item:: `iɖe`
+                        
+                            :Cover: right arm
+                            :Expose: (left top), lower right bottom
+                            :Transparent: (middle)
+                            
+                            .. figure:: /_static/doctrines/50_Ide.png
+                                :width: 50%
+                        
+                        .. tab-item:: `ase`
+                        
+                            :Cover: right arm, upper bottom
+                            :Expose: (lower left top), (left middle), lower bottom
+                            :Transparent: (upper left top), (right middle)
+                            
+                            .. figure:: /_static/doctrines/51_Ase.png
+                                :width: 50%
+                        
+                        .. tab-item:: `sia`
+                        
+                            :Cover: right arm, upper bottom
+                            :Expose: (upper left top), (left middle), lower right bottom
+                            :Transparent: (lower left top), (right middle)
+                            
+                            .. figure:: /_static/doctrines/52_Sia.png
+                                :width: 50%
+                        
+                        .. tab-item:: `ʈaʃe`
+                        
+                            :Cover: right arm, upper right bottom
+                            :Expose: (middle), left arm, lower right bottom
+                            :Transparent: (left top)
+                            
+                            .. figure:: /_static/doctrines/53_Tashe.png
+                                :width: 50%
+                        
+                        .. tab-item:: `ʈɛe`
+                        
+                            :Cover: right arm, right bottom
+                            :Expose: (left top), left arm, lower left bottom
+                            :Transparent: (middle)
+                            
+                            .. figure:: /_static/doctrines/54_Tae.png
+                                :width: 50%

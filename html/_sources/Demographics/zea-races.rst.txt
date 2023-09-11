@@ -1,0 +1,101 @@
+`zea` Races
+===========
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Contents
+
+    zea-races/teathuda
+    zea-races/teathuda-simulation/teathuda-simulation
+
+    
+..
+    zea-races/astro
+    zea-races/zhirto
+    zea-races/notable_individuals
+
+Maker's Notes
+-------------
+
+.. dropdown:: On Genders
+    :icon: clock
+
+    .. admonition:: Update
+        :class: important
+        
+        The new system is the ``XY`` system. This results in a 20\% `ɖiʒiɖi`, 68\% `esiʈi` and 12\% `ajɛsɖɶ`. In these there are 3 types of `esiʈi` -- pure (XX; 18.8\%), beta (XY; 21.5\%), omega (XO; 28.2%) -- and 2 types of `ɖiʒiɖi` -- pure (YY; 5.4\%) and omega (YO; 14.8%) -- but only pure a `ajɛsɖɶ` (OO; 11.3\%).
+
+        With this new system, the `esiʈi` can mate with each other. Because the `esiʈi` have the requirement that they need `ɖiʒiɖi` or `ajɛsɖɶ` milk to survive, the population might be slightly more biased towards `ɖiʒiɖi` and `ajɛsɖɶ`.
+
+    .. rubric:: Physical
+
+    - `ajɛsɖɶ`
+
+      + symmetric face, varied skin and hair color; more aligned with human beauty standards than other genders
+      + curvier bodies since they are child-bearers; 
+      + short `ajɛstɹaɹi`; ends with neural hair
+      + symmastic breasts; can secrete milk
+
+    - `ɖiʒiɖi`
+
+      + ethereal, mystical appearance; focus on lunar symbolism (pale skin, silver hair, glowing eyes)
+      + slim and lean bodies; shorter than `ajɛsɖɶ`
+      + long `ajɛstɹaɹi`; ends with penis head without duct
+      + large breasts which can be aroused; can secrete milk
+
+    - `esiʈi`
+
+      + radiant and fiery appearance; focus on solar symbolism (golden skin, red hair, blazing eyes)
+      + curvier bodies since they are also child-bearers; less curvy than `ajɛsɖɶ`, but larger
+      + long `ajɛstɹaɹi`; ends with hair
+      + small breasts which can be aroused
+
+    .. rubric:: Special Notes
+
+    - `ɖiʒiɖi`
+
+      + have a reproductive cycle which coincides with the moon. They go into heat during the moon cycle which depends on the individual `ɖiʒiɖi`.
+
+    - `esiʈi`
+
+      + need to be fed milk from either one of the other genders throughout their lives. 
+
+    .. rubric:: Social Role
+
+    - `ajɛsɖɶ`
+      
+      + child-bearers and care-givers
+      + artistic, and entertainers as well as warriors (sometimes)
+      + more likely to be artisanal workers (pottery, clothing, some metal working, painting)
+        
+
+    - `ɖiʒiɖi`
+      
+      + intelligent and scholars
+      + scientific and analytic roles as well as advisors
+      + more likely to be secretaries, advisors, tax collectors, ministers, etc. 
+     
+    - `esiʈi`
+      
+      + child-bearers and care-givers
+      + warriors and leaders as well as workers
+      + more likely to be specialized soldiers; more likely to be officers and leaders; in peacetime are relegated to baser works, such as farming, building, etc. 
+
+.. dropdown:: On Mating Mechanics
+    :icon: book
+    
+    .. figure:: /_static/gender-graphics/pairings_xy_dark.png
+       :align: center
+       :class: only-dark
+
+    .. figure:: /_static/gender-graphics/pairings_xy_light.png
+       :align: center
+       :class: only-light
+
+    .. figure:: /_static/gender-graphics/pairs_xy_dark.png
+       :align: center
+       :class: only-dark
+
+    .. figure:: /_static/gender-graphics/pairs_xy_light.png
+       :align: center
+       :class: only-light
