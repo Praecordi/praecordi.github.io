@@ -59,8 +59,7 @@ On Timeline Details
 Redacted Sections That Might Be Useful Later
 --------------------------------------------
 
-On Timeline Details
-+++++++++++++++++++
+.. rubric:: On Timeline Details
 
 - `aθɶs` humans mature in their 20s and start to decline in their 100s
 - `aθɶs` humans lifespan is between 125 to 150
@@ -71,13 +70,13 @@ Time Dilation factor between `aɖasi` and `aθɶs`:
 
 Time Dilation factor between `aɖasi` and Ranthis:
 
-  1576 [#f1]_ years in `aɖasi` equals 1 year in Ranthis
+  1576\ [#f1]_ years in `aɖasi` equals 1 year in Ranthis
 
-  Then 11 years in Ranthis equals 17336 years in `aɖasi` [#f2]_
+  Then 11 years in Ranthis equals 17336 years in `aɖasi`\ [#f2]_
 
 **Rough Timeline**
 
-- 55 BF [#f3]_ - `eɹaʈɛ` is born
+- 55 BF\ [#f3]_ - `eɹaʈɛ` is born
 
 - 54 BF - `ajɛseɖi` is born
 
@@ -303,13 +302,11 @@ Ages that the `isiʈeθɶ` and `zœeɖaʃi` are paused at
 - `dea` and `θea` are paused at 53
 - `ʃɛʈaie` are estimated to be paused at 29
 
-:zean-like:`tœeɹi`
-++++++++++++++++++
+.. rubric:: :zean-like:`tœeɹi`
 
 For now, we will talk about the `isʋe` organization called :zean-like:`tœeɹi`. The :zean-like:`tœeɹi`, originally an organization consisting of only a few dozen members, are a loose organization representing the `isʋe` community and intent containing any harmful acts by `isʋe`. The :zean-like:`tœeɹi` are led by a circle of elders; there are either 9 elders or a number of elders equal to 5% of the total `isʋe` population. Of these elders, half of the elders are `isʋe` while the other half are `ʐisʋe` where the majority goes to the `ʐisʋe` in case of an odd number of elders. The `isʋe` elders are chose based on their abilities or their seniority, while the `ʐisʋe` elders are nominated by the different nations. How the representation of each nation in the council of elders is decided by the `isʋe` elders with the condition that each recognized nation must get at least one elder to represent them. Each `isʋe` elder and `ʐisʋe` elder work in tandem to lead a group of `isʋe` in the `ʐisʋe` elder’s nation. Of all the `ʐisʋe` elder there is one who is the oldest who knows the name of a spell that stops the spell of any other `isʋe`. By an `aiɖi` spell cast by `aʃieti` herself, the name can only be passed down to the next oldest `ʐisʋe` elder and cannot be distributed to anyone. The :zean-like:`tœeɹi` are also usually watched over by an `aiɖi`. The first one to watch over the :zean-like:`tœeɹi` was `aʃieti`. Later the `aiɖi` has changed, although those instances have been momentous and shall be noted in the future. The role of the `aiɖi` in governing the :zean-like:`tœeɹi` is minimal to non-existent. The `aiɖi` only interferes with :zean-like:`tœeɹi` business when something wrong of massive proportions has occurred. These are the rough guidelines of how the :zean-like:`tœeɹi` works as set by `ajɛseɖi`. The :zean-like:`tœeɹi` dared not do anything while `ajɛseɖi` roamed `izœ`. But the organization, while seemingly full proof against potential atrocities of `isʋe` had its flaws which we shall reveal later in the chapter.
 
-Brainstorm of Organizations
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. rubric:: Brainstorm of Organizations
 
 :zean-like:`tœeɹi`:
   governing body of `isʋe`. 9 elders or 5% of `isʋe` population. Half are `isʋe`, and other half is `ʐisʋe`, with a majority of `ʐisʋe` in case of odd number;
@@ -317,6 +314,8 @@ Brainstorm of Organizations
   The :zean-like:`tœeɹi` was divided into split into multiple houses, each with their house master. These were not necessarily elders and positions were elected out of merit instead of seniority. Each house was dedicated to a single type of `sʋe`. Membership was not limited to one.
 
   Each major city or nation may apply for a :zean-like:`tœeɹi` chapter to be built in their capital. Each house had the choice of residing in a chapter or not. Thus, depending on the population of the house, they may be located at all chapters or only a few. Thus some chapters may have multiple houses or none.
+
+-----
 
 .. rubric:: Footnotes
 

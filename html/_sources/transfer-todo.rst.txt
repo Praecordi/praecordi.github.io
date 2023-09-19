@@ -1,0 +1,12 @@
+:orphan:
+
+
+Transfer Todo
+=============
+
+- Update and rewrite `isiʈeθɶ` description. :bdg-primary:`source_depr`
+- Update and rewrite natural environment. Specifically, write a Maker's Notes on the `aiɖi` creatures created as well as the `zœeɖaʃi` creatures. :bdg-primary:`source_depr` :bdg-primary:`[depr] Adasi Wiki`
+- Take inspiration from previous plans to plan out new history. :bdg-primary:`[depr] Adasi Wiki`
+- Transfer maps folder from assets to res. :bdg-primary:`[depr] Adasi Wiki`
+- Transfer old_dresses if needed. :bdg-primary:`[depr] Adasi Wiki`
+- Reword spreadsheets in notes folder. :bdg-primary:`[depr] Adasi Wiki`

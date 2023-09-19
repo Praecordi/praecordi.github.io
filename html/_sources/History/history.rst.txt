@@ -7,6 +7,7 @@ History
 
     before-founding
     first-arrival
+    Before-Second-Arrival/before-second-arrival
 
 Maker's Notes
 -------------
@@ -32,6 +33,7 @@ Maker's Notes
         .. grid-item::
         
             .. dropdown:: First Arrival
+                :color: success
             
                 Need to change the story for the First Arrival. Maybe `ajɛseɖi` did not come alone, but came with `saiʃeʈa` and `saeθa`?
             

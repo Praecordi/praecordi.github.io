@@ -1,0 +1,49 @@
+On Ranthis
+==========
+
+.. dropdown:: Ranthis Storyline Plans
+
+    Upon returning to `aθɶs`, `ajɛseɖi`, `saiʃeʈa`, and `saeθa` gather everyone and escape to the forest of the Primal Weaver only to find that because of efforts by the Academy, the forest has been cut down, and with it the Primal Weaver has passed away. Once again, being followed by soldiers, this time coming after `saeθa`, `seθi` and `aʃaða`\ [#reason]_. With little time, the 3 women use their working knowledge of `sʋe` to attempt to transport themselves to `aɖasi`, but are unsucessful, and they get transported to Ranthis. Due to the way the spell worked (or rather did not work), the groups were split and landed in different areas of Ranthis. 
+
+    The entire group is split thus:
+
+    - `ajɛseɖi`, `aʃaða` and `θea` are the first group.
+    - `saiʃeʈa`, `teʃi`, `dea`, `θisœʈe` and `stɹai` end up in a group. `θisœʈe` and `stɹai` are later separated, becoming the third group.
+    - `saeθa`, `eɹaʈɛ`, and `seθi` are the last, fourth group.
+
+
+    .. admonition:: Worldbuilding Plans
+        :class: tip
+
+        - Recreate the political environment in Ranthis. 
+            - Keep hedonistic characterization of Sassandria.
+            - Keey Minuit Oath, and `seθi`\ [#sethis-experience]_, `saeθa` and `eɹaʈɛ`'s place in it.
+            - Change Agrifou and Vormi.
+            - Change the political environment between these places.
+        - Change plotlines for
+            - `ajɛseɖi`, `aʃaða` and `θea`
+            - `saiʃeʈa`, `teʃi` and `dea`
+            - Figure out how `saiʃeʈa`, `teʃi` and `dea` are split off from `θisœʈe` and `stɹai`.
+
+    For `stɹai` and `θisœʈe`, they are discovered by a traveling noble who takes them with her out of curiosity. They are given luxurious treatment in the decadent Sassandrian empire. But `stɹai`, who wishes to remain faithful to `ajɛseɖi` after discovering she is alive, is unable to immerse herself in the hedonistic customs. This soon becomes a problem, to which `θisœʈe` suggests the solution of a Ranthisian marriage with her. `stɹai` is reluctant but agrees. She slowly uses her position in the Sassandrian heirarchy to search for the rest of the group. `θisœʈe` is far less concerned with this.
+
+    `saeθa`, `eɹaʈɛ` and `seθi` are captured by slavers who sell them to a traveling menagerie of sorts. They are put on display because of their exotic appearance. This menagerie is part of the Minuit Oath, an overarching, loosely structured organization that regulated the entertainment industry in most of Ranthis. While `saeθa` and `eɹaʈɛ` are reluctant to do so, `seθi` convinces them to play into their act. They are soon freed of the conditions that they were kept in (being treated as almost animals rather than living beings), and then slowly establish themselves higher in the organization.
+
+    .. admonition:: Ideas for Plotlines
+        :class: idea
+
+        Some ideas for plotlines for the storylines that need to be reworked.
+        
+        - I think a plotline where `ajɛseɖi` uses her charisma, and political acumen to reinstate a princess or queen back to the throne would be cool. A cool addition would be that `ajɛseɖi` has to find the rightful queen and reinstate her, in exchange for a way to contact the gods of this place to return them to `aɖasi`.
+        - A heist plotline is always cool
+        - A group searching for a mysterious mythical creature. For what reason, who knows?
+        - A storyline mirroring the *Seven Samurai*. The group needs to recruit 6 other people and defend a village from bad people.
+        - A migration story, about the group helping refugees/band of people migrate to a new place.
+        - Change the original `teʃi` storyline where she gets married but somehow gets into trouble and `dea` then helps her. Maybe change characters or use this for some more the damsel in distress type than `teʃi` (also, `teʃi` is too young in this instance, I think).
+        - A seige where the character must hold out as long as they can. Might work well with the above point (Maybe `saiʃeʈa` and `teʃi` or just `teʃi` is stuck in a seige and `dea` must somehow help them).
+
+    .. rubric:: Dropdown Footnote
+
+    .. [#reason] I'm thinking something to do `seθi` escaping from her auction and the Academy wanting its instructor back. Though I'm not sure why they would be so aggressive. Think about this later.
+
+    .. [#sethis-experience] I want to keep `seθi`'s story in the In-World Document. This could inspire `seθi`'s creature to have a modified penis as she experienced on Ranthis?
