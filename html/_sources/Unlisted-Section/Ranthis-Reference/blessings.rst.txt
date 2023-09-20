@@ -98,6 +98,10 @@ Blessing of the Tree
 
 The Blessed’s muscle tissue is much more solid than average. Additionally, the Blessed’s hair resembles leaves.
 
+-----
+
+.. rubric:: Footnotes
+
 .. [1]
    `The World of Rankvah: Blessings of the Decade’s Start <https://www.reddit.com/r/NSFWworldbuilding/comments/i5nuwr/the_world_of_rankvah_blessings_of_the_decades/>`__
 

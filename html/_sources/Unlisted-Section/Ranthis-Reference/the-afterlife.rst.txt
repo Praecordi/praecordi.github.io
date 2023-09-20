@@ -94,5 +94,9 @@ Once you enter the afterlife, you’ll find that you can alter your appearance a
 
    An artistic representation of the afterlife. The realms are infinite in size, and are not positioned in any particular fashion. The parts outside the main circle is a representation of personal realms.
 
+-----
+
+.. rubric:: Footnotes
+
 .. [1]
    `The World of Rankvah: The Afterlife and its Locations <https://www.reddit.com/r/NSFWworldbuilding/comments/hwt2ce/the_world_of_rankvah_the_afterlife_and_its/>`__

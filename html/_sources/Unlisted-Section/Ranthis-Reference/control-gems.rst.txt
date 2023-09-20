@@ -81,5 +81,9 @@ Now, let’s run through another scenario:
 
    The subordinate delivers the message, and maybe gets a reply. After all of that is done, the subordinate reports to the supervisor that the message has been delivered, and adds the reply if there is one. Again, everything goes to the IT, who delivers you the report and reply.
 
+-----
+
+.. rubric:: Footnotes
+
 .. [1]
    `The World of Rankvah: Control Gems, Data Structures, Increased Sensitivity, and Rankvahn Computer Networks <https://www.reddit.com/r/NSFWworldbuilding/comments/hqmdiu/the_world_of_rankvah_control_gems_data_structures/>`__

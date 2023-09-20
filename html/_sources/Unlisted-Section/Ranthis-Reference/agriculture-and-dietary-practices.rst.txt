@@ -28,5 +28,9 @@ Restaurants
 
 Each city has plenty of restaurants specializing in certain kinds of dishes. One restaurant could serve you feasts of meat, while the one across the street could send you to a dairy sugar rush. Whatever kind of food you want to enjoy, any city would have what you’re looking for. In small villages, though there aren’t many restaurants, there will be taverns, public dining halls, or just plain bars.
 
+-----
+
+.. rubric:: Footnotes
+
 .. [1]
    `The World of Rankvah: Agriculture and Dietary Practices <https://www.reddit.com/r/NSFWworldbuilding/comments/ht8tch/the_world_of_rankvah_agriculture_and_dietary/>`__

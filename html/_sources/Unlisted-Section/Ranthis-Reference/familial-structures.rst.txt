@@ -49,5 +49,9 @@ Other way around:
 
 -  Golshgaf tells Kentava the response.
 
+-----
+
+.. rubric:: Footnotes
+
 .. [1]
    `The World of Rankvah: Familial Structures [INFO] <https://www.reddit.com/r/NSFWworldbuilding/comments/h7w91u/the_world_of_rankvah_familial_structures_info/>`__

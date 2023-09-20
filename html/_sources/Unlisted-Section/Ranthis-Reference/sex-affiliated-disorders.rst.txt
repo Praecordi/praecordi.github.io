@@ -74,6 +74,10 @@ Demi-humans are, according to the Three Daughters, “human enough”. This mean
     | Snakefolk  | 200 / 7% | 1,200 / 1% | 100 / 1%    | 7,100 / 0$ | 9,300 / 2%  |
     +------------+----------+------------+-------------+------------+-------------+
 
+-----
+
+.. rubric:: Footnotes
+
 .. [1]
    `The World of Rankvah: Sex-Affiliated
    Disorders <https://www.reddit.com/r/NSFWworldbuilding/comments/hdeds1/the_world_of_rankvah_sexaffiliated_disorders/>`__

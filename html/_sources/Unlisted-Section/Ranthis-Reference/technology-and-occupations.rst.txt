@@ -41,5 +41,9 @@ Snakefolk Occupations
 
 While other demi-humans have jobs tailored for their bodies, Snakefolk don’t enjoy these benefits. Their peak speed is no faster than a normal human’s jog, their tails take plenty of space, and their only saving grace is better night vision. These disadvantages are what sometimes gets people to consider them as disabled. Due to those limitations, a noticeable portion of Snakefolk serve as housewives.
 
+-----
+
+.. rubric:: Footnotes
+
 .. [1]
    `What’s pornography like in your world? <https://www.reddit.com/r/NSFWworldbuilding/comments/hh6sqy/comment/fwcrwb8/?utm_source=share&utm_medium=web2x&context=3>`__

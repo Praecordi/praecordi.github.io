@@ -155,6 +155,7 @@ Maker's Notes
 
 .. dropdown:: On Inspirations for the `isiʈeθɶ` and `zœeɖaʃi`
     :icon: clock
+    :color: warning
     
     .. _story-change:
     

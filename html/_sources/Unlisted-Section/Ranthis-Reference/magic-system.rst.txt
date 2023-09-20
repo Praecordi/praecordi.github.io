@@ -50,5 +50,9 @@ Non-empty gems are considered to be a status symbol. While they are fairly commo
 
 **Control Gem Anecdote**: A famous story of the control gems recounts the rule of the eleventh queen of the world, Mezita, who imbued her control gems into several nobles and citizens as a form of mass surveillance and enforcement of her laws. She exploited the fact that the receiver must be “non-resisting”, so she had people put imbue control gems for her onto unknowing targets while they were asleep.
 
+-----
+
+.. rubric:: Footnotes
+
 .. [1]
    `The magic system of Rankvah: Its creation and current state <https://www.reddit.com/r/NSFWworldbuilding/comments/grtwth/the_magic_system_of_rankvah_its_creation_and/>`__

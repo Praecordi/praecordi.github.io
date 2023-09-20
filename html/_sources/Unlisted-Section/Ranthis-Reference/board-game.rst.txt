@@ -121,5 +121,9 @@ In Culture
 
 The game of Sekbarab is played everywhere around the world, and is used also as a tie-breaker of various conflicts. It can also be used for gambling, and also has religious importance. It’s said that women who win frequently in a game of Sekbarab achieve sexual wisdom, and entire facilities meant in which women are taught how to play Sekbarab by very competent players. There is one legendary woman who is said to have never lost a game of Sekbarab, and achieved sexual enlightenment.
 
+-----
+
+.. rubric:: Footnotes
+
 .. [1]
    `The World of Rankvah: An Orgy Board Game Called Sekbarab <https://www.reddit.com/r/NSFWworldbuilding/comments/heludt/the_world_of_rankvah_an_orgy_board_game_called/>`__
