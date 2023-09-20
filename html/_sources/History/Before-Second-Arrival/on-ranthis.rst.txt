@@ -29,6 +29,10 @@ On Ranthis
 
     `saeθa`, `eɹaʈɛ` and `seθi` are captured by slavers who sell them to a traveling menagerie of sorts. They are put on display because of their exotic appearance. This menagerie is part of the Minuit Oath, an overarching, loosely structured organization that regulated the entertainment industry in most of Ranthis. While `saeθa` and `eɹaʈɛ` are reluctant to do so, `seθi` convinces them to play into their act. They are soon freed of the conditions that they were kept in (being treated as almost animals rather than living beings), and then slowly establish themselves higher in the organization.
 
+    The place where `ajɛseɖi` lands is surprisingly tolerant of hers, and `aʃaða`'s and `θea`'s appearance, at least in the beginning. `ajɛseɖi` immediately inquires about the gods of the land, but is told that they have grown dorman in their state\ [#dormant-gods]_. But they are soon imprisoned as their ruler returns from a battle. A helpful character tells them about their benevolent, exiled princess who may help her, but only if she is brought back and reinstated as the queen. Thus `ajɛseɖi`, `aʃaða`, and `θea` go on a journey to find the prodigal princess and help her regain her kingdom.
+
+    `saiʃeʈa`, `teʃi`, and `dea` come upon a village who are helpful to the foreigners, but are in trouble. They are threatened by some villains\ [#sai-villains]_. `saiʃeʈa` is recruited as one of 7 people to help defend the village, but to stand a chance they need a MacGuffin\ [#sai-macguffin]_. So `teʃi` and `dea` are sent out (maybe with a local character as well) to find this MacGuffin while `saiʃeʈa` and the rest try to survive.
+
     .. admonition:: Ideas for Plotlines
         :class: idea
 
@@ -47,3 +51,9 @@ On Ranthis
     .. [#reason] I'm thinking something to do `seθi` escaping from her auction and the Academy wanting its instructor back. Though I'm not sure why they would be so aggressive. Think about this later.
 
     .. [#sethis-experience] I want to keep `seθi`'s story in the In-World Document. This could inspire `seθi`'s creature to have a modified penis as she experienced on Ranthis?
+
+    .. [#dormant-gods] Some are still active in other states, such as Sassandria.
+
+    .. [#sai-villains] Maybe enemy soldiers, bandits, cultists, etc. Decide during worldbuilding.
+
+    .. [#sai-macguffin] I'm thinking a mythical creature, or an item, or an item which summons the mythical creature.
