@@ -24,3 +24,26 @@ Ranthis in Adasi
     technology-and-occupations
     the-afterlife
     the-full-pantheon
+
+Usage
+-----
+
+There are only a few aspects of Rankvah that we will use for the story (renamed to Ranthis). If only a few parts are deprecated or added they will be clearly shown in the footnotes of the page.
+
+The most major change that I will introduce is the introduction of countries, nations and politics, as well as a few extrapolation to the differences in culture of each of these different nations. 
+
+- Sassandria
+    - A mostly human country which is very rich and very powerful.
+    - There is a wide gap between the rich and the poor.
+    - The state is headed by a monarchy, but controlled by the rich oligarchy from the background.
+    - Sassandria is where the Minuit Oath is founded.
+    - Sassandria is home to some goddesses: Gemira, Skezna, Tulkata, and Vulpintaht. Of these, only Tulkata and Vulpintaht are active.
+- Agrifou
+    - A vassal state of Sassandria, it borders Vormi and is frequently in war with them (as the aggressor).
+    - They are a state of warriors, and entirely frustrated with Sassandria, but relies on them to maintain their war with Vormi.
+    - While they have their own government, a monarchy, the only leadership they provide is a sense of cohesive front when negotiating resources with Sassandria. The frontline against Vormi are maintained by warlords, who don't fight amongst themselves because their energy is directed at the Vormi.
+- Vormi
+    - A large state ruled by a non-secular council of representatives made up of mostly tribal leaders. The Vormi are founded as a confederation of many different tribes and are ruled by a representative of each tribe in their capital.
+    - The council is headed by a triage of magistrates who are the figureheads, both of the government and the religion, of the Vormi. 
+    - In recent years, a tyrant has occupied the magistracy and claimed sole responsibility, and is even in the process of manhandling the council.
+    - While they hold their own against the Agrifou, in recent years they are struggling to produce enough resources to maintain this war, even while the corruption of the new tyrant is crippling them.
