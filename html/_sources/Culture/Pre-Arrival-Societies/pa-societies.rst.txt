@@ -9,6 +9,8 @@ Pre-Arrival Societies
 Maker's Notes
 -------------
 
+.. _pa-societies:
+
 .. dropdown:: On Pre-Arrival Society
     :icon: clock
     

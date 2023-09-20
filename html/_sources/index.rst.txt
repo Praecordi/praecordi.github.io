@@ -8,6 +8,7 @@ Adasi
     History/history
     Demographics/demographics
     Culture/culture
+    Natural-Environment/natural-environment
     Documents/documents
     ideas
     notes

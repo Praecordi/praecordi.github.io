@@ -1,0 +1,15 @@
+Natural Environment
+===================
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Contents
+
+    geography
+
+Maker's Notes
+-------------
+
+.. dropdown:: Fauna Planning
+
+    Since it was a lot of content, the planning for faunas is located on :doc:`this page <fauna-planning>`.

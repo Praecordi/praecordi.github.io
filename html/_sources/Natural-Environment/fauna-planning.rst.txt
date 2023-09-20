@@ -1,0 +1,451 @@
+:orphan:
+
+Fauna Planning
+==============
+
+`zœeɖaʃi` Fauna
+---------------
+
+.. topic:: `isɛʃy`
+
+    :`zœeɖaʃi`: `ʃɛʈaði`
+    :`aiɖi`: `ʃeʃti`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are drakes
+    :Personal Note: NA
+
+.. topic:: `iɹɛɖy`
+
+    :`zœeɖaʃi`: `ɖɛʈaði`
+    :`aiɖi`: `ʃeʃti`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are dragons
+    :Personal Note: NA
+    
+.. topic:: `iɹeʈy`
+
+    :`zœeɖaʃi`: `eʈaði`
+    :`aiɖi`: `ʃeʃti`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are wyverns
+    :Personal Note: NA
+    
+.. topic:: `iɹiyte`
+
+    :`zœeɖaʃi`: `eʈiaði`
+    :`aiɖi`: `ʃeʃti`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are wyrms
+    :Personal Note: NA
+
+.. topic:: `yʃʈia`
+
+    :`zœeɖaʃi`: `aðia`
+    :`aiɖi`: `ʃeʃti`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are amphitheres
+    :Personal Note: NA
+
+.. topic:: `iɹyʋie`
+
+    :`zœeɖaʃi`: `sœʈi`
+    :`aiɖi`: `etɛsa` and `etɛʃa`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are peacocks and dolphins
+    :Personal Note: NA
+
+.. topic:: `tɹœʃʈa`
+
+    :`zœeɖaʃi`: `seθi`
+    :`aiɖi`: `yʈʂi`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are cats and crocodiles
+    :Personal Note: NA
+
+.. topic:: `ʋɛɹezy`
+
+    :`zœeɖaʃi`: `aʃaða`
+    :`aiɖi`: `saɹeθɶ`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are lions and dogs
+    :Personal Note: NA
+
+.. topic:: `ʒiyʃi`
+
+    :`zœeɖaʃi`: `teʃi`
+    :`aiɖi`: `ʃɶða`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are horses and goats
+    :Personal Note: NA
+
+.. topic:: `ʋɶɹjɛ`
+
+    :`zœeɖaʃi`: `siydi`
+    :`aiɖi`: `tjɛda`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are bears and whales
+    :Personal Note: NA
+
+.. topic:: `eɹɛʈɶi`
+
+    :`zœeɖaʃi`: `θisœʈe`
+    :`aiɖi`: `aʃieti`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are koi fish and elephants
+    :Personal Note: NA
+
+.. topic:: `ziyte`
+
+    :`zœeɖaʃi`: `teʃi`
+    :`aiɖi`: `ɹœa`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are hawks and horses
+    :Personal Note: NA
+
+.. topic:: `iɹɛtisja`
+
+    :`zœeɖaʃi`: `dea`
+    :`aiɖi`: `ijaði`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are eagles and manta rays
+    :Personal Note: NA
+
+.. topic:: `ɖiɹja`
+
+    :`zœeɖaʃi`: `θea`
+    :`aiɖi`: `ðija`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are owls and panthers
+    :Personal Note: NA
+
+.. topic:: `ɹyœjœ`
+
+    :`zœeɖaʃi`: `sjeði`
+    :`aiɖi`: `ʈeʋɛ`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are wolves and pangolins
+    :Personal Note: NA
+
+.. topic:: `yɹœʈɶi`
+
+    :`zœeɖaʃi`: `ase`
+    :`aiɖi`: `ʈeʋɛ`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are whales and mammoths
+    :Personal Note: NA
+
+.. topic:: `aʋɹaʃi`
+
+    :`zœeɖaʃi`: `sia`
+    :`aiɖi`: `aɹœʈi`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are peacocks and dogs
+    :Personal Note: NA
+
+.. topic:: `ɶʋyθœ`
+
+    :`zœeɖaʃi`: `ʈaʃe`
+    :`aiɖi`: `izaɹi`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are ankylosaurus and sparrows
+    :Personal Note: NA
+
+.. topic:: `ɹjyeʈœ`
+
+    :`zœeɖaʃi`: `ʈɛe`
+    :`aiɖi`: `ʋɶɹa`
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: Inspirations are triceratops and deer
+    :Personal Note: NA
+
+Natural Fauna
+-------------
+
+.. topic:: `yʈiʃy`
+
+    :English Name: Rohinic Hoopfish
+    :Physical Description: Shaped like a huge bubble blower with a thin membrane in the center that captures food. Can range from 6 inches - 2 feet long and colored biome-specific (those in arctic waters tend to be more dull shades of blue and white, while those in coral reefs are bright and flashy colors).
+    :Behavioral Description: Floats aimlessly through the ocean, using its filter feeder to capture algae and plankton. No higher intelligence or powerful brain, just a passive creature that one can find floating about in the sea. Eaten by many other aquatic organisms, but manages to keep its population up through having large clutches of eggs.
+    :Reproduction: Every 6 months the currents carry them into one central location. The female lays a spawn of eggs and the male releases sperm. The eggs are carried by the currents to different parts of the ocean and the adults die after reproduction.
+    :Biome: Found in oceans around the world, hardy to most temperatures. Typically not found in rivers because the currents are too rapid for them to effectively filter feed.
+    :Average Lifespan: 6 mo - 1 year (will die after reproduction but if they don't reproduce they'll live up to 2 years)
+    :Products: Some research has been done on using their membraneous filter as a biofilter for sewage systems. Smaller varieties are popular in fish tanks to help keep the tank clean. Some research has been done on crossbreeding fish from different biomes but no significant hybrids have been created.
+    :Note: called hoopfish
+    :Personal Note: The *Hoopfish*, which lives only near freshwater islands, has a thin membrane that allows a more efficient transfer of spirit to an object. Thus the membrane of the hoopfish is quite valuable but is particularly difficult to extract effectively. Once extracted, it needs to be wrapped around the object that the spirit is going to be transferred to before the transfer
+
+.. topic:: `ʋiɹɖai`
+    
+    :English Name: Carolian Monitor Lizard
+    :Physical Description: A small "rodent-like" creature, despite being reptilian. Roughly the same size as monitor lizards, with a similar body structure. They are covered in a thin layer of coarse feathers with a high degree of variability, depending on climate. Though they are cold blooded, this layer of feathers plays an important role in camouflaged, protection, insulation, and protection from humidity. 
+    :Behavioral Description: A social, omnivore, generalist species that thrives in areas with poor soil. Similar to other small omnivores, these creatures hunt solo or in small groups and go after massive quantities of animals both larger and smaller to them. They are usually choose to run when threatened, but are vicious hunters once prey is chosen. They are occasionally preyed upon by larger predators, but this usually requires catching one of the species alone, a tough feat. 
+
+        They make little audible sounds, but can be heard clicking, hissing, and cooing to each other. 
+
+        The most notable quality of these species is their particular manner of burrowing. The homes of these reptiles can be easily spotted from a distance due to an explosion of flowers, shrubs, and trees unseen elsewhere in the barren landscape. Similar to earth's artic foxes, collects and buries its kills within its burrow in dumping locations, and thus nourishes the soil as the bodies decomps. 
+
+        Additionally, this species goes to great lengths to collect leaves and bedding during the summer and creates compost beds. The heat from the decomposing plant and animal life heats the burrows and allows the species to remain active during cooler days and the winter months. 
+
+        Temperature control of the burrow is of utmost importance to this species, as cooler temperatures allow them to lower their metabolism when resources are scare, sleep through a molting, or kill off parasites, but higher temperatures are needed for continued activity and egg development. Damage to the burrow is repaired extremely quickly--if not, many of the species are likely to die. 
+
+        Because this species lives in groups of 5-15, the end result is a small patch of land in a desert, tundra, or forest that contains much more nutrients and plant life on the surface. This can be a sign of food and arable land for humans or intelligent life. 
+
+        Like most reptiles, they don't specifically hibernate, but can't be active when cold. Their geographical range is limited by this. Some of the species do live in colder climates, but spend more time in their burrows, maintaining proper heat. 
+        
+        **Interaction with humans/interlligent life**: This species is often considered both a pest and a boon. They are prone to eating anything and everything, including livestock and children. However, the sight of their dens is a promise of berries, fruit, etc. Due to their intelligence and social structure, it is possible these creatures could be domesticated. Some want to study and learn from their methods of burrowing, believing it could be valuable to composting and agriculture. 
+    :Reproduction: There is little sexual dimorphism between the sexes of the species. Mating usually occurs between adult members of the group. When resources are available, there is no 'mating season'. Because the species can control the temperature of their burrows, they can easily incubate their eggs year round with little problem. However, in rougher climates or in resource scare situations, breeding may only occur in the summer months. This is a sign the group is doing poorly. 
+    :Biome: Rain forest, wet forest, desert, desert scrub, steppe, very dry forest. Warm/hot regions with poor soil. Usually not present in climates with good soil such as temperate forests, geological features such as valleys or riverbeds. 
+    :Average Lifespan: 8-14 years
+    :Products: Feathers, hide
+    :Note: Reptile
+
+        Can be domesticated
+
+        Inspiration: Moniter lizards and compost bins?
+    :Personal Note: Besides the tongue of a *Carolian Monitor Lizards* being a strong catalyst for any Illusion spells, the *Deepite Palms* also grows only near the burrows of *Carolian Monitor Lizards*. These trees have leaves that are popularly used to treat many different magical conditions (like overusing spirit, or splitting spirit too much, or after effects of `ʒiɹtɶ` occupation). The *Carolian Monitor Lizard* themselves are able to effectively use their limited spirit to cast Illusion spells. Unfortunately, they are not capable of complex spells as the `ʈeaθyɖa` are capable of, they can effectively use their skill and their physiology to be a formidable predator.
+
+.. topic:: `yʈaɹʋy` 
+
+    :English Name: Rohinic Pangolin
+    :Physical Description: A large ungulate with crisscrossing scales forming a protective plate. Usually a dull slate-gray color with lighter gray horns, though I imagine some showier varieties with spots have been bred. Fur is short and coarse, spines are not particularly glossy. Legs and stomach are unarmored. Their tail is stubby and plated as well. Both males and females have horns of equal size. 
+
+        Males have headplates of a darker color, and will fight for dominance by smashing skulls with other males. This is typically a brutal fight and as such, males are separated from each other once they reach sexual maturity.
+    :Behavioral Description: Typically found in all-female herds (sometimes with one male) on farms. They are unhappy as individuals and better with at least one companion. The species is able to sit down so that its plates are covering all vulnerable locations, making them a wonderful addition to farms, as they are able to protect themselves from predators. Most vulnerable when females have young calves, as the calves need to have access to milk at all times. Scales shed regularly, but there is no defined "molting season", so the species is not missing much of their armor at any given time. 
+
+        Species will graze on grass and grain like normal cows, but need to be given a source of calcium to promote scale growth. This is typically done through giving them bones to chew on or supplementing feed with calcium powder.
+    :Reproduction: Breed like normal cows. Infants' scales are soft and harden 1-2 days after birth, leaving them extremely vulnerable to threats. Females will form protective circles around infants during this period of time. Typically these animals don't naturally mate as they are mainly bred in captivity. Instead, females are artificially inseminated by farmers to ensure pregnancy.
+    :Biome: Humidity: semi arid -: super humid, Temperature: cool temperatures and warmer
+    :Average Lifespan: Around 20-25 years, but stop producing milk after 15 and are usually slaughtered at that age.
+    :Products: Produce milk and meat just like typical cows. Scales are ground up and used in experimental medicine, but there is no scientific evidence that they do anything. Scales are also used for making jewelry and other accessories (belt buckles, buttons etc)
+    :Note: Can be domesticated
+
+        Inspiration: Water buffalo x Pangolin cross
+    :Personal Note: The scales of the *Rohinic Pangolin* are frequently used as jewelry or clothing as well as untested medicine. Moreover, the claws of the *Rohinic Pangolin* were sharpened and used as weapons historically. Some cultures still use the claws in ceremonial warrior's clothing, or ceremonial weapons or tools. The claws are still used by `isʋe` to enhance Conjuration spells. It is particularly efficient in summoning or teleportation as with the right spells it aids in tearing the space-time fabric. 
+
+    .. figure:: /_static/flora-and-fauna/utarvu.jpg
+        :alt: An image of an `yʈaɹʋy`
+
+.. topic:: Placeholder #1
+
+    :English Name: Carolian Sunfish
+    :Physical Description: There are many stories of mysterious colorful creatures soaring over towns, cities, oceans. Small villages will pass down stories from grandparents to children about a mysterious creature that trails across the sky, seemingly without aim, every few years. Sailors will spot colorful and bright sunfish floating through the clouds after storms or on early mornings. In different areas of the world, they have different meanings, but they are almost always present in the local lore and mythos. 
+
+        The little consensus that there is suggests a few things. Sunfish are passive, large lifeforms, drifting through the sly, subsisting off of sunlight or perhaps, more debatably, the planet's innate magic. They range in size from a foot or so to over ten feet long, though there are stories of exceptions the size of buildings. 
+
+        A few assumptions can be made--sunfish lack natural predators, likely due to their lack of nutritional content. Their lifespans are incredibly long, as the same individual will be sited in a region when a city is first constructed and again when it falls. The must not consume much energy at all, and perhaps may not be animals.
+
+        Their vivid and iridescent colors may be used in mating displays or to absorb additional light. 
+    :Behavioral Description: Much is unknown about the sunfish.
+    :Reproduction: Unknown
+    :Biome: Has been sited around the world, particularly over oceans and mountainous regions.
+    :Average Lifespan: Unknown, longer than human lifespans. 
+    :Products: NA
+    :Note: Inspiration: sky whales and sunfish
+    :Personal Note: NA
+
+.. topic:: `sɹeʋiœ` 
+
+    :English Name: Carolian Griffin
+    :Physical Description: See attached link in inspiration. 
+    
+        Griffins were intentionally created as pack animals to navigate difficult terrain. There are many other sub-varieties that have been bred over time. Most griffins have issues that many domesticated animals do, such as health problems. 
+        
+        Pack animal--the classic pack creature. These griffins are stocky, stronger, and can carry additional weight. Their lifespans are even shorter than most griffins, as the stocky build clashes with the birdlike hollow bones and respiratory system. Injuries and fatalities are common. Usually lack the ability to bond well with people, and retain some level of flightiness and fear. Has the strongest 'homing pigeon' instinct. 
+        
+        Companion animal--smaller than pack griffins, these were bred for companionship with people. When raised from a hatchling they will bond with one person or a family and will be very loyal. If left feral, will be frightened or aggressive toward people. 
+        
+        Show animal--some of the smallest griffins, but the prettiest. Bred specifically for looks, color, and beauty, these griffins are passive, bond well with people, and are usually vibrant and have much longer and excessive feathers. Due to focus on appearance, many of these griffins have severe health complications and have short lifespans. Many of these griffins cannot fly due to feather size or health problems. Usually lack the 'homing pigeon' instinct.
+    :Behavioral Description: Griffins were originally created for their ability to transport cargo over difficult terrain unattended. Their 'homing pigeon instinct' allows them to be loaded with goods and set free, unattended, and they will be able to transport their items to a difficult location without aid. This made them very valuable and effective for isolated regions that needed to trade. They could simply send a large amount of griffins to other areas of the world every now and then and have them released and sent back unattended as needed when supplies were purchased, instead of risking human lives and time each time a shipment was needed. 
+        
+        Homing pigeon instinct--griffins with this instinct will always attempt to return to their place of hatching when given the chance. This is useful when exploited properly, but can be difficult when griffins try to escape and return to their birthplaces. Upon arriving at their homes, adult griffins will seek to mate and lay eggs if given the opportunity. 
+        
+        Unfortunately, griffins maintain many birdlike behaviors. It takes a lot of time and effort to adjust griffins to people, and many remain afraid through life. They prefer the company of a flock, and will gather with other griffins given the opportunity. Like birds, griffins are prone to stress, fear, and spontaneous death. The turnover is very fast :(
+    :Reproduction: Similar to birds, female griffins are usually larger than male griffins, with the males being the more colorful of the species (making female pack griffins more valuable, and male show griffins more valuable). 
+    
+        Most of the mating displays have been bred out of the species, but in an unregulated flock, females will select mates they deem preferable, whether this be because of color, nest building, vocalization, etc. 
+    :Biome: Domesticated, lives with people
+    :Average Lifespan: 2-6 years
+    :Products: Feathers, eggs
+    :Note: Inspiration: `SpecEvol Griffins <https://www.reddit.com/r/SpeculativeEvolution/comments/g93q7n/some_rough_griffin_concepts_artwork_by_alex/>`__
+    :Personal Note: First used by the Sura as companion animals, and protected in Sura society since mythologically *Carolian Griffins* were considered companions of their dieties. To the anger of the Sura people, they were used as pack animals in the Izo Continent when they were discovered (the *Carolian Griffins* live mostly in rainforests and nest high in the trees or on the roof of people's houses; they prefer the humidity and precipitation)
+
+.. topic:: `isɹaʈɶ`
+
+    :English Name: Rohinic Anteorse Raptor
+    :Physical Description: This species has an elongated snout with a long thin tongue. Their foreclaws are hooked and curl inwards. They are approximately 6 feet tall. As they are a domesticated species, there is a lot of color and pattern variation, but most species are various shades of reddish brown. A species that is less furry exists in hotter, dryer climates.
+    :Behavioral Description: This species is found in settlements across the world, as it is an extremely versatile and hardy species. Disposition wise, it is cautious regarding strangers, but will get comfortable over time. It's better to approach it from the side, as its foreclaws can absolutely slice through flesh. However, this species would rather run, and typically only fights back when cornered. 
+    
+        Used to transport people to and from different locations, but cannot carry much additional cargo. Sprint speed is 25-30 mph but for longer journeys they will typically trot at around 8-10 mph. Training begins at a young age, and animals are fit to be ridden at 2-3 years old. Trained animals become bonded very quickly to their owners and enjoy spending time with them. 
+        
+        The species feeds on insects, seeds, and berries, and will graze when left unattended. Uses claws to break open insect mounds and strip bushes of berries/seeds. Enjoys being fed fruits as well, but does not naturally eat them. Is hunted by larger predator species. Silent, does not have any type of call or cry. 
+    :Reproduction: Like horses!
+    :Biome: Can be found in basically every biome due to widespread domestication. Native to wet forest
+    :Average Lifespan: 15-20 years
+    :Products: Can be domesticated
+
+        Inspiration: Anteater + horse + velociraptor
+    :Note: NA
+    :Personal Note: The *Rohinic Anteorse Raptor* is the more widely used transportation besides the more rare and secretive *Deepite Valushite*. The *Rohinic Anteorse Raptors* are primarily found in the forests of the Sura, and are regularly bred and traded between the Sura and the Shoru. Particularly rich members of society will have multiple of these *Rohinic Raptors* of varied colors, which they will sometimes match with their outfits or abode. 
+		
+        Like the guild that is dedicated to the *Deepite Valushite* in the Izo continent, there is a similar, less secretive, guild in the Adra continent dedicated to breeding *Rohinic Anteorse Raptors* for either racing, as pack animals, as carriage animals, or for their beauty. Unlike the *Deepite Valushite*, *Rohinic Anteorse Raptor* breeding is not restricted to just the guild but can be indulged in by anyone with the time, money and interest.
+
+    .. figure:: /_static/flora-and-fauna/israto.jpg
+        :alt: An image of an `isɹaʈɶ`
+
+.. topic:: Placeholder #2
+
+    :English Name: Deepite Valushite
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: NA
+    :Personal Note: Inspiration: Animals shitting valuable minerals.
+
+        To create this poop of valuable gems, there is a secret guild which carefully monitors the methods to producing the valuable metals from the excrement.
+
+.. topic:: `tyɹti` 
+
+    :English Name: Deepite Sheep
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: NA
+    :Personal Note: Inspiration: Sheep 
+
+        A possible animal used by any of the societies in :ref:`a pre-arrival society <pa-societies>`.
+
+            "The `iɹiʋa` used local materials such as \[...\] cloth material from local animals like the `tyɹti`, a small four legged creature used both for its seasonal fur, as well as their milk."
+
+            -- Translated passage
+
+.. topic:: `ɹiaʋœ` 
+
+    :English Name: Deepite Photocamebull
+    :Physical Description: NA
+    :Behavioral Description: NA
+    :Reproduction: NA
+    :Biome: NA
+    :Average Lifespan: NA
+    :Products: NA
+    :Note: NA
+    :Personal Note: Inspiration: Bulls + camels + plants (photosynthesis)
+
+        An idea for an animal in a :ref:`pre arrival society <pa-societies>`, specifically for Society 2.
+
+            "The large animals like the sun and draw energy from it, but also provide shade and don't require as much food or water. The domestication of riavos, previously hunted, came when humans started to capture and breed them when traveling. Their relatively low food consumption, and amount of meat received upon dying as well as their inherently docile nature made them quite valuable to keep. Although their size, and life span, which is nearly as long as an average `ʈeaθyɖa`, makes it harder to breed them, it is still quite possible and eventually leads to their frequent use by the `ʈeaθyɖa`."
+
+            -- Translated passage
+
+.. 
+    .. topic:: 
+
+        :`zœeɖaʃi`: 
+        :`aiɖi`: 
+        :Physical Description: NA
+        :Behavioral Description: NA
+        :Reproduction: NA
+        :Biome: NA
+        :Average Lifespan: NA
+        :Products: NA
+        :Note: NA
+        :Personal Note: NA

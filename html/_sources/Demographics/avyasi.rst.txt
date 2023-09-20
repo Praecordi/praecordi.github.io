@@ -157,8 +157,6 @@ Maker's Notes
     :icon: clock
     :color: warning
     
-    .. _story-change:
-    
     .. grid:: 2
         :gutter: 3
         
