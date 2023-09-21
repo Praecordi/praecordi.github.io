@@ -1,0 +1,436 @@
+:orphan:
+
+`aʋjasi` Planning
+=================
+
+`isiʈeθɶ`
+---------
+
+.. grid:: 2
+    :gutter: 3
+    
+    .. grid-item-card:: `ajɛseɖi`
+        :img-top: /_static/inspirations/nicola_cavanis.png
+    
+        :Inspiration: Nicola Cavanis :bdg-link:`instagram <https://www.instagram.com/nicola/?hl=en>`
+        :Tags: :bdg-info:`European` :bdg-warning:`Mediterranean`
+        :Eye Color: Black
+        :Skin Color: Natural
+        :Hair Color: Black with Red tips
+        :Hair Type: 1B
+        :Body Type: B-D
+
+        .. card:: Heraldic Colors
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: ajasedi-colors
+
+            :Primary: #7f0000
+            :Secondary: #000000
+
+    
+    .. grid-item-card:: `saeθa`
+        :img-top: /_static/inspirations/akanksha_sharma.png
+        
+        :Inspiration: Akanksha Sharma :bdg-link:`instagram <https://www.instagram.com/akanksharmaa/?hl=en>` 
+        :Tags: :bdg-primary:`South Asian`
+        :Eye Color: Purple
+        :Skin Color: Light
+        :Hair Color: Red with white tips
+        :Hair Type: 2B
+        :Body Type: D-F
+
+        .. card:: Heraldic Colors
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: saetha-colors
+
+            :Primary: #7f007f
+            :Secondary: #ffffff
+        
+    .. grid-item-card:: `saiʃeʈa`
+        :img-top: /_static/inspirations/han_so_hee.png
+    
+        :Inspiration: Han So-Hee 
+        :Tags: :bdg-primary:`Korean`
+        :Eye Color: Blue
+        :Skin Color: Medium Light
+        :Hair Color: White
+        :Hair Type: 1A
+        :Body Type: A-D
+
+        .. card:: Heraldic Colors (BGS)
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: saisheta-colors-bgs
+                
+            :Primary: #00007f
+            :Secondary: #ffffff
+
+        .. card:: Heraldic Colors (AGS)
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: saisheta-colors-ags
+
+            :Primary: #00003f
+            :Secondary: #bfbfbf
+
+    .. grid-item-card:: `iɖe`
+        :img-top: /_static/inspirations/pooja_hegde.png
+    
+        :Inspiration: Pooja Hegde
+            
+            \+ `θisœʈe` (family resemblance)
+        :Tags: :bdg-primary:`European` :bdg-primary:`Korean`
+        :Eye Color: Red
+        :Skin Color: Light
+        :Hair Color: Red with Golden Roots
+        :Hair Type: 2B
+        :Body Type: B-E
+
+        .. card:: Heraldic Colors (BGS)
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: ide-colors-bgs
+                
+            :Primary: #bf0000
+            :Secondary: #bfbf7f
+
+        .. card:: Heraldic Colors (AGS)
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: ide-colors-ags
+
+            :Primary: #7f0000
+            :Secondary: #7f7f3f
+
+            
+`zœeɖaʃi`
+---------
+
+.. grid:: 2
+    :gutter: 3
+    
+    .. grid-item-card:: `θisœʈe`
+        :img-top: /_static/inspirations/suzu_honjo.png
+    
+        :Inspiration: Suzu Honjo :bdg-link:`instagram <https://www.instagram.com/honjo_suzu/?hl=en>`
+        :Tags: :bdg-info:`Korean` :bdg-warning:`Mediterranean`    
+        :Eye Color: Black
+        :Skin Color: Medium Light
+        :Hair Color: Golden with Black Highlights
+        :Hair Type: 1B
+        :Body Type: B
+
+        .. card:: Heraldic Colors
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: thisote-colors
+
+            :Primary: #7f7fff
+            :Secondary: #bf3f3f
+        
+    .. grid-item-card:: `seθi`
+        :img-top: /_static/inspirations/tita_sahara.png
+    
+        :Inspiration: Tita Sahara :bdg-link:`instagram <https://www.instagram.com/itstitasahara/>`
+        :Tags: :bdg-info:`Egyptian` :bdg-warning:`South Asian` 
+        :Eye Color: Green
+        :Skin Color: Medium Dark
+        :Hair Color: Golden
+        :Hair Type: 1C
+        :Body Type: F
+
+        .. card:: Heraldic Colors
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: sethi-colors
+
+            :Primary: #ffbf7f
+            :Secondary: #ff7f7f
+        
+    .. grid-item-card:: `aʃaða`
+        :img-top: /_static/inspirations/lais_ribeiro.png
+    
+        :Inspiration: Lais Ribeiro 
+        :Tags: :bdg-info:`Mediterranean` :bdg-warning:`South Asian`
+        :Eye Color: Yellow
+        :Skin Color: Medium Dark
+        :Hair Color: White
+        :Hair Type: 3B
+        :Body Type: E
+
+        .. card:: Heraldic Colors
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: ashadha-colors
+
+            :Primary: #bf7fff
+            :Secondary: #7f7fff
+        
+    .. grid-item-card:: `teʃi`
+        :img-top: /_static/inspirations/kelly_gale.png
+
+        :Inspiration: Kelly Gale
+        :Tags: :bdg-info:`Mongolian` :bdg-warning:`South Asian` 
+        :Eye Color: Green
+        :Skin Color: Medium Dark
+        :Hair Color: Golden with White roots
+        :Hair Type: 1C
+        :Body Type: D
+
+        .. card:: Heraldic Colors (BGS)
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: teshi-colors-bgs
+                
+            :Primary: #7fffbf
+            :Secondary: #7fff7f
+
+        .. card:: Heraldic Colors (AGS)
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: teshi-colors-ags
+
+            :Primary: #3fbf7f
+            :Secondary: #3fbf3f
+
+    .. grid-item-card:: `dea`
+        :img-top: /_static/inspirations/alejandra_guilmant.png
+    
+        :Inspiration: Alejandra Guilmant
+            
+            \+ `saiʃeʈa` (family resemblance)
+        :Tags: :bdg-info:`South Asian` :bdg-warning:`Korean`
+        :Eye Color: Light Brown
+        :Skin Color: Natural
+        :Hair Color: Black with White and Purple Highlights
+        :Hair Type: 1C
+        :Body Type: A
+
+        .. card:: Heraldic Colors (BGS)
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: dea-colors-bgs
+                
+            :Primary: #7f00ff
+            :Secondary: #7f7f7f
+
+        .. card:: Heraldic Colors (AGS)
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: dea-colors-ags
+
+            :Primary: #3f00bf
+            :Secondary: #3f3f3f
+        
+    .. grid-item-card:: `θea`
+        :img-top: /_static/inspirations/alejandra_guilmant.png
+    
+        :Inspiration: Alejandra Guilmant
+        
+            \+ `saiʃeʈa` (family resemblance)
+        :Tags: :bdg-info:`South Asian` :bdg-warning:`Korean`
+        :Eye Color: Light Brown
+        :Skin Color: Natural
+        :Hair Color: Black with White and Blue Highlights
+        :Hair Type: 1C
+        :Body Type: A
+
+        .. card:: Heraldic Colors
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: thea-colors
+
+            :Primary: #3f00ff
+            :Secondary: #3f3f3f
+
+    .. grid-item-card:: `ʃɛʈaie`
+        :img-top: /_static/inspirations/kristen_kerr.png
+        
+        :Inspiration: Kristen Kerr :bdg-link:`instagram <https://www.instagram.com/gingalicious/?hl=en>` 
+        
+            \+ `ajɛseɖi` (family resemblance)
+        :Tags: :bdg-primary:`European` :bdg-primary:`Mediterranean`
+        :Eye Color: Red
+        :Skin Color: Medium Light
+        :Hair Color: Red
+        :Hair Type: 2B
+        :Body Type: B-C
+
+        .. card:: Heraldic Colors
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: shataie-colors
+
+            :Primary: #7f0000
+            :Secondary: #bf7f00
+        
+    .. grid-item-card:: `siydi`
+        :img-top: /_static/inspirations/siudi.png
+
+        :Inspiration: \+ `aʃaða` (family resemblance) 
+            
+            \+ `θea` (family resemblance)
+        :Tags: :bdg-primary:`East Asian` :bdg-primary:`Mediterranean`
+        :Eye Color: Yellow
+        :Skin Color: Natural
+        :Hair Color: White with Black Roots
+        :Hair Type: 3C
+        :Body Type: A,E
+
+        .. card:: Heraldic Colors
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: siudi-colors
+
+            :Primary: #3f3f7f
+            :Secondary: #7f3fff
+        
+    .. grid-item-card:: `sjeði`
+        :img-top: /_static/inspirations/syedhi.png
+        
+        :Inspiration: \+ `teʃi` (family resemblance)
+        
+            \+ `dea` (family resemblance)
+        :Tags: :bdg-primary:`East Asian` :bdg-info:`Mongolian`
+        :Eye Color: Green
+        :Skin Color: Natural
+        :Hair Color: Black with Golden Tips
+        :Hair Type: 1C
+        :Body Type: A,D
+
+        .. card:: Heraldic Colors
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: syedhi-colors
+
+            :Primary: #3f7f3f
+            :Secondary: #3f3f7f
+    
+    .. grid-item-card:: `sœʈi`
+        :img-top: /_static/inspirations/soti_sia.png
+        
+        :Inspiration: \+ `ʃɛʈaie` (family resemblance) 
+        
+            \+ `iɖe` (family resemblance)
+        :Tags: :bdg-primary:`Korean` :bdg-primary:`European`
+        :Eye Color: Black
+        :Skin Color: Medium Light
+        :Hair Color: Black with red roots
+        :Hair Type: 2B
+        :Body Type: B-C
+
+        .. card:: Heraldic Colors
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: soti-colors
+
+            :Primary: #bf7f00
+            :Secondary: #7f0000
+        
+    .. grid-item-card:: `sia`
+        :img-top: /_static/inspirations/soti_sia.png
+        
+        :Inspiration: \+ `ʃɛʈaie` (family resemblance)
+        
+            \+ `iɖe` (family resemblance)
+        :Tags: :bdg-primary:`Korean` :bdg-primary:`European`
+        :Eye Color: Red
+        :Skin Color: Medium Light
+        :Hair Color: Golden with Black Highlights
+        :Hair Type: 1B
+        :Body Type: A,D
+
+        .. card:: Heraldic Colors
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: sia-colors
+
+            :Primary: #7f3f3f
+            :Secondary: #7f0000
+        
+    .. grid-item-card:: `ase`
+        :img-top: /_static/inspirations/lorena_rae.png
+    
+        :Inspiration: Lorena Rae 
+        :Tags: :bdg-primary:`European`
+        :Eye Color: Light Red
+        :Skin Color: Medium Light
+        :Hair Color: Black with Red tips
+        :Hair Type: 2C
+        :Body Type: A-C
+
+        .. card:: Heraldic Colors
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: ase-colors
+
+            :Primary: #7f7f7f
+            :Secondary: #7f003f
+        
+    .. grid-item-card:: `ʈaʃe`
+        :img-top: /_static/inspirations/tashe.png
+    
+        :Inspiration: \+ `seθi` (family resemblance)
+
+            \+ `iɖe` (family resemblance)
+        :Tags: :bdg-primary:`Egyptian` :bdg-primary:`Korean`
+        :Eye Color: Yellow
+        :Skin Color: Medium Light
+        :Hair Color: Golden
+        :Hair Type: 2C
+        :Body Type: B,F
+
+        .. card:: Heraldic Colors
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: tashe-colors
+
+            :Primary: #bf7f3f
+            :Secondary: #bf3f3f
+
+    .. grid-item-card:: `ʈɛe`
+        :img-top: /_static/inspirations/tae.png
+        
+        :Inspiration: \+ `iɖe`  (family resemblance)
+        
+            \+ `dea` (family resemblance)
+        :Tags: :bdg-primary:`East Asian` :bdg-primary:`Korean`
+        :Eye Color: Light Brown
+        :Skin Color: Medium Light
+        :Hair Color: White with Red Highlights
+        :Hair Type: 1B
+        :Body Type: A,B,D
+
+        .. card:: Heraldic Colors
+            :class-card: sd-border-3 sd-rounded-2
+            :class-body: tae-colors
+
+            :Primary: #3f3f3f
+            :Secondary: #3f003f
+
+.. admonition:: Hair Type Key
+    :class: note
+
+    .. list-table::
+        :header-rows: 1
+
+        * - Hair Type
+          - Description
+        * - 1A
+          - thin straight hair
+        * - 1B
+          - medium straight hair
+        * - 1C
+          - thick straight hair
+        * - 2A
+          - slightly wavy hair
+        * - 2B
+          - tighter wavy hair
+        * - 2C
+          - almost curvy hair
+        * - 3A
+          - biggest loosest curls
+        * - 3B
+          - springy ringlets
+        * - 3C
+          - bouncy and tight corkscrew curls
+        * - 4A
+          - wiry coil hair
+        * - 4B
+          - Z-shaped
+        * - 4C
+          - tighter z-shaped
+
+
+
+
+..
+    .. admonition:: 
+
+        :Eye Color:
+        :Skin Color:
+        :Hair Color:
+        :Hair Type:
+        :Dress Color:
+    

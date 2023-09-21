@@ -1,0 +1,87 @@
+.ajasedi-colors {
+    background: linear-gradient(rgba(128,0,0,1),rgba(0,0,0,1))
+}
+
+.saetha-colors {
+    background: linear-gradient(rgba(127,0,127,1),rgba(255,255,255,1))
+}
+
+.saisheta-colors-bgs {
+    background: linear-gradient(rgba(0,0,127,1),rgba(255,255,255,1))
+}
+
+.saisheta-colors-ags {
+    background: linear-gradient(rgba(0,0,63,1),rgba(191,191,191,1))
+}
+
+.ide-colors-bgs {
+    background: linear-gradient(rgba(191,0,0,1),rgba(191,191,127,1))
+}
+
+.ide-colors-ags {
+    background: linear-gradient(rgba(127,0,0,1),rgba(127,127,63,1))
+}
+
+.thisote-colors {
+    background: linear-gradient(rgba(127,127,255,1),rgba(191,63,63,1))
+}
+
+.sethi-colors {
+    background: linear-gradient(rgba(255,191,127,1),rgba(255,127,127,1))
+}
+
+.ashadha-colors {
+    background: linear-gradient(rgba(191,127,255,1),rgba(127,127,255,1))
+}
+
+.teshi-colors-bgs {
+    background: linear-gradient(rgba(127,255,191,1),rgba(127,255,127,1))
+}
+
+.teshi-colors-ags {
+    background: linear-gradient(rgba(63,191,127,1),rgba(63,191,63,1))
+}
+
+.dea-colors-bgs {
+    background: linear-gradient(rgba(127,0,255,1),rgba(127,127,127,1))
+}
+
+.dea-colors-ags {
+    background: linear-gradient(rgba(63,0,191,1),rgba(63,63,63,1))
+}
+
+.thea-colors {
+    background: linear-gradient(rgba(63,0,255,1),rgba(63,63,63,1))
+}
+
+.shataie-colors {
+    background: linear-gradient(rgba(127,0,0,1),rgba(191,127,0,1))
+}
+
+.siudi-colors {
+    background: linear-gradient(rgba(191,127,255,1),rgba(127,127,255,1))
+}
+
+.syedhi-colors {
+    background: linear-gradient(rgba(63,127,63,1),rgba(63,63,127,1))
+}
+
+.soti-colors {
+    background: linear-gradient(rgba(191,127,0,1),rgba(127,0,0,1))
+}
+
+.sia-colors {
+    background: linear-gradient(rgba(127,63,63,1),rgba(127,0,0,1))
+}
+
+.ase-colors {
+    background: linear-gradient(rgba(127,127,127,1),rgba(127,0,63,1))
+}
+
+.tashe-colors {
+    background: linear-gradient(rgba(191,127,63,1),rgba(191,63,63,1))
+}
+
+.tae-colors {
+    background: linear-gradient(rgba(63,63,63,1),rgba(63,0,63,1))
+}

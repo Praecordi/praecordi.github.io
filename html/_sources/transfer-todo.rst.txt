@@ -3,11 +3,14 @@
 Transfer Todo
 =============
 
-- Update and rewrite `isiʈeθɶ` description. :bdg-primary:`source_depr`
 - .. container:: strike
 
     Update and rewrite natural environment. Specifically, write a Maker's Notes on the `aiɖi` creatures created as well as the `zœeɖaʃi` creatures. :bdg-secondary:`source_depr` :bdg-secondary:`[depr] Adasi Wiki`
 - Take inspiration from previous plans to plan out new history. :bdg-primary:`[depr] Adasi Wiki`
-- :strike:`Transfer maps folder from assets to res.` :bdg-secondary:`[depr] Adasi Wiki`
-- :strike:`Transfer old_dresses if needed.` :bdg-secondary:`[depr] Adasi Wiki`
+- .. container:: strike
+    
+    Transfer maps folder from assets to res. :bdg-secondary:`[depr] Adasi Wiki`
+- .. container:: strike
+    
+    Transfer old_dresses if needed. :bdg-secondary:`[depr] Adasi Wiki`
 - Reword spreadsheets in notes folder. :bdg-primary:`[depr] Adasi Wiki`

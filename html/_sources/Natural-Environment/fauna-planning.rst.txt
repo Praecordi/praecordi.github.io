@@ -6,7 +6,7 @@ Fauna Planning
 `zœeɖaʃi` Fauna
 ---------------
 
-.. topic:: `isɛʃy`
+.. admonition:: `isɛʃy`
 
     :`zœeɖaʃi`: `ʃɛʈaði`
     :`aiɖi`: `ʃeʃti`
@@ -19,7 +19,7 @@ Fauna Planning
     :Note: Inspirations are drakes
     :Personal Note: NA
 
-.. topic:: `iɹɛɖy`
+.. admonition:: `iɹɛɖy`
 
     :`zœeɖaʃi`: `ɖɛʈaði`
     :`aiɖi`: `ʃeʃti`
@@ -32,7 +32,7 @@ Fauna Planning
     :Note: Inspirations are dragons
     :Personal Note: NA
     
-.. topic:: `iɹeʈy`
+.. admonition:: `iɹeʈy`
 
     :`zœeɖaʃi`: `eʈaði`
     :`aiɖi`: `ʃeʃti`
@@ -45,7 +45,7 @@ Fauna Planning
     :Note: Inspirations are wyverns
     :Personal Note: NA
     
-.. topic:: `iɹiyte`
+.. admonition:: `iɹiyte`
 
     :`zœeɖaʃi`: `eʈiaði`
     :`aiɖi`: `ʃeʃti`
@@ -58,7 +58,7 @@ Fauna Planning
     :Note: Inspirations are wyrms
     :Personal Note: NA
 
-.. topic:: `yʃʈia`
+.. admonition:: `yʃʈia`
 
     :`zœeɖaʃi`: `aðia`
     :`aiɖi`: `ʃeʃti`
@@ -71,7 +71,7 @@ Fauna Planning
     :Note: Inspirations are amphitheres
     :Personal Note: NA
 
-.. topic:: `iɹyʋie`
+.. admonition:: `iɹyʋie`
 
     :`zœeɖaʃi`: `sœʈi`
     :`aiɖi`: `etɛsa` and `etɛʃa`
@@ -84,7 +84,7 @@ Fauna Planning
     :Note: Inspirations are peacocks and dolphins
     :Personal Note: NA
 
-.. topic:: `tɹœʃʈa`
+.. admonition:: `tɹœʃʈa`
 
     :`zœeɖaʃi`: `seθi`
     :`aiɖi`: `yʈʂi`
@@ -97,7 +97,7 @@ Fauna Planning
     :Note: Inspirations are cats and crocodiles
     :Personal Note: NA
 
-.. topic:: `ʋɛɹezy`
+.. admonition:: `ʋɛɹezy`
 
     :`zœeɖaʃi`: `aʃaða`
     :`aiɖi`: `saɹeθɶ`
@@ -110,7 +110,7 @@ Fauna Planning
     :Note: Inspirations are lions and dogs
     :Personal Note: NA
 
-.. topic:: `ʒiyʃi`
+.. admonition:: `ʒiyʃi`
 
     :`zœeɖaʃi`: `teʃi`
     :`aiɖi`: `ʃɶða`
@@ -123,7 +123,7 @@ Fauna Planning
     :Note: Inspirations are horses and goats
     :Personal Note: NA
 
-.. topic:: `ʋɶɹjɛ`
+.. admonition:: `ʋɶɹjɛ`
 
     :`zœeɖaʃi`: `siydi`
     :`aiɖi`: `tjɛda`
@@ -136,7 +136,7 @@ Fauna Planning
     :Note: Inspirations are bears and whales
     :Personal Note: NA
 
-.. topic:: `eɹɛʈɶi`
+.. admonition:: `eɹɛʈɶi`
 
     :`zœeɖaʃi`: `θisœʈe`
     :`aiɖi`: `aʃieti`
@@ -149,7 +149,7 @@ Fauna Planning
     :Note: Inspirations are koi fish and elephants
     :Personal Note: NA
 
-.. topic:: `ziyte`
+.. admonition:: `ziyte`
 
     :`zœeɖaʃi`: `teʃi`
     :`aiɖi`: `ɹœa`
@@ -162,7 +162,7 @@ Fauna Planning
     :Note: Inspirations are hawks and horses
     :Personal Note: NA
 
-.. topic:: `iɹɛtisja`
+.. admonition:: `iɹɛtisja`
 
     :`zœeɖaʃi`: `dea`
     :`aiɖi`: `ijaði`
@@ -175,7 +175,7 @@ Fauna Planning
     :Note: Inspirations are eagles and manta rays
     :Personal Note: NA
 
-.. topic:: `ɖiɹja`
+.. admonition:: `ɖiɹja`
 
     :`zœeɖaʃi`: `θea`
     :`aiɖi`: `ðija`
@@ -188,7 +188,7 @@ Fauna Planning
     :Note: Inspirations are owls and panthers
     :Personal Note: NA
 
-.. topic:: `ɹyœjœ`
+.. admonition:: `ɹyœjœ`
 
     :`zœeɖaʃi`: `sjeði`
     :`aiɖi`: `ʈeʋɛ`
@@ -201,7 +201,7 @@ Fauna Planning
     :Note: Inspirations are wolves and pangolins
     :Personal Note: NA
 
-.. topic:: `yɹœʈɶi`
+.. admonition:: `yɹœʈɶi`
 
     :`zœeɖaʃi`: `ase`
     :`aiɖi`: `ʈeʋɛ`
@@ -214,7 +214,7 @@ Fauna Planning
     :Note: Inspirations are whales and mammoths
     :Personal Note: NA
 
-.. topic:: `aʋɹaʃi`
+.. admonition:: `aʋɹaʃi`
 
     :`zœeɖaʃi`: `sia`
     :`aiɖi`: `aɹœʈi`
@@ -227,7 +227,7 @@ Fauna Planning
     :Note: Inspirations are peacocks and dogs
     :Personal Note: NA
 
-.. topic:: `ɶʋyθœ`
+.. admonition:: `ɶʋyθœ`
 
     :`zœeɖaʃi`: `ʈaʃe`
     :`aiɖi`: `izaɹi`
@@ -240,7 +240,7 @@ Fauna Planning
     :Note: Inspirations are ankylosaurus and sparrows
     :Personal Note: NA
 
-.. topic:: `ɹjyeʈœ`
+.. admonition:: `ɹjyeʈœ`
 
     :`zœeɖaʃi`: `ʈɛe`
     :`aiɖi`: `ʋɶɹa`
@@ -256,7 +256,7 @@ Fauna Planning
 Natural Fauna
 -------------
 
-.. topic:: `yʈiʃy`
+.. admonition:: `yʈiʃy`
 
     :English Name: Rohinic Hoopfish
     :Physical Description: Shaped like a huge bubble blower with a thin membrane in the center that captures food. Can range from 6 inches - 2 feet long and colored biome-specific (those in arctic waters tend to be more dull shades of blue and white, while those in coral reefs are bright and flashy colors).
@@ -268,7 +268,7 @@ Natural Fauna
     :Note: called hoopfish
     :Personal Note: The *Hoopfish*, which lives only near freshwater islands, has a thin membrane that allows a more efficient transfer of spirit to an object. Thus the membrane of the hoopfish is quite valuable but is particularly difficult to extract effectively. Once extracted, it needs to be wrapped around the object that the spirit is going to be transferred to before the transfer
 
-.. topic:: `ʋiɹɖai`
+.. admonition:: `ʋiɹɖai`
     
     :English Name: Carolian Monitor Lizard
     :Physical Description: A small "rodent-like" creature, despite being reptilian. Roughly the same size as monitor lizards, with a similar body structure. They are covered in a thin layer of coarse feathers with a high degree of variability, depending on climate. Though they are cold blooded, this layer of feathers plays an important role in camouflaged, protection, insulation, and protection from humidity. 
@@ -298,7 +298,7 @@ Natural Fauna
         Inspiration: Moniter lizards and compost bins?
     :Personal Note: Besides the tongue of a *Carolian Monitor Lizards* being a strong catalyst for any Illusion spells, the *Deepite Palms* also grows only near the burrows of *Carolian Monitor Lizards*. These trees have leaves that are popularly used to treat many different magical conditions (like overusing spirit, or splitting spirit too much, or after effects of `ʒiɹtɶ` occupation). The *Carolian Monitor Lizard* themselves are able to effectively use their limited spirit to cast Illusion spells. Unfortunately, they are not capable of complex spells as the `ʈeaθyɖa` are capable of, they can effectively use their skill and their physiology to be a formidable predator.
 
-.. topic:: `yʈaɹʋy` 
+.. admonition:: `yʈaɹʋy` 
 
     :English Name: Rohinic Pangolin
     :Physical Description: A large ungulate with crisscrossing scales forming a protective plate. Usually a dull slate-gray color with lighter gray horns, though I imagine some showier varieties with spots have been bred. Fur is short and coarse, spines are not particularly glossy. Legs and stomach are unarmored. Their tail is stubby and plated as well. Both males and females have horns of equal size. 
@@ -319,7 +319,7 @@ Natural Fauna
     .. figure:: /_static/flora-and-fauna/utarvu.jpg
         :alt: An image of an `yʈaɹʋy`
 
-.. topic:: Placeholder #1
+.. admonition:: Placeholder #1
 
     :English Name: Carolian Sunfish
     :Physical Description: There are many stories of mysterious colorful creatures soaring over towns, cities, oceans. Small villages will pass down stories from grandparents to children about a mysterious creature that trails across the sky, seemingly without aim, every few years. Sailors will spot colorful and bright sunfish floating through the clouds after storms or on early mornings. In different areas of the world, they have different meanings, but they are almost always present in the local lore and mythos. 
@@ -337,7 +337,7 @@ Natural Fauna
     :Note: Inspiration: sky whales and sunfish
     :Personal Note: NA
 
-.. topic:: `sɹeʋiœ` 
+.. admonition:: `sɹeʋiœ` 
 
     :English Name: Carolian Griffin
     :Physical Description: See attached link in inspiration. 
@@ -363,7 +363,7 @@ Natural Fauna
     :Note: Inspiration: `SpecEvol Griffins <https://www.reddit.com/r/SpeculativeEvolution/comments/g93q7n/some_rough_griffin_concepts_artwork_by_alex/>`__
     :Personal Note: First used by the Sura as companion animals, and protected in Sura society since mythologically *Carolian Griffins* were considered companions of their dieties. To the anger of the Sura people, they were used as pack animals in the Izo Continent when they were discovered (the *Carolian Griffins* live mostly in rainforests and nest high in the trees or on the roof of people's houses; they prefer the humidity and precipitation)
 
-.. topic:: `isɹaʈɶ`
+.. admonition:: `isɹaʈɶ`
 
     :English Name: Rohinic Anteorse Raptor
     :Physical Description: This species has an elongated snout with a long thin tongue. Their foreclaws are hooked and curl inwards. They are approximately 6 feet tall. As they are a domesticated species, there is a lot of color and pattern variation, but most species are various shades of reddish brown. A species that is less furry exists in hotter, dryer climates.
@@ -386,7 +386,7 @@ Natural Fauna
     .. figure:: /_static/flora-and-fauna/israto.jpg
         :alt: An image of an `isɹaʈɶ`
 
-.. topic:: Placeholder #2
+.. admonition:: Placeholder #2
 
     :English Name: Deepite Valushite
     :Physical Description: NA
@@ -400,7 +400,7 @@ Natural Fauna
 
         To create this poop of valuable gems, there is a secret guild which carefully monitors the methods to producing the valuable metals from the excrement.
 
-.. topic:: `tyɹti` 
+.. admonition:: `tyɹti` 
 
     :English Name: Deepite Sheep
     :Physical Description: NA
@@ -418,7 +418,7 @@ Natural Fauna
 
             -- Translated passage
 
-.. topic:: `ɹiaʋœ` 
+.. admonition:: `ɹiaʋœ` 
 
     :English Name: Deepite Photocamebull
     :Physical Description: NA
@@ -437,7 +437,7 @@ Natural Fauna
             -- Translated passage
 
 .. 
-    .. topic:: 
+    .. admonition:: 
 
         :`zœeɖaʃi`: 
         :`aiɖi`: 
