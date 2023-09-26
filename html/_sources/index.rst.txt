@@ -28,11 +28,6 @@ Adasi
 To-do
 -----
 
-.. admonition:: Transfer Todo
-    :class: attention
-
-    See :doc:`this page <transfer-todo>` for completing transfer from old systems.
-
 .. todolist::
 
 Index

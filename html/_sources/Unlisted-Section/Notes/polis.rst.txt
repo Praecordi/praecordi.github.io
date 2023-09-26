@@ -1,5 +1,5 @@
-Polis
-=====
+How to Polis
+============
 
 These are some notes on `this article <https://acoup.blog/2023/03/10/collections-how-to-polis-101-part-i-component-parts/>`_ and the following articles. For this series, I have opted of taking note of details which may not be required for world-building. This is not the case for all other pages.
 
@@ -38,6 +38,9 @@ Part 1
 Part 2
 ------
 
+Part A
+******
+
 - Almost every *polis* is made up of 
 
   #. an assembly (*ekklesia*) of **all** the *politai*.  
@@ -66,4 +69,58 @@ Part 2
   
      Tyrants do not abolist key civic institutions like the *ekklesia* or law courts; the tyrant controls these things by co-opting the remaining elite families, using violence and the threat of violence against those who would resist and installing cronies in positions of power. Tyrannies did not last outside of one person; they usually went back to an oligarchy or democracy.
     
-- 
+Part B
+******
+
+- Senior magistrates were called *archons* coming from teh word *archo* which is to begin, or to be first.
+- Magistracy is one office with multiple people holding the same power over the office. Each magistrate can act individually with the full power of their office without approval from their colleagues.
+- Athens has 3 *archons*:
+
+  - *polemarch* - in charge of the army
+  - *archon basileus* - filled in for the king in religious rituals but did not have any broader religious powers
+  - eponymous *archon* - lent his name to the year ("in the year of so-and-so's archonship") and ran the courts; initially also oversaw the meetings of the *boule* and *ekklesia*.
+
+- The archons lost most of their power. The eponymous *archon* was replaced with the *boule* in the *ekklesia* and the *prytaneis* in the *boule*. The *polemarch* became organizational, while leading the actual war were a board of ten generals, the *strategoi* (*strategoi* could be elected repeatedly (consecutively)).
+- There were 6 *thesmothetai* operating the courts (but did not dispense justice; these were jury courts).
+- Sparta had 2 hereditary kings and a board of *ephors*.
+  
+  - *ephors* handled foreign policy, served as a high court, and could propose legislation. They made sure the kings did their job including their religious function.
+  - One of the *ephors* was eponymous.
+
+- In other *polis*:
+  
+  - Crete had the *kosmoi* which were similar to the *ephors*.
+  - Thebes had an eponymous *archon* and at least 2 *polemarchs*.
+  - The Boeotian confederation (of which Thebes was the leading power) had 7 *boiotarchs* elected for one term to lead the combined Boeotian army.
+  - Argos had a presiding magistrate who was assigned a secretary with a 6 month term of office.
+    
+    - They also had a board of 5 *strategoi* as well as a board of treasurers.
+
+- Lower magistrates performed every day tasks (these are mostly from Athens):
+
+  :tamiai: a board of 10 picked from the wealthiest citizens by lot; they had custody over state funds in the treasury. An 11th tamias (not part of the board of 10) looks after the *adunatoi* - those that are poor and incapable of working.
+  :heiron episkeustai: board of 10 who were in charge of repairing temples.
+  :poletai: board of 10 selected by lot who let out public contracts (such as contracts for operating mines, or collecting taxes); they also hold auction of seized land and property as a result of conviction or banishment.
+  :apodektai: board of 10 chosen by lot who verify monies paid to the state.
+  :hodopoioi: board of 5 who oversee public slaves who maintain roads.
+  :hieropoioi: religious magistrates split into different groups: 10 for expiatory rites, 10 for annual or four-yearly festivals (except for the Panthenaia).
+  :astunomoi: board of 10 elected by lot whose job was to supervise renting out of ensalved female musicians. They also had the job to make sure buildings codes were followed, that on one deposited human waste in the city and removing bodies in the street for burial. There were 5 for the city proper and 5 for the Piraeus.
+  :agoranomoi: board of 10 selected by lot and split evenly between the city proper and Piraeus. These checked for counterfeit goods.
+  :metronomoi: board of 10 selected by lot and split evenly between the city proper and Piraeus. These checked for weights and measures and eforced Athenian coinage, weights and measures in Athens and Athens-controlled cities.
+  :sitophulakes: board of 10, but eventually 35, who regulated prices of grain as well as fix standard weights and measures for grain (in all stages of production: grain, meal and bread).
+  :emporiou epimeletai: board of 10 who managed harbor market and dealt with foreign traders.
+  :logistai: board of 10 selected from the *boule* by lot who keep official records of the *prytaneis*.
+  :euthynoi: board of 10 selected by lot from the tribes writ large who received complaints on magistrates who had finished their terms. They sat in all tribal meetings of their tribe (10 euthynoi for the 10 tribes of Athens) and take all complaints assisted by a pair of *paredroi*.
+  :hendeka: 11 citizens chose by lot that guard the jail (those pending trial) as well as execute thieves and bandits.
+  :eisagogeis: 5 citizens who announce into court various financial cases [#detail]_ except those involving public contracts which fall under the authority of the *apodektai*.
+  :grammateis: 3 clerks. The first two, one for the *prytaneis* who keeps their official documents and pronouncements and another who sits in on the *boule* and makes copies of all the laws, are chosen by lots while the last, a clerk who reads documents to the *boule* or *ekklesia*, is chosen by show of hands.
+  :taxiarch: a commander for each tribal contingent (a *taxis*, a unit of the phalanx).
+  :katalogeis: board of 10 elected officials who enroll the cavalry (the *hippeis*).
+  :hipparchs: pair of elected commanders who lead the cavalry.
+  :pularchs: 10 elected suboardinates of the *hipparchs* who act as the *taxiarch* of the cavalry.
+
+-----
+
+.. rubric:: Footnotes
+
+.. [#detail] small claims go before a board of 40 citizens while large claims are decided by a *diaitetes*, a citizen over 59 years chosen by lot, whose decision can be appealed before a full jury if it isn't acceptable.

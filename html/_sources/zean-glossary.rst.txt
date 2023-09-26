@@ -693,16 +693,22 @@ Words in `aθɶs` [#f5]_
     - `sayɹeʃʈesa` - the `sayɹeʃʈe` family
 
   `jyʋi` : yuvi
-    the name of the city as well as the family into which `saeθa` was born into
+    the name of the city as well as the family into which `ajɛseɖi` was born into
 
     - `jyʋisi` - I live in the city of `jyʋi` *or* I am of the `jyʋi` family
     - `jyʋisa` - the `jyʋi` city *or* the `jyʋi` family
 
   `ʋeʃjœ` : veshyo
-    the city where `ajɛseɖi` was born in
+    the name of the city as well as well as the family of `øθysa`
 
     - `ʋeʃjœsi` - I live in the city of `ʋeʃjœ`
     - `ʋeʃjœsa` - the `ʋeʃjœ` city
+
+  `ʋeʃja` : veshya
+    the profession of a sacred prostitute trained in the *Academy Courtesan* on `ʋeʃjœ`.
+
+    - `ʋeʃjasi` - I am a sacred prostitute trained in the *Academy Courtesan*
+    - `ʋeʃjasa` - A sacred prostitute trained in the *Academy Courtesan*
 
   `jyɹi` : yuri
     an honorific used to address someone older or wiser

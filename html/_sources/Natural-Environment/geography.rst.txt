@@ -1,7 +1,7 @@
 Geography
 =========
 
-The system of `zai` contains 5 planets in total, spread unevenly throughout the system. 2 of the planets are rocky planets, while the rest are hot, gas giants. A hot gas giant, close to the planet, causes many space anomalies which is noticed even by the `ʈeaθyda`. Of course, `aɖasi`, the home to the `aiɖi` and `ʈeaθyɖa`, is one rocky planet, the other being the farthest out in the system. The rest of the gas giants are between these two planets, spread out over a massive distance, each being equal in size, but slightly smaller than the first, hot, gas giant.
+The system of `zai` contains 5 planets in total, spread unevenly throughout the system. 2 of the planets are rocky planets, while the rest are hot, gas giants. A hot gas giant, close to the planet, causes many space anomalies which is noticed even by the `ʈeaθyɖa`. Of course, `aɖasi`, the home to the `aiɖi` and `ʈeaθyɖa`, is one rocky planet, the other being the farthest out in the system. The rest of the gas giants are between these two planets, spread out over a massive distance, each being equal in size, but slightly smaller than the first, hot, gas giant.
 
 Map
 ---

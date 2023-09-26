@@ -1,14 +1,35 @@
 On Ranthis
 ==========
 
+When `ajɛseɖi`, `saeθa`, and `saiʃeʈa` return to `aθɶs`, they are surprised with the fact that the Followers of the Primal Weaver had dispersed, and both `eɹaʈɛ` and `stɹai` had split away. `yʈaʃø` on her part has become the de facto leader of `ʋeʃjœ` in all but her name. The three decide to travel to `ʋeʃjœ`, being the biggest city and the most likely place where everyone could be, to gain the whereabouts of `eɹaʈɛ`, `stɹai` and the children. They are careful to hide their altered state. They are able to find `eɹaʈɛ` teaching in the *Academy*. While `eɹaʈɛ` is not able to give the exact whereabouts of `stɹai`, she points them to the right direction. 
+
+`saiʃeʈa` and `ajɛseɖi` head out to find `stɹai`, while `saeθa` stays with `eɹaʈɛ` to explain their discovery. While hesitant to leave with them, `saeθa` convinces her to join them in this new world. `seθi` is soon to become a full `ʋeʃja` while `aʃaða`, an Accepted. This is a problem as the *Academy* is quite serious about keeping their `ʋeʃjœ` and Accepted, specifically their young `ʋeʃjœ`\ [#explanation]. 
+
+On the other hand, `saiʃeʈa` and `ajɛseɖi` spend many weeks tracking down the movement of the Primal Weaver refugees. They are able to track down their movements to a village where they find `stɹai` and `θisœʈe`, alongside `dea` and `θea`. As we noted before, `stɹai`'s life had stabilized. She was taken aback by `saiʃeʈa` and `ajɛseɖi`'s existence, but was conflicted by leaving the life she had settled into. At the same time, `θisœʈe` was not happy of `ajɛseɖi`'s presence, and developed a sense of jealousy. 
+
+It took some time before they could convince `stɹai` to come with them, but it happened eventually. But now they faced the problem of going back. They sent a message to `saeθa` at `ʋeʃjœ` to rejoin them at the Forest of the Primal Weaver. But as `ajɛseɖi` and `saiʃeʈa` reached the Forest, they realized why the Followers of `seɹikani` had dispersed. The Forest had been cut down, and with that the Primal Weaver herself had passed away, her essence tied to the Forest. 
+
+They resolved to craft a `sʋe` with the knowledge they had been given to transport them back to their `aɖasi`. This they resolved to do before `saeθa` came with `eɹaʈɛ`, `seθi`, `aʃaða` and `teʃi`. The `sʋe` was done when `saeθa` came, with a force of the *Academy* following on their heel. So they decided to implement the `sʋe` as soon as possible to escape the soldiers, but the untested `sʋe` did not perform as they expected.
+
+Ranthis
+-------
+
+The women landed not on `aɖasi` but on another planet entirely. This planet, called Ranthis by the locals, is composed of a mono-gender race who look like `aθɶs` females but are hermaphrodites, similar to the `ajɛsɖɶ`; a typical Ranthisian has both a vagina and a penis. Besides humans, Ranthis also contains a small population of other sentient hybrid creatures who are a product of a bygone era. While there are goddesses on this world, years of war have rendered some dormant, while the few that remain active are not easily found still.
+
+The crafted `sʋe` was cast three separate times by `ajɛseɖi`, `saeθa` and `saiʃeʈa` separately. Each of the 3 transported two others except for `ajɛseɖi` was the strongest of them and transported 2 more. `ajɛseɖi`, `aʃaða`, `θea`, `θisœʈe` and `stɹai` land in the middle of a battle and are quickly separated. 
+
+.. todo:: 
+
+    Finish writing the Ranthis storyline
+
 .. dropdown:: Ranthis Storyline Plans
 
-    Upon returning to `aθɶs`, `ajɛseɖi`, `saiʃeʈa`, and `saeθa` gather everyone and escape to the forest of the Primal Weaver only to find that because of efforts by the Academy, the forest has been cut down, and with it the Primal Weaver has passed away. Once again, being followed by soldiers, this time coming after `saeθa`, `seθi` and `aʃaða`\ [#reason]_. With little time, the 3 women use their working knowledge of `sʋe` to attempt to transport themselves to `aɖasi`, but are unsucessful, and they get transported to Ranthis. Due to the way the spell worked (or rather did not work), the groups were split and landed in different areas of Ranthis. 
+    Upon returning to `aθɶs`, `ajɛseɖi`, `saiʃeʈa`, and `saeθa` gather everyone and escape to the forest of the Primal Weaver only to find that because of efforts by the *Academy*, the forest has been cut down, and with it the Primal Weaver has passed away. Once again, being followed by soldiers, this time coming after `saeθa`, `seθi` and `aʃaða`\ [#reason]_. With little time, the 3 women use their working knowledge of `sʋe` to attempt to transport themselves to `aɖasi`, but are unsucessful, and they get transported to Ranthis. Due to the way the spell worked (or rather did not work), the groups were split and landed in different areas of Ranthis. 
 
     The entire group is split thus:
 
-    - `ajɛseɖi`, `aʃaða` and `θea` are the first group.
-    - `saiʃeʈa`, `teʃi`, `dea`, `θisœʈe` and `stɹai` end up in a group. `θisœʈe` and `stɹai` are later separated, becoming the third group.
+    - `ajɛseɖi`, `aʃaða`, `θea`, `θisœʈe` and `stɹai` are the first group.
+    - `saiʃeʈa`, `teʃi`, and `dea`, end up in a group. `θisœʈe` and `stɹai` are later separated, becoming the third group.
     - `saeθa`, `eɹaʈɛ`, and `seθi` are the last, fourth group.
 
 
@@ -57,3 +78,9 @@ On Ranthis
     .. [#sai-villains] Maybe enemy soldiers, bandits, cultists, etc. Decide during worldbuilding.
 
     .. [#sai-macguffin] I'm thinking a mythical creature, or an item, or an item which summons the mythical creature.
+
+-----
+
+.. rubric:: Footnotes
+
+.. [#explanation] We have seen this before, slightly, but full `ʋeʃja` bring a lot of money to the *Academy*, and at the same time, there are not many women who become full `ʋeʃja`. A lot of money is put into them, and young `ʋeʃja` are also more valuable because of their virginity. Thus, `saeθa`'s plan for taking `seθi` and `aʃaða` would most definitely bring the attention of the *Academy* down on their escape.

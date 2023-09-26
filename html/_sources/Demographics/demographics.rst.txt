@@ -8,6 +8,7 @@ Demographics
     aidi
     avyasi
     zea-races
+    notable-people
     
 Maker's Notes
 -------------

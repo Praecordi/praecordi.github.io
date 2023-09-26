@@ -9,6 +9,7 @@ Notes
     clothing
     iron
     polis
+    republic
     lonely-cities
     empires
     fremen

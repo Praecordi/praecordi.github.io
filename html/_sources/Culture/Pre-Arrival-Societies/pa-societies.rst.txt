@@ -14,6 +14,12 @@ Maker's Notes
 .. dropdown:: On Pre-Arrival Society
     :icon: clock
     
+    .. todo:: 
+
+        Flesh out each of the societies and their cultures, history and government. 
+        
+        .. _pa-todo:
+
     .. rubric:: Society 1
 
     - This society follows a strict caste system, a rigid social hierarchy, maybe based on birth, or some other physical characteristics which is already not "assigned" to one of the genders.

@@ -36,14 +36,6 @@ Maker's Notes
 .. dropdown:: On Hold Doctrines
     :icon: clock
 
-    .. todo:: 
-        
-        Redo the doctrines based around the new clothing-based magical system. The doctrines should follow the magical preferences of the `isiʈeθɶ` (for the hold doctrines) and the `zœeɖaʃi` (for the claim doctrines). Maybe hold doctrines should have a choice and specify material while claim doctrines should specify area (?).
-        
-        Remove transparency.
-        
-        I think the doctrines should be an extension of heraldry in medieval Europe. There should be an intricate system of introducing doctrines and many more elements to it, including specific clothing items and accessories. This should be for later. For now keep it simple.
-
     Doctrines are an important part of holds, as because of the clothing-based magic system, more popular than the energy-based magic system due to its rarity, caused clothing to be an important part of cultures across `aɖasi`. While most every day people couldn't perform this magic because of the lack of resources required, people adopted the tradition of wearing clothing similar to the magicians they followed or were in allegiance to. Rulers would wear the clothings similar to those in legends as a way to consolidate their rule. 
     
     When the `isiʈeθɶ` and `zœeɖaʃi` were installed as rulers of `aɖasi`, they adopted a similar system. The Hold Doctrines, as they are called, are a cascading system of doctrines of which areas of the body an outfit should keep covered or uncovered, as well as the type of material the clothing should be made of. These doctrines are an important ceremonial tradition maintained by the `isiʈeθɶ` and `zœeɖaʃi`. 
@@ -71,6 +63,127 @@ Maker's Notes
     #. lower left bottom
     #. lower right bottom
 
+    .. tab-set::
+
+        .. tab-item:: Doctrines before the Great Split
+
+            The only coalition during this time is the `ateɹti` coalition (this name was only given after the Great Split). Since before the Arrival, an exposed waist was considered a warrior's outfit (since combat `sʋe` requires an exposed waist). This doctrine was kept in wartime during Arrival and stuck around as a ceremony afterwards.
+
+            Besides this coalition wide rule, there are local rules for each hold, a remnant of the hold system found in many cultures on `aɖasi`. And each `zœeɖaʃi`, including the `isiʈeθɶ` themselves, will have their own rule for their claim, which dictates the type of clothing worn by the nobles in official events.
+
+            .. tab-set::
+
+                .. tab-item:: `ajɛseɖi`'s Hold
+
+                    The doctrine in `ajɛseɖi`'s hold is to cover the chest with satin.
+
+                    .. tab-set::
+
+                        .. tab-item:: `ajɛseɖi`
+
+                            :Expose: [waist], lower legs
+                            :Cover: [chest with satin]
+
+                            .. figure:: /_static/doctrines/ayasedi.png
+                                :width: 50%
+                        
+                        .. tab-item:: `ʃɛʈaie`
+
+                            :Expose: [waist]
+                            :Cover: [chest with satin], upper arms, hips
+
+                            .. figure:: /_static/doctrines/shataie.png
+                                :width: 50%
+                    
+                .. tab-item:: `saeθa`'s Hold
+
+                    The doctrine in `saeθa`'s hold is cover the top.
+
+                    .. tab-set::
+
+                        .. tab-item:: `saeθa`
+
+                            :Expose: [waist], hips
+                            :Cover: [top]
+
+                            .. figure:: /_static/doctrines/saetha.png
+                                :width: 50%
+
+                        .. tab-item:: `seθi`
+
+                            :Expose: [waist], hips
+                            :Cover: [top], left arm with velvet
+
+                            .. figure:: /_static/doctrines/sethi.png
+                                :width: 50%
+                                
+                        .. tab-item:: `aʃaða` 
+
+                            :Expose: [waist]
+                            :Cover: [top], upper arms with leather
+
+                            .. figure:: /_static/doctrines/ashadha.png
+                                :width: 50%
+                                
+                        .. tab-item:: `teʃi` 
+
+                            :Expose: [waist], upper legs
+                            :Cover: [top], right arm, right hips, right lower leg
+
+                            .. figure:: /_static/doctrines/teshi.png
+                                :width: 50%
+                
+                .. tab-item:: `saiʃeʈa`'s Hold
+
+                    The doctrine in `saiʃeʈa`'s hold is cover the bottom
+                    
+                    .. tab-set::
+                        
+                        .. tab-item:: `saiʃeʈa`
+
+                            :Expose: [waist]
+                            :Cover: [bottom], arms with leather
+
+                            .. figure:: /_static/doctrines/saisheta.png
+                                :width: 50%
+                                
+                        .. tab-item:: `θisœʈe`
+
+                            :Expose: [waist]
+                            :Cover: [bottom] with silk, right chest
+
+                            .. figure:: /_static/doctrines/thisote.png
+                                :width: 50%
+                                
+                        .. tab-item:: `dea`
+
+                            :Expose: [waist], left chest
+                            :Cover: [bottom], head, right chest with linen
+
+                            .. figure:: /_static/doctrines/dea.png
+                                :width: 50%
+                                
+                        .. tab-item:: `θea`
+
+                            :Expose: [waist], chest
+                            :Cover: [bottom] with cotton
+
+                            .. figure:: /_static/doctrines/thea.png
+                                :width: 50%
+                                
+                        .. tab-item:: `iɖe`
+
+                            :Expose: [waist], upper arms
+                            :Cover: [bottom] with linen
+
+                            .. figure:: /_static/doctrines/ide.png
+                                :width: 50%
+
+        .. tab-item:: Doctrines after the Great Split
+
+            TBD
+
+..
     .. tab-set:: 
     
         .. tab-item:: Doctrines before the Great Split
