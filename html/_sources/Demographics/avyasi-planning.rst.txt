@@ -13,7 +13,7 @@
         :img-top: /_static/inspirations/nicola_cavanis.png
     
         :Inspiration: Nicola Cavanis :bdg-link:`instagram <https://www.instagram.com/nicola/?hl=en>`
-        :Tags: :bdg-info:`European` :bdg-warning:`Mediterranean`
+        :SD Tags: :bdg-info:`European` :bdg-warning:`Mediterranean`
         :Eye Color: Black
         :Skin Color: Natural
         :Hair Color: Black with Red tips
@@ -32,7 +32,7 @@
         :img-top: /_static/inspirations/akanksha_sharma.png
         
         :Inspiration: Akanksha Sharma :bdg-link:`instagram <https://www.instagram.com/akanksharmaa/?hl=en>` 
-        :Tags: :bdg-primary:`South Asian`
+        :SD Tags: :bdg-primary:`South Asian`
         :Eye Color: Purple
         :Skin Color: Light
         :Hair Color: Red with white tips
@@ -47,10 +47,10 @@
             :Secondary: #ffffff
         
     .. grid-item-card:: `saiʃeʈa`
-        :img-top: /_static/inspirations/han_so_hee.png
+        :img-top: /_static/inspirations/adeline_rudolph.png
     
-        :Inspiration: Han So-Hee :bdg-link:`instagram <https://www.instagram.com/xeesoxee/?hl=en>`
-        :Tags: :bdg-primary:`Korean`
+        :Inspiration: Adeline Rudolph :bdg-link:`instagram <https://www.instagram.com/adelinerudo/?hl=en>`
+        :SD Tags: :bdg-primary:`Korean`
         :Eye Color: Blue
         :Skin Color: Medium Light
         :Hair Color: White
@@ -77,7 +77,7 @@
         :Inspiration: Pooja Hegde :bdg-link:`instagram <https://www.instagram.com/hegdepooja/?hl=en>`
             
             \+ `θisœʈe` (family resemblance)
-        :Tags: :bdg-primary:`European` :bdg-primary:`Korean`
+        :SD Tags: :bdg-primary:`European` :bdg-primary:`Korean`
         :Eye Color: Red
         :Skin Color: Light
         :Hair Color: Red with Golden Roots
@@ -109,7 +109,7 @@
         :img-top: /_static/inspirations/suzu_honjo.png
     
         :Inspiration: Suzu Honjo :bdg-link:`instagram <https://www.instagram.com/honjo_suzu/?hl=en>`
-        :Tags: :bdg-info:`Korean` :bdg-warning:`Mediterranean`    
+        :SD Tags: :bdg-info:`Korean` :bdg-warning:`Mediterranean`    
         :Eye Color: Black
         :Skin Color: Medium Light
         :Hair Color: Golden with Black Highlights
@@ -127,7 +127,7 @@
         :img-top: /_static/inspirations/tita_sahara.png
     
         :Inspiration: Tita Sahara :bdg-link:`instagram <https://www.instagram.com/itstitasahara/>`
-        :Tags: :bdg-info:`Egyptian` :bdg-warning:`South Asian` 
+        :SD Tags: :bdg-info:`Egyptian` :bdg-warning:`South Asian` 
         :Eye Color: Green
         :Skin Color: Medium Dark
         :Hair Color: Golden
@@ -145,7 +145,7 @@
         :img-top: /_static/inspirations/lais_ribeiro.png
     
         :Inspiration: Lais Ribeiro :bdg-link:`instagram <https://www.instagram.com/laisribeiro/?hl=en>`
-        :Tags: :bdg-info:`Mediterranean` :bdg-warning:`South Asian`
+        :SD Tags: :bdg-info:`Mediterranean` :bdg-warning:`South Asian`
         :Eye Color: Yellow
         :Skin Color: Medium Dark
         :Hair Color: White
@@ -163,7 +163,7 @@
         :img-top: /_static/inspirations/kelly_gale.png
 
         :Inspiration: Kelly Gale :bdg-link:`instagram <https://www.instagram.com/kellygale/>`
-        :Tags: :bdg-info:`Mongolian` :bdg-warning:`South Asian` 
+        :SD Tags: :bdg-info:`Mongolian` :bdg-warning:`South Asian` 
         :Eye Color: Green
         :Skin Color: Medium Dark
         :Hair Color: Golden with White roots
@@ -190,7 +190,7 @@
         :Inspiration: Alejandra Guilmant :bdg-link:`instagram <https://www.instagram.com/aleguilmant/?hl=en>`
             
             \+ `saiʃeʈa` (family resemblance)
-        :Tags: :bdg-info:`South Asian` :bdg-warning:`Korean`
+        :SD Tags: :bdg-info:`South Asian` :bdg-warning:`Korean`
         :Eye Color: Light Brown
         :Skin Color: Natural
         :Hair Color: Black with White and Purple Highlights
@@ -217,7 +217,7 @@
         :Inspiration: Alejandra Guilmant :bdg-link:`instagram <https://www.instagram.com/aleguilmant/?hl=en>`
         
             \+ `saiʃeʈa` (family resemblance)
-        :Tags: :bdg-info:`South Asian` :bdg-warning:`Korean`
+        :SD Tags: :bdg-info:`South Asian` :bdg-warning:`Korean`
         :Eye Color: Light Brown
         :Skin Color: Natural
         :Hair Color: Black with White and Blue Highlights
@@ -237,7 +237,7 @@
         :Inspiration: Kristen Kerr :bdg-link:`instagram <https://www.instagram.com/gingalicious/?hl=en>` 
         
             \+ `ajɛseɖi` (family resemblance)
-        :Tags: :bdg-primary:`European` :bdg-primary:`Mediterranean`
+        :SD Tags: :bdg-primary:`European` :bdg-primary:`Mediterranean`
         :Eye Color: Red
         :Skin Color: Medium Light
         :Hair Color: Red
@@ -257,7 +257,7 @@
         :Inspiration: \+ `aʃaða` (family resemblance) 
             
             \+ `θea` (family resemblance)
-        :Tags: :bdg-primary:`East Asian` :bdg-primary:`Mediterranean`
+        :SD Tags: :bdg-primary:`East Asian` :bdg-primary:`Mediterranean`
         :Eye Color: Yellow
         :Skin Color: Natural
         :Hair Color: White with Black Roots
@@ -277,7 +277,7 @@
         :Inspiration: \+ `teʃi` (family resemblance)
         
             \+ `dea` (family resemblance)
-        :Tags: :bdg-primary:`East Asian` :bdg-info:`Mongolian`
+        :SD Tags: :bdg-primary:`East Asian` :bdg-info:`Mongolian`
         :Eye Color: Green
         :Skin Color: Natural
         :Hair Color: Black with Golden Tips
@@ -297,7 +297,7 @@
         :Inspiration: \+ `ʃɛʈaie` (family resemblance) 
         
             \+ `iɖe` (family resemblance)
-        :Tags: :bdg-primary:`Korean` :bdg-primary:`European`
+        :SD Tags: :bdg-primary:`Korean` :bdg-primary:`European`
         :Eye Color: Black
         :Skin Color: Medium Light
         :Hair Color: Black with red roots
@@ -317,7 +317,7 @@
         :Inspiration: \+ `ʃɛʈaie` (family resemblance)
         
             \+ `iɖe` (family resemblance)
-        :Tags: :bdg-primary:`Korean` :bdg-primary:`European`
+        :SD Tags: :bdg-primary:`Korean` :bdg-primary:`European`
         :Eye Color: Red
         :Skin Color: Medium Light
         :Hair Color: Golden with Black Highlights
@@ -335,7 +335,7 @@
         :img-top: /_static/inspirations/lorena_rae.png
     
         :Inspiration: Lorena Rae :bdg-link:`instagram <https://www.instagram.com/lorena/?hl=en>`
-        :Tags: :bdg-primary:`European`
+        :SD Tags: :bdg-primary:`European`
         :Eye Color: Light Red
         :Skin Color: Medium Light
         :Hair Color: Black with Red tips
@@ -355,7 +355,7 @@
         :Inspiration: \+ `seθi` (family resemblance)
 
             \+ `iɖe` (family resemblance)
-        :Tags: :bdg-primary:`Egyptian` :bdg-primary:`Korean`
+        :SD Tags: :bdg-primary:`Egyptian` :bdg-primary:`Korean`
         :Eye Color: Yellow
         :Skin Color: Medium Light
         :Hair Color: Golden
@@ -375,7 +375,7 @@
         :Inspiration: \+ `iɖe`  (family resemblance)
         
             \+ `dea` (family resemblance)
-        :Tags: :bdg-primary:`East Asian` :bdg-primary:`Korean`
+        :SD Tags: :bdg-primary:`East Asian` :bdg-primary:`Korean`
         :Eye Color: Light Brown
         :Skin Color: Medium Light
         :Hair Color: White with Red Highlights
