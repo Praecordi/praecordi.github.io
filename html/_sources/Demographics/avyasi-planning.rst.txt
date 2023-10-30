@@ -3,6 +3,15 @@
 `aʋjasi` Planning
 =================
 
+.. admonition:: Information on `aʋyasi` Images
+    :class: attention
+
+    The images are generated using Stable Diffusion and ComfyUI using `A-Zovya Photoreal <https://civitai.com/models/57319?modelVersionId=61727>`_ Checkpoint.
+
+    .. todo:: 
+
+        Regenerate images with `A-Zovya Photoreal (V2) <https://civitai.com/models/57319?modelVersionId=99805>`_.
+
 `isiʈeθɶ`
 ---------
 
@@ -10,13 +19,17 @@
     :gutter: 3
     
     .. grid-item-card:: `ajɛseɖi`
-        :img-top: /_static/inspirations/nicola_cavanis.png
+        :img-top: /_static/avyasi/ayasedi.jpg
     
         :Inspiration: Nicola Cavanis :bdg-link:`instagram <https://www.instagram.com/nicola/?hl=en>`
-        :SD Tags: :bdg-info:`European` :bdg-warning:`Mediterranean`
-        :Eye Color: Black
+
+        .. card::
+            :img-background: /_static/inspirations/nicola_cavanis.jpg
+
+        :SD Tags: :bdg-primary:`Mediterranean`
+        :Eye Color: Brown
         :Skin Color: Natural
-        :Hair Color: Black with Red tips
+        :Hair Color: Black with red highlights
         :Hair Type: 1B
         :Body Type: B-D
 
@@ -29,13 +42,17 @@
 
     
     .. grid-item-card:: `saeθa`
-        :img-top: /_static/inspirations/akanksha_sharma.png
+        :img-top: /_static/avyasi/saetha.jpg
         
         :Inspiration: Akanksha Sharma :bdg-link:`instagram <https://www.instagram.com/akanksharmaa/?hl=en>` 
+        
+        .. card::
+            :img-background: /_static/inspirations/akanksha_sharma.jpg
+
         :SD Tags: :bdg-primary:`South Asian`
-        :Eye Color: Purple
+        :Eye Color: Green
         :Skin Color: Light
-        :Hair Color: Red with white tips
+        :Hair Color: Red with white highlights
         :Hair Type: 2B
         :Body Type: D-F
 
@@ -47,9 +64,13 @@
             :Secondary: #ffffff
         
     .. grid-item-card:: `saiʃeʈa`
-        :img-top: /_static/inspirations/adeline_rudolph.png
+        :img-top: /_static/avyasi/saisheta.jpg
     
         :Inspiration: Adeline Rudolph :bdg-link:`instagram <https://www.instagram.com/adelinerudo/?hl=en>`
+        
+        .. card::
+            :img-background: /_static/inspirations/adeline_rudolph.jpg
+
         :SD Tags: :bdg-primary:`Korean`
         :Eye Color: Blue
         :Skin Color: Medium Light
@@ -72,15 +93,19 @@
             :Secondary: #bfbfbf
 
     .. grid-item-card:: `iɖe`
-        :img-top: /_static/inspirations/pooja_hegde.png
+        :img-top: /_static/avyasi/ide.jpg
     
         :Inspiration: Pooja Hegde :bdg-link:`instagram <https://www.instagram.com/hegdepooja/?hl=en>`
             
-            \+ `θisœʈe` (family resemblance)
-        :SD Tags: :bdg-primary:`European` :bdg-primary:`Korean`
-        :Eye Color: Red
+            \+ `θisœʈe` [Suzu Honjo] (family resemblance)
+            
+        .. card::
+            :img-background: /_static/inspirations/pooja_hegde.jpg
+
+        :SD Tags: :bdg-primary:`Moroccan` :bdg-primary:`Korean`
+        :Eye Color: Grey
         :Skin Color: Light
-        :Hair Color: Red with Golden Roots
+        :Hair Color: Red with golden highlights
         :Hair Type: 2B
         :Body Type: B-E
 
@@ -106,13 +131,17 @@
     :gutter: 3
     
     .. grid-item-card:: `θisœʈe`
-        :img-top: /_static/inspirations/suzu_honjo.png
-    
+        :img-top: /_static/avyasi/thisote.jpg
+        
         :Inspiration: Suzu Honjo :bdg-link:`instagram <https://www.instagram.com/honjo_suzu/?hl=en>`
+        
+        .. card::
+            :img-background: /_static/inspirations/suzu_honjo.jpg
+
         :SD Tags: :bdg-info:`Korean` :bdg-warning:`Mediterranean`    
         :Eye Color: Black
         :Skin Color: Medium Light
-        :Hair Color: Golden with Black Highlights
+        :Hair Color: Golden with black highlights
         :Hair Type: 1B
         :Body Type: B
 
@@ -124,9 +153,15 @@
             :Secondary: #bf3f3f
         
     .. grid-item-card:: `seθi`
-        :img-top: /_static/inspirations/tita_sahara.png
+        :img-top: /_static/avyasi/sethi.jpg
     
         :Inspiration: Tita Sahara :bdg-link:`instagram <https://www.instagram.com/itstitasahara/>`
+
+            \+ `saeθa` [Akanksha Sharma] (family resemblance)
+            
+        .. card::
+            :img-background: /_static/inspirations/tita_sahara.jpg
+
         :SD Tags: :bdg-info:`Egyptian` :bdg-warning:`South Asian` 
         :Eye Color: Green
         :Skin Color: Medium Dark
@@ -142,11 +177,17 @@
             :Secondary: #ff7f7f
         
     .. grid-item-card:: `aʃaða`
-        :img-top: /_static/inspirations/lais_ribeiro.png
+        :img-top: /_static/avyasi/ashadha.jpg
     
         :Inspiration: Lais Ribeiro :bdg-link:`instagram <https://www.instagram.com/laisribeiro/?hl=en>`
-        :SD Tags: :bdg-info:`Mediterranean` :bdg-warning:`South Asian`
-        :Eye Color: Yellow
+
+            \+ `saeθa` [Akanksha Sharma] (family resemblance)
+            
+        .. card::
+            :img-background: /_static/inspirations/lais_ribeiro.jpg
+
+        :SD Tags: :bdg-info:`Arabic` :bdg-warning:`South Asian`
+        :Eye Color: Gray
         :Skin Color: Medium Dark
         :Hair Color: White
         :Hair Type: 3B
@@ -160,13 +201,19 @@
             :Secondary: #7f7fff
         
     .. grid-item-card:: `teʃi`
-        :img-top: /_static/inspirations/kelly_gale.png
+        :img-top: /_static/avyasi/teshi.jpg
 
         :Inspiration: Kelly Gale :bdg-link:`instagram <https://www.instagram.com/kellygale/>`
+
+            \+ `saeθa` [Akanksha Sharma] (family resemblance)
+            
+        .. card::
+            :img-background: /_static/inspirations/kelly_gale.jpg
+
         :SD Tags: :bdg-info:`Mongolian` :bdg-warning:`South Asian` 
         :Eye Color: Green
         :Skin Color: Medium Dark
-        :Hair Color: Golden with White roots
+        :Hair Color: Golden with white highlights
         :Hair Type: 1C
         :Body Type: D
 
@@ -185,15 +232,19 @@
             :Secondary: #3fbf3f
 
     .. grid-item-card:: `dea`
-        :img-top: /_static/inspirations/alejandra_guilmant.png
+        :img-top: /_static/avyasi/dea.jpg
     
         :Inspiration: Alejandra Guilmant :bdg-link:`instagram <https://www.instagram.com/aleguilmant/?hl=en>`
             
-            \+ `saiʃeʈa` (family resemblance)
+            \+ `saiʃeʈa` [Adeline Rudolph] (family resemblance)
+            
+        .. card::
+            :img-background: /_static/inspirations/alejandra_guilmant.jpg
+
         :SD Tags: :bdg-info:`South Asian` :bdg-warning:`Korean`
         :Eye Color: Light Brown
         :Skin Color: Natural
-        :Hair Color: Black with White and Purple Highlights
+        :Hair Color: Black with purple highlights
         :Hair Type: 1C
         :Body Type: A
 
@@ -212,15 +263,19 @@
             :Secondary: #3f3f3f
         
     .. grid-item-card:: `θea`
-        :img-top: /_static/inspirations/alejandra_guilmant.png
+        :img-top: /_static/avyasi/thea.jpg
     
         :Inspiration: Alejandra Guilmant :bdg-link:`instagram <https://www.instagram.com/aleguilmant/?hl=en>`
         
-            \+ `saiʃeʈa` (family resemblance)
+            \+ `saiʃeʈa` [Adeline Rudolph] (family resemblance)
+            
+        .. card::
+            :img-background: /_static/inspirations/alejandra_guilmant.jpg
+
         :SD Tags: :bdg-info:`South Asian` :bdg-warning:`Korean`
         :Eye Color: Light Brown
         :Skin Color: Natural
-        :Hair Color: Black with White and Blue Highlights
+        :Hair Color: Black with blue highlights
         :Hair Type: 1C
         :Body Type: A
 
@@ -232,13 +287,17 @@
             :Secondary: #3f3f3f
 
     .. grid-item-card:: `ʃɛʈaie`
-        :img-top: /_static/inspirations/kristen_kerr.png
+        :img-top: /_static/avyasi/shataie.jpg
         
         :Inspiration: Kristen Kerr :bdg-link:`instagram <https://www.instagram.com/gingalicious/?hl=en>` 
         
-            \+ `ajɛseɖi` (family resemblance)
-        :SD Tags: :bdg-primary:`European` :bdg-primary:`Mediterranean`
-        :Eye Color: Red
+            \+ `ajɛseɖi` [Nicola Cavanis] (family resemblance)
+            
+        .. card::
+            :img-background: /_static/inspirations/kristen_kerr.jpg
+
+        :SD Tags: :bdg-primary:`Moroccan` :bdg-primary:`Mediterranean`
+        :Eye Color: Gray
         :Skin Color: Medium Light
         :Hair Color: Red
         :Hair Type: 2B
@@ -252,11 +311,14 @@
             :Secondary: #bf7f00
         
     .. grid-item-card:: `siydi`
-        :img-top: /_static/inspirations/siudi.png
 
-        :Inspiration: \+ `aʃaða` (family resemblance) 
+        :Inspiration: \+ `aʃaða` [Lais Ribeiro] (family resemblance) 
             
-            \+ `θea` (family resemblance)
+            \+ `θea` [Alejandra Guilmant] (family resemblance)
+        
+        .. card::
+            :img-background: /_static/inspirations/siudi.jpg
+
         :SD Tags: :bdg-primary:`East Asian` :bdg-primary:`Mediterranean`
         :Eye Color: Yellow
         :Skin Color: Natural
@@ -272,11 +334,14 @@
             :Secondary: #7f3fff
         
     .. grid-item-card:: `sjeði`
-        :img-top: /_static/inspirations/syedhi.png
+
+        :Inspiration: \+ `teʃi` [Kelly Gale] (family resemblance)
         
-        :Inspiration: \+ `teʃi` (family resemblance)
-        
-            \+ `dea` (family resemblance)
+            \+ `dea` [Alejandra Guilmant] (family resemblance)
+            
+        .. card::
+            :img-background: /_static/inspirations/syedhi.jpg
+
         :SD Tags: :bdg-primary:`East Asian` :bdg-info:`Mongolian`
         :Eye Color: Green
         :Skin Color: Natural
@@ -292,11 +357,14 @@
             :Secondary: #3f3f7f
     
     .. grid-item-card:: `sœʈi`
-        :img-top: /_static/inspirations/soti_sia.png
+
+        :Inspiration: \+ `ʃɛʈaie` [Kristen Kerr] (family resemblance) 
         
-        :Inspiration: \+ `ʃɛʈaie` (family resemblance) 
-        
-            \+ `iɖe` (family resemblance)
+            \+ `iɖe` [Pooja Hegde] (family resemblance)
+            
+        .. card::
+            :img-background: /_static/inspirations/soti_sia.jpg
+
         :SD Tags: :bdg-primary:`Korean` :bdg-primary:`European`
         :Eye Color: Black
         :Skin Color: Medium Light
@@ -312,11 +380,14 @@
             :Secondary: #7f0000
         
     .. grid-item-card:: `sia`
-        :img-top: /_static/inspirations/soti_sia.png
         
-        :Inspiration: \+ `ʃɛʈaie` (family resemblance)
+        :Inspiration: \+ `ʃɛʈaie` [Kristen Kerr] (family resemblance)
         
-            \+ `iɖe` (family resemblance)
+            \+ `iɖe` [Pooja Hegde] (family resemblance)
+            
+        .. card::
+            :img-background: /_static/inspirations/soti_sia.jpg
+
         :SD Tags: :bdg-primary:`Korean` :bdg-primary:`European`
         :Eye Color: Red
         :Skin Color: Medium Light
@@ -332,9 +403,12 @@
             :Secondary: #7f0000
         
     .. grid-item-card:: `ase`
-        :img-top: /_static/inspirations/lorena_rae.png
-    
+        
         :Inspiration: Lorena Rae :bdg-link:`instagram <https://www.instagram.com/lorena/?hl=en>`
+        
+        .. card::
+            :img-background: /_static/inspirations/lorena_rae.jpg
+
         :SD Tags: :bdg-primary:`European`
         :Eye Color: Light Red
         :Skin Color: Medium Light
@@ -350,11 +424,14 @@
             :Secondary: #7f003f
         
     .. grid-item-card:: `ʈaʃe`
-        :img-top: /_static/inspirations/tashe.png
-    
-        :Inspiration: \+ `seθi` (family resemblance)
+        
+        :Inspiration: \+ `seθi` [Tita Sahara] (family resemblance)
 
-            \+ `iɖe` (family resemblance)
+            \+ `iɖe` [Pooja Hegde] (family resemblance)
+            
+        .. card::
+            :img-background: /_static/inspirations/tashe.jpg
+
         :SD Tags: :bdg-primary:`Egyptian` :bdg-primary:`Korean`
         :Eye Color: Yellow
         :Skin Color: Medium Light
@@ -370,11 +447,14 @@
             :Secondary: #bf3f3f
 
     .. grid-item-card:: `ʈɛe`
-        :img-top: /_static/inspirations/tae.png
         
-        :Inspiration: \+ `iɖe`  (family resemblance)
+        :Inspiration: \+ `iɖe` [Pooja Hegde] (family resemblance)
         
-            \+ `dea` (family resemblance)
+            \+ `dea` [Alejandra Guilmant] (family resemblance)
+            
+        .. card::
+            :img-background: /_static/inspirations/tae.jpg
+
         :SD Tags: :bdg-primary:`East Asian` :bdg-primary:`Korean`
         :Eye Color: Light Brown
         :Skin Color: Medium Light

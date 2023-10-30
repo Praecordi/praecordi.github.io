@@ -15,7 +15,10 @@ Maker's Notes
 
 .. dropdown:: On Family Trees
     :icon: book
-        
+      
+    .. todo::
+      Update family tree to reflect that `seθi`, `aʃaða` and `teʃi` are `saeθa`'s children.
+   
     .. rubric:: `aiɖi` Family Tree
 
     .. figure:: /_static/family-tree/aidi_dark.png
