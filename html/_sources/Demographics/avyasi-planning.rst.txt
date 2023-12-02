@@ -20,11 +20,13 @@
     
     .. grid-item-card:: `ajɛseɖi`
         :img-top: /_static/avyasi/ayasedi.jpg
+        :class-img-top: toggle, toggle-hidden, nsfw
     
         :Inspiration: Nicola Cavanis :bdg-link:`instagram <https://www.instagram.com/nicola/?hl=en>`
 
         .. card::
             :img-background: /_static/inspirations/nicola_cavanis.jpg
+            :class-card: toggle, toggle-hidden
 
         :SD Tags: :bdg-primary:`Mediterranean`
         :Eye Color: Brown
@@ -43,11 +45,14 @@
     
     .. grid-item-card:: `saeθa`
         :img-top: /_static/avyasi/saetha.jpg
+        :class-img-top: toggle, toggle-hidden, nsfw
+            :class-card: toggle, toggle-hidden
         
         :Inspiration: Akanksha Sharma :bdg-link:`instagram <https://www.instagram.com/akanksharmaa/?hl=en>` 
         
         .. card::
             :img-background: /_static/inspirations/akanksha_sharma.jpg
+            :class-card: toggle, toggle-hidden
 
         :SD Tags: :bdg-primary:`South Asian`
         :Eye Color: Green
@@ -65,11 +70,13 @@
         
     .. grid-item-card:: `saiʃeʈa`
         :img-top: /_static/avyasi/saisheta.jpg
+        :class-img-top: toggle, toggle-hidden
     
         :Inspiration: Adeline Rudolph :bdg-link:`instagram <https://www.instagram.com/adelinerudo/?hl=en>`
         
         .. card::
             :img-background: /_static/inspirations/adeline_rudolph.jpg
+            :class-card: toggle, toggle-hidden
 
         :SD Tags: :bdg-primary:`Korean`
         :Eye Color: Blue
@@ -94,6 +101,7 @@
 
     .. grid-item-card:: `iɖe`
         :img-top: /_static/avyasi/ide.jpg
+        :class-img-top: toggle, toggle-hidden
     
         :Inspiration: Pooja Hegde :bdg-link:`instagram <https://www.instagram.com/hegdepooja/?hl=en>`
             
@@ -101,6 +109,7 @@
             
         .. card::
             :img-background: /_static/inspirations/pooja_hegde.jpg
+            :class-card: toggle, toggle-hidden
 
         :SD Tags: :bdg-primary:`Moroccan` :bdg-primary:`Korean`
         :Eye Color: Grey
@@ -132,11 +141,13 @@
     
     .. grid-item-card:: `θisœʈe`
         :img-top: /_static/avyasi/thisote.jpg
+        :class-img-top: toggle, toggle-hidden, nsfw
         
         :Inspiration: Suzu Honjo :bdg-link:`instagram <https://www.instagram.com/honjo_suzu/?hl=en>`
         
         .. card::
             :img-background: /_static/inspirations/suzu_honjo.jpg
+            :class-card: toggle, toggle-hidden, nsfw
 
         :SD Tags: :bdg-info:`Korean` :bdg-warning:`Mediterranean`    
         :Eye Color: Black
@@ -154,6 +165,7 @@
         
     .. grid-item-card:: `seθi`
         :img-top: /_static/avyasi/sethi.jpg
+        :class-img-top: toggle, toggle-hidden
     
         :Inspiration: Tita Sahara :bdg-link:`instagram <https://www.instagram.com/itstitasahara/>`
 
@@ -161,6 +173,7 @@
             
         .. card::
             :img-background: /_static/inspirations/tita_sahara.jpg
+            :class-card: toggle, toggle-hidden, nsfw
 
         :SD Tags: :bdg-info:`Egyptian` :bdg-warning:`South Asian` 
         :Eye Color: Green
@@ -178,6 +191,7 @@
         
     .. grid-item-card:: `aʃaða`
         :img-top: /_static/avyasi/ashadha.jpg
+        :class-img-top: toggle, toggle-hidden, nsfw
     
         :Inspiration: Lais Ribeiro :bdg-link:`instagram <https://www.instagram.com/laisribeiro/?hl=en>`
 
@@ -185,6 +199,7 @@
             
         .. card::
             :img-background: /_static/inspirations/lais_ribeiro.jpg
+            :class-card: toggle, toggle-hidden, nsfw
 
         :SD Tags: :bdg-info:`Arabic` :bdg-warning:`South Asian`
         :Eye Color: Gray
@@ -202,6 +217,7 @@
         
     .. grid-item-card:: `teʃi`
         :img-top: /_static/avyasi/teshi.jpg
+        :class-img-top: toggle, toggle-hidden, nsfw
 
         :Inspiration: Kelly Gale :bdg-link:`instagram <https://www.instagram.com/kellygale/>`
 
@@ -209,6 +225,7 @@
             
         .. card::
             :img-background: /_static/inspirations/kelly_gale.jpg
+            :class-card: toggle, toggle-hidden, nsfw
 
         :SD Tags: :bdg-info:`Mongolian` :bdg-warning:`South Asian` 
         :Eye Color: Green
@@ -233,6 +250,7 @@
 
     .. grid-item-card:: `dea`
         :img-top: /_static/avyasi/dea.jpg
+        :class-img-top: toggle, toggle-hidden, nsfw
     
         :Inspiration: Alejandra Guilmant :bdg-link:`instagram <https://www.instagram.com/aleguilmant/?hl=en>`
             
@@ -240,6 +258,7 @@
             
         .. card::
             :img-background: /_static/inspirations/alejandra_guilmant.jpg
+            :class-card: toggle, toggle-hidden, nsfw
 
         :SD Tags: :bdg-info:`South Asian` :bdg-warning:`Korean`
         :Eye Color: Light Brown
@@ -264,6 +283,7 @@
         
     .. grid-item-card:: `θea`
         :img-top: /_static/avyasi/thea.jpg
+        :class-img-top: toggle, toggle-hidden, nsfw
     
         :Inspiration: Alejandra Guilmant :bdg-link:`instagram <https://www.instagram.com/aleguilmant/?hl=en>`
         
@@ -271,6 +291,7 @@
             
         .. card::
             :img-background: /_static/inspirations/alejandra_guilmant.jpg
+            :class-card: toggle, toggle-hidden, nsfw
 
         :SD Tags: :bdg-info:`South Asian` :bdg-warning:`Korean`
         :Eye Color: Light Brown
@@ -288,6 +309,7 @@
 
     .. grid-item-card:: `ʃɛʈaie`
         :img-top: /_static/avyasi/shataie.jpg
+        :class-img-top: toggle, toggle-hidden
         
         :Inspiration: Kristen Kerr :bdg-link:`instagram <https://www.instagram.com/gingalicious/?hl=en>` 
         
@@ -295,6 +317,7 @@
             
         .. card::
             :img-background: /_static/inspirations/kristen_kerr.jpg
+            :class-card: toggle, toggle-hidden
 
         :SD Tags: :bdg-primary:`Moroccan` :bdg-primary:`Mediterranean`
         :Eye Color: Gray
@@ -318,6 +341,7 @@
         
         .. card::
             :img-background: /_static/inspirations/siudi.jpg
+            :class-card: toggle, toggle-hidden, nsfw
 
         :SD Tags: :bdg-primary:`East Asian` :bdg-primary:`Mediterranean`
         :Eye Color: Yellow
@@ -341,6 +365,7 @@
             
         .. card::
             :img-background: /_static/inspirations/syedhi.jpg
+            :class-card: toggle, toggle-hidden, nsfw
 
         :SD Tags: :bdg-primary:`East Asian` :bdg-info:`Mongolian`
         :Eye Color: Green
@@ -364,6 +389,7 @@
             
         .. card::
             :img-background: /_static/inspirations/soti_sia.jpg
+            :class-card: toggle, toggle-hidden
 
         :SD Tags: :bdg-primary:`Korean` :bdg-primary:`European`
         :Eye Color: Black
@@ -387,6 +413,7 @@
             
         .. card::
             :img-background: /_static/inspirations/soti_sia.jpg
+            :class-card: toggle, toggle-hidden
 
         :SD Tags: :bdg-primary:`Korean` :bdg-primary:`European`
         :Eye Color: Red
@@ -408,6 +435,7 @@
         
         .. card::
             :img-background: /_static/inspirations/lorena_rae.jpg
+            :class-card: toggle, toggle-hidden
 
         :SD Tags: :bdg-primary:`European`
         :Eye Color: Light Red
@@ -431,6 +459,7 @@
             
         .. card::
             :img-background: /_static/inspirations/tashe.jpg
+            :class-card: toggle, toggle-hidden, nsfw
 
         :SD Tags: :bdg-primary:`Egyptian` :bdg-primary:`Korean`
         :Eye Color: Yellow
@@ -454,6 +483,7 @@
             
         .. card::
             :img-background: /_static/inspirations/tae.jpg
+            :class-card: toggle, toggle-hidden, nsfw
 
         :SD Tags: :bdg-primary:`East Asian` :bdg-primary:`Korean`
         :Eye Color: Light Brown

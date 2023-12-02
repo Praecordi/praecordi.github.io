@@ -80,37 +80,39 @@ Maker's Notes
 
                         .. tab-item:: `ajɛseɖi`
 
-                            .. dropdown:: Dress Changes Todo\ [#notes_on_images]_
-                                :color: warning
-
-                                - shorten the dress
-
-                                .. figure:: /_static/doctrines/temp_dresses/ayasedi.jpg
-                                    :width: 50%
-
                             :Expose: [waist], lower legs
                             :Cover: [chest with satin]
 
                             .. figure:: /_static/doctrines/ayasedi.png
                                 :width: 50%
+                                :figclass: toggle, toggle-hidden
+
+                            .. rubric:: To-do\ [#notes_on_images]_
+
+                            - shorten the dress
+
+                            .. figure:: /_static/doctrines/temp_dresses/ayasedi.jpg
+                                :width: 50%
+                                :figclass: toggle, toggle-hidden, nsfw
                         
                         .. tab-item:: `ʃɛʈaie`
-
-                            .. dropdown:: Dress Changes Todo\ [#notes_on_images]_
-                                :color: warning
-
-                                - design a bra or bandeau
-                                - keep the arms covered
-                                - design some kind of short skirt or sash to cover more of the hips
-
-                                .. figure:: /_static/doctrines/temp_dresses/shataie.jpg
-                                    :width: 50%
 
                             :Expose: [waist]
                             :Cover: [chest with satin], upper arms, hips
 
                             .. figure:: /_static/doctrines/shataie.png
                                 :width: 50%
+                                :figclass: toggle, toggle-hidden
+
+                            .. rubric:: To-do\ [#notes_on_images]_
+
+                            - design a bra or bandeau
+                            - keep the arms covered
+                            - design some kind of short skirt or sash to cover more of the hips
+
+                            .. figure:: /_static/doctrines/temp_dresses/shataie.jpg
+                                :width: 50%
+                                :figclass: toggle, toggle-hidden, nsfw
                     
                 .. tab-item:: `saeθa`'s Hold
 
@@ -120,73 +122,79 @@ Maker's Notes
 
                         .. tab-item:: `saeθa`
 
-                            .. dropdown:: Dress Changes Todo\ [#notes_on_images]_
-                                :color: warning
-
-                                - reinvent the skirt to expose more of the hip
-                                - change the design of the top to have a cutout on the chest instead of the original transparency
-                                - design theme appropriate head covering
-
-                                .. figure:: /_static/doctrines/temp_dresses/saetha.jpg
-                                    :width: 50%
-
                             :Expose: [waist], hips
                             :Cover: [top]
 
                             .. figure:: /_static/doctrines/saetha.png
                                 :width: 50%
+                                :figclass: toggle, toggle-hidden
+
+                            .. rubric:: To-Do\ [#notes_on_images]_
+
+                            - reinvent the skirt to expose more of the hip
+                            - change the design of the top to have a cutout on the chest instead of the original transparency
+                            - design theme appropriate head covering
+
+                            .. figure:: /_static/doctrines/temp_dresses/saetha.jpg
+                                :width: 50%
+                                :figclass: toggle, toggle-hidden, nsfw
 
                         .. tab-item:: `seθi`
-
-                            .. dropdown:: Dress Changes Todo\ [#notes_on_images]_
-                                :color: warning
-
-                                - reinvent the skirt to expose more of the hip
-                                - make completely sleeveless
-                                - design theme appropriate head covering
-
-                                .. figure:: /_static/doctrines/temp_dresses/sethi.jpg
-                                    :width: 50%
 
                             :Expose: [waist], hips
                             :Cover: [top], left arm with velvet
 
                             .. figure:: /_static/doctrines/sethi.png
                                 :width: 50%
+                                :figclass: toggle, toggle-hidden
+                            
+                            .. rubric:: To-do\ [#notes_on_images]_
+
+                            - reinvent the skirt to expose more of the hip
+                            - make completely sleeveless
+                            - design theme appropriate head covering
+
+                            .. figure:: /_static/doctrines/temp_dresses/sethi.jpg
+                                :width: 50%
+                                :figclass: toggle, toggle-hidden, nsfw
+
                                 
                         .. tab-item:: `aʃaða` 
-
-                            .. dropdown:: Dress Changes Todo\ [#notes_on_images]_
-                                :color: warning
-
-                                - create short sleeves or alternatively armor for upper arm
-                                - design theme appropriate head covering
-
-                                .. figure:: /_static/doctrines/temp_dresses/ashadha.jpg
-                                    :width: 50%
 
                             :Expose: [waist]
                             :Cover: [top], upper arms with leather
 
                             .. figure:: /_static/doctrines/ashadha.png
                                 :width: 50%
+                                :figclass: toggle, toggle-hidden
+                            
+                            .. rubric:: To-do\ [#notes_on_images]_
+
+                            - create short sleeves or alternatively armor for upper arm
+                            - design theme appropriate head covering
+
+                            .. figure:: /_static/doctrines/temp_dresses/ashadha.jpg
+                                :width: 50%
+                                :figclass: toggle, toggle-hidden, nsfw
+
                                 
                         .. tab-item:: `teʃi` 
-
-                            .. dropdown:: Dress Changes Todo\ [#notes_on_images]_
-                                :color: warning
-
-                                - expose some of the thighs
-                                - design theme appropriate head covering
-
-                                .. figure:: /_static/doctrines/temp_dresses/teshi.jpg
-                                    :width: 50%
 
                             :Expose: [waist], upper legs
                             :Cover: [top], right arm, right hips, right lower leg
 
                             .. figure:: /_static/doctrines/teshi.png
                                 :width: 50%
+                                :figclass: toggle, toggle-hidden
+                                
+                            .. rubric:: To-do\ [#notes_on_images]_
+
+                            - expose some of the thighs
+                            - design theme appropriate head covering
+
+                            .. figure:: /_static/doctrines/temp_dresses/teshi.jpg
+                                :width: 50%
+                                :figclass: toggle, toggle-hidden, nsfw
                 
                 .. tab-item:: `saiʃeʈa`'s Hold
 
@@ -196,87 +204,93 @@ Maker's Notes
                         
                         .. tab-item:: `saiʃeʈa`
 
-                            .. dropdown:: Dress Changes Todo\ [#notes_on_images]_
-                                :color: warning
-
-                                - extend the sleeves and pants to full length
-
-                                .. figure:: /_static/doctrines/temp_dresses/saisheta.jpg
-                                    :width: 50%
-
                             :Expose: [waist]
                             :Cover: [bottom], arms with leather
 
                             .. figure:: /_static/doctrines/saisheta.png
                                 :width: 50%
+                                :figclass: toggle, toggle-hidden
+                        
+                            .. rubric:: To-do\ [#notes_on_images]_
+
+                            - extend the sleeves and pants to full length
+
+                            .. figure:: /_static/doctrines/temp_dresses/saisheta.jpg
+                                :width: 50%
+                                :figclass: toggle, toggle-hidden, nsfw
                                 
                         .. tab-item:: `θisœʈe`
-
-                            .. dropdown:: Dress Changes Todo\ [#notes_on_images]_
-                                :color: warning
-
-                                - extend the skirt to cover everything
-
-                                .. figure:: /_static/doctrines/temp_dresses/thisote.jpg
-                                    :width: 50%
 
                             :Expose: [waist]
                             :Cover: [bottom] with silk, right chest
 
                             .. figure:: /_static/doctrines/thisote.png
                                 :width: 50%
+                                :figclass: toggle, toggle-hidden
+                            
+                            .. rubric:: To-do\ [#notes_on_images]_
+
+                            - extend the skirt to cover everything
+
+                            .. figure:: /_static/doctrines/temp_dresses/thisote.jpg
+                                :width: 50%
+                                :figclass: toggle, toggle-hidden, nsfw
+
                                 
                         .. tab-item:: `dea`
-
-                            .. dropdown:: Dress Changes Todo\ [#notes_on_images]_
-                                :color: warning
-
-                                - cover the right chest
-                                - design theme appropriate head covering
-
-                                .. figure:: /_static/doctrines/temp_dresses/dea.jpg
-                                    :width: 50%
 
                             :Expose: [waist], left chest
                             :Cover: [bottom], top, right chest with linen
 
                             .. figure:: /_static/doctrines/dea.png
                                 :width: 50%
+                                :figclass: toggle, toggle-hidden
+                            
+                            .. rubric:: To-do\ [#notes_on_images]_
+
+                            - cover the right chest
+                            - design theme appropriate head covering
+
+                            .. figure:: /_static/doctrines/temp_dresses/dea.jpg
+                                :width: 50%
+                                :figclass: toggle, toggle-hidden, nsfw
                                 
                         .. tab-item:: `θea`
-
-                            .. dropdown:: Dress Changes Todo\ [#notes_on_images]_
-                                :color: warning
-
-                                - cover arm with armor
-                                - make skirt into pants
-
-                                .. figure:: /_static/doctrines/temp_dresses/thea.jpg
-                                    :width: 50%
 
                             :Expose: [waist], chest
                             :Cover: [bottom] with cotton
 
                             .. figure:: /_static/doctrines/thea.png
                                 :width: 50%
+                                :figclass: toggle, toggle-hidden
+                               
+                            .. rubric:: To-do\ [#notes_on_images]_
+ 
+                            - cover arm with armor
+                            - make skirt into pants
+
+                            .. figure:: /_static/doctrines/temp_dresses/thea.jpg
+                                :width: 50%
+                                :figclass: toggle, toggle-hidden, nsfw
                                 
                         .. tab-item:: `iɖe`
-
-                            .. dropdown:: Dress Changes Todo\ [#notes_on_images]_
-                                :color: warning
-
-                                - remove corset
-                                - keep the right chest covered design, even though it's technically not needed
-                                - extend the skirt to full cover the bottom
-
-                                .. figure:: /_static/doctrines/temp_dresses/ide.jpg
-                                    :width: 50%
 
                             :Expose: [waist], upper arms
                             :Cover: [bottom] with linen
 
                             .. figure:: /_static/doctrines/ide.png
                                 :width: 50%
+                                :figclass: toggle, toggle-hidden
+                                
+                            .. rubric:: To-do\ [#notes_on_images]_
+
+                            - remove corset
+                            - keep the right chest covered design, even though it's technically not needed
+                            - extend the skirt to full cover the bottom
+
+                            .. figure:: /_static/doctrines/temp_dresses/ide.jpg
+                                :width: 50%
+                                :figclass: toggle, toggle-hidden, nsfw
 
         .. tab-item:: Doctrines after the Great Split
 

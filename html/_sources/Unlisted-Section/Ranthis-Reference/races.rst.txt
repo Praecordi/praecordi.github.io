@@ -29,11 +29,8 @@ A Vahn has hair growing from the scalp region and the tailbone region. The part 
 
 Below are four illustrations. On the far left, there is the average our-world male, standing at 1.7 to 1.8 meters (5ft, 6in - 5ft, 10in). To its right, an illustration of the average Vahn. That illustration features a naked and hairless member. To its right, an illustration showing the hair distributions on the average Vahn from a frontal perspective. On the far right, an illustration showing their hair distributions on the average Vahn from a back perspective. Additionally, different colors were assigned to each type of hair distribution. Note that each length provided is the average length, not the only length possible.
 
-.. dropdown:: Human
-   :icon: book
-   :color: warning
-
-   .. figure:: /_static/ranthis-reference/Human-1.png
+.. figure:: /_static/ranthis-reference/Human-1.png
+   :figclass: toggle, toggle-hidden, nsfw
 
 Dragonfolk [3]_
 ===============
@@ -58,11 +55,8 @@ In reality, being a Dragonfolk isn’t an entirely positive experience. Their la
 
 Below is an illustration of an average Dragonfolk. Her torso wear is a one-piece, mainly covering the front to protect from dirt in the wind. The area covering the breasts is made of more durable fabric, since it faces the most air resistance while flying. Just to get it out there, the face isn’t covered so as to not obscure vision, since you need to see where you fly. The back is not covered above the tail. Instead, there are strings connected to the front that can be tied from behind. The cloth does not cover the vagina and anus, to allow for excreting without needing another person’s help to move the cloth out of the way (I forgot to add that part to the illustration). A separate sleeve covers the tail, to protect it from being bruised whenever it inevitably bumps into things. It goes without saying that the illustrated Dragonfolk needed assistance to put her clothes on.
 
-.. dropdown:: Dragonfolk
-   :icon: book
-   :color: warning
-
-   .. figure:: /_static/ranthis-reference/Dragonfolk-1.png
+.. figure:: /_static/ranthis-reference/Dragonfolk-1.png
+   :figclass: toggle, toggle-hidden, nsfw
 
 Beastfolk (Horse-type) [4]_
 ===========================
@@ -81,14 +75,11 @@ Beastfolk (Horse-type) [4]_
 
 Below is an illustration of a Horse-type Beastfolk, with a small strapless bra, and a special type of underpants fit for Horse-type Beastfolk. The underpants have a hole in the back for the tail, and a hole in the front for the penis and testicles. To prevent the penis from swinging uncontrollably (Since Horse-type Beastfolk don’t have penile bones like horses), a small semi-elastic strap is attached to the front of the underpants, and connects to a small sleeve the penis can be inserted to. The sleeve is designed with a hole in the front to allow for urinating without taking the underpants off, which is not the easiest thing to do alone. On the top of the underpants’ back (Hidden in the illustration, my bad) is a pair of laces, that can be taught to keep the underpants tight and prevent them from sliding off.
 
-.. dropdown:: Beastfolk (Horse-Type)
-   :icon: book
-   :color: warning
+.. figure:: /_static/ranthis-reference/Beastfolk-(Horse-type)-1.png
+   :figclass: toggle, toggle-hidden, nsfw
+   :alt: A Horse-type Beastfolk in all her glory
 
-   .. figure:: /_static/ranthis-reference/Beastfolk-(Horse-type)-1.png
-      :alt: A Horse-type Beastfolk in all her glory
-
-      A Horse-type Beastfolk in all her glory
+   A Horse-type Beastfolk in all her glory
 
 Beastfolk (Fish-type) [5]_
 ==========================
@@ -107,11 +98,8 @@ Beastfolk (Fish-type) [5]_
 
 Below is an illustration of a Fish-type Beastfolk, enjoying much more than 100ml of alcohol and getting herself “in the mood”. With only one hand, she can only drink from one bottle at a time, which frankly only does her good. Her pants are a single sheet of loose cloth with strings at the back that can be tied to tighten the piece, somewhat like a corset. The sheet has a hole in the front for the penis and vagina, which can also be stretched slightly to allow for defecation.
 
-.. dropdown:: Beastfolk (Fish-Type)
-   :icon: book
-   :color: warning
-
-   .. figure:: /_static/ranthis-reference/Beastfolk-(Fish-type)-1.png
+.. figure:: /_static/ranthis-reference/Beastfolk-(Fish-type)-1.png
+   :figclass: toggle, toggle-hidden, nsfw
 
 
 Catfolk (Lion-type) [6]_
@@ -131,14 +119,11 @@ Catfolk (Lion-type) [6]_
 
 Below is an illustration of a Lion-type Catfolk athlete, wearing erotic clothes designed to entice her partner. The top is designed to only cover the shoulders and the arms, and the neck area isn’t just a hole. Rather, there is a button on the front, that allows to fasten the top in place on the base of the neck. The bottom is designed to cover the legs, and also has a small slot in the back for a tail. The top and bottom have special buttons on them, that allow use of suspender-like strings, so that the bottom doesn’t fall off.
 
-.. dropdown:: Catfolk (Lion-Type)
-   :icon: book
-   :color: warning
+.. figure:: /_static/ranthis-reference/Catfolk-(Lion-type)-1.png
+   :figclass: toggle, toggle-hidden, nsfw
+   :alt: A Lion-type Catfolk inviting you to enjoy yourself
 
-   .. figure:: /_static/ranthis-reference/Catfolk-(Lion-type)-1.png
-      :alt: A Lion-type Catfolk inviting you to enjoy yourself
-
-      A Lion-type Catfolk inviting you to enjoy yourself
+   A Lion-type Catfolk inviting you to enjoy yourself
 
 Snakefolk [7]_
 ==============
@@ -157,14 +142,11 @@ Snakefolk [7]_
 
 Below is an illustration of a Snakefolk who reached a bit too far with her tongue in her childhood, and accidentally unplugged one of her natural cameras. To cover the empty space, she wears an eyepatch made of a simple piece of cloth.
 
-.. dropdown:: Snakefolk
-   :icon: book
-   :color: warning
+.. figure:: /_static/ranthis-reference/Snakefolk-1.png
+   :figclass: toggle, toggle-hidden, nsfw
+   :alt: A Snakefolk in her birthday armor
 
-   .. figure:: /_static/ranthis-reference/Snakefolk-1.png
-      :alt: A Snakefolk in her birthday armor
-
-      A Snakefolk in her birthday armor
+   A Snakefolk in her birthday armor
 
 Note
 ====

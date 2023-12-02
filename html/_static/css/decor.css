@@ -21,3 +21,7 @@
 article .sidebar {
     width: 40%;
 }
+
+details:has(> .nsfw) summary {
+    border-left-color: #f0b72f;
+}

@@ -1,0 +1,38 @@
+==================================
+Prostitutes and their Clothes [1]_
+==================================
+
+The Legality of Prostitution
+============================
+
+Prostitution is legal anywhere in Rankvah, and is highly regulated. Prostitutes need to be registered at the authorities to get a prostitution license. Whether organized or independent, there are no legal ramifications to prostitution with a license. Being caught prostituting yourself and unable to present a license will get you fined, and possibly even imprisoned if you're a repeat offender.
+
+Public Opinion
+==============
+
+People understand the need for sexual release. Despite the previous posts describing the world as a sex-crazed society with people finding sexual partners like they'd find leaves on a tree, not everyone is able to successfully charm someone they fancy. There are those who find trouble when trying to find a mate, and still want to experience the embrace of another. For this, prostitution exists.
+
+Becoming a prostitute is not seen as negative and disgraceful. In the eyes of society, it's just as much of a normal job as any other. If anything, it's a serious time-consuming job with a high skill requirement. Some prostitutes who do well enough are even hired by nobles for private service, and many nobles own brothels as a way to make more money. Since prostitution is highly regulated, all prostitutes need to register themselves as prostitutes to the authorities, and must report to them each of their sessions.
+
+Identifying a Prostitute
+========================
+
+Over time, prostitutes have adapted a style of appearance, that is now widely accepted as the "prostitute look". That look is very simple to achieve, and can be described in just two words: asymmetrical clothing.
+
+If you see anyone with asymmetrical clothing on the street, they may be a prostitute. There is a catch to this asymmetry, though: the clothing must be asymmetrical on all pairs of limbs. This means a prostitute's left arm is clothed differently from her right, and her left leg is clothed differently from her right. For those with extra sets of limbs (Horse-type Beastfolk), this applies to each pair of their limbs.
+
+Aside from asymmetrical clothing, prostitutes tend to reveal their torso more than their limbs. You're more likely to see a prostitute walking around topless than wearing a top, or at least a non-revealing one. Finally, prostitutes with experience in the field may wear a special kind of head ornament, with a number of gems equal to their number of years in experience. This is only a symbol of commitment, and people are aware of the fact that quantity of gems does not equal quality of sessions.
+
+Finding a Prostitute
+====================
+
+Prostitutes are active at all times of the day. They can usually be found on main streets, inside taverns with "Prostitution Available" signs outside, or inside brothels. Said brothels can be found in large numbers in cities, usually with one brothel per five hundred people. Prostitutes can also be found working in orgy halls.
+
+.. figure:: /_static/ranthis-reference/Prostitutes-1.png
+   :figclass: toggle, toggle-hidden, nsfw
+   :alt: A prostitute with one year of experience, showing her stocks.
+    
+
+.. rubric:: Footnotes
+
+.. [1] `The World of Rankvah: Prostitutes and their Clothes <https://www.reddit.com/r/NSFWworldbuilding/comments/i0yt9g/the_world_of_rankvah_prostitutes_and_their_clothes/>`
